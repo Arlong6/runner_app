@@ -1,0 +1,6 @@
+# 测试/临时输出
+races_tw.ics
+/tmp/
+*.pyc
+__pycache__/
+.DS_Store

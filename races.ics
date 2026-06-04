@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//runner_app//biji//ZH-TW
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:跑步賽事提醒
+X-WR-TIMEZONE:Asia/Taipei
+BEGIN:VEVENT
+UID:race-13000@runner_app
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260915
+SUMMARY:🏃 2026 ZEPRO RUN全國半程馬拉松 - 屏東場
+DESCRIPTION:距離: 21K / 10.5K / 5.5K\n地點: 屏東縣\n報名: 06-04
+ 截止\nhttps://running.biji.co/index.php?q=competition&act=info&cid=130
+ 00
+LOCATION:屏東縣
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:signup-13000@runner_app
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:⏰ 報名截止: 2026 ZEPRO RUN全國半程馬拉松 - 屏東場
+DESCRIPTION:距離: 21K / 10.5K / 5.5K\n地點: 屏東縣\n報名: 06-04
+ 截止\nhttps://running.biji.co/index.php?q=competition&act=info&cid=130
+ 00
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:報名即將截止: 2026 ZEPRO RUN全國半程馬拉松 - 屏
+ 東場
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:race-13021@runner_app
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261110
+SUMMARY:🏃 2026 ZEPRO RUN全國半程馬拉松 - 新竹場
+DESCRIPTION:距離: 21K / 10K / 5.5K\n地點: 新竹縣\n報名: 06-18截
+ 止\nhttps://running.biji.co/index.php?q=competition&act=info&cid=13021
+LOCATION:新竹縣
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:signup-13021@runner_app
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+SUMMARY:⏰ 報名截止: 2026 ZEPRO RUN全國半程馬拉松 - 新竹場
+DESCRIPTION:距離: 21K / 10K / 5.5K\n地點: 新竹縣\n報名: 06-18截
+ 止\nhttps://running.biji.co/index.php?q=competition&act=info&cid=13021
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:報名即將截止: 2026 ZEPRO RUN全國半程馬拉松 - 新
+ 竹場
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:race-13001@runner_app
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261117
+SUMMARY:🏃 2026 ZEPRO RUN全國半程馬拉松 - 台南場
+DESCRIPTION:距離: 21K / 10K / 3.5K\n地點: 臺南市\n報名: 06-04截
+ 止\nhttps://running.biji.co/index.php?q=competition&act=info&cid=13001
+LOCATION:臺南市
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:signup-13001@runner_app
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:⏰ 報名截止: 2026 ZEPRO RUN全國半程馬拉松 - 台南場
+DESCRIPTION:距離: 21K / 10K / 3.5K\n地點: 臺南市\n報名: 06-04截
+ 止\nhttps://running.biji.co/index.php?q=competition&act=info&cid=13001
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:報名即將截止: 2026 ZEPRO RUN全國半程馬拉松 - 台
+ 南場
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
