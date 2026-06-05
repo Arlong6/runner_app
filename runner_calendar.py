@@ -17,7 +17,9 @@ runner_calendar — 個人用跑步賽事提醒工具
 from __future__ import annotations
 
 import argparse
+import glob
 import html as html_lib
+import os
 import re
 import sys
 import urllib.parse
@@ -270,53 +272,78 @@ def is_taiwan(r: Race) -> bool:
     return any(k in r.place for k in tw)
 
 
+def generate_one(
+    all_races: list[Race], watchlist_path: str, out_path: str, taiwan: bool
+) -> None:
+    """依單一 watchlist 篩選 all_races,寫出一個 .ics。"""
+    label = os.path.basename(out_path)
+    terms = load_watchlist(watchlist_path)
+    races = all_races
+    if terms:
+        races, unmatched = filter_by_watchlist(races, terms)
+        msg = f"[{label}] watchlist {len(terms)} 條 → {len(races)} 場"
+        if unmatched:
+            msg += "(沒對到: " + ", ".join(unmatched) + ")"
+        print(msg, file=sys.stderr)
+    else:
+        print(f"[{label}] 無關鍵字 → 收錄全部 {len(races)} 場", file=sys.stderr)
+    if taiwan:
+        races = [r for r in races if is_taiwan(r)]
+    with_deadline = sum(1 for r in races if r.signup_deadline)
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(build_ics(races))
+    print(
+        f"[{label}] 已寫出({len(races)} 場,{with_deadline} 場有報名截止提醒)",
+        file=sys.stderr,
+    )
+
+
 def main(argv: list[str]) -> int:
-    ap = argparse.ArgumentParser(description="個人跑步賽事提醒 → races.ics")
+    ap = argparse.ArgumentParser(description="跑步賽事提醒 → .ics")
     ap.add_argument("--taiwan", action="store_true", help="只要台灣賽事")
     ap.add_argument(
         "--watchlist",
         default="watchlist.txt",
-        help="追蹤清單檔(每行一關鍵字;預設 watchlist.txt,不存在則收錄全部)",
+        help="單一追蹤清單檔(預設 watchlist.txt)",
     )
     ap.add_argument(
         "--all", action="store_true", help="忽略 watchlist,收錄全部賽事"
     )
-    ap.add_argument("--out", default="races.ics", help="輸出檔名")
+    ap.add_argument("--out", default="races.ics", help="單檔模式輸出檔名")
     ap.add_argument("--url", default=SOURCE_URL, help="來源頁(預設運動筆記賽事頁)")
+    ap.add_argument(
+        "--batch",
+        action="store_true",
+        help="多清單模式:掃 watchlists/*.txt,各產生一個同名 .ics(只抓一次)",
+    )
     args = ap.parse_args(argv)
 
     print(f"抓取: {args.url}", file=sys.stderr)
-    html = fetch(args.url)
-    races = parse(html)
-    print(f"解析到 {len(races)} 場賽事", file=sys.stderr)
+    all_races = parse(fetch(args.url))
+    print(f"解析到 {len(all_races)} 場賽事", file=sys.stderr)
 
-    terms = [] if args.all else load_watchlist(args.watchlist)
-    if terms:
-        races, unmatched = filter_by_watchlist(races, terms)
-        print(
-            f"watchlist({len(terms)} 條)篩選後 {len(races)} 場", file=sys.stderr
-        )
-        if unmatched:
-            print(
-                f"⚠️  以下關鍵字目前沒對到任何賽事(可能打錯或還沒開): "
-                + ", ".join(unmatched),
-                file=sys.stderr,
-            )
-    elif not args.all:
-        print("(無 watchlist.txt,收錄全部賽事)", file=sys.stderr)
+    # 多清單模式:你自己 watchlist.txt → races.ics,每位朋友 watchlists/<name>.txt → <name>.ics
+    if args.batch or os.path.isdir("watchlists"):
+        jobs: list[tuple[str, str]] = []
+        if os.path.isfile("watchlist.txt"):
+            jobs.append(("watchlist.txt", "races.ics"))
+        for wl in sorted(glob.glob(os.path.join("watchlists", "*.txt"))):
+            name = os.path.splitext(os.path.basename(wl))[0]
+            if name.startswith("_"):  # _ 開頭是範本,跳過
+                continue
+            jobs.append((wl, f"{name}.ics"))
+        if not jobs:
+            print("沒有任何清單檔(watchlist.txt 或 watchlists/*.txt)", file=sys.stderr)
+            return 1
+        for wl, out in jobs:
+            generate_one(all_races, wl, out, args.taiwan)
+        return 0
 
-    if args.taiwan:
-        races = [r for r in races if is_taiwan(r)]
-        print(f"台灣篩選後 {len(races)} 場", file=sys.stderr)
-
-    with_deadline = sum(1 for r in races if r.signup_deadline)
-    ics = build_ics(races)
-    with open(args.out, "w", encoding="utf-8") as f:
-        f.write(ics)
-    print(
-        f"已寫出 {args.out}({len(races)} 場,其中 {with_deadline} 場有報名截止提醒)",
-        file=sys.stderr,
-    )
+    # 單檔模式
+    if args.all:
+        generate_one(all_races, os.devnull, args.out, args.taiwan)
+    else:
+        generate_one(all_races, args.watchlist, args.out, args.taiwan)
     return 0
 
 

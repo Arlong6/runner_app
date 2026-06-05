@@ -18,17 +18,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 重新產生 races.ics
-        run: python3 runner_calendar.py
+      - name: 重新產生所有人的 .ics(你 + 朋友們)
+        run: python3 runner_calendar.py --batch
 
       - name: 有變動就 commit
         run: |
-          if ! git diff --quiet races.ics; then
+          git add -- '*.ics'
+          if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add races.ics
             git commit -m "chore: 自動更新賽事行事曆"
             git push
           else
-            echo "races.ics 無變動,略過"
+            echo "無變動,略過"
           fi

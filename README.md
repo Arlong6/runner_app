@@ -41,6 +41,24 @@ runner_calendar.py
 只需寫一個回傳 `list[Race]` 的 parser,管線其餘不動。
 新來源只在「真的要跑那場」時才加,不投機性地全抓(避免變成爬蟲農場)。
 
+## 多人使用(幫朋友各做一份)
+
+每位朋友一份清單,各自訂閱自己的行事曆:
+
+```
+watchlist.txt            → races.ics    (你自己)
+watchlists/kevin.txt     → kevin.ics    (Kevin 訂閱自己的)
+watchlists/amy.txt       → amy.ics      (Amy 訂閱自己的)
+```
+
+1. 複製 `watchlists/_範本.txt`,改成朋友的名字(如 `kevin.txt`),填他想追的賽事。
+2. `python3 runner_calendar.py --batch`(或等每天 GitHub Action 自動跑)。
+3. 朋友訂閱自己的 .ics raw 網址:
+   `https://raw.githubusercontent.com/Arlong6/runner_app/main/<名字>.ics`
+
+> 這是「幫朋友各做一份」的個人小工具,不是給所有跑者註冊使用的產品。
+> 若要做成有註冊/介面的產品 → carve-out 失效,先重跑 /product-gate(見 gate 記憶)。
+
 ## 已知限制
 
 - 報名截止只解析「MM-DD截止」格式;「報名時間未定」「已截止報名」「改期」不產生提醒。
