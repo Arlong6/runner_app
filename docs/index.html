@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>跑步賽事提醒產生器</title>
+<style>
+  :root { --fg:#1a1a1a; --mut:#666; --line:#e5e5e5; --accent:#e8500f; --bg:#fafafa; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+         margin:0; color:var(--fg); background:var(--bg); -webkit-text-size-adjust:100%; }
+  header { background:#fff; border-bottom:1px solid var(--line); padding:16px 20px; position:sticky; top:0; z-index:5; }
+  h1 { font-size:18px; margin:0 0 4px; }
+  .sub { color:var(--mut); font-size:13px; }
+  .wrap { max-width:760px; margin:0 auto; padding:16px 20px 120px; }
+  .controls { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0; }
+  input[type=search]{ flex:1; min-width:180px; padding:10px 12px; border:1px solid var(--line);
+         border-radius:10px; font-size:15px; }
+  .chip { padding:7px 12px; border:1px solid var(--line); background:#fff; border-radius:999px;
+         font-size:13px; cursor:pointer; user-select:none; }
+  .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .race { display:flex; gap:12px; align-items:flex-start; padding:12px 4px; border-bottom:1px solid var(--line); }
+  .race label { flex:1; cursor:pointer; }
+  .race input { margin-top:3px; width:18px; height:18px; accent-color:var(--accent); }
+  .rname { font-size:15px; font-weight:600; line-height:1.35; }
+  .meta { color:var(--mut); font-size:12.5px; margin-top:3px; }
+  .meta a { color:var(--accent); text-decoration:none; }
+  .dl { color:#b00; font-weight:600; }
+  .bar { position:fixed; left:0; right:0; bottom:0; background:#fff; border-top:1px solid var(--line);
+         padding:12px 20px; display:flex; gap:10px; align-items:center; justify-content:space-between; }
+  .bar .cnt { font-size:14px; color:var(--mut); }
+  button.gen { background:var(--accent); color:#fff; border:0; padding:12px 18px; border-radius:10px;
+         font-size:15px; font-weight:600; cursor:pointer; }
+  button.gen:disabled { opacity:.4; cursor:default; }
+  .reminddays { font-size:13px; color:var(--mut); }
+  .reminddays input { width:48px; padding:4px 6px; border:1px solid var(--line); border-radius:6px; }
+  .empty { color:var(--mut); padding:40px 0; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏃 跑步賽事提醒產生器</h1>
+  <div class="sub">勾選想追的賽事 → 一鍵下載 .ics → 匯入 Google Calendar。資料來源:運動筆記。</div>
+</header>
+<div class="wrap">
+  <div class="controls">
+    <input type="search" id="q" placeholder="搜尋賽事名稱 / 地點…">
+    <span class="chip" id="twChip">只看台灣</span>
+    <span class="chip" id="openChip">只看開放報名</span>
+  </div>
+  <div class="reminddays">報名截止前 <input type="number" id="days" value="7" min="0" max="60"> 天提醒</div>
+  <div id="list"></div>
+  <div class="empty" id="empty" hidden>沒有符合的賽事</div>
+</div>
+<div class="bar">
+  <span class="cnt"><b id="selCount">0</b> 場已選</span>
+  <button class="gen" id="gen" disabled>下載行事曆 (.ics)</button>
+</div>
+
+<script>
+const TW = ["台","臺","新北","桃園","高雄","台中","台南","新竹","基隆","宜蘭","花蓮","台東","臺東","屏東","南投","嘉義","雲林","彰化","苗栗","金門","澎湖","馬祖"];
+const state = { races: [], sel: new Set(), q: "", tw: false, open: false };
+
+function isTW(r){ return TW.some(k => (r.place||"").includes(k)); }
+function isOpen(r){ return r.status && !r.status.includes("已截止") && !r.status.includes("未定"); }
+
+function fmtDate(iso){ const [y,m,d]=iso.split("-"); return `${m}/${d}`; }
+
+function render(){
+  const list = document.getElementById("list");
+  const term = state.q.trim().toLowerCase();
+  const rows = state.races.filter(r => {
+    if (state.tw && !isTW(r)) return false;
+    if (state.open && !isOpen(r)) return false;
+    if (term && !((r.name+ " "+r.place).toLowerCase().includes(term))) return false;
+    return true;
+  });
+  document.getElementById("empty").hidden = rows.length>0;
+  list.innerHTML = rows.map(r => {
+    const dist = (r.distances||[]).join(" / ") || "—";
+    const dl = r.deadline ? `<span class="dl">報名截止 ${fmtDate(r.deadline)}</span> · ` : "";
+    return `<div class="race">
+      <label>
+        <input type="checkbox" data-cid="${r.cid}" ${state.sel.has(r.cid)?"checked":""}>
+      </label>
+      <label for="" data-cid="${r.cid}" class="clk" style="flex:1">
+        <div class="rname">${esc(r.name)}</div>
+        <div class="meta">${fmtDate(r.start)} · ${esc(r.place||"—")} · ${esc(dist)}<br>${dl}<a href="${r.url}" target="_blank" rel="noopener">運動筆記詳情 ↗</a></div>
+      </label>
+    </div>`;
+  }).join("");
+  list.querySelectorAll('input[type=checkbox]').forEach(cb=>{
+    cb.addEventListener("change", e=>{
+      const cid=e.target.dataset.cid;
+      e.target.checked ? state.sel.add(cid) : state.sel.delete(cid);
+      updateBar();
+    });
+  });
+  list.querySelectorAll('.clk').forEach(el=>{
+    el.addEventListener("click", ()=>{
+      const cid=el.dataset.cid;
+      const cb=list.querySelector(`input[data-cid="${cid}"]`);
+      cb.checked=!cb.checked; cb.dispatchEvent(new Event("change"));
+    });
+  });
+}
+function esc(s){ return (s||"").replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+function updateBar(){
+  document.getElementById("selCount").textContent = state.sel.size;
+  document.getElementById("gen").disabled = state.sel.size===0;
+}
+
+// ---- client-side ICS ----
+function icsEsc(t){ return (t||"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n"); }
+function ymd(iso){ return iso.replace(/-/g,""); }
+function plusDay(iso){ const d=new Date(iso+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+1); return d.toISOString().slice(0,10).replace(/-/g,""); }
+function buildICS(races, remindDays){
+  const L=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//runner_app//web//ZH-TW","CALSCALE:GREGORIAN","METHOD:PUBLISH","X-WR-CALNAME:我的跑步賽事","X-WR-TIMEZONE:Asia/Taipei"];
+  for(const r of races){
+    const dist=(r.distances||[]).join(" / ")||"—";
+    const desc=icsEsc(`距離: ${dist}\n地點: ${r.place||"—"}\n報名: ${r.status||"—"}\n${r.url}`);
+    L.push("BEGIN:VEVENT",`UID:race-${r.cid}@runner_app`,
+      `DTSTART;VALUE=DATE:${ymd(r.start)}`,`DTEND;VALUE=DATE:${plusDay(r.end)}`,
+      `SUMMARY:${icsEsc("🏃 "+r.name)}`,`DESCRIPTION:${desc}`);
+    if(r.place) L.push(`LOCATION:${icsEsc(r.place)}`);
+    L.push("TRANSP:TRANSPARENT","END:VEVENT");
+    if(r.deadline){
+      L.push("BEGIN:VEVENT",`UID:signup-${r.cid}@runner_app`,
+        `DTSTART;VALUE=DATE:${ymd(r.deadline)}`,`DTEND;VALUE=DATE:${plusDay(r.deadline)}`,
+        `SUMMARY:${icsEsc("⏰ 報名截止: "+r.name)}`,`DESCRIPTION:${desc}`,"TRANSP:TRANSPARENT");
+      if(remindDays>0) L.push("BEGIN:VALARM","ACTION:DISPLAY",
+        `DESCRIPTION:${icsEsc("報名即將截止: "+r.name)}`,`TRIGGER:-P${remindDays}D`,"END:VALARM");
+      L.push("END:VEVENT");
+    }
+  }
+  L.push("END:VCALENDAR");
+  return L.join("\r\n")+"\r\n";
+}
+function download(){
+  const days=Math.max(0,parseInt(document.getElementById("days").value||"7",10));
+  const chosen=state.races.filter(r=>state.sel.has(r.cid));
+  const blob=new Blob([buildICS(chosen,days)],{type:"text/calendar;charset=utf-8"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob); a.download="my-races.ics"; a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+
+document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
+document.getElementById("twChip").addEventListener("click",e=>{state.tw=!state.tw;e.target.classList.toggle("on",state.tw);render();});
+document.getElementById("openChip").addEventListener("click",e=>{state.open=!state.open;e.target.classList.toggle("on",state.open);render();});
+document.getElementById("gen").addEventListener("click",download);
+
+fetch("races.json?"+Date.now()).then(r=>r.json()).then(d=>{
+  state.races=d; render(); updateBar();
+}).catch(()=>{ document.getElementById("list").innerHTML='<div class="empty">載入賽事資料失敗</div>'; });
+</script>
+</body>
+</html>

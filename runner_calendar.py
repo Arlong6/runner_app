@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import glob
 import html as html_lib
+import json
 import os
 import re
 import sys
@@ -222,6 +223,25 @@ def build_ics(races: list[Race]) -> str:
     return "\r\n".join(_fold(ln) for ln in lines) + "\r\n"
 
 
+def races_to_json(races: list[Race]) -> str:
+    """全部賽事 → JSON,給靜態網頁讀取(瀏覽/勾選用)。"""
+    data = [
+        {
+            "cid": r.cid,
+            "name": r.name,
+            "start": r.start.isoformat(),
+            "end": r.end.isoformat(),
+            "place": r.place,
+            "distances": r.distances,
+            "deadline": r.signup_deadline.isoformat() if r.signup_deadline else None,
+            "status": r.signup_status,
+            "url": r.url,
+        }
+        for r in sorted(races, key=lambda x: x.start)
+    ]
+    return json.dumps(data, ensure_ascii=False, indent=0)
+
+
 # ---------- 主程式 ----------
 
 def load_watchlist(path: str) -> list[tuple[str, str]]:
@@ -316,11 +336,25 @@ def main(argv: list[str]) -> int:
         action="store_true",
         help="多清單模式:掃 watchlists/*.txt,各產生一個同名 .ics(只抓一次)",
     )
+    ap.add_argument(
+        "--web",
+        action="store_true",
+        help="只產生 docs/races.json(給靜態網頁瀏覽/勾選用)",
+    )
     args = ap.parse_args(argv)
 
     print(f"抓取: {args.url}", file=sys.stderr)
     all_races = parse(fetch(args.url))
     print(f"解析到 {len(all_races)} 場賽事", file=sys.stderr)
+
+    # 給靜態網頁用的全賽事資料(瀏覽→勾選→前端自己生成 .ics)
+    if args.batch or args.web:
+        os.makedirs("docs", exist_ok=True)
+        with open("docs/races.json", "w", encoding="utf-8") as f:
+            f.write(races_to_json(all_races))
+        print(f"已寫出 docs/races.json({len(all_races)} 場)", file=sys.stderr)
+        if args.web:
+            return 0
 
     # 多清單模式:你自己 watchlist.txt → races.ics,每位朋友 watchlists/<name>.txt → <name>.ics
     if args.batch or os.path.isdir("watchlists"):
