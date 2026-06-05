@@ -35,6 +35,14 @@
   .reminddays { font-size:13px; color:var(--mut); }
   .reminddays input { width:48px; padding:4px 6px; border:1px solid var(--line); border-radius:6px; }
   .empty { color:var(--mut); padding:40px 0; text-align:center; }
+  .guide { margin-top:36px; padding-top:24px; border-top:2px solid var(--line); }
+  .guide h2 { font-size:16px; margin:22px 0 8px; display:flex; align-items:center; gap:7px; }
+  .guide ol { padding-left:22px; margin:8px 0; }
+  .guide li { margin:7px 0; font-size:14px; line-height:1.65; }
+  .guide .note { background:#fff; border:1px solid var(--line); border-radius:10px;
+        padding:12px 14px; font-size:13px; color:var(--mut); margin:12px 0; }
+  .guide code { background:#eee; padding:1px 6px; border-radius:5px; font-size:12.5px; word-break:break-all; }
+  .guide b { color:var(--accent); }
 </style>
 </head>
 <body>
@@ -47,10 +55,41 @@
     <input type="search" id="q" placeholder="搜尋賽事名稱 / 地點…">
     <span class="chip" id="twChip">只看台灣</span>
     <span class="chip" id="openChip">只看開放報名</span>
+    <span class="chip on" id="hideClosedChip">隱藏已截止</span>
   </div>
   <div class="reminddays">報名截止前 <input type="number" id="days" value="7" min="0" max="60"> 天提醒</div>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>沒有符合的賽事</div>
+
+  <section class="guide">
+    <h2>📖 怎麼使用這個網站</h2>
+    <ol>
+      <li>用上方<b>搜尋</b>或<b>篩選</b>(只看台灣、只看開放報名)找到想跑的賽事。</li>
+      <li><b>勾選</b>賽事,可以複選(預設已隱藏「已截止報名」的場次)。</li>
+      <li>設定「報名截止前幾天提醒」(預設 7 天)。</li>
+      <li>按底部 <b>下載行事曆 (.ics)</b>,會存成 <code>my-races.ics</code>。</li>
+    </ol>
+
+    <h2>📅 下載的檔案怎麼匯入 Google 日曆</h2>
+    <p style="font-size:14px;margin:6px 0">用<b>電腦版</b>最簡單(手機無法直接匯入):</p>
+    <ol>
+      <li>電腦開啟 <b>Google 日曆</b>網頁(calendar.google.com)。</li>
+      <li>右上角 <b>齒輪 ⚙️ → 設定</b>。</li>
+      <li>左側選 <b>「匯入與匯出」</b>。</li>
+      <li><b>匯入</b> → 選剛下載的 <code>my-races.ics</code>。</li>
+      <li>選擇要匯入哪個日曆 → 按 <b>「匯入」</b>。</li>
+    </ol>
+    <div class="note">✅ 完成!所有勾選的賽事會出現在日曆,報名截止日也會有 <b>⏰ 報名截止</b> 事件,並在截止前提醒你。手機上的 Google 日曆 App 會自動同步顯示,不用另外操作。</div>
+
+    <h2>🍎 iPhone / Apple 行事曆</h2>
+    <ol>
+      <li>把 <code>my-races.ics</code> 用 AirDrop 或 Email 傳到手機。</li>
+      <li>點開檔案 → 選「加入全部」到行事曆即可。</li>
+    </ol>
+
+    <h2>🔁 賽事更新了怎麼辦</h2>
+    <div class="note">下載的 .ics 是<b>當下的快照</b>,之後有新賽事或你想改清單,<b>回來重新勾選、再下載匯入一次</b>就好(本站賽事資料每天自動更新)。重複匯入不會產生重複事件,放心。</div>
+  </section>
 </div>
 <div class="bar">
   <span class="cnt"><b id="selCount">0</b> 場已選</span>
@@ -59,10 +98,11 @@
 
 <script>
 const TW = ["台","臺","新北","桃園","高雄","台中","台南","新竹","基隆","宜蘭","花蓮","台東","臺東","屏東","南投","嘉義","雲林","彰化","苗栗","金門","澎湖","馬祖"];
-const state = { races: [], sel: new Set(), q: "", tw: false, open: false };
+const state = { races: [], sel: new Set(), q: "", tw: false, open: false, hideClosed: true };
 
 function isTW(r){ return TW.some(k => (r.place||"").includes(k)); }
 function isOpen(r){ return r.status && !r.status.includes("已截止") && !r.status.includes("未定"); }
+function isClosed(r){ return !!(r.status && r.status.includes("已截止")); }
 
 function fmtDate(iso){ const [y,m,d]=iso.split("-"); return `${m}/${d}`; }
 
@@ -72,6 +112,7 @@ function render(){
   const rows = state.races.filter(r => {
     if (state.tw && !isTW(r)) return false;
     if (state.open && !isOpen(r)) return false;
+    if (state.hideClosed && isClosed(r)) return false;
     if (term && !((r.name+ " "+r.place).toLowerCase().includes(term))) return false;
     return true;
   });
@@ -148,6 +189,7 @@ function download(){
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
 document.getElementById("twChip").addEventListener("click",e=>{state.tw=!state.tw;e.target.classList.toggle("on",state.tw);render();});
 document.getElementById("openChip").addEventListener("click",e=>{state.open=!state.open;e.target.classList.toggle("on",state.open);render();});
+document.getElementById("hideClosedChip").addEventListener("click",e=>{state.hideClosed=!state.hideClosed;e.target.classList.toggle("on",state.hideClosed);render();});
 document.getElementById("gen").addEventListener("click",download);
 
 fetch("races.json?"+Date.now()).then(r=>r.json()).then(d=>{
