@@ -185,6 +185,8 @@ def build_ics(races: list[Race]) -> str:
         desc_parts = [f"距離: {dist}", f"地點: {r.place or '—'}"]
         if r.signup_status:
             desc_parts.append(f"報名: {r.signup_status}")
+        if r.signup_deadline:
+            desc_parts.append(f"報名截止: {r.signup_deadline.strftime('%Y/%m/%d')}")
         desc_parts.append(r.url)
         desc = "\\n".join(_esc(p) for p in desc_parts)
 

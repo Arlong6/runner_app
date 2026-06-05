@@ -2,7 +2,8 @@ name: 更新賽事行事曆
 
 on:
   schedule:
-    - cron: "0 20 * * *"   # 每天 UTC 20:00 = 台灣 04:00
+    - cron: "0 20 * * *"   # 台灣 04:00
+    - cron: "0 8 * * *"    # 台灣 16:00(一天兩次,持續更新)
   workflow_dispatch:        # 也可手動觸發
 
 permissions:

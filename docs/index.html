@@ -105,6 +105,7 @@ function isOpen(r){ return r.status && !r.status.includes("已截止") && !r.sta
 function isClosed(r){ return !!(r.status && r.status.includes("已截止")); }
 
 function fmtDate(iso){ const [y,m,d]=iso.split("-"); return `${m}/${d}`; }
+function fmtFull(iso){ const [y,m,d]=iso.split("-"); return `${y}/${m}/${d}`; }
 
 function render(){
   const list = document.getElementById("list");
@@ -119,14 +120,14 @@ function render(){
   document.getElementById("empty").hidden = rows.length>0;
   list.innerHTML = rows.map(r => {
     const dist = (r.distances||[]).join(" / ") || "—";
-    const dl = r.deadline ? `<span class="dl">報名截止 ${fmtDate(r.deadline)}</span> · ` : "";
+    const dl = r.deadline ? `<span class="dl">報名截止 ${fmtFull(r.deadline)}</span> · ` : "";
     return `<div class="race">
       <label>
         <input type="checkbox" data-cid="${r.cid}" ${state.sel.has(r.cid)?"checked":""}>
       </label>
       <label for="" data-cid="${r.cid}" class="clk" style="flex:1">
         <div class="rname">${esc(r.name)}</div>
-        <div class="meta">${fmtDate(r.start)} · ${esc(r.place||"—")} · ${esc(dist)}<br>${dl}<a href="${r.url}" target="_blank" rel="noopener">運動筆記詳情 ↗</a></div>
+        <div class="meta">${fmtFull(r.start)} · ${esc(r.place||"—")} · ${esc(dist)}<br>${dl}<a href="${r.url}" target="_blank" rel="noopener">運動筆記詳情 ↗</a></div>
       </label>
     </div>`;
   }).join("");
@@ -159,7 +160,8 @@ function buildICS(races, remindDays){
   const L=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//runner_app//web//ZH-TW","CALSCALE:GREGORIAN","METHOD:PUBLISH","X-WR-CALNAME:我的跑步賽事","X-WR-TIMEZONE:Asia/Taipei"];
   for(const r of races){
     const dist=(r.distances||[]).join(" / ")||"—";
-    const desc=icsEsc(`距離: ${dist}\n地點: ${r.place||"—"}\n報名: ${r.status||"—"}\n${r.url}`);
+    const dlLine=r.deadline?`報名截止: ${r.deadline.replace(/-/g,"/")}\n`:"";
+    const desc=icsEsc(`距離: ${dist}\n地點: ${r.place||"—"}\n報名: ${r.status||"—"}\n${dlLine}${r.url}`);
     L.push("BEGIN:VEVENT",`UID:race-${r.cid}@runner_app`,
       `DTSTART;VALUE=DATE:${ymd(r.start)}`,`DTEND;VALUE=DATE:${plusDay(r.end)}`,
       `SUMMARY:${icsEsc("🏃 "+r.name)}`,`DESCRIPTION:${desc}`);
