@@ -2099,6 +2099,19 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13077"
 },
 {
+"cid": "fuji2026",
+"name": "2026 第15回 富士山馬拉松（Mt. Fuji Marathon）",
+"start": "2026-12-12",
+"end": "2026-12-13",
+"place": "日本・山梨富士河口湖",
+"distances": [
+"42.195K"
+],
+"deadline": "2026-08-31",
+"status": "報名至 2026/08/31",
+"url": "https://mtfujimarathon.com/"
+},
+{
 "cid": "13079",
 "name": "2026 通霄濱海追風馬拉松",
 "start": "2026-12-13",

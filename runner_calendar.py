@@ -225,6 +225,33 @@ def build_ics(races: list[Race]) -> str:
     return "\r\n".join(_fold(ln) for ln in lines) + "\r\n"
 
 
+def load_manual_races(path: str = "manual_races.json") -> list[Race]:
+    """手動加入運動筆記沒有的賽事(例如日本富士山馬拉松)。
+    格式見 manual_races.json:每筆含 name/start/end/place/distances/deadline/status/url。"""
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        return []
+    out: list[Race] = []
+    for d in data:
+        dl = d.get("deadline")
+        out.append(
+            Race(
+                cid=str(d["cid"]),
+                name=d["name"],
+                start=date.fromisoformat(d["start"]),
+                end=date.fromisoformat(d.get("end") or d["start"]),
+                place=d.get("place", ""),
+                distances=d.get("distances", []),
+                signup_deadline=date.fromisoformat(dl) if dl else None,
+                signup_status=d.get("status", ""),
+                url=d.get("url", ""),
+            )
+        )
+    return out
+
+
 def races_to_json(races: list[Race]) -> str:
     """全部賽事 → JSON,給靜態網頁讀取(瀏覽/勾選用)。"""
     data = [
@@ -348,6 +375,11 @@ def main(argv: list[str]) -> int:
     print(f"抓取: {args.url}", file=sys.stderr)
     all_races = parse(fetch(args.url))
     print(f"解析到 {len(all_races)} 場賽事", file=sys.stderr)
+
+    manual = load_manual_races()
+    if manual:
+        all_races += manual
+        print(f"加入手動賽事 {len(manual)} 場", file=sys.stderr)
 
     # 給靜態網頁用的全賽事資料(瀏覽→勾選→前端自己生成 .ics)
     if args.batch or args.web:
