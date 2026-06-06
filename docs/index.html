@@ -12,46 +12,17 @@
   header { background:#fff; border-bottom:1px solid var(--line); padding:16px 20px; position:sticky; top:0; z-index:5; }
   h1 { font-size:18px; margin:0 0 4px; }
   .sub { color:var(--mut); font-size:13px; }
-  .wrap { max-width:760px; margin:0 auto; padding:16px 20px 120px; }
-  .controls { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0; }
-  input[type=search]{ flex:1; min-width:180px; padding:10px 12px; border:1px solid var(--line);
+  .wrap { max-width:760px; margin:0 auto; padding:16px 20px 48px; }
+  .controls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:12px 0 6px; }
+  input[type=search]{ flex:1; min-width:160px; padding:10px 12px; border:1px solid var(--line);
          border-radius:10px; font-size:15px; }
   .chip { padding:7px 12px; border:1px solid var(--line); background:#fff; border-radius:999px;
-         font-size:13px; cursor:pointer; user-select:none; }
+         font-size:13px; cursor:pointer; user-select:none; font-family:inherit; color:var(--fg); }
   .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
-  #list { display:grid; grid-template-columns:1fr; gap:10px; margin-top:4px; }
-  @media (min-width:560px){ #list { grid-template-columns:1fr 1fr; } }
-  .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px 14px;
-          cursor:pointer; display:flex; flex-direction:column; gap:5px; transition:border-color .12s, background .12s; }
-  .card:hover { border-color:#ccc; }
-  .card.sel { border-color:var(--accent); background:#fff7f3; box-shadow:inset 0 0 0 1px var(--accent); }
-  .card-top { display:flex; justify-content:space-between; align-items:center; }
-  .cdate { font-size:13px; font-weight:700; color:var(--accent); letter-spacing:.2px; }
-  .card input { width:19px; height:19px; accent-color:var(--accent); cursor:pointer; flex:none; }
-  .cname { font-size:15px; font-weight:600; line-height:1.32;
-           display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
-  .cmeta { font-size:12.5px; color:var(--mut); line-height:1.4; }
-  .cbottom { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:auto; padding-top:3px; }
-  .cdl { color:#b00; font-weight:600; font-size:12.5px; }
-  .cdl.none { color:var(--mut); font-weight:400; }
-  .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; flex:none; }
-  .cact { display:flex; gap:7px; margin-top:8px; }
-  .act { flex:1; text-align:center; padding:9px 6px; border-radius:9px; font-size:12px; font-weight:600;
-         font-family:inherit; cursor:pointer; text-decoration:none; border:1px solid var(--accent); white-space:nowrap; }
-  .act-g { background:var(--accent); color:#fff; }
-  .act-g:active { opacity:.85; }
-  .act-i { background:#fff; color:var(--accent); }
-  .act-i:hover { background:#fff0e9; }
-  .act-i:active { background:var(--accent); color:#fff; }
-  .bar { position:fixed; left:0; right:0; bottom:0; background:#fff; border-top:1px solid var(--line);
-         padding:12px 20px; display:flex; gap:10px; align-items:center; justify-content:space-between; }
-  .bar .cnt { font-size:14px; color:var(--mut); }
-  button.gen { background:var(--accent); color:#fff; border:0; padding:12px 18px; border-radius:10px;
-         font-size:15px; font-weight:600; cursor:pointer; }
-  button.gen:disabled { opacity:.4; cursor:default; }
-  .reminddays { font-size:13px; color:var(--mut); }
-  .reminddays input { width:48px; padding:4px 6px; border:1px solid var(--line); border-radius:6px; }
-  .empty { color:var(--mut); padding:40px 0; text-align:center; }
+  #refresh { display:flex; align-items:center; gap:5px; }
+  #refresh.spin { opacity:.6; pointer-events:none; }
+  .updated { font-size:12px; color:var(--mut); width:100%; }
+
   .guide { margin:12px 0 6px; background:#fff; border:1px solid var(--line); border-radius:12px; padding:0 16px; }
   .guide summary { cursor:pointer; font-size:14px; font-weight:600; padding:14px 0; color:var(--accent); list-style:none; }
   .guide summary::-webkit-details-marker { display:none; }
@@ -61,53 +32,46 @@
   .guide h2 { font-size:15px; margin:16px 0 6px; }
   .guide ol { padding-left:22px; margin:8px 0; }
   .guide li { margin:7px 0; font-size:14px; line-height:1.65; }
-  .guide .note { background:#fff; border:1px solid var(--line); border-radius:10px;
+  .guide .note { background:#fafafa; border:1px solid var(--line); border-radius:10px;
         padding:12px 14px; font-size:13px; color:var(--mut); margin:12px 0; }
-  .guide code { background:#eee; padding:1px 6px; border-radius:5px; font-size:12.5px; word-break:break-all; }
   .guide b { color:var(--accent); }
+
+  #list { display:grid; grid-template-columns:1fr; gap:10px; margin-top:4px; }
+  @media (min-width:560px){ #list { grid-template-columns:1fr 1fr; } }
+  .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px 14px;
+          display:flex; flex-direction:column; gap:5px; }
+  .cdate { font-size:13px; font-weight:700; color:var(--accent); letter-spacing:.2px; }
+  .cname { font-size:15px; font-weight:600; line-height:1.32;
+           display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .cmeta { font-size:12.5px; color:var(--mut); line-height:1.4; }
+  .cbottom { display:flex; justify-content:space-between; align-items:center; gap:8px; padding-top:2px; }
+  .cdl { color:#b00; font-weight:600; font-size:12.5px; }
+  .cdl.none { color:var(--mut); font-weight:400; }
+  .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; flex:none; }
+  .gbtn { display:block; width:100%; text-align:center; margin-top:6px; padding:10px 8px;
+          background:var(--accent); color:#fff; border:0; border-radius:9px;
+          font-size:13px; font-weight:600; text-decoration:none; }
+  .gbtn:active { opacity:.85; }
+  .empty { color:var(--mut); padding:40px 0; text-align:center; }
 </style>
 </head>
 <body>
 <header>
   <h1>🏃 跑步賽事提醒產生器</h1>
-  <div class="sub">勾選想追的賽事 → 一鍵下載 .ics → 匯入 Google Calendar。資料來源:運動筆記。</div>
+  <div class="sub">找到想跑的賽事 → 一鍵加入 Google 日曆。資料來源:運動筆記。</div>
 </header>
 <div class="wrap">
   <details class="guide">
-    <summary>📖 使用教學 —— 怎麼用本站 + 如何匯入手機/電腦日曆(點我展開)</summary>
-    <h2>📱 手機:加單場(每張卡片兩個鈕)</h2>
-    <div class="note">
-      <b>⚡ 一鍵加 Google</b> —— 點一下直接跳進 Google 日曆、按儲存即可。手機<b>真‧一鍵最快</b>,但只加比賽日、沒有自訂提醒。<br><br>
-      <b>⏰ 含提醒</b> —— 同時加「比賽日 + 報名截止前提醒」(截止前幾天可在上方調)。手機會跳分享選單選行事曆、電腦則下載 .ics,步驟多一點點但<b>不會錯過報名</b>。
-    </div>
-
-    <h2>① 想一次加很多場(含報名截止提醒)</h2>
+    <summary>📖 使用教學(點我展開)</summary>
+    <h2>① 怎麼用</h2>
     <ol>
       <li>用下方<b>搜尋</b>或<b>篩選</b>(只看台灣、只看開放報名)找到想跑的賽事。</li>
-      <li><b>勾選</b>賽事,可以複選(預設已隱藏「已截止報名」的場次)。</li>
-      <li>設定「報名截止前幾天提醒」(預設 7 天)。</li>
-      <li>按底部按鈕:<b>手機</b>會跳出分享選單 → 選「行事曆」直接加入;<b>電腦</b>則下載 <code>my-races.ics</code>。</li>
+      <li>按卡片上的 <b>「📅 加入 Google 日曆」</b>。</li>
+      <li>跳開 Google 日曆、資訊都填好了,按<b>儲存</b>即可。手機、電腦都是一鍵。</li>
     </ol>
-
-    <h2>② 電腦下載的檔案怎麼匯入 Google 日曆</h2>
-    <p style="font-size:14px;margin:6px 0">用<b>電腦版</b>:</p>
-    <ol>
-      <li>電腦開啟 <b>Google 日曆</b>網頁(calendar.google.com)。</li>
-      <li>右上角 <b>齒輪 ⚙️ → 設定</b>。</li>
-      <li>左側選 <b>「匯入與匯出」</b>。</li>
-      <li><b>匯入</b> → 選剛下載的 <code>my-races.ics</code>。</li>
-      <li>選擇要匯入哪個日曆 → 按 <b>「匯入」</b>。</li>
-    </ol>
-    <div class="note">✅ 完成!所有勾選的賽事會出現在日曆,報名截止日也會有 <b>⏰ 報名截止</b> 事件,並在截止前提醒你。手機上的 Google 日曆 App 會自動同步顯示,不用另外操作。</div>
-
-    <h2>③ iPhone / Apple 行事曆</h2>
-    <ol>
-      <li>把 <code>my-races.ics</code> 用 AirDrop 或 Email 傳到手機。</li>
-      <li>點開檔案 → 選「加入全部」到行事曆即可。</li>
-    </ol>
-
-    <h2>④ 賽事更新了怎麼辦</h2>
-    <div class="note">下載的 .ics 是<b>當下的快照</b>,之後有新賽事或你想改清單,<b>回來重新勾選、再下載匯入一次</b>就好(本站賽事資料每天自動更新)。重複匯入不會產生重複事件,放心。</div>
+    <div class="note">每場會把<b>比賽日</b>加進你的 Google 日曆,說明欄含地點、距離、<b>報名截止日</b>與運動筆記連結。Google 日曆會依你的預設通知提醒你。</div>
+    <h2>② 賽事更新</h2>
+    <div class="note">賽事資料每天自動更新兩次。想立即抓最新,按右上角 <b>「🔄 更新」</b> 即可重新載入。</div>
   </details>
 
   <div class="controls">
@@ -115,139 +79,26 @@
     <span class="chip" id="twChip">只看台灣</span>
     <span class="chip" id="openChip">只看開放報名</span>
     <span class="chip on" id="hideClosedChip">隱藏已截止</span>
+    <button class="chip" id="refresh">🔄 更新</button>
+    <span class="updated" id="updated"></span>
   </div>
-  <div class="reminddays">報名截止前 <input type="number" id="days" value="7" min="0" max="60"> 天提醒</div>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>沒有符合的賽事</div>
-</div>
-<div class="bar">
-  <span class="cnt"><b id="selCount">0</b> 場已選</span>
-  <button class="gen" id="gen" disabled>下載行事曆 (.ics)</button>
 </div>
 
 <script>
 const TW = ["台","臺","新北","桃園","高雄","台中","台南","新竹","基隆","宜蘭","花蓮","台東","臺東","屏東","南投","嘉義","雲林","彰化","苗栗","金門","澎湖","馬祖"];
-const state = { races: [], sel: new Set(), q: "", tw: false, open: false, hideClosed: true };
+const state = { races: [], q: "", tw: false, open: false, hideClosed: true };
 
 function isTW(r){ return TW.some(k => (r.place||"").includes(k)); }
 function isOpen(r){ return r.status && !r.status.includes("已截止") && !r.status.includes("未定"); }
 function isClosed(r){ return !!(r.status && r.status.includes("已截止")); }
-
-function fmtDate(iso){ const [y,m,d]=iso.split("-"); return `${m}/${d}`; }
 function fmtFull(iso){ const [y,m,d]=iso.split("-"); return `${y}/${m}/${d}`; }
-
-function render(){
-  const list = document.getElementById("list");
-  const term = state.q.trim().toLowerCase();
-  const rows = state.races.filter(r => {
-    if (state.tw && !isTW(r)) return false;
-    if (state.open && !isOpen(r)) return false;
-    if (state.hideClosed && isClosed(r)) return false;
-    if (term && !((r.name+ " "+r.place).toLowerCase().includes(term))) return false;
-    return true;
-  });
-  document.getElementById("empty").hidden = rows.length>0;
-  list.innerHTML = rows.map(r => {
-    const dist = (r.distances||[]).join(" / ") || "—";
-    let dl, dlClass="cdl";
-    if (r.deadline) dl = `⏰ 報名截止 ${fmtFull(r.deadline)}`;
-    else if (isClosed(r)) { dl = "報名已截止"; dlClass="cdl none"; }
-    else { dl = r.status || "報名時間未定"; dlClass="cdl none"; }
-    return `<div class="card${state.sel.has(r.cid)?' sel':''}" data-cid="${r.cid}">
-      <div class="card-top">
-        <span class="cdate">${fmtFull(r.start)}</span>
-        <input type="checkbox" ${state.sel.has(r.cid)?"checked":""}>
-      </div>
-      <div class="cname">${esc(r.name)}</div>
-      <div class="cmeta">${esc(r.place||"—")} · ${esc(dist)}</div>
-      <div class="cbottom">
-        <span class="${dlClass}">${esc(dl)}</span>
-        <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
-      </div>
-      <div class="cact">
-        <a class="act act-g" href="${gcalUrl(r)}" target="_blank" rel="noopener">⚡ 一鍵加 Google</a>
-        <button class="act act-i" data-add="${r.cid}">⏰ 含提醒</button>
-      </div>
-    </div>`;
-  }).join("");
-  list.querySelectorAll('.card').forEach(card=>{
-    const cid = card.dataset.cid;
-    const cb = card.querySelector('input[type=checkbox]');
-    card.addEventListener("click", e=>{
-      if (e.target.closest("a") || e.target.closest(".act-i")) return; // 連結/加入鈕不切換選取
-      if (e.target !== cb) cb.checked = !cb.checked; // 點卡片其他地方才手動翻轉
-      cb.checked ? state.sel.add(cid) : state.sel.delete(cid);
-      card.classList.toggle("sel", cb.checked);
-      updateBar();
-    });
-  });
-  list.querySelectorAll('.act-i').forEach(b=>{
-    b.addEventListener("click", e=>{ e.stopPropagation(); addRace(b.dataset.add); });
-  });
-}
 function esc(s){ return (s||"").replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
-function updateBar(){
-  document.getElementById("selCount").textContent = state.sel.size;
-  document.getElementById("gen").disabled = state.sel.size===0;
-}
-
-// ---- client-side ICS ----
-function icsEsc(t){ return (t||"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n"); }
 function ymd(iso){ return iso.replace(/-/g,""); }
 function plusDay(iso){ const d=new Date(iso+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+1); return d.toISOString().slice(0,10).replace(/-/g,""); }
-function buildICS(races, remindDays){
-  const L=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//runner_app//web//ZH-TW","CALSCALE:GREGORIAN","METHOD:PUBLISH","X-WR-CALNAME:我的跑步賽事","X-WR-TIMEZONE:Asia/Taipei"];
-  for(const r of races){
-    const dist=(r.distances||[]).join(" / ")||"—";
-    const dlLine=r.deadline?`報名截止: ${r.deadline.replace(/-/g,"/")}\n`:"";
-    const desc=icsEsc(`距離: ${dist}\n地點: ${r.place||"—"}\n報名: ${r.status||"—"}\n${dlLine}${r.url}`);
-    L.push("BEGIN:VEVENT",`UID:race-${r.cid}@runner_app`,
-      `DTSTART;VALUE=DATE:${ymd(r.start)}`,`DTEND;VALUE=DATE:${plusDay(r.end)}`,
-      `SUMMARY:${icsEsc("🏃 "+r.name)}`,`DESCRIPTION:${desc}`);
-    if(r.place) L.push(`LOCATION:${icsEsc(r.place)}`);
-    L.push("TRANSP:TRANSPARENT","END:VEVENT");
-    if(r.deadline){
-      L.push("BEGIN:VEVENT",`UID:signup-${r.cid}@runner_app`,
-        `DTSTART;VALUE=DATE:${ymd(r.deadline)}`,`DTEND;VALUE=DATE:${plusDay(r.deadline)}`,
-        `SUMMARY:${icsEsc("⏰ 報名截止: "+r.name)}`,`DESCRIPTION:${desc}`,"TRANSP:TRANSPARENT");
-      if(remindDays>0) L.push("BEGIN:VALARM","ACTION:DISPLAY",
-        `DESCRIPTION:${icsEsc("報名即將截止: "+r.name)}`,`TRIGGER:-P${remindDays}D`,"END:VALARM");
-      L.push("END:VEVENT");
-    }
-  }
-  L.push("END:VCALENDAR");
-  return L.join("\r\n")+"\r\n";
-}
-const canShareFiles = !!(navigator.canShare &&
-  navigator.canShare({files:[new File([""],"x.ics",{type:"text/calendar"})]}));
 
-function remindDays(){ return Math.max(0,parseInt(document.getElementById("days").value||"7",10)); }
-
-// 手機優先用系統分享(可丟到行事曆 App);桌面則下載。兩者都含報名截止前提醒。
-async function shareOrDownload(ics, filename){
-  if(canShareFiles){
-    try{
-      await navigator.share({files:[new File([ics],filename,{type:"text/calendar"})], title:"跑步賽事"});
-      return;
-    }catch(e){ if(e&&e.name==="AbortError") return; }  // 使用者取消就停;其他錯誤往下走下載
-  }
-  const blob=new Blob([ics],{type:"text/calendar;charset=utf-8"});
-  const a=document.createElement("a");
-  a.href=URL.createObjectURL(blob); a.download=filename; a.click();
-  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
-}
-// 批次:勾選的全部
-async function exportICS(){
-  const chosen=state.races.filter(r=>state.sel.has(r.cid));
-  if(!chosen.length) return;
-  await shareOrDownload(buildICS(chosen,remindDays()), "my-races.ics");
-}
-// 單場含提醒:比賽日 + 報名截止前提醒(走 .ics 分享/下載)
-function addRace(cid){
-  const r=state.races.find(x=>x.cid===cid);
-  if(r) shareOrDownload(buildICS([r],remindDays()), "race.ics");
-}
-// 單場一鍵:直接開 Google 日曆預填(手機真一鍵,只加比賽日、無自訂提醒)
+// 一鍵加入 Google 日曆(比賽日;說明欄附報名截止日)
 function gcalUrl(r){
   const dist=(r.distances||[]).join(" / ")||"—";
   const dlLine=r.deadline?`報名截止: ${r.deadline.replace(/-/g,"/")}\n`:"";
@@ -257,16 +108,60 @@ function gcalUrl(r){
   return "https://calendar.google.com/calendar/render?"+p.toString();
 }
 
+function render(){
+  const list = document.getElementById("list");
+  const term = state.q.trim().toLowerCase();
+  const rows = state.races.filter(r => {
+    if (state.tw && !isTW(r)) return false;
+    if (state.open && !isOpen(r)) return false;
+    if (state.hideClosed && isClosed(r)) return false;
+    if (term && !((r.name+" "+r.place).toLowerCase().includes(term))) return false;
+    return true;
+  });
+  document.getElementById("empty").hidden = rows.length>0;
+  list.innerHTML = rows.map(r => {
+    const dist = (r.distances||[]).join(" / ") || "—";
+    let dl, dlClass="cdl";
+    if (r.deadline) dl = `⏰ 報名截止 ${fmtFull(r.deadline)}`;
+    else if (isClosed(r)) { dl = "報名已截止"; dlClass="cdl none"; }
+    else { dl = r.status || "報名時間未定"; dlClass="cdl none"; }
+    return `<div class="card">
+      <div class="cdate">${fmtFull(r.start)}</div>
+      <div class="cname">${esc(r.name)}</div>
+      <div class="cmeta">${esc(r.place||"—")} · ${esc(dist)}</div>
+      <div class="cbottom">
+        <span class="${dlClass}">${esc(dl)}</span>
+        <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
+      </div>
+      <a class="gbtn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 加入 Google 日曆</a>
+    </div>`;
+  }).join("");
+}
+
+async function loadRaces(){
+  const btn = document.getElementById("refresh");
+  const up = document.getElementById("updated");
+  btn.classList.add("spin"); up.textContent = "更新中…";
+  try{
+    const d = await fetch("races.json?"+Date.now()).then(r=>r.json());
+    state.races = d; render();
+    const t = new Date();
+    up.textContent = `🔄 已更新 ${String(t.getHours()).padStart(2,"0")}:${String(t.getMinutes()).padStart(2,"0")} · 共 ${d.length} 場`;
+  }catch(e){
+    up.textContent = "載入失敗,請稍後再試";
+    document.getElementById("list").innerHTML = '<div class="empty">載入賽事資料失敗</div>';
+  }finally{
+    btn.classList.remove("spin");
+  }
+}
+
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
 document.getElementById("twChip").addEventListener("click",e=>{state.tw=!state.tw;e.target.classList.toggle("on",state.tw);render();});
 document.getElementById("openChip").addEventListener("click",e=>{state.open=!state.open;e.target.classList.toggle("on",state.open);render();});
 document.getElementById("hideClosedChip").addEventListener("click",e=>{state.hideClosed=!state.hideClosed;e.target.classList.toggle("on",state.hideClosed);render();});
-document.getElementById("gen").addEventListener("click",exportICS);
-document.getElementById("gen").textContent = canShareFiles ? "加入行事曆 📅" : "下載行事曆 (.ics)";
+document.getElementById("refresh").addEventListener("click",loadRaces);
 
-fetch("races.json?"+Date.now()).then(r=>r.json()).then(d=>{
-  state.races=d; render(); updateBar();
-}).catch(()=>{ document.getElementById("list").innerHTML='<div class="empty">載入賽事資料失敗</div>'; });
+loadRaces();
 </script>
 </body>
 </html>
