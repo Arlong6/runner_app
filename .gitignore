@@ -4,3 +4,6 @@ races_tw.ics
 *.pyc
 __pycache__/
 .DS_Store
+
+# Vercel
+.vercel
