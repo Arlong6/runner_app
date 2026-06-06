@@ -35,8 +35,9 @@
   .cdl { color:#b00; font-weight:600; font-size:12.5px; }
   .cdl.none { color:var(--mut); font-weight:400; }
   .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; flex:none; }
-  .gcal-btn { display:block; text-align:center; margin-top:8px; padding:8px; border:1px solid var(--accent);
-        color:var(--accent); border-radius:9px; font-size:12.5px; font-weight:600; text-decoration:none; }
+  .gcal-btn { display:block; width:100%; text-align:center; margin-top:8px; padding:9px 8px;
+        border:1px solid var(--accent); background:#fff; color:var(--accent); border-radius:9px;
+        font-size:12.5px; font-weight:600; font-family:inherit; cursor:pointer; }
   .gcal-btn:hover { background:#fff0e9; }
   .gcal-btn:active { background:var(--accent); color:#fff; }
   .bar { position:fixed; left:0; right:0; bottom:0; background:#fff; border-top:1px solid var(--line);
@@ -71,8 +72,8 @@
 <div class="wrap">
   <details class="guide">
     <summary>📖 使用教學 —— 怎麼用本站 + 如何匯入手機/電腦日曆(點我展開)</summary>
-    <h2>📱 手機最快:單場一鍵加入</h2>
-    <div class="note">想加哪一場,直接按那張卡片上的 <b>「📅 一鍵加入 Google 日曆」</b> → 跳開 Google 日曆、資訊都填好了,按儲存即可。<b>最快、免下載</b>。(單場加入只含比賽日,不含報名截止提醒;要提醒請用下面批次方式。)</div>
+    <h2>📱 手機:加單場最快</h2>
+    <div class="note">想加哪一場,直接按那張卡片的 <b>「📅 加入行事曆(含報名提醒)」</b>:<b>手機</b>會跳出分享選單 → 選行事曆 App 即可加入;<b>電腦</b>則下載該場 .ics。<b>會同時加入「比賽日」+「報名截止提醒」</b>(截止前幾天提醒可在上方調整)。</div>
 
     <h2>① 想一次加很多場(含報名截止提醒)</h2>
     <ol>
@@ -157,19 +158,22 @@ function render(){
         <span class="${dlClass}">${esc(dl)}</span>
         <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
       </div>
-      <a class="gcal-btn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 一鍵加入 Google 日曆</a>
+      <button class="gcal-btn" data-add="${r.cid}">📅 加入行事曆(含報名提醒)</button>
     </div>`;
   }).join("");
   list.querySelectorAll('.card').forEach(card=>{
     const cid = card.dataset.cid;
     const cb = card.querySelector('input[type=checkbox]');
     card.addEventListener("click", e=>{
-      if (e.target.closest("a")) return;            // 點「詳情」連結不切換選取
+      if (e.target.closest("a") || e.target.closest(".gcal-btn")) return; // 連結/加入鈕不切換選取
       if (e.target !== cb) cb.checked = !cb.checked; // 點卡片其他地方才手動翻轉
       cb.checked ? state.sel.add(cid) : state.sel.delete(cid);
       card.classList.toggle("sel", cb.checked);
       updateBar();
     });
+  });
+  list.querySelectorAll('.gcal-btn').forEach(b=>{
+    b.addEventListener("click", e=>{ e.stopPropagation(); addRace(b.dataset.add); });
   });
 }
 function esc(s){ return (s||"").replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
@@ -205,36 +209,34 @@ function buildICS(races, remindDays){
   L.push("END:VCALENDAR");
   return L.join("\r\n")+"\r\n";
 }
-// 單場一鍵加入 Google 日曆(手機最順,只加比賽日,不含報名截止提醒)
-function gcalUrl(r){
-  const dist=(r.distances||[]).join(" / ")||"—";
-  const dlLine=r.deadline?`報名截止: ${r.deadline.replace(/-/g,"/")}\n`:"";
-  const details=`距離: ${dist}\n地點: ${r.place||"—"}\n報名: ${r.status||"—"}\n${dlLine}${r.url}`;
-  const p=new URLSearchParams({action:"TEMPLATE",text:"🏃 "+r.name,
-    dates:`${ymd(r.start)}/${plusDay(r.end)}`,details,location:r.place||""});
-  return "https://calendar.google.com/calendar/render?"+p.toString();
-}
-
 const canShareFiles = !!(navigator.canShare &&
   navigator.canShare({files:[new File([""],"x.ics",{type:"text/calendar"})]}));
 
-// 批次匯出:手機優先用系統分享(可丟到行事曆 App,含報名截止提醒);桌面則下載
-async function exportICS(){
-  const days=Math.max(0,parseInt(document.getElementById("days").value||"7",10));
-  const chosen=state.races.filter(r=>state.sel.has(r.cid));
-  if(!chosen.length) return;
-  const ics=buildICS(chosen,days);
+function remindDays(){ return Math.max(0,parseInt(document.getElementById("days").value||"7",10)); }
+
+// 手機優先用系統分享(可丟到行事曆 App);桌面則下載。兩者都含報名截止前提醒。
+async function shareOrDownload(ics, filename){
   if(canShareFiles){
     try{
-      await navigator.share({files:[new File([ics],"my-races.ics",{type:"text/calendar"})],
-        title:"我的跑步賽事"});
+      await navigator.share({files:[new File([ics],filename,{type:"text/calendar"})], title:"跑步賽事"});
       return;
     }catch(e){ if(e&&e.name==="AbortError") return; }  // 使用者取消就停;其他錯誤往下走下載
   }
   const blob=new Blob([ics],{type:"text/calendar;charset=utf-8"});
   const a=document.createElement("a");
-  a.href=URL.createObjectURL(blob); a.download="my-races.ics"; a.click();
+  a.href=URL.createObjectURL(blob); a.download=filename; a.click();
   setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+// 批次:勾選的全部
+async function exportICS(){
+  const chosen=state.races.filter(r=>state.sel.has(r.cid));
+  if(!chosen.length) return;
+  await shareOrDownload(buildICS(chosen,remindDays()), "my-races.ics");
+}
+// 單場:比賽日 + 報名截止前提醒
+function addRace(cid){
+  const r=state.races.find(x=>x.cid===cid);
+  if(r) shareOrDownload(buildICS([r],remindDays()), "race.ics");
 }
 
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
