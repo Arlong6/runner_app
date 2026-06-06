@@ -1,7 +1,0 @@
-{
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/", "destination": "/docs/index.html" },
-    { "source": "/races.json", "destination": "/docs/races.json" }
-  ]
-}
