@@ -35,11 +35,14 @@
   .cdl { color:#b00; font-weight:600; font-size:12.5px; }
   .cdl.none { color:var(--mut); font-weight:400; }
   .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; flex:none; }
-  .gcal-btn { display:block; width:100%; text-align:center; margin-top:8px; padding:9px 8px;
-        border:1px solid var(--accent); background:#fff; color:var(--accent); border-radius:9px;
-        font-size:12.5px; font-weight:600; font-family:inherit; cursor:pointer; }
-  .gcal-btn:hover { background:#fff0e9; }
-  .gcal-btn:active { background:var(--accent); color:#fff; }
+  .cact { display:flex; gap:7px; margin-top:8px; }
+  .act { flex:1; text-align:center; padding:9px 6px; border-radius:9px; font-size:12px; font-weight:600;
+         font-family:inherit; cursor:pointer; text-decoration:none; border:1px solid var(--accent); white-space:nowrap; }
+  .act-g { background:var(--accent); color:#fff; }
+  .act-g:active { opacity:.85; }
+  .act-i { background:#fff; color:var(--accent); }
+  .act-i:hover { background:#fff0e9; }
+  .act-i:active { background:var(--accent); color:#fff; }
   .bar { position:fixed; left:0; right:0; bottom:0; background:#fff; border-top:1px solid var(--line);
          padding:12px 20px; display:flex; gap:10px; align-items:center; justify-content:space-between; }
   .bar .cnt { font-size:14px; color:var(--mut); }
@@ -72,8 +75,11 @@
 <div class="wrap">
   <details class="guide">
     <summary>📖 使用教學 —— 怎麼用本站 + 如何匯入手機/電腦日曆(點我展開)</summary>
-    <h2>📱 手機:加單場最快</h2>
-    <div class="note">想加哪一場,直接按那張卡片的 <b>「📅 加入行事曆(含報名提醒)」</b>:<b>手機</b>會跳出分享選單 → 選行事曆 App 即可加入;<b>電腦</b>則下載該場 .ics。<b>會同時加入「比賽日」+「報名截止提醒」</b>(截止前幾天提醒可在上方調整)。</div>
+    <h2>📱 手機:加單場(每張卡片兩個鈕)</h2>
+    <div class="note">
+      <b>⚡ 一鍵加 Google</b> —— 點一下直接跳進 Google 日曆、按儲存即可。手機<b>真‧一鍵最快</b>,但只加比賽日、沒有自訂提醒。<br><br>
+      <b>⏰ 含提醒</b> —— 同時加「比賽日 + 報名截止前提醒」(截止前幾天可在上方調)。手機會跳分享選單選行事曆、電腦則下載 .ics,步驟多一點點但<b>不會錯過報名</b>。
+    </div>
 
     <h2>① 想一次加很多場(含報名截止提醒)</h2>
     <ol>
@@ -158,21 +164,24 @@ function render(){
         <span class="${dlClass}">${esc(dl)}</span>
         <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
       </div>
-      <button class="gcal-btn" data-add="${r.cid}">📅 加入行事曆(含報名提醒)</button>
+      <div class="cact">
+        <a class="act act-g" href="${gcalUrl(r)}" target="_blank" rel="noopener">⚡ 一鍵加 Google</a>
+        <button class="act act-i" data-add="${r.cid}">⏰ 含提醒</button>
+      </div>
     </div>`;
   }).join("");
   list.querySelectorAll('.card').forEach(card=>{
     const cid = card.dataset.cid;
     const cb = card.querySelector('input[type=checkbox]');
     card.addEventListener("click", e=>{
-      if (e.target.closest("a") || e.target.closest(".gcal-btn")) return; // 連結/加入鈕不切換選取
+      if (e.target.closest("a") || e.target.closest(".act-i")) return; // 連結/加入鈕不切換選取
       if (e.target !== cb) cb.checked = !cb.checked; // 點卡片其他地方才手動翻轉
       cb.checked ? state.sel.add(cid) : state.sel.delete(cid);
       card.classList.toggle("sel", cb.checked);
       updateBar();
     });
   });
-  list.querySelectorAll('.gcal-btn').forEach(b=>{
+  list.querySelectorAll('.act-i').forEach(b=>{
     b.addEventListener("click", e=>{ e.stopPropagation(); addRace(b.dataset.add); });
   });
 }
@@ -233,10 +242,19 @@ async function exportICS(){
   if(!chosen.length) return;
   await shareOrDownload(buildICS(chosen,remindDays()), "my-races.ics");
 }
-// 單場:比賽日 + 報名截止前提醒
+// 單場含提醒:比賽日 + 報名截止前提醒(走 .ics 分享/下載)
 function addRace(cid){
   const r=state.races.find(x=>x.cid===cid);
   if(r) shareOrDownload(buildICS([r],remindDays()), "race.ics");
+}
+// 單場一鍵:直接開 Google 日曆預填(手機真一鍵,只加比賽日、無自訂提醒)
+function gcalUrl(r){
+  const dist=(r.distances||[]).join(" / ")||"—";
+  const dlLine=r.deadline?`報名截止: ${r.deadline.replace(/-/g,"/")}\n`:"";
+  const details=`距離: ${dist}\n地點: ${r.place||"—"}\n報名: ${r.status||"—"}\n${dlLine}${r.url}`;
+  const p=new URLSearchParams({action:"TEMPLATE",text:"🏃 "+r.name,
+    dates:`${ymd(r.start)}/${plusDay(r.end)}`,details,location:r.place||""});
+  return "https://calendar.google.com/calendar/render?"+p.toString();
 }
 
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
