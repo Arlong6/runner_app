@@ -35,6 +35,10 @@
   .cdl { color:#b00; font-weight:600; font-size:12.5px; }
   .cdl.none { color:var(--mut); font-weight:400; }
   .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; flex:none; }
+  .gcal-btn { display:block; text-align:center; margin-top:8px; padding:8px; border:1px solid var(--accent);
+        color:var(--accent); border-radius:9px; font-size:12.5px; font-weight:600; text-decoration:none; }
+  .gcal-btn:hover { background:#fff0e9; }
+  .gcal-btn:active { background:var(--accent); color:#fff; }
   .bar { position:fixed; left:0; right:0; bottom:0; background:#fff; border-top:1px solid var(--line);
          padding:12px 20px; display:flex; gap:10px; align-items:center; justify-content:space-between; }
   .bar .cnt { font-size:14px; color:var(--mut); }
@@ -67,16 +71,19 @@
 <div class="wrap">
   <details class="guide">
     <summary>📖 使用教學 —— 怎麼用本站 + 如何匯入手機/電腦日曆(點我展開)</summary>
-    <h2>① 怎麼使用這個網站</h2>
+    <h2>📱 手機最快:單場一鍵加入</h2>
+    <div class="note">想加哪一場,直接按那張卡片上的 <b>「📅 一鍵加入 Google 日曆」</b> → 跳開 Google 日曆、資訊都填好了,按儲存即可。<b>最快、免下載</b>。(單場加入只含比賽日,不含報名截止提醒;要提醒請用下面批次方式。)</div>
+
+    <h2>① 想一次加很多場(含報名截止提醒)</h2>
     <ol>
       <li>用下方<b>搜尋</b>或<b>篩選</b>(只看台灣、只看開放報名)找到想跑的賽事。</li>
       <li><b>勾選</b>賽事,可以複選(預設已隱藏「已截止報名」的場次)。</li>
       <li>設定「報名截止前幾天提醒」(預設 7 天)。</li>
-      <li>按底部 <b>下載行事曆 (.ics)</b>,會存成 <code>my-races.ics</code>。</li>
+      <li>按底部按鈕:<b>手機</b>會跳出分享選單 → 選「行事曆」直接加入;<b>電腦</b>則下載 <code>my-races.ics</code>。</li>
     </ol>
 
-    <h2>② 下載的檔案怎麼匯入 Google 日曆</h2>
-    <p style="font-size:14px;margin:6px 0">用<b>電腦版</b>最簡單(手機無法直接匯入):</p>
+    <h2>② 電腦下載的檔案怎麼匯入 Google 日曆</h2>
+    <p style="font-size:14px;margin:6px 0">用<b>電腦版</b>:</p>
     <ol>
       <li>電腦開啟 <b>Google 日曆</b>網頁(calendar.google.com)。</li>
       <li>右上角 <b>齒輪 ⚙️ → 設定</b>。</li>
@@ -150,6 +157,7 @@ function render(){
         <span class="${dlClass}">${esc(dl)}</span>
         <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
       </div>
+      <a class="gcal-btn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 一鍵加入 Google 日曆</a>
     </div>`;
   }).join("");
   list.querySelectorAll('.card').forEach(card=>{
@@ -197,10 +205,33 @@ function buildICS(races, remindDays){
   L.push("END:VCALENDAR");
   return L.join("\r\n")+"\r\n";
 }
-function download(){
+// 單場一鍵加入 Google 日曆(手機最順,只加比賽日,不含報名截止提醒)
+function gcalUrl(r){
+  const dist=(r.distances||[]).join(" / ")||"—";
+  const dlLine=r.deadline?`報名截止: ${r.deadline.replace(/-/g,"/")}\n`:"";
+  const details=`距離: ${dist}\n地點: ${r.place||"—"}\n報名: ${r.status||"—"}\n${dlLine}${r.url}`;
+  const p=new URLSearchParams({action:"TEMPLATE",text:"🏃 "+r.name,
+    dates:`${ymd(r.start)}/${plusDay(r.end)}`,details,location:r.place||""});
+  return "https://calendar.google.com/calendar/render?"+p.toString();
+}
+
+const canShareFiles = !!(navigator.canShare &&
+  navigator.canShare({files:[new File([""],"x.ics",{type:"text/calendar"})]}));
+
+// 批次匯出:手機優先用系統分享(可丟到行事曆 App,含報名截止提醒);桌面則下載
+async function exportICS(){
   const days=Math.max(0,parseInt(document.getElementById("days").value||"7",10));
   const chosen=state.races.filter(r=>state.sel.has(r.cid));
-  const blob=new Blob([buildICS(chosen,days)],{type:"text/calendar;charset=utf-8"});
+  if(!chosen.length) return;
+  const ics=buildICS(chosen,days);
+  if(canShareFiles){
+    try{
+      await navigator.share({files:[new File([ics],"my-races.ics",{type:"text/calendar"})],
+        title:"我的跑步賽事"});
+      return;
+    }catch(e){ if(e&&e.name==="AbortError") return; }  // 使用者取消就停;其他錯誤往下走下載
+  }
+  const blob=new Blob([ics],{type:"text/calendar;charset=utf-8"});
   const a=document.createElement("a");
   a.href=URL.createObjectURL(blob); a.download="my-races.ics"; a.click();
   setTimeout(()=>URL.revokeObjectURL(a.href),1000);
@@ -210,7 +241,8 @@ document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value
 document.getElementById("twChip").addEventListener("click",e=>{state.tw=!state.tw;e.target.classList.toggle("on",state.tw);render();});
 document.getElementById("openChip").addEventListener("click",e=>{state.open=!state.open;e.target.classList.toggle("on",state.open);render();});
 document.getElementById("hideClosedChip").addEventListener("click",e=>{state.hideClosed=!state.hideClosed;e.target.classList.toggle("on",state.hideClosed);render();});
-document.getElementById("gen").addEventListener("click",download);
+document.getElementById("gen").addEventListener("click",exportICS);
+document.getElementById("gen").textContent = canShareFiles ? "加入行事曆 📅" : "下載行事曆 (.ics)";
 
 fetch("races.json?"+Date.now()).then(r=>r.json()).then(d=>{
   state.races=d; render(); updateBar();
