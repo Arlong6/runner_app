@@ -1,35 +1,5 @@
 [
 {
-"cid": "12918",
-"name": "2026全台PAPAGO歡樂跑--蘆竹場",
-"start": "2026-05-31",
-"end": "2026-06-01",
-"place": "桃園市",
-"distances": [
-"42K",
-"23.4K"
-],
-"deadline": null,
-"status": "已截止報名",
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12918"
-},
-{
-"cid": "12865",
-"name": "2026木架山半程馬拉松",
-"start": "2026-05-31",
-"end": "2026-06-01",
-"place": "臺南市",
-"distances": [
-"24K",
-"14K",
-"6K",
-"10K"
-],
-"deadline": null,
-"status": "原2026/06/07因活動衝突改期至2026/05/31",
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12865"
-},
-{
 "cid": "12941",
 "name": "2026 CTAU 超馬系列賽--越野站 台灣棲蘭林道越野",
 "start": "2026-06-06",
@@ -59,7 +29,8 @@
 "50K",
 "25K",
 "10K",
-"5K"
+"5K",
+"10K"
 ],
 "deadline": null,
 "status": "已截止報名",
@@ -740,6 +711,20 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13023"
 },
 {
+"cid": "13080",
+"name": "2026 LAVAKIDS 花蓮太平洋小鐵人賽",
+"start": "2026-10-03",
+"end": "2026-10-04",
+"place": "花蓮縣",
+"distances": [
+"8.2K",
+"5.3K"
+],
+"deadline": null,
+"status": "報名時間未定",
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13080"
+},
+{
 "cid": "12980",
 "name": "2026 吧哩嘓越野",
 "start": "2026-10-03",
@@ -799,6 +784,21 @@
 "deadline": "2026-08-30",
 "status": "08-30截止",
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12986"
+},
+{
+"cid": "13081",
+"name": "2026 LAVA 花蓮太平洋鐵人賽",
+"start": "2026-10-04",
+"end": "2026-10-05",
+"place": "花蓮縣",
+"distances": [
+"58K",
+"56.5K",
+"28.25K"
+],
+"deadline": null,
+"status": "報名時間未定",
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13081"
 },
 {
 "cid": "12993",
