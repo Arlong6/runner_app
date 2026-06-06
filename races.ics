@@ -216,4 +216,32 @@ DESCRIPTION:報名即將截止: 2027 CTAU超馬系列賽 - 第三站 陽
 TRIGGER:-P7D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:race-fuji2026@runner_app
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:🏃 2026 第15回 富士山馬拉松（Mt. Fuji Marathon）
+DESCRIPTION:距離: 42.195K\n地點: 日本・山梨富士河口湖\n報
+ 名: 報名至 2026/08/31\n報名截止: 2026/08/31\nhttps://mtfujimarat
+ hon.com/
+LOCATION:日本・山梨富士河口湖
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:signup-fuji2026@runner_app
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:⏰ 報名截止: 2026 第15回 富士山馬拉松（Mt. Fuji Mar
+ athon）
+DESCRIPTION:距離: 42.195K\n地點: 日本・山梨富士河口湖\n報
+ 名: 報名至 2026/08/31\n報名截止: 2026/08/31\nhttps://mtfujimarat
+ hon.com/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:報名即將截止: 2026 第15回 富士山馬拉松（Mt. Fu
+ ji Marathon）
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
