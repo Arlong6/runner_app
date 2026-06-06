@@ -19,13 +19,22 @@
   .chip { padding:7px 12px; border:1px solid var(--line); background:#fff; border-radius:999px;
          font-size:13px; cursor:pointer; user-select:none; }
   .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
-  .race { display:flex; gap:12px; align-items:flex-start; padding:12px 4px; border-bottom:1px solid var(--line); }
-  .race label { flex:1; cursor:pointer; }
-  .race input { margin-top:3px; width:18px; height:18px; accent-color:var(--accent); }
-  .rname { font-size:15px; font-weight:600; line-height:1.35; }
-  .meta { color:var(--mut); font-size:12.5px; margin-top:3px; }
-  .meta a { color:var(--accent); text-decoration:none; }
-  .dl { color:#b00; font-weight:600; }
+  #list { display:grid; grid-template-columns:1fr; gap:10px; margin-top:4px; }
+  @media (min-width:560px){ #list { grid-template-columns:1fr 1fr; } }
+  .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px 14px;
+          cursor:pointer; display:flex; flex-direction:column; gap:5px; transition:border-color .12s, background .12s; }
+  .card:hover { border-color:#ccc; }
+  .card.sel { border-color:var(--accent); background:#fff7f3; box-shadow:inset 0 0 0 1px var(--accent); }
+  .card-top { display:flex; justify-content:space-between; align-items:center; }
+  .cdate { font-size:13px; font-weight:700; color:var(--accent); letter-spacing:.2px; }
+  .card input { width:19px; height:19px; accent-color:var(--accent); cursor:pointer; flex:none; }
+  .cname { font-size:15px; font-weight:600; line-height:1.32;
+           display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .cmeta { font-size:12.5px; color:var(--mut); line-height:1.4; }
+  .cbottom { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:auto; padding-top:3px; }
+  .cdl { color:#b00; font-weight:600; font-size:12.5px; }
+  .cdl.none { color:var(--mut); font-weight:400; }
+  .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; flex:none; }
   .bar { position:fixed; left:0; right:0; bottom:0; background:#fff; border-top:1px solid var(--line);
          padding:12px 20px; display:flex; gap:10px; align-items:center; justify-content:space-between; }
   .bar .cnt { font-size:14px; color:var(--mut); }
@@ -126,29 +135,32 @@ function render(){
   document.getElementById("empty").hidden = rows.length>0;
   list.innerHTML = rows.map(r => {
     const dist = (r.distances||[]).join(" / ") || "—";
-    const dl = r.deadline ? `<span class="dl">報名截止 ${fmtFull(r.deadline)}</span> · ` : "";
-    return `<div class="race">
-      <label>
-        <input type="checkbox" data-cid="${r.cid}" ${state.sel.has(r.cid)?"checked":""}>
-      </label>
-      <label for="" data-cid="${r.cid}" class="clk" style="flex:1">
-        <div class="rname">${esc(r.name)}</div>
-        <div class="meta">${fmtFull(r.start)} · ${esc(r.place||"—")} · ${esc(dist)}<br>${dl}<a href="${r.url}" target="_blank" rel="noopener">運動筆記詳情 ↗</a></div>
-      </label>
+    let dl, dlClass="cdl";
+    if (r.deadline) dl = `⏰ 報名截止 ${fmtFull(r.deadline)}`;
+    else if (isClosed(r)) { dl = "報名已截止"; dlClass="cdl none"; }
+    else { dl = r.status || "報名時間未定"; dlClass="cdl none"; }
+    return `<div class="card${state.sel.has(r.cid)?' sel':''}" data-cid="${r.cid}">
+      <div class="card-top">
+        <span class="cdate">${fmtFull(r.start)}</span>
+        <input type="checkbox" ${state.sel.has(r.cid)?"checked":""}>
+      </div>
+      <div class="cname">${esc(r.name)}</div>
+      <div class="cmeta">${esc(r.place||"—")} · ${esc(dist)}</div>
+      <div class="cbottom">
+        <span class="${dlClass}">${esc(dl)}</span>
+        <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
+      </div>
     </div>`;
   }).join("");
-  list.querySelectorAll('input[type=checkbox]').forEach(cb=>{
-    cb.addEventListener("change", e=>{
-      const cid=e.target.dataset.cid;
-      e.target.checked ? state.sel.add(cid) : state.sel.delete(cid);
+  list.querySelectorAll('.card').forEach(card=>{
+    const cid = card.dataset.cid;
+    const cb = card.querySelector('input[type=checkbox]');
+    card.addEventListener("click", e=>{
+      if (e.target.closest("a")) return;            // 點「詳情」連結不切換選取
+      if (e.target !== cb) cb.checked = !cb.checked; // 點卡片其他地方才手動翻轉
+      cb.checked ? state.sel.add(cid) : state.sel.delete(cid);
+      card.classList.toggle("sel", cb.checked);
       updateBar();
-    });
-  });
-  list.querySelectorAll('.clk').forEach(el=>{
-    el.addEventListener("click", ()=>{
-      const cid=el.dataset.cid;
-      const cb=list.querySelector(`input[data-cid="${cid}"]`);
-      cb.checked=!cb.checked; cb.dispatchEvent(new Event("change"));
     });
   });
 }
