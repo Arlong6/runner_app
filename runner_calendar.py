@@ -49,6 +49,7 @@ class Race:
     signup_start: date | None = None
     signup_deadline: date | None = None
     signup_status: str = ""
+    organizer: str = ""
     url: str = ""
 
 
@@ -152,22 +153,29 @@ def parse(html: str) -> list[Race]:
 _SIGNUP_RANGE = re.compile(
     r"報名日期】\s*(\d{4})/(\d{2})/(\d{2})[^~]*~[^\d]*(\d{4})/(\d{2})/(\d{2})"
 )
+_ORGANIZER = re.compile(
+    r'主辦單位</div>\s*<div class="data-content">\s*(.*?)\s*</div>', re.S
+)
 
 
-def _fetch_signup_dates(r: Race) -> None:
-    """抓單場詳情頁,補上報名開始日 + 更精確的截止日。失敗就保留原樣(用列表截止)。"""
+def _fetch_detail(r: Race) -> None:
+    """抓單場詳情頁,補上報名開始日 + 更精確截止日 + 主辦單位。失敗就保留原樣。"""
     try:
         html = fetch(r.url)
     except Exception:
         return
     m = _SIGNUP_RANGE.search(html)
-    if not m:
-        return
-    try:
-        r.signup_start = date(int(m[1]), int(m[2]), int(m[3]))
-        r.signup_deadline = date(int(m[4]), int(m[5]), int(m[6]))
-    except ValueError:
-        pass
+    if m:
+        try:
+            r.signup_start = date(int(m[1]), int(m[2]), int(m[3]))
+            r.signup_deadline = date(int(m[4]), int(m[5]), int(m[6]))
+        except ValueError:
+            pass
+    om = _ORGANIZER.search(html)
+    if om:
+        org = html_lib.unescape(re.sub(r"<[^>]+>", "", om.group(1))).strip()
+        if org:
+            r.organizer = org
 
 
 def enrich_signup_dates(races: list[Race], workers: int = 8) -> None:
@@ -176,7 +184,7 @@ def enrich_signup_dates(races: list[Race], workers: int = 8) -> None:
     if not targets:
         return
     with ThreadPoolExecutor(max_workers=workers) as ex:
-        list(ex.map(_fetch_signup_dates, targets))
+        list(ex.map(_fetch_detail, targets))
 
 
 # ---------- 產生 ICS ----------
@@ -304,6 +312,7 @@ def races_to_json(races: list[Race]) -> str:
             "signup_start": r.signup_start.isoformat() if r.signup_start else None,
             "deadline": r.signup_deadline.isoformat() if r.signup_deadline else None,
             "status": r.signup_status,
+            "organizer": r.organizer,
             "url": r.url,
         }
         for r in sorted(races, key=lambda x: x.start)

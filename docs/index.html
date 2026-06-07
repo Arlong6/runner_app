@@ -48,6 +48,7 @@
   .cname { font-size:15px; font-weight:600; line-height:1.32;
            display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
   .cmeta { font-size:12.5px; color:var(--mut); line-height:1.4; }
+  .corg { font-size:11px; color:#999; line-height:1.3; }
   .cbottom { display:flex; justify-content:space-between; align-items:center; gap:8px; padding-top:2px; }
   .cdl { color:#b00; font-weight:600; font-size:12.5px; }
   .cdl.none { color:var(--mut); font-weight:400; }
@@ -91,7 +92,7 @@
       <option value="海外">海外</option>
     </select>
     <span class="chip" id="openChip">只看開放報名</span>
-    <span class="chip on" id="hideClosedChip">隱藏已截止</span>
+    <span class="chip" id="hideClosedChip">隱藏已截止</span>
     <button class="chip" id="refresh">🔄 更新</button>
     <span class="updated" id="updated"></span>
   </div>
@@ -108,7 +109,7 @@ const REGIONS = {
   "東部": ["宜蘭","花蓮","臺東","台東"],
   "離島": ["澎湖","金門","連江","馬祖"],
 };
-const state = { races: [], q: "", region: "all", open: false, hideClosed: true };
+const state = { races: [], q: "", region: "all", open: false, hideClosed: false };
 
 function isTW(r){ return TW.some(k => (r.place||"").includes(k)); }
 function regionOf(r){
@@ -166,6 +167,7 @@ function render(){
       <div class="cdate">${fmtFull(r.start)}</div>
       <div class="cname">${esc(r.name)}</div>
       <div class="cmeta">${esc(r.place||"—")} · ${esc(dist)}</div>
+      ${r.organizer?`<div class="corg">主辦:${esc(r.organizer)}</div>`:""}
       <div class="cbottom">
         <span class="${scls}">${esc(sline)}</span>
         <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
