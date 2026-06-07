@@ -74,6 +74,8 @@
               color:var(--accent); text-decoration:none; }
   .dlinks a:hover { background:#fff0e9; }
   .dnote { font-size:12px; color:#999; margin-top:16px; line-height:1.5; }
+  .dmaplabel { font-size:13px; color:var(--mut); margin:14px 0 6px; }
+  .dmap { width:100%; height:240px; border:1px solid var(--line); border-radius:12px; display:block; }
   @keyframes riseIn { from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none} }
   .ctop { display:flex; justify-content:space-between; align-items:center; gap:8px; }
   .cdate { font-size:13px; font-weight:700; color:var(--accent); letter-spacing:.2px; }
@@ -285,12 +287,15 @@ function detailHTML(r){
         <div><b>📝 報名期間</b><span>${esc(signup)}</span></div>
         ${r.organizer?`<div><b>🏛 主辦</b><span>${esc(r.organizer)}</span></div>`:""}
       </div>
+      ${r.venue?`<div class="dmaplabel">📍 起點:${esc(r.venue)}</div>
+      <iframe class="dmap" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=${encodeURIComponent(r.venue)}&z=14&output=embed"></iframe>`:""}
       <a class="gbtn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 加入 Google 日曆</a>
       <div class="dlinks">
         <a href="${r.url}" target="_blank" rel="noopener">📋 運動筆記詳情(報名)</a>
+        ${r.venue?`<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.venue)}" target="_blank" rel="noopener">🗺 在地圖開啟</a>`:""}
         <a href="${g(r.name)}" target="_blank" rel="noopener">🔍 Google 搜尋賽事</a>
       </div>
-      <p class="dnote">路線圖/坡度因各賽事官網格式不一、無統一來源,故不放不確定的連結;請從上方詳情或搜尋前往官方。</p>
+      <p class="dnote">📍 起點地圖為運動筆記提供之實際起點;<b>路線/坡度</b>因各官網格式不一、無統一來源,故未提供,請至官方查詢。</p>
     </div>`;
 }
 function route(){

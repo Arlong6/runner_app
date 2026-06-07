@@ -36,6 +36,8 @@ USER_AGENT = (
 )
 # 報名截止前幾天提醒(可調)
 SIGNUP_REMIND_DAYS = 7
+# 每次最多新抓的詳情頁數(增量快取 + 上限,避免被運動筆記 Cloudflare 擋)
+DETAIL_CAP = 45
 
 
 @dataclass
@@ -50,6 +52,7 @@ class Race:
     signup_deadline: date | None = None
     signup_status: str = ""
     organizer: str = ""
+    venue: str = ""
     url: str = ""
 
 
@@ -156,6 +159,8 @@ _SIGNUP_RANGE = re.compile(
 _ORGANIZER = re.compile(
     r'主辦單位</div>\s*<div class="data-content">\s*(.*?)\s*</div>', re.S
 )
+# 起點:詳情頁的 google-map 連結 maps/place/<地點(地址)>
+_VENUE = re.compile(r'maps/place/([^"]+)"[^>]*google-map')
 
 
 def _fetch_detail(r: Race) -> None:
@@ -176,6 +181,11 @@ def _fetch_detail(r: Race) -> None:
         org = html_lib.unescape(re.sub(r"<[^>]+>", "", om.group(1))).strip()
         if org:
             r.organizer = org
+    vm = _VENUE.search(html)
+    if vm:
+        venue = html_lib.unescape(vm.group(1)).strip()
+        if venue:
+            r.venue = venue
 
 
 def enrich_signup_dates(races: list[Race], workers: int = 8) -> None:
@@ -185,6 +195,25 @@ def enrich_signup_dates(races: list[Race], workers: int = 8) -> None:
         return
     with ThreadPoolExecutor(max_workers=workers) as ex:
         list(ex.map(_fetch_detail, targets))
+
+
+def load_enrich_cache(path: str = "docs/races.json") -> dict:
+    """讀上次的 races.json 當詳情快取,沿用已抓過的報名日/主辦/起點,
+    避免每次重抓 167 場詳情(會觸發 Cloudflare 封鎖)。"""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return {d["cid"]: d for d in json.load(f)}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _apply_cache(r: Race, c: dict) -> None:
+    if c.get("signup_start"):
+        r.signup_start = date.fromisoformat(c["signup_start"])
+    if c.get("deadline"):
+        r.signup_deadline = date.fromisoformat(c["deadline"])
+    r.organizer = c.get("organizer") or r.organizer
+    r.venue = c.get("venue") or r.venue
 
 
 # ---------- 產生 ICS ----------
@@ -293,6 +322,7 @@ def load_manual_races(path: str = "manual_races.json") -> list[Race]:
                 signup_start=date.fromisoformat(ss) if ss else None,
                 signup_deadline=date.fromisoformat(dl) if dl else None,
                 signup_status=d.get("status", ""),
+                venue=d.get("venue", ""),
                 url=d.get("url", ""),
             )
         )
@@ -313,6 +343,7 @@ def races_to_json(races: list[Race]) -> str:
             "deadline": r.signup_deadline.isoformat() if r.signup_deadline else None,
             "status": r.signup_status,
             "organizer": r.organizer,
+            "venue": r.venue,
             "url": r.url,
         }
         for r in sorted(races, key=lambda x: x.start)
@@ -441,10 +472,23 @@ def main(argv: list[str]) -> int:
         return 1
 
     if not args.fast:
-        print("補抓詳情頁報名開始/截止日…", file=sys.stderr)
-        enrich_signup_dates(all_races)
-        got = sum(1 for r in all_races if r.signup_start)
-        print(f"  已補上報名開始日 {got}/{len(all_races)} 場", file=sys.stderr)
+        cache = load_enrich_cache()
+        need = []
+        for r in all_races:
+            c = cache.get(r.cid)
+            if c and c.get("venue"):           # 已有最完整資料(含起點)→ 沿用,不重抓
+                _apply_cache(r, c)
+            else:
+                if c:                          # 沿用舊有部分資料,但仍排隊補抓(主要為補起點)
+                    _apply_cache(r, c)
+                need.append(r)
+        batch = need[:DETAIL_CAP]
+        print(
+            f"詳情:沿用快取 {len(all_races) - len(need)} 場,本次補抓 {len(batch)}/{len(need)} 場"
+            "(增量,避免被擋)",
+            file=sys.stderr,
+        )
+        enrich_signup_dates(batch, workers=5)
 
     manual = load_manual_races()
     if manual:
