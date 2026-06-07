@@ -19,9 +19,10 @@
   .chip { padding:7px 12px; border:1px solid var(--line); background:#fff; border-radius:999px;
          font-size:13px; cursor:pointer; user-select:none; font-family:inherit; color:var(--fg); }
   .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
-  .sel { padding:7px 10px; border:1px solid var(--line); background:#fff; border-radius:999px;
-         font-size:13px; font-family:inherit; color:var(--fg); cursor:pointer; }
-  .sel.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .rchips { display:flex; gap:7px; flex-wrap:wrap; margin:0 0 8px; }
+  .rchip { padding:6px 14px; border:1px solid var(--line); background:#fff; border-radius:999px;
+           font-size:13px; cursor:pointer; user-select:none; color:var(--fg); }
+  .rchip.on { color:#fff; border-color:transparent; }
   #refresh { display:flex; align-items:center; gap:5px; }
   #refresh.spin { opacity:.6; pointer-events:none; }
   .updated { font-size:12px; color:var(--mut); width:100%; }
@@ -89,20 +90,19 @@
 
   <div class="controls">
     <input type="search" id="q" placeholder="搜尋賽事名稱 / 地點…">
-    <select class="sel" id="region">
-      <option value="all">全部地區</option>
-      <option value="tw">台灣(全部)</option>
-      <option value="北部">北部</option>
-      <option value="中部">中部</option>
-      <option value="南部">南部</option>
-      <option value="東部">東部</option>
-      <option value="離島">離島</option>
-      <option value="海外">海外</option>
-    </select>
     <span class="chip" id="openChip">只看開放報名</span>
     <span class="chip" id="hideClosedChip">隱藏已截止</span>
     <button class="chip" id="refresh">🔄 更新</button>
     <span class="updated" id="updated"></span>
+  </div>
+  <div class="rchips" id="rchips">
+    <span class="rchip on" data-r="all" style="background:var(--accent);border-color:transparent">全部</span>
+    <span class="rchip" data-r="北部">北部</span>
+    <span class="rchip" data-r="中部">中部</span>
+    <span class="rchip" data-r="南部">南部</span>
+    <span class="rchip" data-r="東部">東部</span>
+    <span class="rchip" data-r="離島">離島</span>
+    <span class="rchip" data-r="海外">海外</span>
   </div>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>沒有符合的賽事</div>
@@ -210,7 +210,17 @@ async function loadRaces(){
 }
 
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
-document.getElementById("region").addEventListener("change",e=>{state.region=e.target.value;e.target.classList.toggle("on",e.target.value!=="all");render();});
+document.getElementById("rchips").addEventListener("click",e=>{
+  const c=e.target.closest(".rchip"); if(!c) return;
+  state.region=c.dataset.r;
+  document.querySelectorAll(".rchip").forEach(x=>{
+    const on=x.dataset.r===state.region;
+    x.classList.toggle("on",on);
+    x.style.background = on ? (RCOLOR[x.dataset.r]||"var(--accent)") : "";
+    x.style.borderColor = on ? "transparent" : "";
+  });
+  render();
+});
 document.getElementById("openChip").addEventListener("click",e=>{state.open=!state.open;e.target.classList.toggle("on",state.open);render();});
 document.getElementById("hideClosedChip").addEventListener("click",e=>{state.hideClosed=!state.hideClosed;e.target.classList.toggle("on",state.hideClosed);render();});
 document.getElementById("refresh").addEventListener("click",loadRaces);
