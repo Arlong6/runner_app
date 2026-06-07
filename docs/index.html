@@ -59,7 +59,8 @@
   .cdl { color:#b00; font-weight:600; font-size:12.5px; }
   .cdl.open { color:#15803d; }
   .cdl.none { color:var(--mut); font-weight:400; }
-  .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; flex:none; }
+  .clinks { display:flex; gap:10px; align-items:center; flex:none; }
+  .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; }
   .gbtn { display:block; width:100%; text-align:center; margin-top:6px; padding:10px 8px;
           background:var(--accent); color:#fff; border:0; border-radius:9px;
           font-size:13px; font-weight:600; text-decoration:none; }
@@ -181,7 +182,10 @@ function render(){
       ${r.organizer?`<div class="corg">主辦:${esc(r.organizer)}</div>`:""}
       <div class="cbottom">
         <span class="${scls}">${esc(sline)}</span>
-        <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
+        <span class="clinks">
+          <a class="clink" href="https://www.google.com/search?q=${encodeURIComponent(r.name)}" target="_blank" rel="noopener">🔍 搜尋</a>
+          <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
+        </span>
       </div>
       <a class="gbtn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 加入 Google 日曆</a>
     </div>`;
