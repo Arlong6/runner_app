@@ -12,7 +12,7 @@
   header { background:#fff; border-bottom:1px solid var(--line); padding:16px 20px; position:sticky; top:0; z-index:5; }
   h1 { font-size:18px; margin:0 0 4px; }
   .sub { color:var(--mut); font-size:13px; }
-  .wrap { max-width:760px; margin:0 auto; padding:16px 20px 48px; }
+  .wrap { max-width:1120px; margin:0 auto; padding:16px 20px 48px; }
   .controls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:12px 0 6px; }
   input[type=search]{ flex:1; min-width:160px; padding:10px 12px; border:1px solid var(--line);
          border-radius:10px; font-size:15px; }
@@ -39,18 +39,25 @@
         padding:12px 14px; font-size:13px; color:var(--mut); margin:12px 0; }
   .guide b { color:var(--accent); }
 
-  #list { display:grid; grid-template-columns:1fr; gap:10px; margin-top:4px; }
+  #list { display:grid; grid-template-columns:1fr; gap:12px; margin-top:4px; }
   @media (min-width:560px){ #list { grid-template-columns:1fr 1fr; } }
-  .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px 14px;
-          display:flex; flex-direction:column; gap:5px; }
+  @media (min-width:880px){ #list { grid-template-columns:1fr 1fr 1fr; } }
+  .card { background:#fff; border:1px solid var(--line); border-left:5px solid var(--rc,#cbd5e1);
+          border-radius:14px; padding:12px 15px; display:flex; flex-direction:column; gap:6px; }
   .card.closed { opacity:.5; }
+  .ctop { display:flex; justify-content:space-between; align-items:center; gap:8px; }
   .cdate { font-size:13px; font-weight:700; color:var(--accent); letter-spacing:.2px; }
+  .rtag { background:var(--rc,#94a3b8); color:#fff; font-size:11px; font-weight:600;
+          padding:2px 9px; border-radius:999px; white-space:nowrap; flex:none; }
   .cname { font-size:15px; font-weight:600; line-height:1.32;
            display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
   .cmeta { font-size:12.5px; color:var(--mut); line-height:1.4; }
+  .cpills { display:flex; flex-wrap:wrap; gap:5px; }
+  .pill { background:#eef2f7; color:#475569; font-size:11px; font-weight:600; padding:2px 8px; border-radius:6px; }
   .corg { font-size:11px; color:#999; line-height:1.3; }
   .cbottom { display:flex; justify-content:space-between; align-items:center; gap:8px; padding-top:2px; }
   .cdl { color:#b00; font-weight:600; font-size:12.5px; }
+  .cdl.open { color:#15803d; }
   .cdl.none { color:var(--mut); font-weight:400; }
   .clink { color:var(--accent); text-decoration:none; font-size:12px; white-space:nowrap; flex:none; }
   .gbtn { display:block; width:100%; text-align:center; margin-top:6px; padding:10px 8px;
@@ -109,6 +116,7 @@ const REGIONS = {
   "東部": ["宜蘭","花蓮","臺東","台東"],
   "離島": ["澎湖","金門","連江","馬祖"],
 };
+const RCOLOR = {"北部":"#2563eb","中部":"#16a34a","南部":"#e11d48","東部":"#0d9488","離島":"#7c3aed","海外":"#64748b"};
 const state = { races: [], q: "", region: "all", open: false, hideClosed: false };
 
 function isTW(r){ return TW.some(k => (r.place||"").includes(k)); }
@@ -158,16 +166,18 @@ function render(){
   rows.sort((a,b)=>(isClosed(a)?1:0)-(isClosed(b)?1:0)); // 已截止沉底(穩定排序,各組維持日期順序)
   document.getElementById("empty").hidden = rows.length>0;
   list.innerHTML = rows.map(r => {
-    const dist = (r.distances||[]).join(" / ") || "—";
+    const reg = regionOf(r), rc = RCOLOR[reg] || "#94a3b8";
+    const pills = (r.distances||[]).map(d=>`<span class="pill">${esc(d)}</span>`).join("");
     let sline, scls="cdl", closed=isClosed(r);
     if (closed) { sline="報名已截止"; scls="cdl none"; }
-    else if (r.signup_start && r.deadline) sline = `📝 報名 ${md(r.signup_start)} ~ ${md(r.deadline)}`;
+    else if (r.signup_start && r.deadline) { sline = `📝 報名 ${md(r.signup_start)} ~ ${md(r.deadline)}`; scls="cdl open"; }
     else if (r.deadline) sline = `⏰ 報名截止 ${fmtFull(r.deadline)}`;
     else { sline = r.status || "報名時間未定"; scls="cdl none"; }
-    return `<div class="card${closed?' closed':''}">
-      <div class="cdate">${fmtFull(r.start)}</div>
+    return `<div class="card${closed?' closed':''}" style="--rc:${rc}">
+      <div class="ctop"><span class="cdate">${fmtFull(r.start)}</span><span class="rtag">${reg}</span></div>
       <div class="cname">${esc(r.name)}</div>
-      <div class="cmeta">${esc(r.place||"—")} · ${esc(dist)}</div>
+      <div class="cmeta">${esc(r.place||"—")}</div>
+      ${pills?`<div class="cpills">${pills}</div>`:""}
       ${r.organizer?`<div class="corg">主辦:${esc(r.organizer)}</div>`:""}
       <div class="cbottom">
         <span class="${scls}">${esc(sline)}</span>
