@@ -4,6 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>跑步賽事提醒產生器</title>
+<meta name="description" content="全台路跑/馬拉松/越野賽事一覽,一鍵加入 Google 日曆,報名期間一目了然。資料來源:運動筆記。">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#e8500f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="跑步賽事提醒產生器">
+<meta property="og:description" content="全台賽事一覽 · 一鍵加入 Google 日曆 · 報名期間一目了然">
+<meta property="og:image" content="https://runner-app-jet.vercel.app/og.png">
+<meta property="og:url" content="https://runner-app-jet.vercel.app/">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   :root { --fg:#1a1a1a; --mut:#666; --line:#e5e5e5; --accent:#e8500f; --bg:#fafafa; }
   * { box-sizing: border-box; }
@@ -284,6 +296,8 @@ document.getElementById("refresh").addEventListener("click",loadRaces);
 
 loadRaces();
 </script>
+<!-- Vercel Web Analytics(需在 Vercel 專案 Settings→Analytics 開啟才會收資料)-->
+<script defer src="/_vercel/insights/script.js"></script>
 
 <!-- 原創守宮吉祥物(橘身白肚豹紋風,蹦跳+甩尾+眨眼) -->
 <svg class="mascot" viewBox="0 0 130 125" aria-hidden="true">

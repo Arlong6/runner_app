@@ -430,6 +430,16 @@ def main(argv: list[str]) -> int:
     all_races = parse(fetch(args.url))
     print(f"解析到 {len(all_races)} 場賽事", file=sys.stderr)
 
+    # 健康守門:正常有 100+ 場,若遠低於門檻多半是來源改版/被擋,
+    # 中止並回傳錯誤(讓 GitHub Action 變紅、自動寄失敗通知),避免用空資料覆蓋好檔案
+    if len(all_races) < 20:
+        print(
+            f"❌ 只解析到 {len(all_races)} 場,遠低於預期(>=20)— 運動筆記可能改版或被擋。"
+            "中止,不覆蓋現有 races.json/ics。",
+            file=sys.stderr,
+        )
+        return 1
+
     if not args.fast:
         print("補抓詳情頁報名開始/截止日…", file=sys.stderr)
         enrich_signup_dates(all_races)
