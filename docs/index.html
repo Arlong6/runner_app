@@ -19,6 +19,9 @@
   .chip { padding:7px 12px; border:1px solid var(--line); background:#fff; border-radius:999px;
          font-size:13px; cursor:pointer; user-select:none; font-family:inherit; color:var(--fg); }
   .chip.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .sel { padding:7px 10px; border:1px solid var(--line); background:#fff; border-radius:999px;
+         font-size:13px; font-family:inherit; color:var(--fg); cursor:pointer; }
+  .sel.on { background:var(--accent); color:#fff; border-color:var(--accent); }
   #refresh { display:flex; align-items:center; gap:5px; }
   #refresh.spin { opacity:.6; pointer-events:none; }
   .updated { font-size:12px; color:var(--mut); width:100%; }
@@ -77,7 +80,16 @@
 
   <div class="controls">
     <input type="search" id="q" placeholder="搜尋賽事名稱 / 地點…">
-    <span class="chip" id="twChip">只看台灣</span>
+    <select class="sel" id="region">
+      <option value="all">全部地區</option>
+      <option value="tw">台灣(全部)</option>
+      <option value="北部">北部</option>
+      <option value="中部">中部</option>
+      <option value="南部">南部</option>
+      <option value="東部">東部</option>
+      <option value="離島">離島</option>
+      <option value="海外">海外</option>
+    </select>
     <span class="chip" id="openChip">只看開放報名</span>
     <span class="chip on" id="hideClosedChip">隱藏已截止</span>
     <button class="chip" id="refresh">🔄 更新</button>
@@ -88,10 +100,29 @@
 </div>
 
 <script>
-const TW = ["台","臺","新北","桃園","高雄","台中","台南","新竹","基隆","宜蘭","花蓮","台東","臺東","屏東","南投","嘉義","雲林","彰化","苗栗","金門","澎湖","馬祖"];
-const state = { races: [], q: "", tw: false, open: false, hideClosed: true };
+const TW = ["台","臺","新北","桃園","高雄","台中","台南","新竹","基隆","宜蘭","花蓮","台東","臺東","屏東","南投","嘉義","雲林","彰化","苗栗","金門","澎湖","馬祖","連江"];
+const REGIONS = {
+  "北部": ["臺北","台北","新北","基隆","桃園","新竹"],
+  "中部": ["臺中","台中","苗栗","彰化","南投","雲林"],
+  "南部": ["臺南","台南","高雄","嘉義","屏東"],
+  "東部": ["宜蘭","花蓮","臺東","台東"],
+  "離島": ["澎湖","金門","連江","馬祖"],
+};
+const state = { races: [], q: "", region: "all", open: false, hideClosed: true };
 
 function isTW(r){ return TW.some(k => (r.place||"").includes(k)); }
+function regionOf(r){
+  const p = r.place||"";
+  for (const [reg,ks] of Object.entries(REGIONS)) if (ks.some(k=>p.includes(k))) return reg;
+  return isTW(r) ? "北部" : "海外";  // 台灣未細分到的歸北部(罕見),其餘為海外
+}
+function matchRegion(r){
+  const v = state.region;
+  if (v==="all") return true;
+  if (v==="tw") return isTW(r);
+  if (v==="海外") return !isTW(r);
+  return regionOf(r)===v;
+}
 function isOpen(r){ return r.status && !r.status.includes("已截止") && !r.status.includes("未定"); }
 function isClosed(r){ return !!(r.status && r.status.includes("已截止")); }
 function fmtFull(iso){ const [y,m,d]=iso.split("-"); return `${y}/${m}/${d}`; }
@@ -117,7 +148,7 @@ function render(){
   const list = document.getElementById("list");
   const term = state.q.trim().toLowerCase();
   const rows = state.races.filter(r => {
-    if (state.tw && !isTW(r)) return false;
+    if (!matchRegion(r)) return false;
     if (state.open && !isOpen(r)) return false;
     if (state.hideClosed && isClosed(r)) return false;
     if (term && !((r.name+" "+r.place).toLowerCase().includes(term))) return false;
@@ -162,7 +193,7 @@ async function loadRaces(){
 }
 
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
-document.getElementById("twChip").addEventListener("click",e=>{state.tw=!state.tw;e.target.classList.toggle("on",state.tw);render();});
+document.getElementById("region").addEventListener("change",e=>{state.region=e.target.value;e.target.classList.toggle("on",e.target.value!=="all");render();});
 document.getElementById("openChip").addEventListener("click",e=>{state.open=!state.open;e.target.classList.toggle("on",state.open);render();});
 document.getElementById("hideClosedChip").addEventListener("click",e=>{state.hideClosed=!state.hideClosed;e.target.classList.toggle("on",state.hideClosed);render();});
 document.getElementById("refresh").addEventListener("click",loadRaces);
