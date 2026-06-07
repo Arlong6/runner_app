@@ -287,13 +287,10 @@ function detailHTML(r){
       </div>
       <a class="gbtn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 加入 Google 日曆</a>
       <div class="dlinks">
-        <a href="${g(r.name+' 路線圖')}" target="_blank" rel="noopener">🔍 路線圖</a>
-        <a href="${g(r.name+' 海拔 坡度')}" target="_blank" rel="noopener">⛰ 海拔/坡度</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.place||r.name)}" target="_blank" rel="noopener">🗺 起點地圖</a>
-        <a href="${r.url}" target="_blank" rel="noopener">📋 運動筆記詳情</a>
-        <a href="${g(r.name)}" target="_blank" rel="noopener">🔍 Google 搜尋</a>
+        <a href="${r.url}" target="_blank" rel="noopener">📋 運動筆記詳情(報名)</a>
+        <a href="${g(r.name)}" target="_blank" rel="noopener">🔍 Google 搜尋賽事</a>
       </div>
-      <p class="dnote">坡度圖/路線圖各賽事官網格式不一,本站以搜尋帶你前往,未自製。</p>
+      <p class="dnote">路線圖/坡度因各賽事官網格式不一、無統一來源,故不放不確定的連結;請從上方詳情或搜尋前往官方。</p>
     </div>`;
 }
 function route(){
