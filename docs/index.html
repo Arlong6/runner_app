@@ -155,6 +155,7 @@ function render(){
     if (term && !((r.name+" "+r.place).toLowerCase().includes(term))) return false;
     return true;
   });
+  rows.sort((a,b)=>(isClosed(a)?1:0)-(isClosed(b)?1:0)); // 已截止沉底(穩定排序,各組維持日期順序)
   document.getElementById("empty").hidden = rows.length>0;
   list.innerHTML = rows.map(r => {
     const dist = (r.distances||[]).join(" / ") || "—";
