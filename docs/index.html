@@ -60,7 +60,20 @@
           border-radius:14px; padding:12px 15px; display:flex; flex-direction:column; gap:6px;
           transition:transform .14s ease, box-shadow .14s ease; }
   .card:hover { transform:translateY(-3px); box-shadow:0 8px 20px rgba(0,0,0,.09); }
+  .card { cursor:pointer; }
   .card.closed { opacity:.5; }
+  .back { display:inline-block; margin:2px 0 14px; color:var(--accent); text-decoration:none; font-size:14px; font-weight:600; }
+  .dcard { background:#fff; border:1px solid var(--line); border-left:6px solid var(--rc,#cbd5e1);
+           border-radius:16px; padding:18px 20px; max-width:680px; margin:0 auto; }
+  .dname { font-size:22px; margin:8px 0 12px; line-height:1.3; }
+  .dinfo { display:flex; flex-direction:column; gap:8px; margin:14px 0 18px; font-size:14px; }
+  .dinfo div { display:flex; gap:10px; }
+  .dinfo b { color:var(--mut); font-weight:600; min-width:80px; flex:none; }
+  .dlinks { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+  .dlinks a { border:1px solid var(--line); border-radius:9px; padding:8px 13px; font-size:13px;
+              color:var(--accent); text-decoration:none; }
+  .dlinks a:hover { background:#fff0e9; }
+  .dnote { font-size:12px; color:#999; margin-top:16px; line-height:1.5; }
   @keyframes riseIn { from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:none} }
   .ctop { display:flex; justify-content:space-between; align-items:center; gap:8px; }
   .cdate { font-size:13px; font-weight:700; color:var(--accent); letter-spacing:.2px; }
@@ -101,6 +114,7 @@
   <div class="sub">找到想跑的賽事 → 一鍵加入 Google 日曆。資料來源:運動筆記。</div>
 </header>
 <div class="wrap">
+  <div id="listView">
   <details class="guide">
     <summary>📖 使用教學(點我展開)</summary>
     <h2>① 怎麼用</h2>
@@ -144,6 +158,8 @@
   </div>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>沒有符合的賽事</div>
+  </div>
+  <div id="detailView" hidden></div>
 </div>
 
 <script>
@@ -228,7 +244,7 @@ function render(){
     else if (r.signup_start && r.deadline) { sline = `📝 報名 ${md(r.signup_start)} ~ ${md(r.deadline)}`; scls="cdl open"; }
     else if (r.deadline) sline = `⏰ 報名截止 ${fmtFull(r.deadline)}`;
     else { sline = r.status || "報名時間未定"; scls="cdl none"; }
-    return `<div class="card${closed?' closed':''}" style="--rc:${rc}">
+    return `<div class="card${closed?' closed':''}" data-cid="${r.cid}" style="--rc:${rc}">
       <div class="ctop"><span class="cdate">${fmtFull(r.start)}</span><span class="rtag">${reg}</span></div>
       <div class="cname">${esc(r.name)}</div>
       <div class="cmeta">${esc(r.place||"—")}</div>
@@ -249,6 +265,53 @@ function render(){
     firstPaint=false;
   }
 }
+
+// ---- 詳情頁 ----
+function detailHTML(r){
+  const reg=regionOf(r), rc=RCOLOR[reg]||"#94a3b8";
+  const pills=(r.distances||[]).map(d=>`<span class="pill">${esc(d)}</span>`).join("");
+  const g=q=>`https://www.google.com/search?q=${encodeURIComponent(q)}`;
+  const signup = (r.signup_start&&r.deadline) ? `${fmtFull(r.signup_start)} ~ ${fmtFull(r.deadline)}`
+               : r.deadline ? `截止 ${fmtFull(r.deadline)}` : (r.status||"未定");
+  return `<a class="back" href="#/">← 返回列表</a>
+    <div class="dcard" style="--rc:${rc}">
+      <div class="ctop"><span class="cdate" style="font-size:15px">${fmtFull(r.start)}</span><span class="rtag">${reg}</span></div>
+      <h2 class="dname">${esc(r.name)}</h2>
+      <div class="cpills">${pills}</div>
+      <div class="dinfo">
+        <div><b>📍 地點</b><span>${esc(r.place||"—")}</span></div>
+        <div><b>🏃 類型</b><span>${typeOf(r)}</span></div>
+        <div><b>🗓 賽事日期</b><span>${fmtFull(r.start)}${r.end!==r.start?(" ~ "+fmtFull(r.end)):""}</span></div>
+        <div><b>📝 報名期間</b><span>${esc(signup)}</span></div>
+        ${r.organizer?`<div><b>🏛 主辦</b><span>${esc(r.organizer)}</span></div>`:""}
+      </div>
+      <a class="gbtn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 加入 Google 日曆</a>
+      <div class="dlinks">
+        <a href="${g(r.name+' 路線圖')}" target="_blank" rel="noopener">🔍 路線圖</a>
+        <a href="${g(r.name+' 海拔 坡度')}" target="_blank" rel="noopener">⛰ 海拔/坡度</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.place||r.name)}" target="_blank" rel="noopener">🗺 起點地圖</a>
+        <a href="${r.url}" target="_blank" rel="noopener">📋 運動筆記詳情</a>
+        <a href="${g(r.name)}" target="_blank" rel="noopener">🔍 Google 搜尋</a>
+      </div>
+      <p class="dnote">坡度圖/路線圖各賽事官網格式不一,本站以搜尋帶你前往,未自製。</p>
+    </div>`;
+}
+function route(){
+  const m=(location.hash||"").match(/^#\/r\/(.+)$/);
+  const lv=document.getElementById("listView"), dv=document.getElementById("detailView");
+  if(m){
+    const cid=decodeURIComponent(m[1]);
+    const r=state.races.find(x=>x.cid===cid);
+    if(!r && !state.races.length) return;  // 資料還沒載入,loadRaces 完成後會再呼叫
+    dv.innerHTML = r ? detailHTML(r)
+      : '<a class="back" href="#/">← 返回列表</a><p style="padding:24px;color:#666">找不到這場賽事</p>';
+    lv.hidden=true; dv.hidden=false;
+  } else {
+    dv.hidden=true; lv.hidden=false;
+  }
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange", route);
 
 async function loadRaces(){
   const btn = document.getElementById("refresh");
@@ -293,8 +356,13 @@ document.getElementById("tchips").addEventListener("click",e=>{
 document.getElementById("openChip").addEventListener("click",e=>{state.open=!state.open;e.target.classList.toggle("on",state.open);render();});
 document.getElementById("hideClosedChip").addEventListener("click",e=>{state.hideClosed=!state.hideClosed;e.target.classList.toggle("on",state.hideClosed);render();});
 document.getElementById("refresh").addEventListener("click",loadRaces);
+document.getElementById("list").addEventListener("click",e=>{
+  if(e.target.closest("a")) return;            // 卡片內的連結/按鈕各自運作
+  const card=e.target.closest(".card");
+  if(card && card.dataset.cid) location.hash="#/r/"+encodeURIComponent(card.dataset.cid);
+});
 
-loadRaces();
+loadRaces().then(route);
 </script>
 <!-- Vercel Web Analytics(需在 Vercel 專案 Settings→Analytics 開啟才會收資料)-->
 <script defer src="/_vercel/insights/script.js"></script>
