@@ -31,20 +31,35 @@ UID:race-12999@runner_app
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:🏃 2026 華航馬拉松-星光夜跑
-DESCRIPTION:距離: 21K / 10K / 6K\n地點: 臺北市\n報名: 已截止
- 報名\nhttps://running.biji.co/index.php?q=competition&act=info&cid=129
- 99
+DESCRIPTION:距離: 21K / 10K / 6K\n地點: 臺北市\n報名開始: 2026
+ /04/21\n報名截止: 2026/05/21\nhttps://running.biji.co/index.php?q=co
+ mpetition&act=info&cid=12999
 LOCATION:臺北市
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:signup-12999@runner_app
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:⏰ 報名截止: 2026 華航馬拉松-星光夜跑
+DESCRIPTION:距離: 21K / 10K / 6K\n地點: 臺北市\n報名開始: 2026
+ /04/21\n報名截止: 2026/05/21\nhttps://running.biji.co/index.php?q=co
+ mpetition&act=info&cid=12999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:報名即將截止: 2026 華航馬拉松-星光夜跑
+TRIGGER:-P7D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:race-13010@runner_app
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261103
 SUMMARY:🏃 2026 NB10K 城市路跑系列賽-台北站
-DESCRIPTION:距離: 10K\n地點: 臺北市\n報名: 06-17截止\n報名
- 截止: 2026/06/17\nhttps://running.biji.co/index.php?q=competition&act=
- info&cid=13010
+DESCRIPTION:距離: 10K\n地點: 臺北市\n報名開始: 2026/06/10\n報
+ 名截止: 2026/06/17\nhttps://running.biji.co/index.php?q=competition&a
+ ct=info&cid=13010
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -53,9 +68,9 @@ UID:signup-13010@runner_app
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
 SUMMARY:⏰ 報名截止: 2026 NB10K 城市路跑系列賽-台北站
-DESCRIPTION:距離: 10K\n地點: 臺北市\n報名: 06-17截止\n報名
- 截止: 2026/06/17\nhttps://running.biji.co/index.php?q=competition&act=
- info&cid=13010
+DESCRIPTION:距離: 10K\n地點: 臺北市\n報名開始: 2026/06/10\n報
+ 名截止: 2026/06/17\nhttps://running.biji.co/index.php?q=competition&a
+ ct=info&cid=13010
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -69,20 +84,35 @@ UID:race-12897@runner_app
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261103
 SUMMARY:🏃 2026日月潭環湖馬拉松
-DESCRIPTION:距離: 42K / 29K / 6K\n地點: 南投縣\n報名: 已截止
- 報名\nhttps://running.biji.co/index.php?q=competition&act=info&cid=128
- 97
+DESCRIPTION:距離: 42K / 29K / 6K\n地點: 南投縣\n報名開始: 2026
+ /01/23\n報名截止: 2026/05/31\nhttps://running.biji.co/index.php?q=co
+ mpetition&act=info&cid=12897
 LOCATION:南投縣
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:signup-12897@runner_app
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:⏰ 報名截止: 2026日月潭環湖馬拉松
+DESCRIPTION:距離: 42K / 29K / 6K\n地點: 南投縣\n報名開始: 2026
+ /01/23\n報名截止: 2026/05/31\nhttps://running.biji.co/index.php?q=co
+ mpetition&act=info&cid=12897
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:報名即將截止: 2026日月潭環湖馬拉松
+TRIGGER:-P7D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:race-13018@runner_app
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261103
 SUMMARY:🏃 2026臺灣國家公園馬拉松-陽明山
-DESCRIPTION:距離: 42K / 21K / 5K\n地點: 臺北市\n報名: 08-31截
- 止\n報名截止: 2026/08/31\nhttps://running.biji.co/index.php?q=compe
- tition&act=info&cid=13018
+DESCRIPTION:距離: 42K / 21K / 5K\n地點: 臺北市\n報名開始: 2026
+ /06/02\n報名截止: 2026/08/31\nhttps://running.biji.co/index.php?q=co
+ mpetition&act=info&cid=13018
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -91,9 +121,9 @@ UID:signup-13018@runner_app
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:⏰ 報名截止: 2026臺灣國家公園馬拉松-陽明山
-DESCRIPTION:距離: 42K / 21K / 5K\n地點: 臺北市\n報名: 08-31截
- 止\n報名截止: 2026/08/31\nhttps://running.biji.co/index.php?q=compe
- tition&act=info&cid=13018
+DESCRIPTION:距離: 42K / 21K / 5K\n地點: 臺北市\n報名開始: 2026
+ /06/02\n報名截止: 2026/08/31\nhttps://running.biji.co/index.php?q=co
+ mpetition&act=info&cid=13018
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -107,8 +137,8 @@ DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261110
 SUMMARY:🏃 2026台灣米倉田中馬拉松
 DESCRIPTION:距離: 42.195K / 22.6K / 9.7K / 4K\n地點: 彰化縣\n報
- 名: 06-15截止\n報名截止: 2026/06/15\nhttps://running.biji.co/inde
- x.php?q=competition&act=info&cid=12929
+ 名開始: 2026/06/03\n報名截止: 2026/06/15\nhttps://running.biji.co
+ /index.php?q=competition&act=info&cid=12929
 LOCATION:彰化縣
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -118,8 +148,8 @@ DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 SUMMARY:⏰ 報名截止: 2026台灣米倉田中馬拉松
 DESCRIPTION:距離: 42.195K / 22.6K / 9.7K / 4K\n地點: 彰化縣\n報
- 名: 06-15截止\n報名截止: 2026/06/15\nhttps://running.biji.co/inde
- x.php?q=competition&act=info&cid=12929
+ 名開始: 2026/06/03\n報名截止: 2026/06/15\nhttps://running.biji.co
+ /index.php?q=competition&act=info&cid=12929
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -143,9 +173,9 @@ UID:race-13073@runner_app
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261201
 SUMMARY:🏃 2026 Garmin Run 馬拉松系列賽 - 臺北站
-DESCRIPTION:距離: 21K / 10K / 5K\n地點: 臺北市\n報名: 06-23截
- 止\n報名截止: 2026/06/23\nhttps://running.biji.co/index.php?q=compe
- tition&act=info&cid=13073
+DESCRIPTION:距離: 21K / 10K / 5K\n地點: 臺北市\n報名開始: 2026
+ /05/27\n報名截止: 2026/06/23\nhttps://running.biji.co/index.php?q=co
+ mpetition&act=info&cid=13073
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -154,9 +184,9 @@ UID:signup-13073@runner_app
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 SUMMARY:⏰ 報名截止: 2026 Garmin Run 馬拉松系列賽 - 臺北站
-DESCRIPTION:距離: 21K / 10K / 5K\n地點: 臺北市\n報名: 06-23截
- 止\n報名截止: 2026/06/23\nhttps://running.biji.co/index.php?q=compe
- tition&act=info&cid=13073
+DESCRIPTION:距離: 21K / 10K / 5K\n地點: 臺北市\n報名開始: 2026
+ /05/27\n報名截止: 2026/06/23\nhttps://running.biji.co/index.php?q=co
+ mpetition&act=info&cid=13073
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -194,8 +224,8 @@ DTEND;VALUE=DATE:20270125
 SUMMARY:🏃 2027 CTAU超馬系列賽 - 第三站 陽明山超級馬拉
  松
 DESCRIPTION:距離: 63K / 50K / 42.195K / 21K / 10K / 5K\n地點: 臺北
- 市\n報名: 12-23截止\n報名截止: 2026/12/23\nhttps://running.biji
- .co/index.php?q=competition&act=info&cid=13072
+ 市\n報名開始: 2026/05/29\n報名截止: 2026/12/23\nhttps://running
+ .biji.co/index.php?q=competition&act=info&cid=13072
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -206,8 +236,8 @@ DTEND;VALUE=DATE:20261224
 SUMMARY:⏰ 報名截止: 2027 CTAU超馬系列賽 - 第三站 陽明山
  超級馬拉松
 DESCRIPTION:距離: 63K / 50K / 42.195K / 21K / 10K / 5K\n地點: 臺北
- 市\n報名: 12-23截止\n報名截止: 2026/12/23\nhttps://running.biji
- .co/index.php?q=competition&act=info&cid=13072
+ 市\n報名開始: 2026/05/29\n報名截止: 2026/12/23\nhttps://running
+ .biji.co/index.php?q=competition&act=info&cid=13072
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -222,8 +252,8 @@ DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:🏃 2026 第15回 富士山馬拉松（Mt. Fuji Marathon）
 DESCRIPTION:距離: 42.195K\n地點: 日本・山梨富士河口湖\n報
- 名: 報名至 2026/08/31\n報名截止: 2026/08/31\nhttps://mtfujimarat
- hon.com/
+ 名開始: 2026/05/07\n報名截止: 2026/08/31\nhttps://mtfujimarathon.
+ com/
 LOCATION:日本・山梨富士河口湖
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -234,8 +264,8 @@ DTEND;VALUE=DATE:20260901
 SUMMARY:⏰ 報名截止: 2026 第15回 富士山馬拉松（Mt. Fuji Mar
  athon）
 DESCRIPTION:距離: 42.195K\n地點: 日本・山梨富士河口湖\n報
- 名: 報名至 2026/08/31\n報名截止: 2026/08/31\nhttps://mtfujimarat
- hon.com/
+ 名開始: 2026/05/07\n報名截止: 2026/08/31\nhttps://mtfujimarathon.
+ com/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY

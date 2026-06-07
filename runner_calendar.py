@@ -23,6 +23,7 @@ import json
 import os
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass, field
@@ -45,6 +46,7 @@ class Race:
     end: date
     place: str = ""
     distances: list[str] = field(default_factory=list)
+    signup_start: date | None = None
     signup_deadline: date | None = None
     signup_status: str = ""
     url: str = ""
@@ -144,6 +146,39 @@ def parse(html: str) -> list[Race]:
     return races
 
 
+# ---------- 詳情頁補抓報名開始/截止 ----------
+
+# 詳情頁格式: 報名日期】2026/02/26 11:00 ~ 2026/05/05 23:59
+_SIGNUP_RANGE = re.compile(
+    r"報名日期】\s*(\d{4})/(\d{2})/(\d{2})[^~]*~[^\d]*(\d{4})/(\d{2})/(\d{2})"
+)
+
+
+def _fetch_signup_dates(r: Race) -> None:
+    """抓單場詳情頁,補上報名開始日 + 更精確的截止日。失敗就保留原樣(用列表截止)。"""
+    try:
+        html = fetch(r.url)
+    except Exception:
+        return
+    m = _SIGNUP_RANGE.search(html)
+    if not m:
+        return
+    try:
+        r.signup_start = date(int(m[1]), int(m[2]), int(m[3]))
+        r.signup_deadline = date(int(m[4]), int(m[5]), int(m[6]))
+    except ValueError:
+        pass
+
+
+def enrich_signup_dates(races: list[Race], workers: int = 8) -> None:
+    """多線程補抓詳情頁的報名開始~截止日(只處理運動筆記來源的場次)。"""
+    targets = [r for r in races if "running.biji.co" in r.url]
+    if not targets:
+        return
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        list(ex.map(_fetch_signup_dates, targets))
+
+
 # ---------- 產生 ICS ----------
 
 def _esc(text: str) -> str:
@@ -183,10 +218,12 @@ def build_ics(races: list[Race]) -> str:
     for r in races:
         dist = " / ".join(r.distances) if r.distances else "—"
         desc_parts = [f"距離: {dist}", f"地點: {r.place or '—'}"]
-        if r.signup_status:
-            desc_parts.append(f"報名: {r.signup_status}")
+        if r.signup_start:
+            desc_parts.append(f"報名開始: {r.signup_start.strftime('%Y/%m/%d')}")
         if r.signup_deadline:
             desc_parts.append(f"報名截止: {r.signup_deadline.strftime('%Y/%m/%d')}")
+        if r.signup_status and not r.signup_deadline:
+            desc_parts.append(f"報名: {r.signup_status}")
         desc_parts.append(r.url)
         desc = "\\n".join(_esc(p) for p in desc_parts)
 
@@ -236,6 +273,7 @@ def load_manual_races(path: str = "manual_races.json") -> list[Race]:
     out: list[Race] = []
     for d in data:
         dl = d.get("deadline")
+        ss = d.get("signup_start")
         out.append(
             Race(
                 cid=str(d["cid"]),
@@ -244,6 +282,7 @@ def load_manual_races(path: str = "manual_races.json") -> list[Race]:
                 end=date.fromisoformat(d.get("end") or d["start"]),
                 place=d.get("place", ""),
                 distances=d.get("distances", []),
+                signup_start=date.fromisoformat(ss) if ss else None,
                 signup_deadline=date.fromisoformat(dl) if dl else None,
                 signup_status=d.get("status", ""),
                 url=d.get("url", ""),
@@ -262,6 +301,7 @@ def races_to_json(races: list[Race]) -> str:
             "end": r.end.isoformat(),
             "place": r.place,
             "distances": r.distances,
+            "signup_start": r.signup_start.isoformat() if r.signup_start else None,
             "deadline": r.signup_deadline.isoformat() if r.signup_deadline else None,
             "status": r.signup_status,
             "url": r.url,
@@ -370,11 +410,22 @@ def main(argv: list[str]) -> int:
         action="store_true",
         help="只產生 docs/races.json(給靜態網頁瀏覽/勾選用)",
     )
+    ap.add_argument(
+        "--fast",
+        action="store_true",
+        help="跳過詳情頁補抓(不取報名開始日,僅供快速測試)",
+    )
     args = ap.parse_args(argv)
 
     print(f"抓取: {args.url}", file=sys.stderr)
     all_races = parse(fetch(args.url))
     print(f"解析到 {len(all_races)} 場賽事", file=sys.stderr)
+
+    if not args.fast:
+        print("補抓詳情頁報名開始/截止日…", file=sys.stderr)
+        enrich_signup_dates(all_races)
+        got = sum(1 for r in all_races if r.signup_start)
+        print(f"  已補上報名開始日 {got}/{len(all_races)} 場", file=sys.stderr)
 
     manual = load_manual_races()
     if manual:

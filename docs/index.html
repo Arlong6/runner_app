@@ -40,6 +40,7 @@
   @media (min-width:560px){ #list { grid-template-columns:1fr 1fr; } }
   .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px 14px;
           display:flex; flex-direction:column; gap:5px; }
+  .card.closed { opacity:.5; }
   .cdate { font-size:13px; font-weight:700; color:var(--accent); letter-spacing:.2px; }
   .cname { font-size:15px; font-weight:600; line-height:1.32;
            display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
@@ -94,6 +95,7 @@ function isTW(r){ return TW.some(k => (r.place||"").includes(k)); }
 function isOpen(r){ return r.status && !r.status.includes("已截止") && !r.status.includes("未定"); }
 function isClosed(r){ return !!(r.status && r.status.includes("已截止")); }
 function fmtFull(iso){ const [y,m,d]=iso.split("-"); return `${y}/${m}/${d}`; }
+function md(iso){ const [y,m,d]=iso.split("-"); return `${+m}/${+d}`; }
 function esc(s){ return (s||"").replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
 function ymd(iso){ return iso.replace(/-/g,""); }
 function plusDay(iso){ const d=new Date(iso+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+1); return d.toISOString().slice(0,10).replace(/-/g,""); }
@@ -101,8 +103,11 @@ function plusDay(iso){ const d=new Date(iso+"T00:00:00Z"); d.setUTCDate(d.getUTC
 // 一鍵加入 Google 日曆(比賽日;說明欄附報名截止日)
 function gcalUrl(r){
   const dist=(r.distances||[]).join(" / ")||"—";
-  const dlLine=r.deadline?`報名截止: ${r.deadline.replace(/-/g,"/")}\n`:"";
-  const details=`距離: ${dist}\n地點: ${r.place||"—"}\n報名: ${r.status||"—"}\n${dlLine}${r.url}`;
+  let signup;
+  if (r.signup_start && r.deadline) signup=`報名: ${r.signup_start.replace(/-/g,"/")} ~ ${r.deadline.replace(/-/g,"/")}\n`;
+  else if (r.deadline) signup=`報名截止: ${r.deadline.replace(/-/g,"/")}\n`;
+  else signup=r.status?`報名: ${r.status}\n`:"";
+  const details=`距離: ${dist}\n地點: ${r.place||"—"}\n${signup}${r.url}`;
   const p=new URLSearchParams({action:"TEMPLATE",text:"🏃 "+r.name,
     dates:`${ymd(r.start)}/${plusDay(r.end)}`,details,location:r.place||""});
   return "https://calendar.google.com/calendar/render?"+p.toString();
@@ -121,16 +126,17 @@ function render(){
   document.getElementById("empty").hidden = rows.length>0;
   list.innerHTML = rows.map(r => {
     const dist = (r.distances||[]).join(" / ") || "—";
-    let dl, dlClass="cdl";
-    if (r.deadline) dl = `⏰ 報名截止 ${fmtFull(r.deadline)}`;
-    else if (isClosed(r)) { dl = "報名已截止"; dlClass="cdl none"; }
-    else { dl = r.status || "報名時間未定"; dlClass="cdl none"; }
-    return `<div class="card">
+    let sline, scls="cdl", closed=isClosed(r);
+    if (closed) { sline="報名已截止"; scls="cdl none"; }
+    else if (r.signup_start && r.deadline) sline = `📝 報名 ${md(r.signup_start)} ~ ${md(r.deadline)}`;
+    else if (r.deadline) sline = `⏰ 報名截止 ${fmtFull(r.deadline)}`;
+    else { sline = r.status || "報名時間未定"; scls="cdl none"; }
+    return `<div class="card${closed?' closed':''}">
       <div class="cdate">${fmtFull(r.start)}</div>
       <div class="cname">${esc(r.name)}</div>
       <div class="cmeta">${esc(r.place||"—")} · ${esc(dist)}</div>
       <div class="cbottom">
-        <span class="${dlClass}">${esc(dl)}</span>
+        <span class="${scls}">${esc(sline)}</span>
         <a class="clink" href="${r.url}" target="_blank" rel="noopener">詳情 ↗</a>
       </div>
       <a class="gbtn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 加入 Google 日曆</a>
