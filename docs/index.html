@@ -276,6 +276,30 @@ function render(){
   }
 }
 
+// ---- 路線圖(Leaflet,僅詳情頁有 GPX 的賽事才載入)----
+function loadLeaflet(){
+  if(window.L) return Promise.resolve();
+  return new Promise((res,rej)=>{
+    const css=document.createElement("link"); css.rel="stylesheet";
+    css.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"; document.head.appendChild(css);
+    const s=document.createElement("script"); s.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    s.onload=res; s.onerror=rej; document.head.appendChild(s);
+  });
+}
+async function drawRoute(key){
+  try{
+    await loadLeaflet();
+    const el=document.getElementById("routemap"); if(!el) return;
+    const data=await fetch(`routes/${key}.json?cb=${Date.now()}`).then(r=>r.json());
+    const map=L.map(el,{scrollWheelZoom:false,attributionControl:false});
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:17}).addTo(map);
+    const line=L.polyline(data.coords,{color:"#e8500f",weight:4,opacity:.9}).addTo(map);
+    map.fitBounds(line.getBounds(),{padding:[18,18]});
+    L.circleMarker(data.coords[0],{radius:6,color:"#fff",weight:2,fillColor:"#16a34a",fillOpacity:1}).addTo(map).bindTooltip("起");
+    L.circleMarker(data.coords[data.coords.length-1],{radius:6,color:"#fff",weight:2,fillColor:"#dc2626",fillOpacity:1}).addTo(map).bindTooltip("終");
+  }catch(e){ const el=document.getElementById("routemap"); if(el) el.innerHTML='<div style="padding:16px;color:#999;font-size:13px">路線圖載入失敗</div>'; }
+}
+
 // ---- 詳情頁 ----
 function detailHTML(r){
   const reg=regionOf(r), rc=RCOLOR[reg]||"#94a3b8";
@@ -303,6 +327,7 @@ function detailHTML(r){
         ${r.course.highlight?`<div><b>特色</b><span>${esc(r.course.highlight)}</span></div>`:""}
         ${r.course.route_url?`<a class="gbtn alt" href="${r.course.route_url}" target="_blank" rel="noopener">🗺 查看官方路線圖</a>`:""}
       </div>`:""}
+      ${(r.course&&r.course.route)?`<div class="dmaplabel">🗺 路線圖${r.course.route_note?` <span class="dmapaddr">${esc(r.course.route_note)}</span>`:""}</div><div id="routemap" class="dmap"></div>`:""}
       ${r.venue?(()=>{const v=splitVenue(r.venue);const q=v.addr||v.name;return `<div class="dmaplabel">📍 起點:<b>${esc(v.name)}</b>${v.addr?` <span class="dmapaddr">${esc(v.addr)}</span>`:""}</div>
       <iframe class="dmap" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=${encodeURIComponent(q)}&z=15&output=embed"></iframe>`;})():""}
       <a class="gbtn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 加入 Google 日曆</a>
@@ -324,6 +349,7 @@ function route(){
     dv.innerHTML = r ? detailHTML(r)
       : '<a class="back" href="#/">← 返回列表</a><p style="padding:24px;color:#666">找不到這場賽事</p>';
     lv.hidden=true; dv.hidden=false;
+    if (r && r.course && r.course.route) drawRoute(r.course.route);
   } else {
     dv.hidden=true; lv.hidden=false;
   }
