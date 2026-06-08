@@ -2885,7 +2885,9 @@
 "elevation": "總爬升 < 100m(半馬約 65m)",
 "difficulty": "★☆☆☆☆ 平坦快速,公認最好破 PB",
 "highlight": "市民廣場起跑,行經仁愛路、中山南路等市區地標,後段進河濱,終點台北田徑場。",
-"route_url": "https://www.taipeicitymarathon.com/place-map.php"
+"route_url": "https://www.taipeicitymarathon.com/place-map.php",
+"route": "taipei",
+"route_note": "半程參考(來源:健行筆記 GPX)"
 },
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13020"
 },
