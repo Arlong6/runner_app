@@ -75,6 +75,7 @@
   .dlinks a:hover { background:#fff0e9; }
   .dnote { font-size:12px; color:#999; margin-top:16px; line-height:1.5; }
   .dmaplabel { font-size:13px; color:var(--mut); margin:14px 0 6px; }
+  .dmapaddr { color:#9aa0a6; font-size:12px; font-weight:400; }
   .dmap { width:100%; height:240px; border:1px solid var(--line); border-radius:12px; display:block; }
   .dcourse { background:#fff8f3; border:1px solid #ffd9c2; border-radius:12px; padding:13px 15px;
              margin:14px 0; font-size:14px; display:flex; flex-direction:column; gap:7px; }
@@ -214,6 +215,7 @@ function isOpen(r){ return r.status && !r.status.includes("已截止") && !r.sta
 function isClosed(r){ return !!(r.status && r.status.includes("已截止")); }
 function fmtFull(iso){ const [y,m,d]=iso.split("-"); return `${y}/${m}/${d}`; }
 function md(iso){ const [y,m,d]=iso.split("-"); return `${+m}/${+d}`; }
+function splitVenue(v){ const m=(v||"").match(/^(.*?)[（(](.+?)[)）]\s*$/); return m?{name:m[1].trim(),addr:m[2].trim()}:{name:v||"",addr:""}; }
 function esc(s){ return (s||"").replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
 function ymd(iso){ return iso.replace(/-/g,""); }
 function plusDay(iso){ const d=new Date(iso+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+1); return d.toISOString().slice(0,10).replace(/-/g,""); }
@@ -301,8 +303,8 @@ function detailHTML(r){
         ${r.course.highlight?`<div><b>特色</b><span>${esc(r.course.highlight)}</span></div>`:""}
         ${r.course.route_url?`<a class="gbtn alt" href="${r.course.route_url}" target="_blank" rel="noopener">🗺 查看官方路線圖</a>`:""}
       </div>`:""}
-      ${r.venue?`<div class="dmaplabel">📍 起點:${esc(r.venue)}</div>
-      <iframe class="dmap" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=${encodeURIComponent(r.venue)}&z=14&output=embed"></iframe>`:""}
+      ${r.venue?(()=>{const v=splitVenue(r.venue);const q=v.addr||v.name;return `<div class="dmaplabel">📍 起點:<b>${esc(v.name)}</b>${v.addr?` <span class="dmapaddr">${esc(v.addr)}</span>`:""}</div>
+      <iframe class="dmap" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=${encodeURIComponent(q)}&z=15&output=embed"></iframe>`;})():""}
       <a class="gbtn" href="${gcalUrl(r)}" target="_blank" rel="noopener">📅 加入 Google 日曆</a>
       <div class="dlinks">
         <a href="${r.url}" target="_blank" rel="noopener">📋 運動筆記詳情(報名)</a>
