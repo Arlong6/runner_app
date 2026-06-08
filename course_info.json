@@ -1,0 +1,18 @@
+[
+  {
+    "match": "臺北馬拉松",
+    "terrain": "市區道路 + 河濱",
+    "elevation": "總爬升 < 100m(半馬約 65m)",
+    "difficulty": "★☆☆☆☆ 平坦快速,公認最好破 PB",
+    "highlight": "市民廣場起跑,行經仁愛路、中山南路等市區地標,後段進河濱,終點台北田徑場。",
+    "route_url": "https://www.taipeicitymarathon.com/place-map.php"
+  },
+  {
+    "match": "萬金石",
+    "terrain": "北海岸 台2線",
+    "elevation": "官方未公布;海岸平路、起伏小",
+    "difficulty": "★★☆☆☆ 平快海景,台灣唯一 World Athletics 標籤賽",
+    "highlight": "沿北海岸台2線,經龜吼漁港、野柳地質公園、萬里隧道,海景開闊。",
+    "route_url": "https://wanjinshi-marathon.com.tw/en/course-map/"
+  }
+]

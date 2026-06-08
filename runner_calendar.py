@@ -53,6 +53,7 @@ class Race:
     signup_status: str = ""
     organizer: str = ""
     venue: str = ""
+    course: dict = field(default_factory=dict)
     url: str = ""
 
 
@@ -329,6 +330,26 @@ def load_manual_races(path: str = "manual_races.json") -> list[Race]:
     return out
 
 
+def load_course_info(path: str = "course_info.json") -> list[dict]:
+    """手動策展的大型賽事賽道資訊(地形/爬升/難度/官方路線),依名稱關鍵字 match。"""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+
+def attach_course_info(races: list[Race], infos: list[dict]) -> int:
+    n = 0
+    for r in races:
+        for ci in infos:
+            if ci.get("match") and ci["match"] in r.name:
+                r.course = {k: v for k, v in ci.items() if k != "match"}
+                n += 1
+                break
+    return n
+
+
 def races_to_json(races: list[Race]) -> str:
     """全部賽事 → JSON,給靜態網頁讀取(瀏覽/勾選用)。"""
     data = [
@@ -344,6 +365,7 @@ def races_to_json(races: list[Race]) -> str:
             "status": r.signup_status,
             "organizer": r.organizer,
             "venue": r.venue,
+            "course": r.course,
             "url": r.url,
         }
         for r in sorted(races, key=lambda x: x.start)
@@ -494,6 +516,10 @@ def main(argv: list[str]) -> int:
     if manual:
         all_races += manual
         print(f"加入手動賽事 {len(manual)} 場", file=sys.stderr)
+
+    n_course = attach_course_info(all_races, load_course_info())
+    if n_course:
+        print(f"套用賽道資訊 {n_course} 場", file=sys.stderr)
 
     # 給靜態網頁用的全賽事資料(瀏覽→勾選→前端自己生成 .ics)
     if args.batch or args.web:
