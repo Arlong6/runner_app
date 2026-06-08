@@ -1212,6 +1212,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12876"
 },
 {
+"cid": "13083",
+"name": "2026火燒島馬拉松",
+"start": "2026-10-04",
+"end": "2026-10-05",
+"place": "臺東縣",
+"distances": [
+"42K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "綠島鄉公所",
+"venue": "綠島免稅新天地前廣場",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13083"
+},
+{
 "cid": "12966",
 "name": "2026 Maokong 貓空 Night Trail",
 "start": "2026-10-09",
@@ -1290,6 +1310,25 @@
 "venue": "桃園市蘆竹區山外路外社橋旁(桃園市蘆竹區外社街)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12887"
+},
+{
+"cid": "13082",
+"name": "第一屆樂敗國際精品路跑",
+"start": "2026-10-11",
+"end": "2026-10-12",
+"place": "臺中市",
+"distances": [
+"10K",
+"6K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "樂敗精品/台灣大腳丫長跑協會",
+"venue": "富旺台中高鐵商城（台中市烏日區高鐵五路155號）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13082"
 },
 {
 "cid": "12981",
@@ -2563,7 +2602,7 @@
 "deadline": "2026-08-31",
 "status": "08-31截止",
 "organizer": "新竹市政府                            、                                永悅健康股份有限公司",
-"venue": "",
+"venue": "大湳雅公園(新竹市北區大雅路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12932"
 },
@@ -2582,7 +2621,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "桃園市政府體育局",
-"venue": "",
+"venue": "桃園市大溪區石門水庫南苑停車場",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12971"
 },
@@ -2603,7 +2642,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "台灣路跑賽會服務協會",
-"venue": "",
+"venue": "國立故宮博物院南部院區北側慶典花園旁(嘉義縣太保市故宮大道888號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12864"
 },
@@ -2620,7 +2659,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "",
-"venue": "",
+"venue": "新北市市民廣場(新北市板橋區中山路一段161號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13046"
 },
@@ -2638,7 +2677,7 @@
 "deadline": "2026-08-03",
 "status": "08-03截止",
 "organizer": "台灣虎航股份有限公司",
-"venue": "",
+"venue": "臺北市大佳河濱公園行動巨蛋廣場(臺北市中山區新庄里濱江街5號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13063"
 },
@@ -2658,7 +2697,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "宜蘭縣礁溪鄉公所                            、                                宜蘭縣礁溪鄉民代表會",
-"venue": "",
+"venue": "宜蘭縣礁溪國小(宜蘭縣礁溪鄉礁溪路四段135號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13077"
 },
@@ -2694,7 +2733,7 @@
 "deadline": "2026-10-13",
 "status": "10-13截止",
 "organizer": "苗栗縣通霄慢跑協會",
-"venue": "",
+"venue": "苗栗通霄海水浴場 (苗栗縣通霄鎮通西里海濱路41-1號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13079"
 },
@@ -2714,7 +2753,7 @@
 "deadline": "2026-10-11",
 "status": "10-11截止",
 "organizer": "德成鞋業集團",
-"venue": "",
+"venue": "花舞館對面廣場(台中市后里區馬場路18號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12997"
 },
@@ -2731,7 +2770,7 @@
 "deadline": "2026-05-31",
 "status": "已截止報名",
 "organizer": "高雄市美濃超級馬拉松協會",
-"venue": "",
+"venue": "高雄美濃區龍肚小學(高雄市美濃區龍東街43號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12945"
 },
@@ -2750,7 +2789,7 @@
 "deadline": "2026-11-18",
 "status": "11-18截止",
 "organizer": "社團法人中華民國超級馬拉松運動協會",
-"venue": "",
+"venue": "新店國小(新北市新店區新店路2號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12995"
 },
@@ -2770,7 +2809,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "埔鹽順澤宮管理委員會",
-"venue": "",
+"venue": "埔鹽順澤宮(彰化縣鹽埔鄉中正路55號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13031"
 },
@@ -2790,7 +2829,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "社團法人中華食品安全管制系統發展協會/台灣大腳丫長跑協會",
-"venue": "",
+"venue": "台中中央公園–中央球場(臺中市西屯區凱旋路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12994"
 },
@@ -2810,7 +2849,7 @@
 "deadline": "2026-11-08",
 "status": "11-08截止",
 "organizer": "府城國際超級馬拉松協會",
-"venue": "",
+"venue": "台南北門區南鯤鯓代天府 (台南市北門區鯤江村976 號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13032"
 },
@@ -2828,7 +2867,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "",
-"venue": "",
+"venue": "臺北市政府市民廣場(台北市信義區松壽路1號)",
 "course": {
 "terrain": "市區道路 + 河濱",
 "elevation": "總爬升 < 100m(半馬約 65m)",
@@ -2854,7 +2893,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "南華大學",
-"venue": "",
+"venue": "南華大學 (嘉義縣大林鎮南華路一段55號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12992"
 },
@@ -2873,7 +2912,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "高雄鐵人扶輪社",
-"venue": "",
+"venue": "丸鐵運動（高雄市三民區美都路9號）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13025"
 },
@@ -2892,7 +2931,7 @@
 "deadline": "2026-10-31",
 "status": "10-31截止",
 "organizer": "新營太子宮太子爺廟管理委員會",
-"venue": "",
+"venue": "台南市新營太子宮(台南市新營區太子宮45-2號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13074"
 },
@@ -2911,7 +2950,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "屏東縣政府",
-"venue": "",
+"venue": "佳樂水風景區(屏東縣滿州鄉茶山路18號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13053"
 },
@@ -2933,7 +2972,7 @@
 "deadline": "2026-10-31",
 "status": "10-31截止",
 "organizer": "台灣龍虎鳳越野協會",
-"venue": "",
+"venue": "裕見生活 ( 苗栗縣南庄鄉東江38之12號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13033"
 },
@@ -2951,7 +2990,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "高雄市政府運動發展局",
-"venue": "",
+"venue": "世運主場館",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13035"
 },
@@ -2969,7 +3008,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "高雄市政府運動發展局",
-"venue": "",
+"venue": "世運主場館",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13036"
 },
@@ -2986,7 +3025,7 @@
 "deadline": "2026-11-30",
 "status": "11-30截止",
 "organizer": "南投縣仁愛鄉公所",
-"venue": "",
+"venue": "南投縣仁愛鄉互助國小(南投縣仁愛鄉互助村中華路19號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13069"
 },
@@ -3006,7 +3045,7 @@
 "deadline": "2026-11-15",
 "status": "11-15截止",
 "organizer": "宜蘭縣四季健跑會",
-"venue": "",
+"venue": "窯烤山寨村(宜蘭縣宜蘭市梅洲二路140號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13029"
 },
@@ -3025,7 +3064,7 @@
 "deadline": "2026-09-30",
 "status": "09-30截止",
 "organizer": "新竹縣尖石鄉公所                            、                                中華13知路跑協會",
-"venue": "",
+"venue": "新竹縣尖石鄉公所前廣場(新竹縣尖石鄉義興村70號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13059"
 },
@@ -3045,7 +3084,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "台中市電腦商業同業公會/台灣大腳丫長跑協會",
-"venue": "",
+"venue": "烏日國中(臺中市烏日區新興路457號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12976"
 },
@@ -3067,7 +3106,7 @@
 "deadline": "2026-12-23",
 "status": "12-23截止",
 "organizer": "社團法人中華民國超級馬拉松運動協會",
-"venue": "",
+"venue": "臺北市立至善國民中學學生活動中心 (台北市士林區至善路二段360號，入口在過校門往山上 100M右方）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13072"
 },
@@ -3087,7 +3126,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "嘉義市諸羅山長跑協會",
-"venue": "",
+"venue": "嘉義蘭潭音樂噴泉(嘉義市東區紅毛埤187號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12943"
 },
@@ -3109,7 +3148,7 @@
 "deadline": "2027-01-10",
 "status": "01-10截止",
 "organizer": "台灣耐力運動協會",
-"venue": "",
+"venue": "活水湖(臺東縣臺東市馬亨亨大道)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13054"
 },
@@ -3127,7 +3166,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "",
-"venue": "",
+"venue": "匠愛家園(高雄市岡山區大莊路350號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13024"
 },
@@ -3145,7 +3184,7 @@
 "deadline": "2027-02-14",
 "status": "02-14截止",
 "organizer": "中華民國商業合作發展協會",
-"venue": "",
+"venue": "西螺大橋廣場(雲林縣西螺鎮大橋路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13002"
 },
@@ -3162,7 +3201,7 @@
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "",
-"venue": "",
+"venue": "臺中市政府前廣場(台中市西屯區臺灣大道三段99號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13065"
 }
