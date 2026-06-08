@@ -1834,7 +1834,13 @@
 "status": "已截止報名",
 "organizer": "中華運動生活協會",
 "venue": "南投日月潭向山遊客中心(南投縣魚池鄉中山路599號)",
-"course": {},
+"course": {
+"terrain": "南投日月潭 環湖公路",
+"elevation": "全馬總爬升約 948m;最高玄奘寺海拔860m,末段「好漢坡」平均5%、最大9%",
+"difficulty": "★★★★☆ 風景極美但上下坡硬,挑戰性高",
+"highlight": "繞行日月潭,經文武廟、伊達邵、玄奘寺;末段好漢坡考驗腿力。",
+"route_url": "https://irunner.biji.co/sunmoonlakemarathon2026"
+},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12897"
 },
 {
@@ -2099,7 +2105,13 @@
 "status": "06-15截止",
 "organizer": "中華民國舒康樂活運動協會",
 "venue": "彰化縣田中鎮景崧文化教育園區(彰化縣田中鎮中州路一段416號)",
-"course": {},
+"course": {
+"terrain": "彰化田中 田園鄉間道路",
+"elevation": "平緩鄉間、起伏小",
+"difficulty": "★☆☆☆☆ 平緩好跑,以「地表最強補給」聞名",
+"highlight": "稻浪田園路線;補給有現烤乳豬、牛排、滷味、西瓜啤酒,人情味滿滿。",
+"route_url": "https://www.tianzhongmarathon.com/"
+},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12929"
 },
 {
@@ -2991,7 +3003,13 @@
 "status": "報名時間未定",
 "organizer": "高雄市政府運動發展局",
 "venue": "世運主場館",
-"course": {},
+"course": {
+"terrain": "高雄市區道路",
+"elevation": "市區平路、AIMS 國際認證",
+"difficulty": "★☆☆☆☆ 平坦好破 PB,南台灣最大馬",
+"highlight": "高雄市區封街,經城市地標,平坦快速,南部規模最大。",
+"route_url": "https://www.khm.com.tw/cp.aspx?n=1057"
+},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13035"
 },
 {
@@ -3009,7 +3027,13 @@
 "status": "報名時間未定",
 "organizer": "高雄市政府運動發展局",
 "venue": "世運主場館",
-"course": {},
+"course": {
+"terrain": "高雄市區道路",
+"elevation": "市區平路、AIMS 國際認證",
+"difficulty": "★☆☆☆☆ 平坦好破 PB,南台灣最大馬",
+"highlight": "高雄市區封街,經城市地標,平坦快速,南部規模最大。",
+"route_url": "https://www.khm.com.tw/cp.aspx?n=1057"
+},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13036"
 },
 {
