@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://runner-app-jet.vercel.app/sitemap.xml
