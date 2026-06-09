@@ -408,6 +408,23 @@ document.getElementById("list").addEventListener("click",e=>{
 });
 
 loadRaces().then(route);
+
+// 守宮眼睛跟著滑鼠(瞳孔朝游標方向移動,限制在眼眶內;手機無滑鼠則維持正中)
+document.addEventListener("DOMContentLoaded",()=>{
+  const svg=document.querySelector(".mascot"); if(!svg) return;
+  const movers=svg.querySelectorAll("[data-cx]");
+  window.addEventListener("mousemove",e=>{
+    const rect=svg.getBoundingClientRect(); if(!rect.width) return;
+    const sx=rect.width/130, sy=rect.height/125, MAX=2.6;
+    movers.forEach(m=>{
+      const bx=+m.dataset.cx, by=+m.dataset.cy;
+      const ex=rect.left+bx*sx, ey=rect.top+by*sy;
+      const dx=e.clientX-ex, dy=e.clientY-ey, d=Math.hypot(dx,dy)||1;
+      m.setAttribute("cx",(bx+dx/d*MAX).toFixed(2));
+      m.setAttribute("cy",(by+dy/d*MAX).toFixed(2));
+    });
+  },{passive:true});
+});
 </script>
 <!-- Vercel Web Analytics(需在 Vercel 專案 Settings→Analytics 開啟才會收資料)-->
 <script defer src="/_vercel/insights/script.js"></script>
@@ -434,10 +451,12 @@ loadRaces().then(route);
     <circle cx="37" cy="53" r="7" fill="#ff8e72" opacity=".55"/>
     <circle cx="85" cy="53" r="7" fill="#ff8e72" opacity=".55"/>
     <g class="eyes">
-      <circle cx="46" cy="44" r="9.5" fill="#3b2a20"/>
-      <circle cx="76" cy="44" r="9.5" fill="#3b2a20"/>
-      <circle cx="49.2" cy="40.2" r="3" fill="#fff"/>
-      <circle cx="79.2" cy="40.2" r="3" fill="#fff"/>
+      <circle cx="46" cy="44" r="9.5" fill="#fffdf8"/>
+      <circle cx="76" cy="44" r="9.5" fill="#fffdf8"/>
+      <circle class="pupil" data-cx="46" data-cy="44" cx="46" cy="44" r="6" fill="#3b2a20"/>
+      <circle class="pupil" data-cx="76" data-cy="44" cx="76" cy="44" r="6" fill="#3b2a20"/>
+      <circle class="shine" data-cx="48.3" data-cy="41.6" cx="48.3" cy="41.6" r="1.9" fill="#fff"/>
+      <circle class="shine" data-cx="78.3" data-cy="41.6" cx="78.3" cy="41.6" r="1.9" fill="#fff"/>
     </g>
     <circle cx="56" cy="56" r="1.4" fill="#7a4a30"/><circle cx="66" cy="56" r="1.4" fill="#7a4a30"/>
     <path d="M43 59 Q61 75 79 59" stroke="#7a4a30" stroke-width="2.7" fill="none" stroke-linecap="round"/>
