@@ -588,7 +588,7 @@
 },
 {
 "cid": "13038",
-"name": "2026美麗金山路跑",
+"name": "2026美麗金山路跑活動",
 "start": "2026-08-29",
 "end": "2026-08-30",
 "place": "新北市",
@@ -597,8 +597,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-06-28",
+"status": "06-28截止",
 "organizer": "新北市金山區公所",
 "venue": "磺港漁港(新北市金山區萬壽里磺港路323號)",
 "course": {},
@@ -1378,8 +1378,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-07-31",
+"status": "07-31截止",
 "organizer": "FUN電運動俱樂部",
 "venue": "台中都會公園(台中市西屯區都會園路1215巷140號)",
 "course": {},
@@ -2133,6 +2133,25 @@
 "venue": "浮洲橋下堤外自行車道(新北市板橋區環河路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12882"
+},
+{
+"cid": "13084",
+"name": "財政部115年統一發票盃 (臺北場)  路跑活動",
+"start": "2026-11-08",
+"end": "2026-11-09",
+"place": "臺北市",
+"distances": [
+"21K",
+"10K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "財政部                            、                                第一金融控股股份有限公司",
+"venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13084"
 },
 {
 "cid": "12988",
