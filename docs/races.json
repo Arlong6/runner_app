@@ -808,7 +808,7 @@
 ],
 "signup_start": "2026-04-24",
 "deadline": "2026-06-11",
-"status": "06-11截止",
+"status": "已截止報名",
 "organizer": "全統運動用品股份有限公司",
 "venue": "大佳河濱公園(台北市中山區濱江街5號)",
 "course": {},
@@ -1738,12 +1738,13 @@
 "place": "嘉義縣",
 "distances": [
 "21K",
-"12K",
-"5.5K"
+"10K",
+"5.5K",
+"5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-08-16",
+"status": "08-16截止",
 "organizer": "嘉義縣水上鄉公所",
 "venue": "北回歸線標誌公園(嘉義縣水上鄉中山路三段)",
 "course": {},
@@ -2318,8 +2319,8 @@
 "5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-09-15",
+"status": "09-15截止",
 "organizer": "彰化縣二鹿慢跑協會",
 "venue": "彰化縣鹿港鎮立體育場(彰化縣鹿港鎮中正路531號)",
 "course": {},
