@@ -1,86 +1,5 @@
 [
 {
-"cid": "12941",
-"name": "2026 CTAU 超馬系列賽--越野站 台灣棲蘭林道越野",
-"start": "2026-06-06",
-"end": "2026-06-07",
-"place": "宜蘭縣",
-"distances": [
-"100K",
-"75K",
-"50K",
-"25K",
-"10K",
-"5K"
-],
-"signup_start": "2026-02-26",
-"deadline": "2026-05-05",
-"status": "已截止報名",
-"organizer": "社團法人中華民國超級馬拉松運動協會",
-"venue": "棲蘭100林道(宜蘭縣大同鄉100線林道)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12941"
-},
-{
-"cid": "12938",
-"name": "2026 台灣棲蘭林道越野",
-"start": "2026-06-06",
-"end": "2026-06-07",
-"place": "宜蘭縣",
-"distances": [
-"100K",
-"75K",
-"50K",
-"25K",
-"10K",
-"5K",
-"10K"
-],
-"signup_start": "2026-02-26",
-"deadline": "2026-05-05",
-"status": "已截止報名",
-"organizer": "社團法人中華民國 超級馬拉松運動協會",
-"venue": "宜蘭縣大同鄉100林道守衛站",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12938"
-},
-{
-"cid": "12884",
-"name": "2026年太平山雲端漫步路跑",
-"start": "2026-06-06",
-"end": "2026-06-07",
-"place": "宜蘭縣",
-"distances": [
-"42.195K",
-"21K"
-],
-"signup_start": "2026-02-01",
-"deadline": "2026-03-30",
-"status": "已截止報名",
-"organizer": "宜蘭縣鐵人三項協會                            、                                羅東聖母醫院",
-"venue": "太平山莊廣場(宜蘭縣大同鄉太平巷58之1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12884"
-},
-{
-"cid": "12985",
-"name": "2026芎林路跑嘉年華",
-"start": "2026-06-06",
-"end": "2026-06-07",
-"place": "新竹縣",
-"distances": [
-"10K",
-"5K"
-],
-"signup_start": "2026-04-08",
-"deadline": "2026-05-10",
-"status": "已截止報名",
-"organizer": "芎林鄉公所                            、                                芎林鄉民代表會",
-"venue": "芎林公三運動公園（風雨球場）(新竹縣芎林鄉光明一街15號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12985"
-},
-{
 "cid": "12878",
 "name": "2026秀姑巒溪泛舟鐵人三項競賽",
 "start": "2026-06-07",
@@ -109,7 +28,8 @@
 "21K",
 "10K",
 "5K",
-"2.5K"
+"2.5K",
+"10K"
 ],
 "signup_start": "2025-12-29",
 "deadline": "2026-04-24",
