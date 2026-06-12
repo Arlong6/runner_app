@@ -496,6 +496,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12978"
 },
 {
+"cid": "13085",
+"name": "2026 嘉義雙潭星光路跑",
+"start": "2026-08-08",
+"end": "2026-08-09",
+"place": "嘉義市",
+"distances": [
+"13K",
+"6.5K",
+"3.5K"
+],
+"signup_start": "2026-06-11",
+"deadline": "2026-07-15",
+"status": "07-15截止",
+"organizer": "嘉義市政府",
+"venue": "嘉義市立蘭潭國民中學(嘉義市東區民權東路32號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13085"
+},
+{
 "cid": "12925",
 "name": "2026聖母廟月老姻緣紅線牽馬拉松",
 "start": "2026-08-15",
@@ -2666,13 +2685,13 @@
 "distances": [
 "42K",
 "21K",
-"11K",
+"10K",
 "7K",
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-10-07",
+"status": "10-07截止",
 "organizer": "台灣路跑賽會服務協會",
 "venue": "國立故宮博物院南部院區北側慶典花園旁(嘉義縣太保市故宮大道888號)",
 "course": {},
