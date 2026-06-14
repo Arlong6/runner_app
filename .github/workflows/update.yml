@@ -33,3 +33,10 @@ jobs:
           else
             echo "無變動,略過"
           fi
+
+      - name: 失敗時通知 Telegram(成功不推,避免洗版)
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d text="⚠️ runner_app 更新失敗 — 運動筆記可能改版或被擋,races.json 未更新(已自動保留舊資料)。請查看:${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
