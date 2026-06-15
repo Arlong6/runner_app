@@ -277,12 +277,12 @@
 "end": "2026-07-27",
 "place": "桃園市",
 "distances": [
-"42K",
+"42.2K",
 "21K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-06-30",
+"status": "06-30截止",
 "organizer": "大副體育用品專賣店",
 "venue": "水岸街福仁宮(桃園市桃園區水岸二街111號)",
 "course": {},
@@ -519,7 +519,7 @@
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-06-15",
-"status": "06-15截止",
+"status": "已截止報名",
 "organizer": "台灣謙信越野馬拉松協會",
 "venue": "南投藝家原民宿前(南投縣仁愛鄉仁和路207-5號)",
 "course": {},
@@ -1597,6 +1597,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12999"
 },
 {
+"cid": "13087",
+"name": "2026聯大八甲馬拉松",
+"start": "2026-10-31",
+"end": "2026-11-01",
+"place": "苗栗市",
+"distances": [
+"42K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "國立聯合大學",
+"venue": "苗栗市國立聯合大學八甲校區(苗栗縣苗栗市南勢里聯大2號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13087"
+},
+{
 "cid": "12924",
 "name": "第四屆水上UP半程馬拉松-一起看飛機趣",
 "start": "2026-10-31",
@@ -1827,6 +1847,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13015"
 },
 {
+"cid": "13086",
+"name": "2026Rotary RUN WITH YOU 扶輪國際兒童日半程及接力馬拉松",
+"start": "2026-11-07",
+"end": "2026-11-08",
+"place": "新竹市",
+"distances": [
+"21K",
+"10K",
+"3.5K"
+],
+"signup_start": "2026-05-21",
+"deadline": "2026-09-30",
+"status": "09-30截止",
+"organizer": "國際扶輪3501地區",
+"venue": "新竹市頭前溪左岸（頭前溪橋下）(新竹市東區前溪里中華路一段2巷)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13086"
+},
+{
 "cid": "13062",
 "name": "2026 SKYHUNTER 士林越野",
 "start": "2026-11-08",
@@ -1952,7 +1991,7 @@
 ],
 "signup_start": "2026-06-03",
 "deadline": "2026-06-15",
-"status": "06-15截止",
+"status": "已截止報名",
 "organizer": "中華民國舒康樂活運動協會",
 "venue": "彰化縣田中鎮景崧文化教育園區(彰化縣田中鎮中州路一段416號)",
 "course": {
@@ -2606,7 +2645,8 @@
 "end": "2026-12-14",
 "place": "苗栗縣",
 "distances": [
-"23K",
+"42K",
+"22.5K",
 "12K",
 "4.5K"
 ],
@@ -2617,6 +2657,26 @@
 "venue": "苗栗通霄海水浴場 (苗栗縣通霄鎮通西里海濱路41-1號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13079"
+},
+{
+"cid": "13088",
+"name": "2026曾文水庫馬拉松",
+"start": "2026-12-13",
+"end": "2026-12-14",
+"place": "臺南市",
+"distances": [
+"42.195K",
+"21.3K",
+"12K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "臺南市政府                            、                                中華民國田徑協會",
+"venue": "經濟部水利署南區水資源分署曾文水庫(臺南市楠西區密枝里70號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13088"
 },
 {
 "cid": "12997",
