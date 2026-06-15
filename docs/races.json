@@ -1827,23 +1827,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13015"
 },
 {
-"cid": "12891",
-"name": "2026 MIZUNO 美津濃馬拉松接力賽",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "新北市",
-"distances": [
-"43K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "中華民國體育運動總會                            、                                台灣美津濃股份有限公司",
-"venue": "太平洋建設第二停車場(新北市萬里區海景路18號",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12891"
-},
-{
 "cid": "13062",
 "name": "2026 SKYHUNTER 士林越野",
 "start": "2026-11-08",
@@ -2960,6 +2943,23 @@
 "venue": "窯烤山寨村(宜蘭縣宜蘭市梅洲二路140號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13029"
+},
+{
+"cid": "12891",
+"name": "2027 MIZUNO 美津濃馬拉松接力賽",
+"start": "2027-01-17",
+"end": "2027-01-18",
+"place": "新北市",
+"distances": [
+"43K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "原2026/11/08因故延期至2027/1/17",
+"organizer": "中華民國體育運動總會                            、                                台灣美津濃股份有限公司",
+"venue": "太平洋建設第二停車場(新北市萬里區海景路18號",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12891"
 },
 {
 "cid": "13059",
