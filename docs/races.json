@@ -1,42 +1,5 @@
 [
 {
-"cid": "12911",
-"name": "2026台北國際扶輪年會 根除小兒麻痺3K&12.5K路跑",
-"start": "2026-06-13",
-"end": "2026-06-14",
-"place": "臺北市",
-"distances": [
-"12.5K",
-"3K"
-],
-"signup_start": "2026-02-03",
-"deadline": "2026-03-31",
-"status": "已截止報名",
-"organizer": "2026台北國際扶輪年會地主籌備委員會(HOC)                            、                                2025-2026國際扶輪3461                            、                                3462                            、                                3470                            、                                3481                            、                                3482                            、                                3490                            、                                3501                            、                                3502                            、                                3510                            、                                3521                            、                                3522                            、                                3523地區",
-"venue": "台北市中正區凱達格蘭大道",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12911"
-},
-{
-"cid": "12886",
-"name": "夏日馬拉松 - 南投埔里場",
-"start": "2026-06-13",
-"end": "2026-06-14",
-"place": "南投縣",
-"distances": [
-"42K",
-"21K",
-"10K"
-],
-"signup_start": "2026-01-13",
-"deadline": "2026-04-15",
-"status": "已截止報名",
-"organizer": "中華民國全能運動協會",
-"venue": "埔里地母廟第八停車場(南投縣埔里鎮枇杷路637號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12886"
-},
-{
 "cid": "12906",
 "name": "2026國家地理雜誌世界海洋日路跑",
 "start": "2026-06-14",
@@ -63,7 +26,8 @@
 "distances": [
 "21K",
 "11.5K",
-"4.5K"
+"4.5K",
+"10K"
 ],
 "signup_start": "2026-03-09",
 "deadline": "2026-04-30",
@@ -144,6 +108,23 @@
 "venue": "西湖遊客中心(苗栗縣西湖鄉店仔街4-1號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12919"
+},
+{
+"cid": "13089",
+"name": "TOYOTA RUN 高雄 樂齡專場",
+"start": "2026-06-27",
+"end": "2026-06-28",
+"place": "高雄市",
+"distances": [
+"3.6K"
+],
+"signup_start": "2026-05-05",
+"deadline": "2026-06-14",
+"status": "已截止報名",
+"organizer": "和泰汽車股份有限公司",
+"venue": "高雄市蓮池潭風景區 高雄物產館 (高雄市左營區翠華路1435號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13089"
 },
 {
 "cid": "12809",
@@ -547,6 +528,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12927"
 },
 {
+"cid": "13090",
+"name": "TOYOTA RUN 台北 寵物專場",
+"start": "2026-09-05",
+"end": "2026-09-06",
+"place": "臺北市",
+"distances": [
+"5K",
+"3K"
+],
+"signup_start": "2026-05-08",
+"deadline": "2026-08-09",
+"status": "08-09截止",
+"organizer": "和泰汽車股份有限公司",
+"venue": "大佳河濱公園 八號水門（臺北市中山區濱江街）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13090"
+},
+{
 "cid": "13012",
 "name": "2026 Panasonic Taipei City Run台北城市路跑賽",
 "start": "2026-09-06",
@@ -660,6 +659,23 @@
 "venue": "重光社區活動中心前(澎湖縣馬公市重光里52號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13051"
+},
+{
+"cid": "13091",
+"name": "TOYOTA RUN 台中 視障專場",
+"start": "2026-09-19",
+"end": "2026-09-20",
+"place": "臺中市",
+"distances": [
+"5K"
+],
+"signup_start": "2026-05-05",
+"deadline": "2026-09-06",
+"status": "09-06截止",
+"organizer": "和泰汽車股份有限公司",
+"venue": "潭雅神綠園道和平場站（臺中市神岡區和平路）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13091"
 },
 {
 "cid": "13005",
@@ -2736,19 +2752,19 @@
 },
 {
 "cid": "13031",
-"name": "2026歲次丙午年順澤宮第四屆冠軍路跑",
+"name": "2026歲次丙午年順澤宮第四屆冠軍路跑－順風啟程 • 澤福同行 • 謝平安",
 "start": "2026-12-19",
 "end": "2026-12-20",
 "place": "彰化縣",
 "distances": [
+"42.195K",
 "21K",
 "10K",
-"5.5K",
-"2.5K"
+"3.5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-10-04",
+"status": "10-04截止",
 "organizer": "埔鹽順澤宮管理委員會",
 "venue": "埔鹽順澤宮(彰化縣鹽埔鄉中正路55號)",
 "course": {},
