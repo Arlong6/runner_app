@@ -1,61 +1,5 @@
 [
 {
-"cid": "12906",
-"name": "2026國家地理雜誌世界海洋日路跑",
-"start": "2026-06-14",
-"end": "2026-06-15",
-"place": "宜蘭縣",
-"distances": [
-"11K",
-"3.5K"
-],
-"signup_start": "2026-01-30",
-"deadline": "2026-04-15",
-"status": "已截止報名",
-"organizer": "頭城鎮公所                            、                                大石國際文化有限公司",
-"venue": "頭城煙火節主會場 (宜蘭縣頭城鎮大武路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12906"
-},
-{
-"cid": "12949",
-"name": "2026年桃園市議會議長盃路跑",
-"start": "2026-06-14",
-"end": "2026-06-15",
-"place": "桃園市",
-"distances": [
-"21K",
-"11.5K",
-"4.5K",
-"10K"
-],
-"signup_start": "2026-03-09",
-"deadline": "2026-04-30",
-"status": "已截止報名",
-"organizer": "桃園市議會                            、                                桃園市政府",
-"venue": "青埔運動公園棒球場(桃園市中壢區永園路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12949"
-},
-{
-"cid": "12937",
-"name": "2026第十屆虎豹雙棲越野挑戰賽",
-"start": "2026-06-14",
-"end": "2026-06-15",
-"place": "新北市",
-"distances": [
-"30K",
-"17K"
-],
-"signup_start": "2026-02-11",
-"deadline": "2026-04-30",
-"status": "已截止報名",
-"organizer": "好野人越野俱樂部/威瀚運動行銷公司",
-"venue": "柑林國小(新北市雙溪區長源里柑腳3號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12937"
-},
-{
 "cid": "12962",
 "name": "最強市民飆5K－新北市5000公尺挑戰賽 六月場",
 "start": "2026-06-17",
@@ -81,7 +25,8 @@
 "distances": [
 "24K",
 "12K",
-"8K"
+"8K",
+"10K"
 ],
 "signup_start": "2026-03-25",
 "deadline": "2026-05-31",
