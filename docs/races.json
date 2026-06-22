@@ -197,6 +197,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12963"
 },
 {
+"cid": "13092",
+"name": "最強市民飆5K－新北市5000公尺挑戰賽 七月場",
+"start": "2026-07-22",
+"end": "2026-07-23",
+"place": "新北市",
+"distances": [
+"5K"
+],
+"signup_start": "2026-07-13",
+"deadline": "2026-07-19",
+"status": "07-19截止",
+"organizer": "捷迅股份有限公司",
+"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13092"
+},
+{
 "cid": "12920",
 "name": "2026全台PAPAGO歡樂跑--桃園場",
 "start": "2026-07-26",
@@ -306,6 +323,23 @@
 "venue": "正統鹿耳門聖母廟(台南市安南區城安路160號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12925"
+},
+{
+"cid": "13093",
+"name": "最強市民飆5K－新北市5000公尺挑戰賽 八月場",
+"start": "2026-08-19",
+"end": "2026-08-20",
+"place": "新北市",
+"distances": [
+"5K"
+],
+"signup_start": "2026-08-10",
+"deadline": "2026-08-16",
+"status": "08-16截止",
+"organizer": "捷迅股份有限公司",
+"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13093"
 },
 {
 "cid": "12968",
@@ -547,6 +581,23 @@
 "venue": "獅潭鄉五文宮（苗栗縣獅潭鄉和興村福興13號）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12904"
+},
+{
+"cid": "13094",
+"name": "最強市民飆5K－新北市5000公尺挑戰賽 九月場",
+"start": "2026-09-09",
+"end": "2026-09-10",
+"place": "新北市",
+"distances": [
+"5K"
+],
+"signup_start": "2026-08-31",
+"deadline": "2026-09-06",
+"status": "09-06截止",
+"organizer": "捷迅股份有限公司",
+"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13094"
 },
 {
 "cid": "12990",
@@ -2575,8 +2626,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-08-31",
+"status": "08-31截止",
 "organizer": "宜蘭縣礁溪鄉公所                            、                                宜蘭縣礁溪鄉民代表會",
 "venue": "宜蘭縣礁溪國小(宜蘭縣礁溪鄉礁溪路四段135號)",
 "course": {},
@@ -3042,6 +3093,27 @@
 "venue": "臺北市立至善國民中學學生活動中心 (台北市士林區至善路二段360號，入口在過校門往山上 100M右方）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13072"
+},
+{
+"cid": "13095",
+"name": "2027木架山馬拉松暨尾牙馬",
+"start": "2027-01-30",
+"end": "2027-01-31",
+"place": "臺南市",
+"distances": [
+"42K",
+"24K",
+"12K",
+"5K",
+"2K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "光圈整合行銷有限公司\n                            、                                東成醬油",
+"venue": "台南市新化區東成會館(臺南市新化區知義里中興路293號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13095"
 },
 {
 "cid": "12943",
