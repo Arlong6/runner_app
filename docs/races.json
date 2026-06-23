@@ -1,22 +1,5 @@
 [
 {
-"cid": "12962",
-"name": "最強市民飆5K－新北市5000公尺挑戰賽 六月場",
-"start": "2026-06-17",
-"end": "2026-06-18",
-"place": "新北市",
-"distances": [
-"5K"
-],
-"signup_start": "2026-06-08",
-"deadline": "2026-06-14",
-"status": "已截止報名",
-"organizer": "捷迅股份有限公司",
-"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12962"
-},
-{
 "cid": "12965",
 "name": "2026 Bali Trail 八里越野",
 "start": "2026-06-20",
@@ -25,8 +8,7 @@
 "distances": [
 "24K",
 "12K",
-"8K",
-"10K"
+"8K"
 ],
 "signup_start": "2026-03-25",
 "deadline": "2026-05-31",
@@ -44,7 +26,8 @@
 "place": "苗栗縣",
 "distances": [
 "42.2K",
-"22.24K"
+"22.24K",
+"10K"
 ],
 "signup_start": "2026-04-16",
 "deadline": "2026-05-30",
@@ -1034,17 +1017,16 @@
 },
 {
 "cid": "13042",
-"name": "2026公勝盃",
+"name": "2026公勝盃公益路跑",
 "start": "2026-10-04",
 "end": "2026-10-05",
 "place": "臺中市",
 "distances": [
-"10K",
-"3.5K"
+"10K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-08-14",
+"status": "08-14截止",
 "organizer": "",
 "venue": "台中市西屯區中央球場(台中市西屯區凱旋路)",
 "course": {},
@@ -1417,7 +1399,7 @@
 },
 {
 "cid": "13044",
-"name": "台糖公益路跑",
+"name": "2026台糖公益路跑",
 "start": "2026-10-24",
 "end": "2026-10-25",
 "place": "臺南市",
@@ -1427,8 +1409,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-08-27",
+"status": "08-27截止",
 "organizer": "",
 "venue": "台糖柳營尖山埤渡假村(台南市柳營區旭山里60號)",
 "course": {},
@@ -1683,6 +1665,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13010"
 },
 {
+"cid": "12875",
+"name": "2026 嘉義雙潭馬拉松菁英賽",
+"start": "2026-11-01",
+"end": "2026-11-02",
+"place": "嘉義市",
+"distances": [
+"42.195K",
+"21.0975K"
+],
+"signup_start": null,
+"deadline": "2026-06-27",
+"status": "06-27截止",
+"organizer": "",
+"venue": "嘉義市KANO棒球場(嘉義市東區東川里山仔頂249-1號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12875"
+},
+{
 "cid": "13067",
 "name": "2026 海綿寶寶人生馬拉松-人生市場謎-新北場",
 "start": "2026-11-01",
@@ -1780,24 +1780,6 @@
 "venue": "澎湖西嶼西臺遊客中心(澎湖縣西嶼鄉8811鄰1之15號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12844"
-},
-{
-"cid": "12875",
-"name": "第二屆嘉義雙潭馬拉松菁英賽",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "嘉義市",
-"distances": [
-"42K",
-"21K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "嘉義市KANO棒球場(嘉義市東區東川里山仔頂249-1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12875"
 },
 {
 "cid": "12894",
@@ -2339,7 +2321,7 @@
 ],
 "signup_start": "2026-05-27",
 "deadline": "2026-06-23",
-"status": "06-23截止",
+"status": "已截止報名",
 "organizer": "Garmin",
 "venue": "臺北市大佳河濱公園8號水門行動巨蛋廣場",
 "course": {},
