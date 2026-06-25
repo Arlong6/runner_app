@@ -1183,8 +1183,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-07-30",
+"status": "07-30截止",
 "organizer": "樂敗精品/台灣大腳丫長跑協會",
 "venue": "富旺台中高鐵商城（台中市烏日區高鐵五路155號）",
 "course": {},
@@ -1437,6 +1437,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12926"
 },
 {
+"cid": "13097",
+"name": "2026 外展「舟」山跑",
+"start": "2026-10-25",
+"end": "2026-10-26",
+"place": "香港",
+"distances": [
+"18K",
+"8K"
+],
+"signup_start": "2026-06-25",
+"deadline": "2026-08-31",
+"status": "08-31截止",
+"organizer": "",
+"venue": "西貢區",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13097"
+},
+{
 "cid": "13066",
 "name": "2026 海綿寶寶人生馬拉松-人生市場謎-臺中場",
 "start": "2026-10-25",
@@ -1472,6 +1490,23 @@
 "venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13016"
+},
+{
+"cid": "13075",
+"name": "2026第17屆員林獅子盃親子公益路跑",
+"start": "2026-10-25",
+"end": "2026-10-26",
+"place": "彰化縣",
+"distances": [
+"5K"
+],
+"signup_start": "2026-06-15",
+"deadline": "2026-09-20",
+"status": "09-20截止",
+"organizer": "彰化縣員林獅子會",
+"venue": "員林市圓林園(彰化縣員林市員林大道四段369號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13075"
 },
 {
 "cid": "12859",
@@ -1860,6 +1895,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13086"
 },
 {
+"cid": "13100",
+"name": "東豐快通車路跑嘉年華",
+"start": "2026-11-07",
+"end": "2026-11-08",
+"place": "臺中市",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "臺中市豐原慢跑協會",
+"venue": "東勢河濱公園(臺中市東勢區東關路七段)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13100"
+},
+{
 "cid": "13062",
 "name": "2026 SKYHUNTER 士林越野",
 "start": "2026-11-08",
@@ -1970,6 +2024,24 @@
 "venue": "千葉",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12821"
+},
+{
+"cid": "13096",
+"name": "2026台灣極限超級鐵人推廣路跑",
+"start": "2026-11-08",
+"end": "2026-11-09",
+"place": "臺南市",
+"distances": [
+"12K",
+"5K"
+],
+"signup_start": "2026-06-15",
+"deadline": "2026-09-10",
+"status": "09-10截止",
+"organizer": "臺南市早起鳥路跑協會                            、                                中華民國全能運動協會",
+"venue": "臺南土城正統鹿耳門聖母廟(臺南市安南區城東里城安路160號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13096"
 },
 {
 "cid": "12929",
@@ -2461,6 +2533,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13076"
 },
 {
+"cid": "13099",
+"name": "2026 ZEPRO RUN 全國半程馬拉松-台北場",
+"start": "2026-12-06",
+"end": "2026-12-07",
+"place": "臺北市",
+"distances": [
+"21K",
+"10K"
+],
+"signup_start": "2026-06-25",
+"deadline": "2026-08-13",
+"status": "08-13截止",
+"organizer": "全統運動用品股份有限公司",
+"venue": "台北市中山區大佳河濱公園",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13099"
+},
+{
 "cid": "12814",
 "name": "2026 第二屆麗晨臺中國際馬拉松",
 "start": "2026-12-06",
@@ -2653,6 +2743,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13079"
 },
 {
+"cid": "13098",
+"name": "2026 高雄港都國際半程馬拉松",
+"start": "2026-12-13",
+"end": "2026-12-14",
+"place": "高雄市",
+"distances": [
+"21K",
+"10K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "高雄市橋頭區橋頭公七公園(高雄市橋頭區新中一街)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13098"
+},
+{
 "cid": "13088",
 "name": "2026曾文水庫馬拉松",
 "start": "2026-12-13",
@@ -2767,6 +2876,25 @@
 "venue": "台中中央公園–中央球場(臺中市西屯區凱旋路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12994"
+},
+{
+"cid": "13101",
+"name": "2026 台南府城國際半程馬拉松",
+"start": "2026-12-20",
+"end": "2026-12-21",
+"place": "臺南市",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "正統鹿耳門聖母廟停車場(臺南市安南區城安路160號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13101"
 },
 {
 "cid": "13032",
