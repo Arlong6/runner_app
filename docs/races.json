@@ -1,24 +1,5 @@
 [
 {
-"cid": "12965",
-"name": "2026 Bali Trail 八里越野",
-"start": "2026-06-20",
-"end": "2026-06-21",
-"place": "新北市",
-"distances": [
-"24K",
-"12K",
-"8K"
-],
-"signup_start": "2026-03-25",
-"deadline": "2026-05-31",
-"status": "已截止報名",
-"organizer": "",
-"venue": "八里龜馬山紫皇天乙真慶宮(新北市八里區中華路二段165巷33號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12965"
-},
-{
 "cid": "12919",
 "name": "2026全台PAPAGO歡樂跑--西湖場",
 "start": "2026-06-21",
@@ -26,8 +7,7 @@
 "place": "苗栗縣",
 "distances": [
 "42.2K",
-"22.24K",
-"10K"
+"22.24K"
 ],
 "signup_start": "2026-04-16",
 "deadline": "2026-05-30",
@@ -44,7 +24,8 @@
 "end": "2026-06-28",
 "place": "高雄市",
 "distances": [
-"3.6K"
+"3.6K",
+"10K"
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-06-14",
@@ -226,7 +207,7 @@
 ],
 "signup_start": "2026-05-21",
 "deadline": "2026-06-26",
-"status": "06-26截止",
+"status": "已截止報名",
 "organizer": "臺中市龍井區體育會",
 "venue": "三陽玉府天宮（台中市龍井區竹師路二段112巷50號）",
 "course": {},
@@ -633,7 +614,7 @@
 ],
 "signup_start": "2026-05-18",
 "deadline": "2026-06-26",
-"status": "06-26截止",
+"status": "已截止報名",
 "organizer": "澎湖縣體育運動發展協會",
 "venue": "重光社區活動中心前(澎湖縣馬公市重光里52號)",
 "course": {},
