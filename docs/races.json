@@ -1,31 +1,12 @@
 [
 {
-"cid": "12919",
-"name": "2026全台PAPAGO歡樂跑--西湖場",
-"start": "2026-06-21",
-"end": "2026-06-22",
-"place": "苗栗縣",
-"distances": [
-"42.2K",
-"22.24K"
-],
-"signup_start": "2026-04-16",
-"deadline": "2026-05-30",
-"status": "原2026/06/28因故改期至2026/06/21",
-"organizer": "大副體育用品專賣店",
-"venue": "西湖遊客中心(苗栗縣西湖鄉店仔街4-1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12919"
-},
-{
 "cid": "13089",
 "name": "TOYOTA RUN 高雄 樂齡專場",
 "start": "2026-06-27",
 "end": "2026-06-28",
 "place": "高雄市",
 "distances": [
-"3.6K",
-"10K"
+"3.6K"
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-06-14",
@@ -44,7 +25,8 @@
 "distances": [
 "14K",
 "10K",
-"5K"
+"5K",
+"10K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -1692,7 +1674,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-06-27",
-"status": "06-27截止",
+"status": "已截止報名",
 "organizer": "",
 "venue": "嘉義市KANO棒球場(嘉義市東區東川里山仔頂249-1號)",
 "course": {},
