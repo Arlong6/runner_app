@@ -271,6 +271,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12925"
 },
 {
+"cid": "13106",
+"name": "2026新竹縣五峰越野 推廣系列活動-輕越野體驗活動",
+"start": "2026-08-16",
+"end": "2026-08-17",
+"place": "新竹縣",
+"distances": [
+"2H"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "新竹縣北埔鄉北埔國民小學(新竹縣北埔鄉埔尾村埔心街24號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13106"
+},
+{
 "cid": "13093",
 "name": "最強市民飆5K－新北市5000公尺挑戰賽 八月場",
 "start": "2026-08-19",
@@ -359,6 +376,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12921"
 },
 {
+"cid": "13105",
+"name": "來驗收吧~Hot Dog Trail -新竹場",
+"start": "2026-08-23",
+"end": "2026-08-24",
+"place": "新竹市",
+"distances": [
+"4.7K"
+],
+"signup_start": "2026-04-24",
+"deadline": "2026-08-12",
+"status": "08-12截止",
+"organizer": "新竹市政府                            、                                台灣龍虎鳳越野協會",
+"venue": "十八尖山獅子亭(新竹市東區十八尖山東峰)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13105"
+},
+{
 "cid": "13038",
 "name": "2026美麗金山路跑活動",
 "start": "2026-08-29",
@@ -370,7 +404,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-06-28",
-"status": "06-28截止",
+"status": "已截止報名",
 "organizer": "新北市金山區公所",
 "venue": "磺港漁港(新北市金山區萬壽里磺港路323號)",
 "course": {},
@@ -1587,6 +1621,24 @@
 "venue": "大佳河濱公園圓頂天幕廣場(十號水門)(台北市中山區濱江街5號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12999"
+},
+{
+"cid": "13102",
+"name": "2026新北市第12屆工安盃路跑",
+"start": "2026-10-31",
+"end": "2026-11-01",
+"place": "新北市",
+"distances": [
+"10K",
+"3K"
+],
+"signup_start": "2026-06-26",
+"deadline": "2026-08-11",
+"status": "08-11截止",
+"organizer": "新北市政府勞工局",
+"venue": "華江橋自行車租借站(新北市板橋區華江橋)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13102"
 },
 {
 "cid": "13087",
@@ -3231,6 +3283,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13054"
 },
 {
+"cid": "13103",
+"name": "2027柚花追香半程馬拉松-麻豆場",
+"start": "2027-03-14",
+"end": "2027-03-15",
+"place": "臺南市",
+"distances": [
+"21K",
+"12K",
+"6K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "麻豆區農會",
+"venue": "台南市麻豆區安業國小(臺南市麻豆區井東里113號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13103"
+},
+{
 "cid": "13024",
 "name": "2027匠愛家園公益路跑",
 "start": "2027-03-21",
@@ -3247,6 +3318,25 @@
 "venue": "匠愛家園(高雄市岡山區大莊路350號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13024"
+},
+{
+"cid": "13104",
+"name": "2027柚花追香半程馬拉松-瑞穗場",
+"start": "2027-03-28",
+"end": "2027-03-29",
+"place": "花蓮縣",
+"distances": [
+"21K",
+"12K",
+"6K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "瑞穗鄉農會",
+"venue": "瑞穗國小(花蓮縣瑞穗鄉瑞穗村溫泉路一段19號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13104"
 },
 {
 "cid": "13002",
