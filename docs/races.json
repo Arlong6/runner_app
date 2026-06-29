@@ -930,7 +930,7 @@
 ],
 "signup_start": "2026-04-08",
 "deadline": "2026-06-30",
-"status": "06-30截止",
+"status": "07-07截止",
 "organizer": "中華民國陸上運動競技協會",
 "venue": "南寮新港南路P3停車場(新竹市北區新港南路10號)",
 "course": {},
@@ -1623,6 +1623,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12999"
 },
 {
+"cid": "13108",
+"name": "2026年第十二屆美麗佳人裙襬澎澎Run",
+"start": "2026-10-31",
+"end": "2026-11-01",
+"place": "新北市",
+"distances": [
+"21K",
+"10K",
+"4K"
+],
+"signup_start": "2026-06-26",
+"deadline": "2026-09-20",
+"status": "09-20截止",
+"organizer": "美麗佳人",
+"venue": "新北大都會公園水漾啵啵廣場(新北市三重區谷王里疏洪五路二段2761號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13108"
+},
+{
 "cid": "13102",
 "name": "2026新北市第12屆工安盃路跑",
 "start": "2026-10-31",
@@ -2268,8 +2287,8 @@
 "4K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-09-30",
+"status": "09-30截止",
 "organizer": "屏東縣政府",
 "venue": "墾丁大灣遊憩區(屏東縣恆春鎮墾丁路文化巷51號)",
 "course": {},
@@ -2317,6 +2336,26 @@
 "venue": "宜蘭縣冬山河親水公園(宜蘭縣五結鄉親河路二段2號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13003"
+},
+{
+"cid": "12813",
+"name": "2026年東石全國馬拉松",
+"start": "2026-11-21",
+"end": "2026-11-22",
+"place": "嘉義縣",
+"distances": [
+"42.195K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": "2026-10-20",
+"status": "10-20截止",
+"organizer": "中華民國青少年體育協會",
+"venue": "東石鄉漁人碼頭(嘉義縣東石鄉彩霞大道420號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12813"
 },
 {
 "cid": "13019",
@@ -2413,26 +2452,6 @@
 "venue": "臺北市大佳河濱公園8號水門行動巨蛋廣場",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13073"
-},
-{
-"cid": "12813",
-"name": "2026 東石全國馬拉松",
-"start": "2026-11-29",
-"end": "2026-11-30",
-"place": "嘉義縣",
-"distances": [
-"42.195K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "中華民國青少年體育協會",
-"venue": "東石鄉漁人碼頭(嘉義縣東石鄉彩霞大道420號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12813"
 },
 {
 "cid": "12923",
@@ -2777,26 +2796,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13098"
 },
 {
-"cid": "13088",
-"name": "2026曾文水庫馬拉松",
-"start": "2026-12-13",
-"end": "2026-12-14",
-"place": "臺南市",
-"distances": [
-"42.195K",
-"21.3K",
-"12K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "臺南市政府                            、                                中華民國田徑協會",
-"venue": "經濟部水利署南區水資源分署曾文水庫(臺南市楠西區密枝里70號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13088"
-},
-{
 "cid": "12997",
 "name": "2026母子鱷魚40週年-突破前行馬拉松",
 "start": "2026-12-13",
@@ -2815,6 +2814,26 @@
 "venue": "花舞館對面廣場(台中市后里區馬場路18號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12997"
+},
+{
+"cid": "13088",
+"name": "2026第43屆曾文水庫馬拉松",
+"start": "2026-12-13",
+"end": "2026-12-14",
+"place": "臺南市",
+"distances": [
+"42.195K",
+"21.3K",
+"12K",
+"3K"
+],
+"signup_start": null,
+"deadline": "2026-10-02",
+"status": "10-02截止",
+"organizer": "臺南市政府                            、                                中華民國田徑協會",
+"venue": "經濟部水利署南區水資源分署曾文水庫(臺南市楠西區密枝里70號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13088"
 },
 {
 "cid": "12945",
@@ -2976,6 +2995,23 @@
 "venue": "南華大學 (嘉義縣大林鎮南華路一段55號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12992"
+},
+{
+"cid": "13109",
+"name": "2026 Drink SPORT Run好野吧調酒路跑",
+"start": "2026-12-25",
+"end": "2026-12-26",
+"place": "臺北市",
+"distances": [
+"10K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "臺北市中山區大佳河濱公園(臺北市中山區新庄里濱江街5號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13109"
 },
 {
 "cid": "13025",
@@ -3337,6 +3373,26 @@
 "venue": "瑞穗國小(花蓮縣瑞穗鄉瑞穗村溫泉路一段19號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13104"
+},
+{
+"cid": "13107",
+"name": "2027神岡馬-神豐國際同濟會全國公益馬拉松",
+"start": "2027-03-28",
+"end": "2027-03-29",
+"place": "臺中市",
+"distances": [
+"42.195K",
+"21K",
+"9.5K",
+"4.5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "神豐國際同濟會",
+"venue": "神岡國小(臺中市神岡區神岡里神圳路1號 )",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13107"
 },
 {
 "cid": "13002",
