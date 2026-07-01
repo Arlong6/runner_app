@@ -793,8 +793,8 @@
 "5.3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-08-15",
+"status": "08-15截止",
 "organizer": "花蓮縣體育會                            、                                台灣耐力運動協會",
 "venue": "花蓮縣壽豐鄉鯉魚潭",
 "course": {},
@@ -1430,6 +1430,23 @@
 "venue": "台糖柳營尖山埤渡假村(台南市柳營區旭山里60號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13044"
+},
+{
+"cid": "13112",
+"name": "2026新世紀福音戰士",
+"start": "2026-10-24",
+"end": "2026-10-25",
+"place": "臺北市",
+"distances": [
+"2K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "展通虹策略整合行銷股份有限公司",
+"venue": "馬場町紀念公園(台北市萬華區青年路188巷1弄7號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13112"
 },
 {
 "cid": "12926",
@@ -2775,26 +2792,6 @@
 "url": "https://mtfujimarathon.com/"
 },
 {
-"cid": "13079",
-"name": "2026 通霄濱海追風馬拉松",
-"start": "2026-12-13",
-"end": "2026-12-14",
-"place": "苗栗縣",
-"distances": [
-"42K",
-"22.5K",
-"12K",
-"4.5K"
-],
-"signup_start": "2026-06-30",
-"deadline": "2026-10-13",
-"status": "10-13截止",
-"organizer": "苗栗縣通霄慢跑協會",
-"venue": "苗栗通霄海水浴場 (苗栗縣通霄鎮通西里海濱路41-1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13079"
-},
-{
 "cid": "13098",
 "name": "2026 高雄港都國際半程馬拉松",
 "start": "2026-12-13",
@@ -2852,6 +2849,26 @@
 "venue": "經濟部水利署南區水資源分署曾文水庫(臺南市楠西區密枝里70號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13088"
+},
+{
+"cid": "13079",
+"name": "2026通霄粉紅超跑馬拉松",
+"start": "2026-12-13",
+"end": "2026-12-14",
+"place": "苗栗縣",
+"distances": [
+"42K",
+"23K",
+"12K",
+"4.5K"
+],
+"signup_start": "2026-06-30",
+"deadline": "2026-10-13",
+"status": "10-13截止",
+"organizer": "苗栗縣通霄慢跑協會",
+"venue": "苗栗通霄海水浴場 (苗栗縣通霄鎮通西里海濱路41-1號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13079"
 },
 {
 "cid": "12945",
@@ -3307,12 +3324,32 @@
 "42.195K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-10-15",
+"status": "10-15截止",
 "organizer": "嘉義市諸羅山長跑協會",
 "venue": "嘉義蘭潭音樂噴泉(嘉義市東區紅毛埤187號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12943"
+},
+{
+"cid": "13111",
+"name": "2027鳳山跑三校越野馬拉松",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "高雄市",
+"distances": [
+"42.195K",
+"23K",
+"10K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "高雄市鳳山慢跑協會",
+"venue": "高雄市陸軍軍官學校(高雄市鳳山區維武路1號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13111"
 },
 {
 "cid": "13054",
