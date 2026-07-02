@@ -3049,6 +3049,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13109"
 },
 {
+"cid": "13113",
+"name": "2026 LAVA QUEEN 台北女子二鐵賽",
+"start": "2026-12-27",
+"end": "2026-12-28",
+"place": "臺北市",
+"distances": [
+"28K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "LAVA 鐵人公司",
+"venue": "至善國中(台北市士林區至善路二段360號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13113"
+},
+{
 "cid": "13025",
 "name": "2026扶輪盃為愛發聲公益路跑賽",
 "start": "2026-12-27",
