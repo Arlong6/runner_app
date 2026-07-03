@@ -1,22 +1,5 @@
 [
 {
-"cid": "13089",
-"name": "TOYOTA RUN 高雄 樂齡專場",
-"start": "2026-06-27",
-"end": "2026-06-28",
-"place": "高雄市",
-"distances": [
-"3.6K"
-],
-"signup_start": "2026-05-05",
-"deadline": "2026-06-14",
-"status": "已截止報名",
-"organizer": "和泰汽車股份有限公司",
-"venue": "高雄市蓮池潭風景區 高雄物產館 (高雄市左營區翠華路1435號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13089"
-},
-{
 "cid": "12809",
 "name": "2026 第二屆東石仲夏星光路跑",
 "start": "2026-06-28",
@@ -25,8 +8,7 @@
 "distances": [
 "14K",
 "10K",
-"5K",
-"10K"
+"5K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -44,7 +26,8 @@
 "place": "高雄市",
 "distances": [
 "10K",
-"3K"
+"3K",
+"10K"
 ],
 "signup_start": "2026-03-23",
 "deadline": "2026-03-23",
@@ -53,6 +36,23 @@
 "venue": "岡山河堤公園(高雄市岡山區河堤路二段)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12964"
+},
+{
+"cid": "13089",
+"name": "TOYOTA RUN 高雄 樂齡專場",
+"start": "2026-07-04",
+"end": "2026-07-05",
+"place": "高雄市",
+"distances": [
+"3.6K"
+],
+"signup_start": "2026-05-05",
+"deadline": "2026-06-14",
+"status": "已截止報名",
+"organizer": "和泰汽車股份有限公司",
+"venue": "高雄市蓮池潭風景區 高雄物產館 (高雄市左營區翠華路1435號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13089"
 },
 {
 "cid": "12810",
