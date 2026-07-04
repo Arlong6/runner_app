@@ -1,24 +1,5 @@
 [
 {
-"cid": "12809",
-"name": "2026 第二屆東石仲夏星光路跑",
-"start": "2026-06-28",
-"end": "2026-06-29",
-"place": "嘉義縣",
-"distances": [
-"14K",
-"10K",
-"5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "中華民國青少年體育協會",
-"venue": "笨港口港口宮(嘉義縣東石鄉5號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12809"
-},
-{
 "cid": "12964",
 "name": "2026 VISOGE 夜跑派對-高雄場",
 "start": "2026-07-04",
@@ -26,8 +7,7 @@
 "place": "高雄市",
 "distances": [
 "10K",
-"3K",
-"10K"
+"3K"
 ],
 "signup_start": "2026-03-23",
 "deadline": "2026-03-23",
@@ -44,7 +24,8 @@
 "end": "2026-07-05",
 "place": "高雄市",
 "distances": [
-"3.6K"
+"3.6K",
+"10K"
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-06-14",
