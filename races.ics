@@ -10,10 +10,24 @@ UID:race-12899@runner_app
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261020
 SUMMARY:🏃 2026 高雄舒跑杯
-DESCRIPTION:距離: 9.7K / 3K\n地點: 高雄市\n報名: 報名時間未
- 定\nhttps://running.biji.co/index.php?q=competition&act=info&cid=12899
+DESCRIPTION:距離: 9.7K / 3K\n地點: 高雄市\n報名截止: 2026/09/1
+ 1\nhttps://running.biji.co/index.php?q=competition&act=info&cid=12899
 LOCATION:高雄市
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:signup-12899@runner_app
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:⏰ 報名截止: 2026 高雄舒跑杯
+DESCRIPTION:距離: 9.7K / 3K\n地點: 高雄市\n報名截止: 2026/09/1
+ 1\nhttps://running.biji.co/index.php?q=competition&act=info&cid=12899
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:報名即將截止: 2026 高雄舒跑杯
+TRIGGER:-P7D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:race-13016@runner_app
@@ -132,6 +146,30 @@ TRIGGER:-P7D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:race-12900@runner_app
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261110
+SUMMARY:🏃 2026 臺中舒跑杯
+DESCRIPTION:距離: 9K / 5K / 3K\n地點: 臺中市\n報名截止: 2026/1
+ 0/06\nhttps://running.biji.co/index.php?q=competition&act=info&cid=12900
+LOCATION:臺中市
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:signup-12900@runner_app
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:⏰ 報名截止: 2026 臺中舒跑杯
+DESCRIPTION:距離: 9K / 5K / 3K\n地點: 臺中市\n報名截止: 2026/1
+ 0/06\nhttps://running.biji.co/index.php?q=competition&act=info&cid=12900
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:報名即將截止: 2026 臺中舒跑杯
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:race-12929@runner_app
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261110
@@ -156,17 +194,6 @@ ACTION:DISPLAY
 DESCRIPTION:報名即將截止: 2026台灣米倉田中馬拉松
 TRIGGER:-P7D
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:race-12900@runner_app
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261117
-SUMMARY:🏃 2026 臺中舒跑杯
-DESCRIPTION:距離: 9K / 5K / 3K\n地點: 臺中市\n報名: 報名時間
- 未定\nhttps://running.biji.co/index.php?q=competition&act=info&cid=129
- 00
-LOCATION:臺中市
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:race-13073@runner_app

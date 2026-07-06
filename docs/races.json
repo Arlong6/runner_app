@@ -1029,6 +1029,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13042"
 },
 {
+"cid": "13114",
+"name": "2026國際極限超級鐵人國內選拔賽 (臺灣台南場)",
+"start": "2026-10-04",
+"end": "2026-10-05",
+"place": "臺南市",
+"distances": [
+"226K"
+],
+"signup_start": "2026-06-30",
+"deadline": "2026-09-15",
+"status": "09-15截止",
+"organizer": "中華民國全能運動協會\n                            、                                台南市早起鳥路跑協會",
+"venue": "臺南市立游泳池(臺南市南區竹溪里健康路一段269號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13114"
+},
+{
 "cid": "12939",
 "name": "2026宜蘭縣冬山河水岸馬拉松",
 "start": "2026-10-04",
@@ -1309,8 +1326,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-09-11",
+"status": "09-11截止",
 "organizer": "",
 "venue": "高雄夢時代(高雄市前鎮區中華五路789號)",
 "course": {},
@@ -1984,6 +2001,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13062"
 },
 {
+"cid": "13115",
+"name": "2026 Taiwan Extreme Super Triathlon",
+"start": "2026-11-08",
+"end": "2026-11-09",
+"place": "臺南市",
+"distances": [
+"226K"
+],
+"signup_start": "2026-06-29",
+"deadline": "2026-10-15",
+"status": "10-15截止",
+"organizer": "中華民國全能運動協會\n                            、                                台南市早起鳥路跑協會",
+"venue": "臺南市立游泳池(臺南市南區竹溪里健康路一段269號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13115"
+},
+{
 "cid": "13021",
 "name": "2026 ZEPRO RUN全國半程馬拉松 - 新竹場",
 "start": "2026-11-08",
@@ -2056,6 +2090,25 @@
 "venue": "福岡市中央區天神地區",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12996"
+},
+{
+"cid": "12900",
+"name": "2026 臺中舒跑杯",
+"start": "2026-11-08",
+"end": "2026-11-09",
+"place": "臺中市",
+"distances": [
+"9K",
+"5K",
+"3K"
+],
+"signup_start": null,
+"deadline": "2026-10-06",
+"status": "10-06截止",
+"organizer": "",
+"venue": "臺中市政府市政前廣場(臺中市西屯區臺灣大道三段99號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12900"
 },
 {
 "cid": "12821",
@@ -2232,25 +2285,6 @@
 "venue": "美堤碼頭廣場（美堤河濱公園-兒童遊戲場)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13049"
-},
-{
-"cid": "12900",
-"name": "2026 臺中舒跑杯",
-"start": "2026-11-15",
-"end": "2026-11-16",
-"place": "臺中市",
-"distances": [
-"9K",
-"5K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "臺中市政府市政前廣場(臺中市西屯區臺灣大道三段99號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12900"
 },
 {
 "cid": "12885",
@@ -2688,7 +2722,7 @@
 "distances": [
 "42K",
 "21K",
-"10K",
+"10.7K",
 "7K",
 "3K"
 ],
