@@ -25,7 +25,9 @@
 "place": "高雄市",
 "distances": [
 "3.6K",
-"10K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-06-14",
@@ -186,9 +188,7 @@
 "16K",
 "8.5K",
 "3.5K",
-"21K",
-"10K",
-"4K"
+"10K"
 ],
 "signup_start": "2026-05-07",
 "deadline": "2026-06-14",
@@ -932,7 +932,7 @@
 ],
 "signup_start": "2026-04-08",
 "deadline": "2026-06-30",
-"status": "已截止報名",
+"status": "07-31截止",
 "organizer": "中華民國陸上運動競技協會",
 "venue": "南寮新港南路P3停車場(新竹市北區新港南路10號)",
 "course": {},
@@ -1147,6 +1147,23 @@
 "venue": "新莊田徑場(新北市新莊區中華路一段)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13071"
+},
+{
+"cid": "13117",
+"name": "2026年盲人環台公益路跑熱身賽",
+"start": "2026-10-10",
+"end": "2026-10-11",
+"place": "臺北市",
+"distances": [
+"17K"
+],
+"signup_start": "2026-07-15",
+"deadline": "2026-09-30",
+"status": "09-30截止",
+"organizer": "台灣盲人環台為公益而跑協會",
+"venue": "台北溪山國小廣場(臺北市士林區溪山里至善路三段199號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13117"
 },
 {
 "cid": "12888",
@@ -3115,7 +3132,7 @@
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-10-31",
-"status": "10-27截止",
+"status": "10-01截止",
 "organizer": "新營太子宮太子爺廟管理委員會",
 "venue": "台南市新營太子宮(台南市新營區太子宮45-2號)",
 "course": {},
