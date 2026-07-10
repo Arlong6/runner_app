@@ -1,43 +1,5 @@
 [
 {
-"cid": "12964",
-"name": "2026 VISOGE 夜跑派對-高雄場",
-"start": "2026-07-04",
-"end": "2026-07-05",
-"place": "高雄市",
-"distances": [
-"10K",
-"3K"
-],
-"signup_start": "2026-03-23",
-"deadline": "2026-03-23",
-"status": "已截止報名",
-"organizer": "全統運動用品股份有限公司",
-"venue": "岡山河堤公園(高雄市岡山區河堤路二段)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12964"
-},
-{
-"cid": "13089",
-"name": "TOYOTA RUN 高雄 樂齡專場",
-"start": "2026-07-04",
-"end": "2026-07-05",
-"place": "高雄市",
-"distances": [
-"3.6K",
-"21K",
-"10K",
-"4K"
-],
-"signup_start": "2026-05-05",
-"deadline": "2026-06-14",
-"status": "已截止報名",
-"organizer": "和泰汽車股份有限公司",
-"venue": "高雄市蓮池潭風景區 高雄物產館 (高雄市左營區翠華路1435號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13089"
-},
-{
 "cid": "12810",
 "name": "第13屆專鑄不凡-SIMHOPE x 大腳丫全國馬拉松接力賽",
 "start": "2026-07-05",
@@ -62,7 +24,8 @@
 "place": "苗栗縣",
 "distances": [
 "42K",
-"21K"
+"21K",
+"10K"
 ],
 "signup_start": "2026-01-28",
 "deadline": "2026-05-17",
@@ -187,8 +150,7 @@
 "distances": [
 "16K",
 "8.5K",
-"3.5K",
-"10K"
+"3.5K"
 ],
 "signup_start": "2026-05-07",
 "deadline": "2026-06-14",
@@ -224,7 +186,10 @@
 "distances": [
 "13K",
 "6.5K",
-"3.5K"
+"3.5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-11",
 "deadline": "2026-07-15",
