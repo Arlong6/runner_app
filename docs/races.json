@@ -1,22 +1,5 @@
 [
 {
-"cid": "12810",
-"name": "第13屆專鑄不凡-SIMHOPE x 大腳丫全國馬拉松接力賽",
-"start": "2026-07-05",
-"end": "2026-07-06",
-"place": "臺中市",
-"distances": [
-"42K"
-],
-"signup_start": "2026-03-12",
-"deadline": "2026-05-31",
-"status": "已截止報名",
-"organizer": "台灣大腳丫長跑協會",
-"venue": "台中都會公園-陽光草坪(台中市西屯區都會園路1215巷140號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12810"
-},
-{
 "cid": "12974",
 "name": "夏日馬拉松 - 苗栗鯉魚潭",
 "start": "2026-07-11",
@@ -24,10 +7,7 @@
 "place": "苗栗縣",
 "distances": [
 "42K",
-"21K",
-"21K",
-"10K",
-"4K"
+"21K"
 ],
 "signup_start": "2026-01-28",
 "deadline": "2026-05-17",
@@ -44,7 +24,8 @@
 "end": "2026-07-13",
 "place": "臺中市",
 "distances": [
-"3.5K"
+"3.5K",
+"10K"
 ],
 "signup_start": "2026-04-03",
 "deadline": "2026-05-22",
@@ -188,8 +169,7 @@
 "distances": [
 "13K",
 "6.5K",
-"3.5K",
-"10K"
+"3.5K"
 ],
 "signup_start": "2026-06-11",
 "deadline": "2026-07-15",
@@ -209,7 +189,10 @@
 "42K",
 "21K",
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-02-10",
 "deadline": "2026-07-15",
