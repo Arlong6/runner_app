@@ -25,7 +25,9 @@
 "place": "臺中市",
 "distances": [
 "3.5K",
-"10K"
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-04-03",
 "deadline": "2026-05-22",
@@ -190,9 +192,7 @@
 "21K",
 "10K",
 "5K",
-"21K",
-"10K",
-"4K"
+"10K"
 ],
 "signup_start": "2026-02-10",
 "deadline": "2026-07-15",
@@ -351,7 +351,10 @@
 "distances": [
 "36K",
 "21K",
-"9K"
+"9K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-17",
 "deadline": "2026-08-10",
@@ -2603,6 +2606,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13099"
 },
 {
+"cid": "13046",
+"name": "2026 新北市耶誕馬拉松接力賽耶誕快追",
+"start": "2026-12-06",
+"end": "2026-12-07",
+"place": "新北市",
+"distances": [
+"24.7K"
+],
+"signup_start": null,
+"deadline": "2026-09-22",
+"status": "09-22截止",
+"organizer": "",
+"venue": "新北市市民廣場(新北市板橋區中山路一段161號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13046"
+},
+{
 "cid": "12814",
 "name": "2026 第二屆麗晨臺中國際馬拉松",
 "start": "2026-12-06",
@@ -2701,23 +2721,6 @@
 "venue": "國立故宮博物院南部院區北側慶典花園旁(嘉義縣太保市故宮大道888號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12864"
-},
-{
-"cid": "13046",
-"name": "Running Holidays-2026新北市耶誕馬拉松接力",
-"start": "2026-12-06",
-"end": "2026-12-07",
-"place": "新北市",
-"distances": [
-"9K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "新北市市民廣場(新北市板橋區中山路一段161號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13046"
 },
 {
 "cid": "13063",
@@ -3249,26 +3252,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13059"
 },
 {
-"cid": "12976",
-"name": "2027第九屆臺中資訊盃公益馬拉松",
-"start": "2027-01-17",
-"end": "2027-01-18",
-"place": "臺中市",
-"distances": [
-"42K",
-"21K",
-"10K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "台中市電腦商業同業公會/台灣大腳丫長跑協會",
-"venue": "烏日國中(臺中市烏日區新興路457號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12976"
-},
-{
 "cid": "13072",
 "name": "2027 CTAU超馬系列賽 - 第三站 陽明山超級馬拉松",
 "start": "2027-01-23",
@@ -3289,6 +3272,26 @@
 "venue": "臺北市立至善國民中學學生活動中心 (台北市士林區至善路二段360號，入口在過校門往山上 100M右方）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13072"
+},
+{
+"cid": "12976",
+"name": "2027第九屆臺中資訊盃公益馬拉松",
+"start": "2027-01-24",
+"end": "2027-01-25",
+"place": "臺中市",
+"distances": [
+"42K",
+"21K",
+"10K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "台中市電腦商業同業公會/台灣大腳丫長跑協會",
+"venue": "烏日國中(臺中市烏日區新興路457號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12976"
 },
 {
 "cid": "13095",
