@@ -1,33 +1,12 @@
 [
 {
-"cid": "12974",
-"name": "夏日馬拉松 - 苗栗鯉魚潭",
-"start": "2026-07-11",
-"end": "2026-07-12",
-"place": "苗栗縣",
-"distances": [
-"42K",
-"21K"
-],
-"signup_start": "2026-01-28",
-"deadline": "2026-05-17",
-"status": "已截止報名",
-"organizer": "中華民國全能運動協會",
-"venue": "苗栗鳳龍山觀音寺(苗栗縣三義鄉27號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12974"
-},
-{
 "cid": "12989",
 "name": "2026 KOF拳皇公益主題路跑",
 "start": "2026-07-12",
 "end": "2026-07-13",
 "place": "臺中市",
 "distances": [
-"3.5K",
-"21K",
-"10K",
-"3K"
+"3.5K"
 ],
 "signup_start": "2026-04-03",
 "deadline": "2026-05-22",
@@ -45,7 +24,8 @@
 "place": "宜蘭縣",
 "distances": [
 "5.7K",
-"3.8K"
+"3.8K",
+"10K"
 ],
 "signup_start": "2026-02-07",
 "deadline": "2026-06-13",
@@ -191,8 +171,7 @@
 "42K",
 "21K",
 "10K",
-"5K",
-"10K"
+"5K"
 ],
 "signup_start": "2026-02-10",
 "deadline": "2026-07-15",
@@ -209,7 +188,10 @@
 "end": "2026-08-17",
 "place": "新竹縣",
 "distances": [
-"2H"
+"2H",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -351,10 +333,7 @@
 "distances": [
 "36K",
 "21K",
-"9K",
-"21K",
-"10K",
-"4K"
+"9K"
 ],
 "signup_start": "2026-04-17",
 "deadline": "2026-08-10",
@@ -371,7 +350,10 @@
 "end": "2026-08-31",
 "place": "雪梨",
 "distances": [
-"42.195K"
+"42.195K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
