@@ -1,22 +1,5 @@
 [
 {
-"cid": "12989",
-"name": "2026 KOF拳皇公益主題路跑",
-"start": "2026-07-12",
-"end": "2026-07-13",
-"place": "臺中市",
-"distances": [
-"3.5K"
-],
-"signup_start": "2026-04-03",
-"deadline": "2026-05-22",
-"status": "已截止報名",
-"organizer": "坤翔國際有限公司",
-"venue": "台中烏日啤酒觀光工廠 (台中市烏日區光華街1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12989"
-},
-{
 "cid": "13047",
 "name": "2026 Holy Jesus Vertical 聖母山莊登高賽",
 "start": "2026-07-18",
@@ -24,10 +7,7 @@
 "place": "宜蘭縣",
 "distances": [
 "5.7K",
-"3.8K",
-"21K",
-"10K",
-"3K"
+"3.8K"
 ],
 "signup_start": "2026-02-07",
 "deadline": "2026-06-13",
@@ -45,7 +25,10 @@
 "place": "臺中市",
 "distances": [
 "10K",
-"3K"
+"3K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-03-23",
 "deadline": "2026-04-30",
@@ -190,10 +173,7 @@
 "end": "2026-08-17",
 "place": "新竹縣",
 "distances": [
-"2H",
-"21K",
-"10K",
-"4K"
+"2H"
 ],
 "signup_start": null,
 "deadline": null,
@@ -210,7 +190,10 @@
 "end": "2026-08-20",
 "place": "新北市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-08-10",
 "deadline": "2026-08-16",
@@ -352,8 +335,7 @@
 "end": "2026-08-31",
 "place": "雪梨",
 "distances": [
-"42.195K",
-"10K"
+"42.195K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -372,6 +354,7 @@
 "distances": [
 "44.5K",
 "26K",
+"10K",
 "10K"
 ],
 "signup_start": "2026-04-01",
