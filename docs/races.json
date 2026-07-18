@@ -25,7 +25,9 @@
 "distances": [
 "5.7K",
 "3.8K",
-"10K"
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-02-07",
 "deadline": "2026-06-13",
@@ -191,7 +193,7 @@
 "2H",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -351,9 +353,7 @@
 "place": "雪梨",
 "distances": [
 "42.195K",
-"21K",
-"10K",
-"4K"
+"10K"
 ],
 "signup_start": null,
 "deadline": null,
