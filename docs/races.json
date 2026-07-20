@@ -28,7 +28,7 @@
 "3K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-03-23",
 "deadline": "2026-04-30",
@@ -355,7 +355,7 @@
 "10K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-06-15",
@@ -1779,6 +1779,26 @@
 "route_url": "https://irunner.biji.co/sunmoonlakemarathon2026"
 },
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12897"
+},
+{
+"cid": "13120",
+"name": "2026濁水溪紫金馬拉松-虎康林內站",
+"start": "2026-11-01",
+"end": "2026-11-02",
+"place": "雲林縣",
+"distances": [
+"42K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-07-15",
+"deadline": "2026-09-16",
+"status": "09-16截止",
+"organizer": "林內鄉公所",
+"venue": "雲林縣林內鄉公所  (雲林縣林內鄉林中村中正路340號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13120"
 },
 {
 "cid": "13018",
@@ -3216,25 +3236,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12891"
 },
 {
-"cid": "13059",
-"name": "2027新竹縣尖石鄉鎮西堡王者之路~光明(火)超級馬拉松",
-"start": "2027-01-17",
-"end": "2027-01-18",
-"place": "新竹縣",
-"distances": [
-"100K",
-"80K",
-"50K"
-],
-"signup_start": "2026-07-01",
-"deadline": "2026-09-30",
-"status": "09-30截止",
-"organizer": "新竹縣尖石鄉公所                            、                                中華13知路跑協會",
-"venue": "新竹縣尖石鄉公所前廣場(新竹縣尖石鄉義興村70號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13059"
-},
-{
 "cid": "13072",
 "name": "2027 CTAU超馬系列賽 - 第三站 陽明山超級馬拉松",
 "start": "2027-01-23",
@@ -3255,6 +3256,25 @@
 "venue": "臺北市立至善國民中學學生活動中心 (台北市士林區至善路二段360號，入口在過校門往山上 100M右方）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13072"
+},
+{
+"cid": "13059",
+"name": "2027新竹縣尖石鄉鎮西堡王者之路~光明(火)超級馬拉松",
+"start": "2027-01-24",
+"end": "2027-01-25",
+"place": "新竹縣",
+"distances": [
+"100K",
+"80K",
+"50K"
+],
+"signup_start": "2026-07-01",
+"deadline": "2026-09-30",
+"status": "原2026/01/17因故延期至2026/01/24",
+"organizer": "新竹縣尖石鄉公所                            、                                中華13知路跑協會",
+"venue": "新竹縣尖石鄉公所前廣場(新竹縣尖石鄉義興村70號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13059"
 },
 {
 "cid": "12976",
@@ -3296,6 +3316,46 @@
 "venue": "台南市新化區東成會館(臺南市新化區知義里中興路293號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13095"
+},
+{
+"cid": "13070",
+"name": "2027第四屆仁愛鄉賽德克櫻花季馬拉松",
+"start": "2027-02-14",
+"end": "2027-02-15",
+"place": "南投縣",
+"distances": [
+"42K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-07-10",
+"deadline": "2026-12-31",
+"status": "12-31截止",
+"organizer": "南投縣仁愛鄉公所",
+"venue": "仁愛鄉春陽村第四班櫻花大道(南投縣仁愛鄉大同村仁和路184號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13070"
+},
+{
+"cid": "13123",
+"name": "2027彰化同濟盃全國馬拉松暨兒童親子路跑",
+"start": "2027-02-28",
+"end": "2027-03-01",
+"place": "彰化縣",
+"distances": [
+"42K",
+"21K",
+"10K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "員林家商(彰化縣員林市大饒里中正路56號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13123"
 },
 {
 "cid": "12943",
@@ -3397,6 +3457,27 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13024"
 },
 {
+"cid": "13121",
+"name": "2027大亞旺萊馬拉松",
+"start": "2027-03-21",
+"end": "2027-03-22",
+"place": "臺南市",
+"distances": [
+"42K",
+"30K",
+"21K",
+"14K",
+"7K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "大亞電線電纜股份有限公司",
+"venue": "大亞電線電纜股份有限公司-臺南總公司(台南市關廟區中山路二段249號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13121"
+},
+{
 "cid": "13104",
 "name": "2027柚花追香半程馬拉松-瑞穗場",
 "start": "2027-03-28",
@@ -3452,6 +3533,26 @@
 "venue": "西螺大橋廣場(雲林縣西螺鎮大橋路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13002"
+},
+{
+"cid": "13122",
+"name": "玩野樂園",
+"start": "2027-11-27",
+"end": "2027-11-28",
+"place": "桃園市",
+"distances": [
+"50K",
+"20K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "破圈運動行銷股份有限公司",
+"venue": "石門水庫南苑停車場(桃園市大溪區環湖路1-10號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13122"
 },
 {
 "cid": "13065",
