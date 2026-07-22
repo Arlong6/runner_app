@@ -28,7 +28,7 @@
 "3K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-03-23",
 "deadline": "2026-04-30",
@@ -193,7 +193,7 @@
 "5K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-08-10",
 "deadline": "2026-08-16",
@@ -3065,8 +3065,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-11-08",
+"status": "11-08截止",
 "organizer": "高雄鐵人扶輪社",
 "venue": "丸鐵運動（高雄市三民區美都路9號）",
 "course": {},
