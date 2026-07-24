@@ -1,44 +1,5 @@
 [
 {
-"cid": "13047",
-"name": "2026 Holy Jesus Vertical 聖母山莊登高賽",
-"start": "2026-07-18",
-"end": "2026-07-19",
-"place": "宜蘭縣",
-"distances": [
-"5.7K",
-"3.8K"
-],
-"signup_start": "2026-02-07",
-"deadline": "2026-06-13",
-"status": "已截止報名",
-"organizer": "中華民國越野跑協會",
-"venue": "五峰旗公有停車場內的美慶山莊(宜蘭縣礁溪鄉大忠村五峰路89之1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13047"
-},
-{
-"cid": "12963",
-"name": "2026 VISOGE 夜跑派對 台中場",
-"start": "2026-07-18",
-"end": "2026-07-19",
-"place": "臺中市",
-"distances": [
-"10K",
-"3K",
-"21K",
-"10K",
-"4K"
-],
-"signup_start": "2026-03-23",
-"deadline": "2026-04-30",
-"status": "已截止報名",
-"organizer": "全統運動用品股份有限公司",
-"venue": "台中市西屯區中央球場(台中市西屯區凱旋路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12963"
-},
-{
 "cid": "13092",
 "name": "最強市民飆5K－新北市5000公尺挑戰賽 七月場",
 "start": "2026-07-22",
@@ -63,7 +24,10 @@
 "place": "桃園市",
 "distances": [
 "42.2K",
-"21K"
+"21K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": "2026-06-30",
@@ -190,10 +154,7 @@
 "end": "2026-08-20",
 "place": "新北市",
 "distances": [
-"5K",
-"21K",
-"10K",
-"3K"
+"5K"
 ],
 "signup_start": "2026-08-10",
 "deadline": "2026-08-16",
@@ -227,7 +188,10 @@
 "end": "2026-08-23",
 "place": "新竹縣",
 "distances": [
-"42K"
+"42K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-03-16",
 "deadline": "2026-06-30",
