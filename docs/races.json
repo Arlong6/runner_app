@@ -500,6 +500,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13000"
 },
 {
+"cid": "13125",
+"name": "2026花蓮富里六十石山金針花超半程馬拉松",
+"start": "2026-09-13",
+"end": "2026-09-14",
+"place": "花蓮縣",
+"distances": [
+"24K",
+"10K",
+"5K"
+],
+"signup_start": "2026-04-29",
+"deadline": "2026-07-10",
+"status": "已截止報名",
+"organizer": "富里鄉公所                            、                                富里鄉民代表會",
+"venue": "富里鄉農會羅山展售中心旁大草皮(花蓮縣富里鄉羅山村9鄰東湖6號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13125"
+},
+{
 "cid": "13051",
 "name": "2026星海共馳澎湖星光路跑賽",
 "start": "2026-09-19",
@@ -2742,6 +2761,25 @@
 "venue": "富士河口湖 大池公園",
 "course": {},
 "url": "https://mtfujimarathon.com/"
+},
+{
+"cid": "13124",
+"name": "2026 濁水溪紫金馬拉松-花城竹山站",
+"start": "2026-12-13",
+"end": "2026-12-14",
+"place": "南投縣",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "竹山鎮公所",
+"venue": "南投縣竹山鎮公所 (南投縣竹山鎮雲林里公所路100號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13124"
 },
 {
 "cid": "13098",
