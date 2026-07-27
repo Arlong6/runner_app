@@ -27,7 +27,7 @@
 "21K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": null,
 "deadline": "2026-06-30",
@@ -191,7 +191,7 @@
 "42K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-03-16",
 "deadline": "2026-06-30",
@@ -1535,6 +1535,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12836"
 },
 {
+"cid": "13128",
+"name": "2026 壯圍秘境星光饗宴健走趣",
+"start": "2026-10-31",
+"end": "2026-11-01",
+"place": "宜蘭縣",
+"distances": [
+"4K"
+],
+"signup_start": "2026-06-24",
+"deadline": "2026-10-01",
+"status": "10-01截止",
+"organizer": "聯網國際資訊股份有限公司",
+"venue": "宜蘭縣壯圍鄉過嶺保安宮(宜蘭縣壯圍鄉壯濱路三段302號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13128"
+},
+{
 "cid": "13028",
 "name": "2026 清水馬拉松嘉年華",
 "start": "2026-10-31",
@@ -2263,24 +2280,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12885"
 },
 {
-"cid": "13045",
-"name": "2026國聚慵懶跑者聚樂部",
-"start": "2026-11-15",
-"end": "2026-11-16",
-"place": "臺中市",
-"distances": [
-"10K",
-"5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "台中中央球場 (臺中市西屯區凱旋路與凱旋七街路口)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13045"
-},
-{
 "cid": "12838",
 "name": "2026屏東墾丁日本航空國際馬拉松",
 "start": "2026-11-15",
@@ -2319,6 +2318,24 @@
 "venue": "彰化縣鹿港鎮立體育場(彰化縣鹿港鎮中正路531號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12934"
+},
+{
+"cid": "13045",
+"name": "慵懶跑者聚樂部-COZY RUNNER CLUB",
+"start": "2026-11-15",
+"end": "2026-11-16",
+"place": "臺中市",
+"distances": [
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": "2026-09-10",
+"status": "09-10截止",
+"organizer": "",
+"venue": "台中中央球場 (臺中市西屯區凱旋路與凱旋七街路口)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13045"
 },
 {
 "cid": "13003",
@@ -2396,7 +2413,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-07-27",
-"status": "07-27截止",
+"status": "已截止報名",
 "organizer": "雙連長跑協會",
 "venue": "龍岡森林公園(桃園市中壢區龍慈路與龍岡路三段交接處)",
 "course": {},
@@ -2937,6 +2954,32 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12994"
 },
 {
+"cid": "13129",
+"name": "2026臺北馬拉松-耶誕歡樂早餐跑 BREAKFAST RUN",
+"start": "2026-12-19",
+"end": "2026-12-20",
+"place": "臺北市",
+"distances": [
+"9K",
+"3K"
+],
+"signup_start": "2026-06-22",
+"deadline": "2026-10-19",
+"status": "10-19截止",
+"organizer": "臺北市政府                            、                                中華民國田徑協會                            、                                中華民國路跑協會",
+"venue": "臺北市市民廣場(台北市信義區松壽路1號)",
+"course": {
+"terrain": "市區道路 + 河濱",
+"elevation": "總爬升 < 100m(半馬約 65m)",
+"difficulty": "★☆☆☆☆ 平坦快速,公認最好破 PB",
+"highlight": "市民廣場起跑,行經仁愛路、中山南路等市區地標,後段進河濱,終點台北田徑場。",
+"route_url": "https://www.taipeicitymarathon.com/place-map.php",
+"route": "taipei",
+"route_note": "半程參考(來源:健行筆記 GPX)"
+},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13129"
+},
+{
 "cid": "13101",
 "name": "2026 台南府城國際半程馬拉松",
 "start": "2026-12-20",
@@ -2987,7 +3030,7 @@
 ],
 "signup_start": null,
 "deadline": null,
-"status": "報名時間未定",
+"status": "已截止報名",
 "organizer": "",
 "venue": "臺北市政府市民廣場(台北市信義區松壽路1號)",
 "course": {
