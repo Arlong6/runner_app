@@ -1,22 +1,5 @@
 [
 {
-"cid": "13092",
-"name": "最強市民飆5K－新北市5000公尺挑戰賽 七月場",
-"start": "2026-07-22",
-"end": "2026-07-23",
-"place": "新北市",
-"distances": [
-"5K"
-],
-"signup_start": "2026-07-13",
-"deadline": "2026-07-19",
-"status": "已截止報名",
-"organizer": "捷迅股份有限公司",
-"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13092"
-},
-{
 "cid": "12920",
 "name": "2026全台PAPAGO歡樂跑--桃園場",
 "start": "2026-07-26",
@@ -24,10 +7,7 @@
 "place": "桃園市",
 "distances": [
 "42.2K",
-"21K",
-"21K",
-"10K",
-"3K"
+"21K"
 ],
 "signup_start": null,
 "deadline": "2026-06-30",
@@ -45,7 +25,10 @@
 "place": "臺中市",
 "distances": [
 "25K",
-"15K"
+"15K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-05-21",
 "deadline": "2026-06-26",
@@ -188,10 +171,7 @@
 "end": "2026-08-23",
 "place": "新竹縣",
 "distances": [
-"42K",
-"21K",
-"10K",
-"4K"
+"42K"
 ],
 "signup_start": "2026-03-16",
 "deadline": "2026-06-30",
@@ -210,7 +190,10 @@
 "distances": [
 "42K",
 "21K",
-"10K"
+"10K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
