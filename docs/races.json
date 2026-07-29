@@ -28,7 +28,7 @@
 "15K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-05-21",
 "deadline": "2026-06-26",
@@ -193,7 +193,7 @@
 "10K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -2186,6 +2186,26 @@
 "venue": "冬山火車站前廣場(宜蘭縣冬山鄉中正路1號冬山火車站)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12988"
+},
+{
+"cid": "13130",
+"name": "2026 竹北半城路跑",
+"start": "2026-11-14",
+"end": "2026-11-15",
+"place": "新竹縣",
+"distances": [
+"21K",
+"12K",
+"4K",
+"1K"
+],
+"signup_start": "2026-07-28",
+"deadline": "2026-09-11",
+"status": "09-11截止",
+"organizer": "新竹縣竹北市公所",
+"venue": "竹北夜市廣場(新竹縣竹北市環北路五段)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13130"
 },
 {
 "cid": "13001",
