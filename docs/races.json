@@ -28,7 +28,7 @@
 "15K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-05-21",
 "deadline": "2026-06-26",
@@ -182,28 +182,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12975"
 },
 {
-"cid": "12984",
-"name": "2026 馬來亞銀行馬拉松 Maybank Marathon",
-"start": "2026-08-23",
-"end": "2026-08-24",
-"place": "印尼",
-"distances": [
-"42K",
-"21K",
-"10K",
-"21K",
-"10K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "峇裡島聯合訓練中心",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12984"
-},
-{
 "cid": "12921",
 "name": "2026全台PAPAGO歡樂跑--龍潭場",
 "start": "2026-08-23",
@@ -211,7 +189,10 @@
 "place": "桃園市",
 "distances": [
 "42K",
-"21K"
+"21K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -276,23 +257,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13061"
 },
 {
-"cid": "12822",
-"name": "2026 雪梨馬拉松",
-"start": "2026-08-30",
-"end": "2026-08-31",
-"place": "雪梨",
-"distances": [
-"42.195K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "北雪梨米勒街",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12822"
-},
-{
 "cid": "12979",
 "name": "2026東城盃合歡山越野馬拉松",
 "start": "2026-09-04",
@@ -310,27 +274,6 @@
 "venue": "南投藝家原民宿前(南投縣仁愛鄉仁和路207-5號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12979"
-},
-{
-"cid": "12927",
-"name": "2026 巴塔哥尼亞國際馬拉松",
-"start": "2026-09-05",
-"end": "2026-09-06",
-"place": "智利",
-"distances": [
-"42K",
-"30K",
-"21K",
-"15K",
-"10K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "智利百內國家公園",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12927"
 },
 {
 "cid": "13090",
@@ -381,7 +324,7 @@
 ],
 "signup_start": "2026-05-04",
 "deadline": "2026-07-30",
-"status": "07-30截止",
+"status": "已截止報名",
 "organizer": "雲林縣三鐵運動協會",
 "venue": "大埔美精密機械園區活動廣場(嘉義縣大林鎮大埔美園區六路1號)",
 "course": {},
@@ -437,7 +380,7 @@
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-07-30",
-"status": "07-30截止",
+"status": "已截止報名",
 "organizer": "連江縣交通旅遊局                            、                                連江縣莒光鄉公所",
 "venue": "馬祖東莒莒光遊客中心（連江縣莒光鄉福正村1號）",
 "course": {},
@@ -648,24 +591,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13023"
 },
 {
-"cid": "13080",
-"name": "2026 LAVAKIDS 花蓮太平洋小鐵人賽",
-"start": "2026-10-03",
-"end": "2026-10-04",
-"place": "花蓮縣",
-"distances": [
-"8.2K",
-"5.3K"
-],
-"signup_start": null,
-"deadline": "2026-08-15",
-"status": "08-15截止",
-"organizer": "花蓮縣體育會                            、                                台灣耐力運動協會",
-"venue": "花蓮縣壽豐鄉鯉魚潭",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13080"
-},
-{
 "cid": "12980",
 "name": "2026 吧哩嘓越野",
 "start": "2026-10-03",
@@ -741,25 +666,6 @@
 "venue": "大坡池圓形廣場(台東縣池上鄉中山路通水巷)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12986"
-},
-{
-"cid": "13081",
-"name": "2026 LAVA花蓮太平洋鐵人賽",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "花蓮縣",
-"distances": [
-"58K",
-"56.5K",
-"28.25K"
-],
-"signup_start": null,
-"deadline": "2026-08-15",
-"status": "08-15截止",
-"organizer": "花蓮縣體育會                            、                                台灣耐力運動協會",
-"venue": "花蓮縣壽豐鄉鯉魚潭",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13081"
 },
 {
 "cid": "12993",
@@ -1098,7 +1004,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-07-30",
-"status": "07-30截止",
+"status": "已截止報名",
 "organizer": "樂敗精品/台灣大腳丫長跑協會",
 "venue": "富旺台中高鐵商城（台中市烏日區高鐵五路155號）",
 "course": {},
@@ -1122,25 +1028,6 @@
 "venue": "南庄鄉公有停車場（康濟吊橋下）(苗栗縣南莊鄉大同路3號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12981"
-},
-{
-"cid": "12811",
-"name": "2026 巴歌浪鐵人三項賽",
-"start": "2026-10-17",
-"end": "2026-10-18",
-"place": "臺東縣",
-"distances": [
-"226K",
-"113K",
-"51.5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "臺東縣超級鐵人三項協會",
-"venue": "森林公園活水湖(臺東縣台東市馬亨亨大道)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12811"
 },
 {
 "cid": "13050",
@@ -1366,24 +1253,6 @@
 "venue": "九九峰氦氣球園區停車場(南投縣草屯鎮健行路152號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12926"
-},
-{
-"cid": "13097",
-"name": "2026 外展「舟」山跑",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "香港",
-"distances": [
-"18K",
-"8K"
-],
-"signup_start": "2026-06-25",
-"deadline": "2026-08-31",
-"status": "08-31截止",
-"organizer": "",
-"venue": "西貢區",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13097"
 },
 {
 "cid": "13066",
@@ -1649,23 +1518,6 @@
 "venue": "北回歸線標誌公園(嘉義縣水上鄉中山路三段)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12924"
-},
-{
-"cid": "12837",
-"name": "2026 IRONMAN 70.3 Kenting 墾丁國際鐵人三項賽",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "屏東縣",
-"distances": [
-"113K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "LAVA 鐵人公司",
-"venue": "墾丁福華飯店(屏東縣恆春鎮墾丁路2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12837"
 },
 {
 "cid": "13010",
@@ -2030,24 +1882,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13068"
 },
 {
-"cid": "12996",
-"name": "2026 福岡馬拉松",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "福岡市",
-"distances": [
-"42.195K",
-"5.2K"
-],
-"signup_start": "2026-04-20",
-"deadline": "2026-05-20",
-"status": "已截止報名",
-"organizer": "福岡市                            、                                糸島市                            、                                福岡業餘體育協會",
-"venue": "福岡市中央區天神地區",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12996"
-},
-{
 "cid": "12900",
 "name": "2026 臺中舒跑杯",
 "start": "2026-11-08",
@@ -2065,24 +1899,6 @@
 "venue": "臺中市政府市政前廣場(臺中市西屯區臺灣大道三段99號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12900"
-},
-{
-"cid": "12821",
-"name": "2026千葉東京灣跨海大橋馬拉松",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "千葉縣",
-"distances": [
-"42.195K",
-"21K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "千葉",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12821"
 },
 {
 "cid": "13096",
@@ -2225,23 +2041,6 @@
 "venue": "觀夕平台（臺南市安平區漁濱路）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13001"
-},
-{
-"cid": "13007",
-"name": "2026 神戶馬拉松 Kobe Marathon",
-"start": "2026-11-15",
-"end": "2026-11-16",
-"place": "神戶市",
-"distances": [
-"42.195K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "Kobe City Sports Association, Public Interest Incorporated Foundation",
-"venue": "神戸國際展示場１號館１樓（EXXPO會場）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13007"
 },
 {
 "cid": "13049",
@@ -2554,25 +2353,6 @@
 "venue": "臺大田徑場(臺北市⼤安區羅斯福路四段⼀號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12893"
-},
-{
-"cid": "12846",
-"name": "2026 LEXUS LAVA 大鵬灣鐵人賽",
-"start": "2026-12-06",
-"end": "2026-12-07",
-"place": "屏東縣",
-"distances": [
-"51.5K",
-"50.3K",
-"29.8K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "交通部觀光署大鵬灣國家風景區管理處                            、                                台灣耐力運動協會",
-"venue": "大鵬灣濱灣碼頭(屏東縣東港鎮大鵬灣環灣道路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12846"
 },
 {
 "cid": "13076",
@@ -3443,28 +3223,6 @@
 "venue": "高雄市陸軍軍官學校(高雄市鳳山區維武路1號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13111"
-},
-{
-"cid": "13054",
-"name": "2027 LAVA 玩賽樂園",
-"start": "2027-03-12",
-"end": "2027-03-13",
-"place": "臺東縣",
-"distances": [
-"170K",
-"113K",
-"51.5K",
-"19.75K",
-"7.2K",
-"6.6K"
-],
-"signup_start": "2026-04-01",
-"deadline": "2027-01-10",
-"status": "01-10截止",
-"organizer": "台灣耐力運動協會",
-"venue": "活水湖(臺東縣臺東市馬亨亨大道)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13054"
 },
 {
 "cid": "13103",
