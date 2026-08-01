@@ -1,44 +1,5 @@
 [
 {
-"cid": "12920",
-"name": "2026全台PAPAGO歡樂跑--桃園場",
-"start": "2026-07-26",
-"end": "2026-07-27",
-"place": "桃園市",
-"distances": [
-"42.2K",
-"21K"
-],
-"signup_start": null,
-"deadline": "2026-06-30",
-"status": "已截止報名",
-"organizer": "大副體育用品專賣店",
-"venue": "水岸街福仁宮(桃園市桃園區水岸二街111號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12920"
-},
-{
-"cid": "13058",
-"name": "2026第十一屆龍井單車逍遙遊",
-"start": "2026-07-26",
-"end": "2026-07-27",
-"place": "臺中市",
-"distances": [
-"25K",
-"15K",
-"21K",
-"10K",
-"4K"
-],
-"signup_start": "2026-05-21",
-"deadline": "2026-06-26",
-"status": "已截止報名",
-"organizer": "臺中市龍井區體育會",
-"venue": "三陽玉府天宮（台中市龍井區竹師路二段112巷50號）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13058"
-},
-{
 "cid": "12991",
 "name": "2026東引軍事越野障礙賽",
 "start": "2026-07-31",
@@ -64,6 +25,9 @@
 "end": "2026-08-03",
 "place": "彰化縣",
 "distances": [
+"3K",
+"21K",
+"10K",
 "3K"
 ],
 "signup_start": "2026-05-10",
@@ -190,10 +154,7 @@
 "distances": [
 "42K",
 "21K",
-"10K",
-"21K",
-"10K",
-"3K"
+"10K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -228,7 +189,10 @@
 "end": "2026-08-24",
 "place": "新竹市",
 "distances": [
-"4.7K"
+"4.7K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-24",
 "deadline": "2026-08-12",
@@ -255,6 +219,25 @@
 "venue": "磺港漁港(新北市金山區萬壽里磺港路323號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13038"
+},
+{
+"cid": "13133",
+"name": "2026義起愛運動勇士路跑",
+"start": "2026-08-29",
+"end": "2026-08-30",
+"place": "新竹縣",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-06-25",
+"deadline": "2026-08-08",
+"status": "08-08截止",
+"organizer": "新竹縣政府文化局                            、                                財團法人新竹縣文化基金會                            、                                 新竹縣全民運動發展協會",
+"venue": "新竹縣政府前廣場(新竹縣竹北市北崙里光明六路10號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13133"
 },
 {
 "cid": "13061",
