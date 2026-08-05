@@ -816,7 +816,7 @@
 ],
 "signup_start": "2026-02-10",
 "deadline": "2026-08-04",
-"status": "已截止報名",
+"status": "08-16截止",
 "organizer": "東遠碾米廠",
 "venue": "東遠碾米廠(雲林縣二崙鄉民生路126巷35號)",
 "course": {},
@@ -2578,7 +2578,9 @@
 "53K",
 "51.5K",
 "50.3K",
-"29.8K"
+"29.8K",
+"27.75K",
+"12.3K"
 ],
 "signup_start": null,
 "deadline": "2026-10-04",
@@ -3594,6 +3596,25 @@
 "venue": "西螺大橋廣場(雲林縣西螺鎮大橋路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13002"
+},
+{
+"cid": "13135",
+"name": "2027全國視障公益路跑賽",
+"start": "2027-04-17",
+"end": "2027-04-18",
+"place": "臺中市",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "潭雅神綠園道 神岡和平場站(台中市神岡區和平路)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13135"
 },
 {
 "cid": "13122",
