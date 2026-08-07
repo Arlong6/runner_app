@@ -1,34 +1,12 @@
 [
 {
-"cid": "12991",
-"name": "2026東引軍事越野障礙賽",
-"start": "2026-07-31",
-"end": "2026-08-01",
-"place": "連江縣",
-"distances": [
-"16K",
-"8.5K",
-"3.5K"
-],
-"signup_start": "2026-05-07",
-"deadline": "2026-06-14",
-"status": "已截止報名",
-"organizer": "連江縣東引鄉公所",
-"venue": "連江縣東引鄉東引忠誠門廣場",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12991"
-},
-{
 "cid": "12978",
 "name": "2026 Run For Dad 爸趣迷你馬拉松-運動i臺灣2.0",
 "start": "2026-08-02",
 "end": "2026-08-03",
 "place": "彰化縣",
 "distances": [
-"3K",
-"21K",
-"10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-05-10",
 "deadline": "2026-06-30",
@@ -47,7 +25,10 @@
 "distances": [
 "13K",
 "6.5K",
-"3.5K"
+"3.5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-11",
 "deadline": "2026-07-15",
@@ -189,10 +170,7 @@
 "end": "2026-08-24",
 "place": "新竹市",
 "distances": [
-"4.7K",
-"21K",
-"10K",
-"3K"
+"4.7K"
 ],
 "signup_start": "2026-04-24",
 "deadline": "2026-08-12",
@@ -209,6 +187,9 @@
 "end": "2026-08-30",
 "place": "新北市",
 "distances": [
+"10K",
+"3K",
+"21K",
 "10K",
 "3K"
 ],
@@ -1278,6 +1259,25 @@
 "venue": "臺東縣達仁鄉-南田海岸親水公園",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13078"
+},
+{
+"cid": "13136",
+"name": "2026 濁水溪紫金馬拉松-高手名間站",
+"start": "2026-10-24",
+"end": "2026-10-25",
+"place": "南投縣",
+"distances": [
+"21K",
+"11K",
+"6K"
+],
+"signup_start": "2026-08-06",
+"deadline": "2026-09-15",
+"status": "09-15截止",
+"organizer": "名間鄉公所",
+"venue": "受天宮第二停車場(南投縣名間鄉松嶺街)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13136"
 },
 {
 "cid": "13037",
@@ -2830,7 +2830,7 @@
 ],
 "signup_start": null,
 "deadline": null,
-"status": "報名時間未定",
+"status": "已截止報名",
 "organizer": "",
 "venue": "高雄市橋頭區橋頭公七公園(高雄市橋頭區新中一街)",
 "course": {},
