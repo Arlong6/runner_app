@@ -1,22 +1,5 @@
 [
 {
-"cid": "12978",
-"name": "2026 Run For Dad 爸趣迷你馬拉松-運動i臺灣2.0",
-"start": "2026-08-02",
-"end": "2026-08-03",
-"place": "彰化縣",
-"distances": [
-"3K"
-],
-"signup_start": "2026-05-10",
-"deadline": "2026-06-30",
-"status": "已截止報名",
-"organizer": "中華民國舒康樂活運動協會",
-"venue": "彰化縣田中美夢成真廊道(高鐵東七路與高鐵田中路路口)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12978"
-},
-{
 "cid": "13085",
 "name": "2026 嘉義雙潭星光路跑",
 "start": "2026-08-08",
@@ -25,10 +8,7 @@
 "distances": [
 "13K",
 "6.5K",
-"3.5K",
-"21K",
-"10K",
-"3K"
+"3.5K"
 ],
 "signup_start": "2026-06-11",
 "deadline": "2026-07-15",
@@ -48,7 +28,10 @@
 "42K",
 "21K",
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-02-10",
 "deadline": "2026-07-15",
@@ -188,10 +171,7 @@
 "place": "新北市",
 "distances": [
 "10K",
-"3K",
-"21K",
-"10K",
-"4K"
+"3K"
 ],
 "signup_start": null,
 "deadline": "2026-06-28",
@@ -210,11 +190,14 @@
 "distances": [
 "21K",
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
-"status": "08-08截止",
+"status": "已截止報名",
 "organizer": "新竹縣政府文化局                            、                                財團法人新竹縣文化基金會                            、                                 新竹縣全民運動發展協會",
 "venue": "新竹縣政府前廣場(新竹縣竹北市北崙里光明六路10號)",
 "course": {},
@@ -3615,6 +3598,25 @@
 "venue": "潭雅神綠園道 神岡和平場站(台中市神岡區和平路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13135"
+},
+{
+"cid": "13137",
+"name": "2027 RUN FOR FUTURE 第五屆順發x港都公益路跑",
+"start": "2027-04-18",
+"end": "2027-04-19",
+"place": "高雄市",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "港都科技三三會/順發公益運動協會/順發電腦",
+"venue": "高雄港灣文化廊帶（駁二x高流）(高雄市苓雅區苓洲里)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13137"
 },
 {
 "cid": "13122",
