@@ -31,7 +31,7 @@
 "5K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-02-10",
 "deadline": "2026-07-15",
@@ -193,7 +193,7 @@
 "5K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -1593,7 +1593,7 @@
 ],
 "signup_start": "2026-06-26",
 "deadline": "2026-08-11",
-"status": "08-11截止",
+"status": "08-27截止",
 "organizer": "新北市政府勞工局",
 "venue": "華江橋自行車租借站(新北市板橋區華江橋)",
 "course": {},
@@ -3422,6 +3422,25 @@
 "venue": "嘉義蘭潭音樂噴泉(嘉義市東區紅毛埤187號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12943"
+},
+{
+"cid": "13138",
+"name": "2027臺南古都國際半程馬拉松",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "臺南市",
+"distances": [
+"21.0975K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "永華市政中心南島路(臺南市安平區建平里永華路二段6號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13138"
 },
 {
 "cid": "13111",
