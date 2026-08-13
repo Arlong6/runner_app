@@ -430,6 +430,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13000"
 },
 {
+"cid": "13140",
+"name": "2026三菱重工空調【一起跑上太空】太空任務路跑",
+"start": "2026-09-13",
+"end": "2026-09-14",
+"place": "臺南市",
+"distances": [
+"5K"
+],
+"signup_start": "2026-08-12",
+"deadline": "2026-08-23",
+"status": "08-23截止",
+"organizer": "上洋產業股份有限公司                            、                                三菱重工空調",
+"venue": "南瀛天文館 (臺南市大內區曲溪里34-2號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13140"
+},
+{
 "cid": "13125",
 "name": "2026花蓮富里六十石山金針花超半程馬拉松",
 "start": "2026-09-13",
@@ -3349,15 +3366,14 @@
 "end": "2027-01-31",
 "place": "臺南市",
 "distances": [
-"42K",
-"24K",
+"42.195K",
+"21K",
 "12K",
-"5K",
-"2K"
+"5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-12-15",
+"status": "12-15截止",
 "organizer": "光圈整合行銷有限公司\n                            、                                東成醬油",
 "venue": "台南市新化區東成會館(臺南市新化區知義里中興路293號)",
 "course": {},
@@ -3544,9 +3560,9 @@
 },
 {
 "cid": "13104",
-"name": "2027柚花追香半程馬拉松-瑞穗場",
-"start": "2027-03-28",
-"end": "2027-03-29",
+"name": "2027 柚花追香半程馬拉松-瑞穗星光夜跑",
+"start": "2027-03-27",
+"end": "2027-03-28",
 "place": "花蓮縣",
 "distances": [
 "21K",
