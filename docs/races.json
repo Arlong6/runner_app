@@ -1,24 +1,5 @@
 [
 {
-"cid": "13085",
-"name": "2026 嘉義雙潭星光路跑",
-"start": "2026-08-08",
-"end": "2026-08-09",
-"place": "嘉義市",
-"distances": [
-"13K",
-"6.5K",
-"3.5K"
-],
-"signup_start": "2026-06-11",
-"deadline": "2026-07-15",
-"status": "已截止報名",
-"organizer": "嘉義市政府",
-"venue": "嘉義市立蘭潭國民中學(嘉義市東區民權東路32號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13085"
-},
-{
 "cid": "12925",
 "name": "2026聖母廟月老姻緣紅線牽馬拉松",
 "start": "2026-08-15",
@@ -28,10 +9,7 @@
 "42K",
 "21K",
 "10K",
-"5K",
-"21K",
-"10K",
-"4K"
+"5K"
 ],
 "signup_start": "2026-02-10",
 "deadline": "2026-07-15",
@@ -48,7 +26,10 @@
 "end": "2026-08-17",
 "place": "新竹縣",
 "distances": [
-"2H"
+"2H",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -188,9 +169,6 @@
 "place": "新北市",
 "distances": [
 "10K",
-"3K",
-"21K",
-"10K",
 "3K"
 ],
 "signup_start": null,
@@ -210,7 +188,10 @@
 "distances": [
 "21K",
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -421,7 +402,7 @@
 ],
 "signup_start": "2026-04-10",
 "deadline": "2026-08-14",
-"status": "08-14截止",
+"status": "已截止報名",
 "organizer": "百事樂運動行銷整合有限公司",
 "venue": "台南市億載金城外圍道路(臺南市安平區)",
 "course": {},
@@ -887,7 +868,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-08-14",
-"status": "08-14截止",
+"status": "已截止報名",
 "organizer": "",
 "venue": "台中市西屯區中央球場(台中市西屯區凱旋路)",
 "course": {},
@@ -3516,6 +3497,26 @@
 "venue": "活水湖(臺東縣臺東市馬亨亨大道)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13054"
+},
+{
+"cid": "13143",
+"name": "2027 高美濕地馬拉松",
+"start": "2027-03-14",
+"end": "2027-03-15",
+"place": "臺中市",
+"distances": [
+"42K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "臺中市慢跑協會",
+"venue": "清水區農會休閒觀光園區(台中市清水區三順路2巷2號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13143"
 },
 {
 "cid": "13103",
