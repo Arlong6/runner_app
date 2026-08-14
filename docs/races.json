@@ -93,6 +93,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12968"
 },
 {
+"cid": "13139",
+"name": "POWER UP ! 跑起來 守護肌膚和平",
+"start": "2026-08-22",
+"end": "2026-08-23",
+"place": "臺北市",
+"distances": [
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "寶拉珍選",
+"venue": "公館水岸廣場",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13139"
+},
+{
 "cid": "12975",
 "name": "夏日馬拉松 - 新竹五峰清泉場",
 "start": "2026-08-22",
@@ -171,6 +188,9 @@
 "place": "新北市",
 "distances": [
 "10K",
+"3K",
+"21K",
+"10K",
 "3K"
 ],
 "signup_start": null,
@@ -190,10 +210,7 @@
 "distances": [
 "21K",
 "10K",
-"5K",
-"21K",
-"10K",
-"3K"
+"5K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
