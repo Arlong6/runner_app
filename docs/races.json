@@ -29,7 +29,7 @@
 "2H",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -191,7 +191,7 @@
 "5K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -621,7 +621,7 @@
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-08-15",
-"status": "08-15截止",
+"status": "已截止報名",
 "organizer": "花蓮縣體育會                            、                                台灣耐力運動協會",
 "venue": "花蓮縣壽豐鄉鯉魚潭",
 "course": {},
@@ -717,7 +717,7 @@
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-08-15",
-"status": "08-15截止",
+"status": "已截止報名",
 "organizer": "花蓮縣體育會                            、                                台灣耐力運動協會",
 "venue": "花蓮縣壽豐鄉鯉魚潭",
 "course": {},
@@ -1916,7 +1916,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-08-15",
-"status": "08-15截止",
+"status": "已截止報名",
 "organizer": "臺中市豐原慢跑協會",
 "venue": "東勢河濱公園(臺中市東勢區東關路七段)",
 "course": {},
@@ -2287,7 +2287,7 @@
 ],
 "signup_start": "2026-04-30",
 "deadline": "2026-08-15",
-"status": "08-15截止",
+"status": "已截止報名",
 "organizer": "蘆洲區體育會",
 "venue": "微風運河廣場(新北市蘆洲區二重疏洪道)",
 "course": {},
