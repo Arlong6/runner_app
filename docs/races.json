@@ -1013,6 +1013,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13117"
 },
 {
+"cid": "13149",
+"name": "2026國際女孩日水水運動節",
+"start": "2026-10-11",
+"end": "2026-10-12",
+"place": "彰化縣",
+"distances": [
+"21K",
+"10K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "彰化縣馬拉松路跑協會\n                            、                                二社田社區大學",
+"venue": "彰化縣田中鎮美夢成真廊道(彰化縣田中鎮高鐵田中路二段與高鐵東七路路口)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13149"
+},
+{
 "cid": "12888",
 "name": "2026府北馬拉松",
 "start": "2026-10-11",
@@ -1233,7 +1252,7 @@
 ],
 "signup_start": "2026-05-17",
 "deadline": "2026-08-16",
-"status": "已截止報名",
+"status": "08-23截止",
 "organizer": "臺中市政府運動局                            、                                立法委員陳清龍                            、                                社團法人臺中市繁榮葫蘆墩促進會                            、                                臺中市神岡區體育會                            、                                臺中市豐原區體育會",
 "venue": "大明高中(臺中市潭子區聚興里潭興路一段168號)",
 "course": {},
@@ -1369,6 +1388,24 @@
 "venue": "西貢區",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13097"
+},
+{
+"cid": "13145",
+"name": "2026 成都馬拉松",
+"start": "2026-10-25",
+"end": "2026-10-26",
+"place": "成都市",
+"distances": [
+"42.195K",
+"21.0975K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "成都市人民政府",
+"venue": "金沙遗址博物馆(中國四川省成都市青羊区金沙遗址路2号)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13145"
 },
 {
 "cid": "13066",
@@ -1635,6 +1672,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13087"
 },
 {
+"cid": "13148",
+"name": "2026風起台76 海野山共行馬拉松",
+"start": "2026-10-31",
+"end": "2026-11-01",
+"place": "彰化縣",
+"distances": [
+"21K",
+"10K",
+"5K",
+"3K"
+],
+"signup_start": "2026-08-15",
+"deadline": "2026-09-07",
+"status": "09-07截止",
+"organizer": "交通部公路局北區公路新建工程分局",
+"venue": "埔鹽新水四聖宮前廣場(彰化縣埔鹽鄉新水村四鄰5-18號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13148"
+},
+{
 "cid": "12924",
 "name": "第四屆水上UP半程馬拉松-一起看飛機趣",
 "start": "2026-10-31",
@@ -1648,7 +1705,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-08-16",
-"status": "已截止報名",
+"status": "08-23截止",
 "organizer": "嘉義縣水上鄉公所",
 "venue": "北回歸線標誌公園(嘉義縣水上鄉中山路三段)",
 "course": {},
@@ -1916,7 +1973,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-08-15",
-"status": "已截止報名",
+"status": "08-31截止",
 "organizer": "臺中市豐原慢跑協會",
 "venue": "東勢河濱公園(臺中市東勢區東關路七段)",
 "course": {},
@@ -2022,6 +2079,24 @@
 "venue": "屏東縣屏東市縣立田徑場",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12812"
+},
+{
+"cid": "13146",
+"name": "2026 日本岡山馬拉松",
+"start": "2026-11-08",
+"end": "2026-11-09",
+"place": "岡山縣",
+"distances": [
+"42.195K",
+"5.6K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13146"
 },
 {
 "cid": "13068",
@@ -2287,7 +2362,7 @@
 ],
 "signup_start": "2026-04-30",
 "deadline": "2026-08-15",
-"status": "已截止報名",
+"status": "09-30截止",
 "organizer": "蘆洲區體育會",
 "venue": "微風運河廣場(新北市蘆洲區二重疏洪道)",
 "course": {},
@@ -2373,6 +2448,25 @@
 "venue": "宜蘭縣冬山河親水公園(宜蘭縣五結鄉親河路二段2號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13003"
+},
+{
+"cid": "13144",
+"name": "2026六堆客庄巡禮走相逐",
+"start": "2026-11-21",
+"end": "2026-11-22",
+"place": "屏東縣",
+"distances": [
+"21K",
+"10K",
+"6K"
+],
+"signup_start": "2026-08-17",
+"deadline": "2026-09-20",
+"status": "09-20截止",
+"organizer": "客家委員會客家文化發展中心",
+"venue": "六堆客家文化園區（屏東縣內埔鄉信義路588號）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13144"
 },
 {
 "cid": "12813",
@@ -3016,6 +3110,27 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13101"
 },
 {
+"cid": "12992",
+"name": "2026南華30 南華盃-遇見Darling城堡馬拉松",
+"start": "2026-12-20",
+"end": "2026-12-21",
+"place": "嘉義縣",
+"distances": [
+"42K",
+"21K",
+"14K",
+"8K",
+"3K"
+],
+"signup_start": null,
+"deadline": "2026-10-20",
+"status": "10-20截止",
+"organizer": "南華大學",
+"venue": "南華大學 (嘉義縣大林鎮南華路一段55號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12992"
+},
+{
 "cid": "13032",
 "name": "2026南鯤鯓馬拉松",
 "start": "2026-12-20",
@@ -3060,26 +3175,6 @@
 "route_note": "半程參考(來源:健行筆記 GPX)"
 },
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13020"
-},
-{
-"cid": "12992",
-"name": "南華大學30周年 三好南華杯_城堡馬拉松",
-"start": "2026-12-20",
-"end": "2026-12-21",
-"place": "嘉義縣",
-"distances": [
-"42K",
-"21K",
-"12K",
-"5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "南華大學",
-"venue": "南華大學 (嘉義縣大林鎮南華路一段55號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12992"
 },
 {
 "cid": "13109",
@@ -3378,6 +3473,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13095"
 },
 {
+"cid": "13147",
+"name": "2027 第64屆愛媛馬拉松",
+"start": "2027-02-07",
+"end": "2027-02-08",
+"place": "鹿兒島市",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "城山公園",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13147"
+},
+{
 "cid": "13070",
 "name": "2027第四屆仁愛鄉賽德克櫻花季馬拉松",
 "start": "2027-02-14",
@@ -3457,26 +3569,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13138"
 },
 {
-"cid": "13111",
-"name": "2027鳳山跑三校越野馬拉松",
-"start": "2027-03-07",
-"end": "2027-03-08",
-"place": "高雄市",
-"distances": [
-"42.195K",
-"23K",
-"10K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "高雄市鳳山慢跑協會",
-"venue": "高雄市陸軍軍官學校(高雄市鳳山區維武路1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13111"
-},
-{
 "cid": "13054",
 "name": "2027 LAVA 玩賽樂園",
 "start": "2027-03-12",
@@ -3536,6 +3628,26 @@
 "venue": "台南市麻豆區安業國小(臺南市麻豆區井東里113號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13103"
+},
+{
+"cid": "13111",
+"name": "2027鳳山跑三校越野馬拉松",
+"start": "2027-03-14",
+"end": "2027-03-15",
+"place": "高雄市",
+"distances": [
+"42.195K",
+"23K",
+"10K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "原2027/03/07因故延期至2027/03/14",
+"organizer": "高雄市鳳山慢跑協會",
+"venue": "高雄市陸軍軍官學校(高雄市鳳山區維武路1號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13111"
 },
 {
 "cid": "13024",
