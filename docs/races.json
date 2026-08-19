@@ -29,7 +29,7 @@
 "2H",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -191,7 +191,7 @@
 "5K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -497,6 +497,23 @@
 "venue": "潭雅神綠園道和平場站（臺中市神岡區和平路）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13091"
+},
+{
+"cid": "13154",
+"name": "跑動台南-臣林盃5000公尺挑戰賽",
+"start": "2026-09-19",
+"end": "2026-09-20",
+"place": "臺南市",
+"distances": [
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "台南市立體育場(台南市南區體育路10號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13154"
 },
 {
 "cid": "13005",
@@ -1088,6 +1105,28 @@
 "venue": "富旺台中高鐵商城（台中市烏日區高鐵五路155號）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13082"
+},
+{
+"cid": "13150",
+"name": "115年運動i臺灣2.0計畫-臺中市潭子區旱溪水岸慢跑健走嘉年華",
+"start": "2026-10-17",
+"end": "2026-10-18",
+"place": "臺中市",
+"distances": [
+"50.6K",
+"43K",
+"30.4K",
+"22.8K",
+"12.6K",
+"5K"
+],
+"signup_start": "2026-06-06",
+"deadline": "2026-09-25",
+"status": "09-25截止",
+"organizer": "臺中市政府運動局                            、                                臺中市潭子區體育會",
+"venue": "潭子簡易棒壘球場(臺中市潭子區潭興路一段25號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13150"
 },
 {
 "cid": "12981",
@@ -2254,6 +2293,28 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13084"
 },
 {
+"cid": "13151",
+"name": "115年臺中市體育總會理事長盃北區路跑嘉年華",
+"start": "2026-11-14",
+"end": "2026-11-15",
+"place": "臺中市",
+"distances": [
+"52.8K",
+"42.4K",
+"31.6K",
+"21.2K",
+"10.4K",
+"6.4K"
+],
+"signup_start": "2026-08-19",
+"deadline": "2026-10-24",
+"status": "10-24截止",
+"organizer": "臺中市政府運動局                            、                                臺中市體育總會",
+"venue": "臺中市廍子公園(臺中市北屯區廍子路418號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13151"
+},
+{
 "cid": "12988",
 "name": "2026 冬山河馬拉松",
 "start": "2026-11-14",
@@ -2621,6 +2682,29 @@
 "venue": "大鵬灣濱灣碼頭(屏東縣東港鎮大鵬灣環灣道路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12845"
+},
+{
+"cid": "13152",
+"name": "2026 第二屆核泰皮拉提斯馬拉松",
+"start": "2026-12-05",
+"end": "2026-12-06",
+"place": "臺中市",
+"distances": [
+"51K",
+"42.2K",
+"32.6K",
+"23.8K",
+"21.6K",
+"8.2K",
+"5.4K"
+],
+"signup_start": "2026-06-01",
+"deadline": "2026-11-07",
+"status": "11-07截止",
+"organizer": "核立子身心技法創研社",
+"venue": "清水頂湳玉聖寺(臺中市清水區頂湳里頂湳路73號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13152"
 },
 {
 "cid": "12734",
@@ -3192,6 +3276,28 @@
 "venue": "臺北市中山區大佳河濱公園(臺北市中山區新庄里濱江街5號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13109"
+},
+{
+"cid": "13153",
+"name": "20261226鄉鎮之美公益馬拉松—臺中后里場",
+"start": "2026-12-26",
+"end": "2026-12-27",
+"place": "臺中市",
+"distances": [
+"48.6K",
+"44K",
+"31.8K",
+"22K",
+"9.8K",
+"4.6K"
+],
+"signup_start": "2026-08-06",
+"deadline": "2026-12-05",
+"status": "12-05截止",
+"organizer": "臺灣鄉鎮之美公益協會",
+"venue": "后里車站東站(臺中市后里區圳寮路99巷)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13153"
 },
 {
 "cid": "13113",
