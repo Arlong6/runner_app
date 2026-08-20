@@ -926,7 +926,7 @@
 ],
 "signup_start": "2026-04-20",
 "deadline": "2026-08-09",
-"status": "08-20截止",
+"status": "已截止報名",
 "organizer": "宜蘭縣政府                            、                                宜蘭縣羅東鎮體育會",
 "venue": "宜蘭縣冬山河親水公園(宜蘭縣五結鄉親河路二段2號)",
 "course": {},
@@ -946,7 +946,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-08-20",
-"status": "08-20截止",
+"status": "已截止報名",
 "organizer": "綠島鄉公所",
 "venue": "綠島免稅新天地前廣場",
 "course": {},
@@ -3418,6 +3418,34 @@
 "route_url": "https://www.khm.com.tw/cp.aspx?n=1057"
 },
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13035"
+},
+{
+"cid": "13155",
+"name": "2027 渣打公益臺北馬拉松",
+"start": "2027-01-10",
+"end": "2027-01-11",
+"place": "臺北市",
+"distances": [
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
+],
+"signup_start": "2026-09-02",
+"deadline": "2026-10-30",
+"status": "10-30截止",
+"organizer": "中華民國路跑協會",
+"venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
+"course": {
+"terrain": "市區道路 + 河濱",
+"elevation": "總爬升 < 100m(半馬約 65m)",
+"difficulty": "★☆☆☆☆ 平坦快速,公認最好破 PB",
+"highlight": "市民廣場起跑,行經仁愛路、中山南路等市區地標,後段進河濱,終點台北田徑場。",
+"route_url": "https://www.taipeicitymarathon.com/place-map.php",
+"route": "taipei",
+"route_note": "半程參考(來源:健行筆記 GPX)"
+},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13155"
 },
 {
 "cid": "13036",
