@@ -1,35 +1,12 @@
 [
 {
-"cid": "12925",
-"name": "2026聖母廟月老姻緣紅線牽馬拉松",
-"start": "2026-08-15",
-"end": "2026-08-16",
-"place": "臺南市",
-"distances": [
-"42K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-02-10",
-"deadline": "2026-07-15",
-"status": "已截止報名",
-"organizer": "府城國際超級馬拉松協會",
-"venue": "正統鹿耳門聖母廟(台南市安南區城安路160號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12925"
-},
-{
 "cid": "13106",
 "name": "2026新竹縣五峰越野 推廣系列活動-輕越野體驗活動",
 "start": "2026-08-16",
 "end": "2026-08-17",
 "place": "新竹縣",
 "distances": [
-"2H",
-"21K",
-"10K",
-"3K"
+"2H"
 ],
 "signup_start": null,
 "deadline": null,
@@ -46,7 +23,10 @@
 "end": "2026-08-20",
 "place": "新北市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-08-10",
 "deadline": "2026-08-16",
@@ -188,10 +168,7 @@
 "distances": [
 "21K",
 "10K",
-"5K",
-"21K",
-"10K",
-"4K"
+"5K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -210,7 +187,10 @@
 "distances": [
 "36K",
 "21K",
-"9K"
+"9K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-17",
 "deadline": "2026-08-10",
@@ -1041,8 +1021,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-09-15",
+"status": "09-15截止",
 "organizer": "彰化縣馬拉松路跑協會\n                            、                                二社田社區大學",
 "venue": "彰化縣田中鎮美夢成真廊道(彰化縣田中鎮高鐵田中路二段與高鐵東七路路口)",
 "course": {},
@@ -1513,7 +1493,7 @@
 ],
 "signup_start": "2026-07-30",
 "deadline": "2026-08-31",
-"status": "08-31截止",
+"status": "已截止報名",
 "organizer": "臺灣港務股份有限公司",
 "venue": "高雄港16-18號碼頭廣場(高雄市苓雅區海邊路)",
 "course": {},
@@ -3834,8 +3814,8 @@
 "6K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2027-02-12",
+"status": "02-12截止",
 "organizer": "瑞穗鄉農會",
 "venue": "瑞穗國小(花蓮縣瑞穗鄉瑞穗村溫泉路一段19號)",
 "course": {},
