@@ -1,32 +1,12 @@
 [
 {
-"cid": "13106",
-"name": "2026新竹縣五峰越野 推廣系列活動-輕越野體驗活動",
-"start": "2026-08-16",
-"end": "2026-08-17",
-"place": "新竹縣",
-"distances": [
-"2H"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "新竹縣北埔鄉北埔國民小學(新竹縣北埔鄉埔尾村埔心街24號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13106"
-},
-{
 "cid": "13093",
 "name": "最強市民飆5K－新北市5000公尺挑戰賽 八月場",
 "start": "2026-08-19",
 "end": "2026-08-20",
 "place": "新北市",
 "distances": [
-"5K",
-"21K",
-"10K",
-"3K"
+"5K"
 ],
 "signup_start": "2026-08-10",
 "deadline": "2026-08-16",
@@ -43,6 +23,9 @@
 "end": "2026-08-23",
 "place": "桃園市",
 "distances": [
+"3K",
+"21K",
+"10K",
 "3K"
 ],
 "signup_start": "2026-03-25",
@@ -187,10 +170,7 @@
 "distances": [
 "36K",
 "21K",
-"9K",
-"21K",
-"10K",
-"4K"
+"9K"
 ],
 "signup_start": "2026-04-17",
 "deadline": "2026-08-10",
@@ -207,7 +187,10 @@
 "end": "2026-08-31",
 "place": "雪梨",
 "distances": [
-"42.195K"
+"42.195K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
