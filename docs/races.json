@@ -26,7 +26,7 @@
 "3K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-03-25",
 "deadline": "2026-06-30",
@@ -190,7 +190,7 @@
 "42.195K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -3686,6 +3686,25 @@
 "venue": "活水湖(臺東縣臺東市馬亨亨大道)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13054"
+},
+{
+"cid": "13156",
+"name": "2027 國家地理路跑-RUN FOR EARTH",
+"start": "2027-03-14",
+"end": "2027-03-15",
+"place": "臺北市",
+"distances": [
+"21K",
+"10K",
+"4K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "台灣華特迪士尼股份有限公司",
+"venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13156"
 },
 {
 "cid": "13143",
