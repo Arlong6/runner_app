@@ -1,31 +1,11 @@
 [
 {
-"cid": "13093",
-"name": "最強市民飆5K－新北市5000公尺挑戰賽 八月場",
-"start": "2026-08-19",
-"end": "2026-08-20",
-"place": "新北市",
-"distances": [
-"5K"
-],
-"signup_start": "2026-08-10",
-"deadline": "2026-08-16",
-"status": "已截止報名",
-"organizer": "捷迅股份有限公司",
-"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13093"
-},
-{
 "cid": "12968",
 "name": "2026新屋米寶親子路跑",
 "start": "2026-08-22",
 "end": "2026-08-23",
 "place": "桃園市",
 "distances": [
-"3K",
-"21K",
-"10K",
 "3K"
 ],
 "signup_start": "2026-03-25",
@@ -43,7 +23,10 @@
 "end": "2026-08-23",
 "place": "臺北市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -187,10 +170,7 @@
 "end": "2026-08-31",
 "place": "雪梨",
 "distances": [
-"42.195K",
-"21K",
-"10K",
-"4K"
+"42.195K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -209,7 +189,10 @@
 "distances": [
 "44.5K",
 "26K",
-"10K"
+"10K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-06-15",
@@ -1783,6 +1766,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13067"
 },
 {
+"cid": "13159",
+"name": "2026 義大醫療健康永續路跑暨第 4 屆全國醫學中心接力賽",
+"start": "2026-11-01",
+"end": "2026-11-02",
+"place": "高雄市",
+"distances": [
+"10K"
+],
+"signup_start": "2026-08-21",
+"deadline": "2026-09-18",
+"status": "09-18截止",
+"organizer": "義大醫療財團法人義大醫院",
+"venue": "高雄岡山典寶溪劉厝滯洪池（清水路口）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13159"
+},
+{
 "cid": "12733",
 "name": "2026八百壯士系列--制霸極西超馬賽",
 "start": "2026-11-01",
@@ -2237,19 +2237,35 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12882"
 },
 {
+"cid": "13160",
+"name": "財政部115年統一發票盃路跑臺北場活動-休閒組(3km)",
+"start": "2026-11-08",
+"end": "2026-11-09",
+"place": "臺北市",
+"distances": [
+"3K"
+],
+"signup_start": "2026-07-21",
+"deadline": "2026-10-31",
+"status": "10-31截止",
+"organizer": "財政部                            、                                第一金融控股股份有限公司",
+"venue": "大佳河濱公園(台北市中山區濱江街5號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13160"
+},
+{
 "cid": "13084",
-"name": "財政部115年統一發票盃 (臺北場)  路跑活動",
+"name": "財政部115年統一發票盃路跑臺北場活動競賽組-半馬組(21km)、挑戰組(10km)",
 "start": "2026-11-08",
 "end": "2026-11-09",
 "place": "臺北市",
 "distances": [
 "21K",
-"10K",
-"3K"
+"10K"
 ],
 "signup_start": null,
 "deadline": null,
-"status": "報名時間未定",
+"status": "已截止報名",
 "organizer": "財政部                            、                                第一金融控股股份有限公司",
 "venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
 "course": {},
@@ -3472,6 +3488,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13029"
 },
 {
+"cid": "13157",
+"name": "2027矽品半程馬拉松-迎風前行 科技領航",
+"start": "2027-01-10",
+"end": "2027-01-11",
+"place": "彰化縣",
+"distances": [
+"21K",
+"10K",
+"6K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "樂活資訊服務(股) 公司",
+"venue": "矽品二林廠前(彰化縣二林鎮中科二林大道二段177號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13157"
+},
+{
 "cid": "12891",
 "name": "2027 MIZUNO 美津濃馬拉松接力賽",
 "start": "2027-01-17",
@@ -3764,6 +3799,26 @@
 "venue": "高雄市陸軍軍官學校(高雄市鳳山區維武路1號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13111"
+},
+{
+"cid": "13158",
+"name": "2027 中山香香生活節",
+"start": "2027-03-20",
+"end": "2027-03-21",
+"place": "宜蘭縣",
+"distances": [
+"21K",
+"12K",
+"6K",
+"2.5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "順安國小中山分校(宜蘭縣冬山鄉中山村舊寮路55號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13158"
 },
 {
 "cid": "13024",
