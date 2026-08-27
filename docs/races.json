@@ -190,10 +190,9 @@
 "44.5K",
 "26K",
 "10K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-06-15",
@@ -365,9 +364,10 @@
 "21K",
 "10.5K",
 "5.5K",
-"21K",
-"10K",
-"4K"
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-04-23",
 "deadline": "2026-06-04",
@@ -1317,7 +1317,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-08-27",
-"status": "08-27截止",
+"status": "已截止報名",
 "organizer": "",
 "venue": "台糖柳營尖山埤渡假村(台南市柳營區旭山里60號)",
 "course": {},
@@ -1634,7 +1634,7 @@
 ],
 "signup_start": "2026-06-26",
 "deadline": "2026-08-11",
-"status": "08-27截止",
+"status": "已截止報名",
 "organizer": "新北市政府勞工局",
 "venue": "華江橋自行車租借站(新北市板橋區華江橋)",
 "course": {},
@@ -1965,6 +1965,23 @@
 "venue": "新竹市頭前溪左岸（頭前溪橋下）(新竹市東區前溪里中華路一段2巷)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13086"
+},
+{
+"cid": "13161",
+"name": "2026年第七屆＜農禪寺水月禪跑＞",
+"start": "2026-11-07",
+"end": "2026-11-08",
+"place": "臺北市",
+"distances": [
+"1.8H"
+],
+"signup_start": "2026-08-01",
+"deadline": "2026-10-18",
+"status": "10-18截止",
+"organizer": "農禪寺",
+"venue": "農禪寺（台北市北投區大業路65巷89號）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13161"
 },
 {
 "cid": "13100",
