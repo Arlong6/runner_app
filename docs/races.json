@@ -1,59 +1,5 @@
 [
 {
-"cid": "12968",
-"name": "2026新屋米寶親子路跑",
-"start": "2026-08-22",
-"end": "2026-08-23",
-"place": "桃園市",
-"distances": [
-"3K"
-],
-"signup_start": "2026-03-25",
-"deadline": "2026-06-30",
-"status": "已截止報名",
-"organizer": "桃園市政府",
-"venue": "永安海螺文化體驗園區(桃園市新屋區新港路85號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12968"
-},
-{
-"cid": "13139",
-"name": "POWER UP ! 跑起來 守護肌膚和平",
-"start": "2026-08-22",
-"end": "2026-08-23",
-"place": "臺北市",
-"distances": [
-"5K",
-"21K",
-"10K",
-"4K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "寶拉珍選",
-"venue": "公館水岸廣場",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13139"
-},
-{
-"cid": "12975",
-"name": "夏日馬拉松 - 新竹五峰清泉場",
-"start": "2026-08-22",
-"end": "2026-08-23",
-"place": "新竹縣",
-"distances": [
-"42K"
-],
-"signup_start": "2026-03-16",
-"deadline": "2026-06-30",
-"status": "已截止報名",
-"organizer": "中華民國全能運動協會",
-"venue": "新竹縣五峰清泉頭目廣場",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12975"
-},
-{
 "cid": "12984",
 "name": "2026 馬來亞銀行馬拉松 Maybank Marathon",
 "start": "2026-08-23",
@@ -80,7 +26,10 @@
 "place": "桃園市",
 "distances": [
 "42K",
-"21K"
+"21K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -189,10 +138,7 @@
 "distances": [
 "44.5K",
 "26K",
-"10K",
-"21K",
-"10K",
-"3K"
+"10K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-06-15",
@@ -249,6 +195,10 @@
 "place": "臺北市",
 "distances": [
 "12.5K",
+"3K",
+"42.195K",
+"21.0975K",
+"12K",
 "3K"
 ],
 "signup_start": "2026-05-12",
@@ -363,11 +313,7 @@
 "distances": [
 "21K",
 "10.5K",
-"5.5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"5.5K"
 ],
 "signup_start": "2026-04-23",
 "deadline": "2026-06-04",
@@ -421,7 +367,10 @@
 "place": "澎湖縣",
 "distances": [
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-18",
 "deadline": "2026-06-26",
