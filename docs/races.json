@@ -27,10 +27,9 @@
 "21K",
 "10K",
 "5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -202,7 +201,7 @@
 "5K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-08-31",
 "deadline": "2026-09-06",
@@ -367,8 +366,9 @@
 "21K",
 "10K",
 "4K",
-"21K",
-"10K",
+"42.195K",
+"21.0975K",
+"12K",
 "3K"
 ],
 "signup_start": "2026-04-24",
@@ -1757,7 +1757,7 @@
 ],
 "signup_start": "2026-06-02",
 "deadline": "2026-08-31",
-"status": "08-31截止",
+"status": "已截止報名",
 "organizer": "內政部國家公園署",
 "venue": "陽明山中山樓(臺北市北投區陽明路二段15號)",
 "course": {},
@@ -2151,6 +2151,26 @@
 "venue": "浮洲橋下堤外自行車道(新北市板橋區環河路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12882"
+},
+{
+"cid": "13163",
+"name": "泳渡虎頭埤x 168路跑",
+"start": "2026-11-08",
+"end": "2026-11-09",
+"place": "臺南市",
+"distances": [
+"8.3K",
+"6.3K",
+"3.5K",
+"2K"
+],
+"signup_start": "2026-08-30",
+"deadline": "2026-10-01",
+"status": "10-01截止",
+"organizer": "臺南市政府觀光旅遊局",
+"venue": "虎頭埤風景區(臺南市新化區中興路42巷36號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13163"
 },
 {
 "cid": "13160",
@@ -3794,6 +3814,25 @@
 "venue": "台南觀夕平台(台南市安平區漁濱路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13162"
+},
+{
+"cid": "13164",
+"name": "2027集集濁水溪半程國際馬拉松",
+"start": "2027-03-21",
+"end": "2027-03-22",
+"place": "南投縣",
+"distances": [
+"21.0975K",
+"13.14K",
+"5.2K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "集集鎮公所                            、                                台灣國際馬拉松交流協會                            、                                亞洲馬拉松大聯盟",
+"venue": "集集火車站(南投縣集集鎮民權路)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13164"
 },
 {
 "cid": "13104",
