@@ -27,9 +27,10 @@
 "21K",
 "10K",
 "5K",
-"21K",
-"10K",
-"4K"
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -74,6 +75,23 @@
 "venue": "北雪梨米勒街",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12822"
+},
+{
+"cid": "13165",
+"name": "台北市 5000 公尺挑戰賽",
+"start": "2026-09-02",
+"end": "2026-09-03",
+"place": "臺北市",
+"distances": [
+"5000K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "臺北市政府體育局",
+"venue": "臺北田徑場",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13165"
 },
 {
 "cid": "12979",
@@ -181,7 +199,10 @@
 "42.8K",
 "21.4K",
 "10.7K",
-"5K"
+"5K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-04-30",
 "deadline": "2026-07-24",
@@ -198,11 +219,7 @@
 "end": "2026-09-10",
 "place": "新北市",
 "distances": [
-"5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"5K"
 ],
 "signup_start": "2026-08-31",
 "deadline": "2026-09-06",
@@ -347,7 +364,10 @@
 "end": "2026-09-20",
 "place": "臺南市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -366,10 +386,7 @@
 "distances": [
 "21K",
 "10K",
-"4K",
-"21K",
-"10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-04-24",
 "deadline": "2026-06-11",
@@ -832,7 +849,7 @@
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
-"status": "09-01截止",
+"status": "已截止報名",
 "organizer": "",
 "venue": "貓空（煎茶院 & Elsie’s Cafe）(臺北市文山區指南路三段40巷20之1號)",
 "course": {},
@@ -1398,7 +1415,7 @@
 ],
 "signup_start": "2026-06-01",
 "deadline": "2026-08-31",
-"status": "已截止報名",
+"status": "09-10截止",
 "organizer": "台南市龍崎區文衡殿",
 "venue": "台南龍崎區文衡殿(台南市龍崎區中坑里中坑3-2號)",
 "course": {},
@@ -1418,7 +1435,7 @@
 ],
 "signup_start": "2026-03-27",
 "deadline": "2026-09-11",
-"status": "09-11截止",
+"status": "09-12截止",
 "organizer": "華陀扶元堂生藥科技股份有限公司",
 "venue": "國立高雄科技大學第一校區(高雄市燕巢區大學路1號)",
 "course": {},
@@ -2230,6 +2247,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13151"
 },
 {
+"cid": "13166",
+"name": "2026 SUPERACE 黑馬半程馬拉松",
+"start": "2026-11-14",
+"end": "2026-11-15",
+"place": "臺北市",
+"distances": [
+"21K",
+"10K",
+"4K"
+],
+"signup_start": "2026-04-27",
+"deadline": "2026-09-30",
+"status": "09-30截止",
+"organizer": "SUPERACE                            、                                TESA SPORT CLUB",
+"venue": "大佳河濱公園(台北市中山區濱江街5號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13166"
+},
+{
 "cid": "12988",
 "name": "2026 冬山河馬拉松",
 "start": "2026-11-14",
@@ -2828,7 +2864,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-07",
-"status": "10-07截止",
+"status": "已截止報名",
 "organizer": "台灣路跑賽會服務協會",
 "venue": "國立故宮博物院南部院區北側慶典花園旁(嘉義縣太保市故宮大道888號)",
 "course": {},
@@ -3835,6 +3871,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13164"
 },
 {
+"cid": "13169",
+"name": "2027 SUPERACE 超級馬拉松多日賽 新北淡蘭站",
+"start": "2027-03-26",
+"end": "2027-03-27",
+"place": "新北市",
+"distances": [
+"109K",
+"20K"
+],
+"signup_start": "2026-07-09",
+"deadline": "2027-01-21",
+"status": "01-21截止",
+"organizer": "SUPERACE                            、                                TESA SPORT CLUB",
+"venue": "福隆青少年活動中心（新北市貢寮區福隆里福隆街60號）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13169"
+},
+{
 "cid": "13104",
 "name": "2027 柚花追香半程馬拉松-瑞穗星光夜跑",
 "start": "2027-03-27",
@@ -3852,6 +3906,23 @@
 "venue": "瑞穗國小(花蓮縣瑞穗鄉瑞穗村溫泉路一段19號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13104"
+},
+{
+"cid": "13168",
+"name": "2027 SUPERACE 野馬越野系列賽 春林野馬",
+"start": "2027-03-28",
+"end": "2027-03-29",
+"place": "新北市",
+"distances": [
+"20K"
+],
+"signup_start": "2026-07-09",
+"deadline": "2027-01-21",
+"status": "01-21截止",
+"organizer": "SUPERACE                            、                                TESA SPORT CLUB",
+"venue": "新北市新店區新店國小 （新北市新店區國校里新店路2號）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13168"
 },
 {
 "cid": "13107",
