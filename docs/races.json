@@ -27,10 +27,9 @@
 "21K",
 "10K",
 "5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -200,8 +199,9 @@
 "21.4K",
 "10.7K",
 "5K",
-"21K",
-"10K",
+"42.195K",
+"21.0975K",
+"12K",
 "3K"
 ],
 "signup_start": "2026-04-30",
@@ -367,7 +367,7 @@
 "5K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -3323,6 +3323,26 @@
 "venue": "佳樂水風景區(屏東縣滿州鄉茶山路18號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13053"
+},
+{
+"cid": "13167",
+"name": "2027 SUPERACE 野馬越野系列賽 冬嶺野馬",
+"start": "2027-01-03",
+"end": "2027-01-04",
+"place": "桃園市",
+"distances": [
+"35K",
+"23K",
+"12K",
+"5K"
+],
+"signup_start": "2026-08-04",
+"deadline": "2026-11-26",
+"status": "11-26截止",
+"organizer": "SUPERACE                            、                                TESA SPORT CLUB",
+"venue": "桃園市大溪區福安國民小學(桃園市大溪區福安里復興路一段755號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13167"
 },
 {
 "cid": "13033",
