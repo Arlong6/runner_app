@@ -29,7 +29,7 @@
 "5K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-08",
@@ -367,7 +367,7 @@
 "5K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -3632,6 +3632,26 @@
 "venue": "仁愛鄉春陽村第四班櫻花大道(南投縣仁愛鄉大同村仁和路184號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13070"
+},
+{
+"cid": "13170",
+"name": "2027 晨曦麥香馬拉松",
+"start": "2027-02-21",
+"end": "2027-02-22",
+"place": "臺中市",
+"distances": [
+"42.195K",
+"21K",
+"12.5K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "大雅中央獅子會                            、                                大雅永興宮                            、                                大雅區體育會",
+"venue": "臺中市大雅區大雅國小操場(臺中市大雅區大雅里學府路230號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13170"
 },
 {
 "cid": "13123",
