@@ -1,46 +1,5 @@
 [
 {
-"cid": "13038",
-"name": "2026美麗金山路跑活動",
-"start": "2026-08-29",
-"end": "2026-08-30",
-"place": "新北市",
-"distances": [
-"10K",
-"3K"
-],
-"signup_start": null,
-"deadline": "2026-06-28",
-"status": "已截止報名",
-"organizer": "新北市金山區公所",
-"venue": "磺港漁港(新北市金山區萬壽里磺港路323號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13038"
-},
-{
-"cid": "13133",
-"name": "2026義起愛運動勇士路跑",
-"start": "2026-08-29",
-"end": "2026-08-30",
-"place": "新竹縣",
-"distances": [
-"21K",
-"10K",
-"5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
-],
-"signup_start": "2026-06-25",
-"deadline": "2026-08-08",
-"status": "已截止報名",
-"organizer": "新竹縣政府文化局                            、                                財團法人新竹縣文化基金會                            、                                 新竹縣全民運動發展協會",
-"venue": "新竹縣政府前廣場(新竹縣竹北市北崙里光明六路10號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13133"
-},
-{
 "cid": "13061",
 "name": "2026 HOT DOG Trail 台中系列活動-熱血接力賽",
 "start": "2026-08-30",
@@ -66,7 +25,10 @@
 "end": "2026-08-31",
 "place": "雪梨",
 "distances": [
-"42.195K"
+"42.195K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -199,10 +161,7 @@
 "42.8K",
 "21.4K",
 "10.7K",
-"5K",
-"21K",
-"10K",
-"3K"
+"5K"
 ],
 "signup_start": "2026-04-30",
 "deadline": "2026-07-24",
@@ -237,7 +196,11 @@
 "place": "連江縣",
 "distances": [
 "14.6K",
-"7.5K"
+"7.5K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-07-30",
@@ -364,10 +327,7 @@
 "end": "2026-09-20",
 "place": "臺南市",
 "distances": [
-"5K",
-"21K",
-"10K",
-"4K"
+"5K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -406,7 +366,10 @@
 "50K",
 "43K",
 "24K",
-"10K"
+"10K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-03",
 "deadline": "2026-07-03",
@@ -730,7 +693,7 @@
 ],
 "signup_start": "2025-10-01",
 "deadline": "2026-09-04",
-"status": "09-04截止",
+"status": "已截止報名",
 "organizer": "TUR",
 "venue": "台灣珊瑚貝殼廟(新廟)(新北市石門區崁子腳路99號)",
 "course": {},
