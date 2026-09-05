@@ -1,44 +1,5 @@
 [
 {
-"cid": "13061",
-"name": "2026 HOT DOG Trail 台中系列活動-熱血接力賽",
-"start": "2026-08-30",
-"end": "2026-08-31",
-"place": "臺中市",
-"distances": [
-"36K",
-"21K",
-"9K"
-],
-"signup_start": "2026-04-17",
-"deadline": "2026-08-10",
-"status": "已截止報名",
-"organizer": "台灣龍虎鳳越野協會",
-"venue": "竹坑南寮步道口，木本橋(臺中市龍井區竹坑里)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13061"
-},
-{
-"cid": "12822",
-"name": "2026 雪梨馬拉松",
-"start": "2026-08-30",
-"end": "2026-08-31",
-"place": "雪梨",
-"distances": [
-"42.195K",
-"21K",
-"10K",
-"4K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "北雪梨米勒街",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12822"
-},
-{
 "cid": "13165",
 "name": "台北市 5000 公尺挑戰賽",
 "start": "2026-09-02",
@@ -64,7 +25,10 @@
 "distances": [
 "44.5K",
 "26K",
-"10K"
+"10K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-06-15",
@@ -196,10 +160,7 @@
 "place": "連江縣",
 "distances": [
 "14.6K",
-"7.5K",
-"21K",
-"10K",
-"3K"
+"7.5K"
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-07-30",
@@ -238,7 +199,11 @@
 "distances": [
 "21K",
 "10.5K",
-"5.5K"
+"5.5K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-04-23",
 "deadline": "2026-06-04",
@@ -365,11 +330,7 @@
 "50K",
 "43K",
 "24K",
-"10K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"10K"
 ],
 "signup_start": "2026-04-03",
 "deadline": "2026-07-03",
@@ -406,7 +367,10 @@
 "place": "臺中市",
 "distances": [
 "10K",
-"3K"
+"3K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
