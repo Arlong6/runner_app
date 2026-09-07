@@ -174,7 +174,7 @@ UID:race-12929@runner_app
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261110
 SUMMARY:🏃 2026台灣米倉田中馬拉松
-DESCRIPTION:距離: 42.195K / 22.6K / 9.7K / 4K\n地點: 彰化縣\n報
+DESCRIPTION:距離: 42.195K / 21.2K / 9.7K / 4.6K\n地點: 彰化縣\n報
  名開始: 2026/06/03\n報名截止: 2026/06/15\nhttps://running.biji.co
  /index.php?q=competition&act=info&cid=12929
 LOCATION:彰化縣
@@ -185,7 +185,7 @@ UID:signup-12929@runner_app
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 SUMMARY:⏰ 報名截止: 2026台灣米倉田中馬拉松
-DESCRIPTION:距離: 42.195K / 22.6K / 9.7K / 4K\n地點: 彰化縣\n報
+DESCRIPTION:距離: 42.195K / 21.2K / 9.7K / 4.6K\n地點: 彰化縣\n報
  名開始: 2026/06/03\n報名截止: 2026/06/15\nhttps://running.biji.co
  /index.php?q=competition&act=info&cid=12929
 TRANSP:TRANSPARENT
