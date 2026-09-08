@@ -1,22 +1,5 @@
 [
 {
-"cid": "13165",
-"name": "台北市 5000 公尺挑戰賽",
-"start": "2026-09-02",
-"end": "2026-09-03",
-"place": "臺北市",
-"distances": [
-"5000K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "臺北市政府體育局",
-"venue": "臺北田徑場",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13165"
-},
-{
 "cid": "12979",
 "name": "2026東城盃合歡山越野馬拉松",
 "start": "2026-09-04",
@@ -25,10 +8,7 @@
 "distances": [
 "44.5K",
 "26K",
-"10K",
-"21K",
-"10K",
-"4K"
+"10K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-06-15",
@@ -49,7 +29,10 @@
 "30K",
 "21K",
 "15K",
-"10K"
+"10K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -199,11 +182,7 @@
 "distances": [
 "21K",
 "10.5K",
-"5.5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"5.5K"
 ],
 "signup_start": "2026-04-23",
 "deadline": "2026-06-04",
@@ -220,7 +199,10 @@
 "end": "2026-09-14",
 "place": "臺南市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-08-12",
 "deadline": "2026-08-23",
@@ -367,9 +349,6 @@
 "place": "臺中市",
 "distances": [
 "10K",
-"3K",
-"21K",
-"10K",
 "3K"
 ],
 "signup_start": null,
@@ -388,6 +367,10 @@
 "place": "臺北市",
 "distances": [
 "10.5K",
+"3K",
+"42.195K",
+"21.0975K",
+"12K",
 "3K"
 ],
 "signup_start": null,
@@ -3578,6 +3561,26 @@
 "venue": "臺中市大雅區大雅國小操場(臺中市大雅區大雅里學府路230號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13170"
+},
+{
+"cid": "13173",
+"name": "2027浪漫台三~戀戀大湖草莓文化嘉年華馬拉松",
+"start": "2027-02-27",
+"end": "2027-02-28",
+"place": "苗栗縣",
+"distances": [
+"42K",
+"21K",
+"11K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "大湖地區農會                            、                                台灣鐵人運動協會",
+"venue": "苗栗縣大湖酒莊對面廣場(苗栗縣大湖鄉富興村2-4號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13173"
 },
 {
 "cid": "13123",
