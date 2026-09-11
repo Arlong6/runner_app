@@ -1,48 +1,5 @@
 [
 {
-"cid": "12927",
-"name": "2026 巴塔哥尼亞國際馬拉松",
-"start": "2026-09-05",
-"end": "2026-09-06",
-"place": "智利",
-"distances": [
-"42K",
-"30K",
-"21K",
-"15K",
-"10K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "智利百內國家公園",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12927"
-},
-{
-"cid": "13090",
-"name": "TOYOTA RUN 台北 寵物專場",
-"start": "2026-09-05",
-"end": "2026-09-06",
-"place": "臺北市",
-"distances": [
-"5K",
-"3K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
-],
-"signup_start": "2026-05-08",
-"deadline": "2026-08-09",
-"status": "已截止報名",
-"organizer": "和泰汽車股份有限公司",
-"venue": "大佳河濱公園 八號水門（臺北市中山區濱江街）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13090"
-},
-{
 "cid": "13012",
 "name": "2026 Panasonic Taipei City Run台北城市路跑賽",
 "start": "2026-09-06",
@@ -69,7 +26,11 @@
 "distances": [
 "21K",
 "12K",
-"4.5K"
+"4.5K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-05-04",
 "deadline": "2026-07-30",
@@ -200,10 +161,7 @@
 "distances": [
 "24K",
 "10K",
-"5K",
-"21K",
-"10K",
-"4K"
+"5K"
 ],
 "signup_start": "2026-04-29",
 "deadline": "2026-07-10",
@@ -238,7 +196,10 @@
 "end": "2026-09-20",
 "place": "臺中市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-09-06",
@@ -366,10 +327,7 @@
 "end": "2026-09-26",
 "place": "高雄市",
 "distances": [
-"5H",
-"21K",
-"10K",
-"3K"
+"5H"
 ],
 "signup_start": "2026-04-30",
 "deadline": "2026-08-31",
@@ -406,7 +364,10 @@
 "distances": [
 "26K",
 "17K",
-"10K"
+"10K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-07-31",
@@ -1706,7 +1667,7 @@
 ],
 "signup_start": "2026-04-29",
 "deadline": "2026-09-11",
-"status": "09-11截止",
+"status": "已截止報名",
 "organizer": "臺東縣卑南鄉公所                            、                                台東縣知本溫泉觀光發展促進協會                            、                                 知本老爺酒店",
 "venue": "知本忠義堂前方廣場(臺東縣卑南鄉龍泉路32號)",
 "course": {},
@@ -2189,7 +2150,7 @@
 ],
 "signup_start": "2026-07-28",
 "deadline": "2026-09-11",
-"status": "09-11截止",
+"status": "已截止報名",
 "organizer": "新竹縣竹北市公所",
 "venue": "竹北夜市廣場(新竹縣竹北市環北路五段)",
 "course": {},
