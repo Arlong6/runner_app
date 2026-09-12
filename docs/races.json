@@ -1,66 +1,5 @@
 [
 {
-"cid": "13012",
-"name": "2026 Panasonic Taipei City Run台北城市路跑賽",
-"start": "2026-09-06",
-"end": "2026-09-07",
-"place": "臺北市",
-"distances": [
-"12.5K",
-"3K"
-],
-"signup_start": "2026-05-12",
-"deadline": "2026-07-09",
-"status": "已截止報名",
-"organizer": "",
-"venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13012"
-},
-{
-"cid": "13027",
-"name": "2026大埔美樂活路跑半程馬拉松",
-"start": "2026-09-06",
-"end": "2026-09-07",
-"place": "嘉義縣",
-"distances": [
-"21K",
-"12K",
-"4.5K",
-"21K",
-"10K",
-"3K"
-],
-"signup_start": "2026-05-04",
-"deadline": "2026-07-30",
-"status": "已截止報名",
-"organizer": "雲林縣三鐵運動協會",
-"venue": "大埔美精密機械園區活動廣場(嘉義縣大林鎮大埔美園區六路1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13027"
-},
-{
-"cid": "12904",
-"name": "2026浪漫台三線新店老街路跑賽",
-"start": "2026-09-06",
-"end": "2026-09-07",
-"place": "苗栗縣",
-"distances": [
-"53.5K",
-"42.8K",
-"21.4K",
-"10.7K",
-"5K"
-],
-"signup_start": "2026-04-30",
-"deadline": "2026-07-24",
-"status": "原2026/04/26因故延期至2026/09/06",
-"organizer": "苗栗縣獅潭鄉體育會",
-"venue": "獅潭鄉五文宮（苗栗縣獅潭鄉和興村福興13號）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12904"
-},
-{
 "cid": "13094",
 "name": "最強市民飆5K－新北市5000公尺挑戰賽 九月場",
 "start": "2026-09-09",
@@ -85,7 +24,10 @@
 "place": "連江縣",
 "distances": [
 "14.6K",
-"7.5K"
+"7.5K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-07-30",
@@ -195,10 +137,7 @@
 "end": "2026-09-20",
 "place": "臺中市",
 "distances": [
-"5K",
-"21K",
-"10K",
-"4K"
+"5K"
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-09-06",
@@ -254,7 +193,10 @@
 "50K",
 "43K",
 "24K",
-"10K"
+"10K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-03",
 "deadline": "2026-07-03",
@@ -363,11 +305,7 @@
 "distances": [
 "26K",
 "17K",
-"10K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"10K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-07-31",
@@ -425,7 +363,11 @@
 "distances": [
 "21K",
 "11K",
-"6K"
+"6K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-05-21",
 "deadline": "2026-08-30",
@@ -1031,6 +973,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13078"
 },
 {
+"cid": "13178",
+"name": "最強市民飆5K－新北市5000公尺挑戰賽 十月場",
+"start": "2026-10-21",
+"end": "2026-10-22",
+"place": "新北市",
+"distances": [
+"5K"
+],
+"signup_start": "2026-10-12",
+"deadline": "2026-10-18",
+"status": "10-18截止",
+"organizer": "捷迅股份有限公司",
+"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13178"
+},
+{
 "cid": "13136",
 "name": "2026 濁水溪紫金馬拉松-高手名間站",
 "start": "2026-10-24",
@@ -1287,7 +1246,7 @@
 ],
 "signup_start": "2026-03-27",
 "deadline": "2026-09-11",
-"status": "09-12截止",
+"status": "已截止報名",
 "organizer": "華陀扶元堂生藥科技股份有限公司",
 "venue": "國立高雄科技大學第一校區(高雄市燕巢區大學路1號)",
 "course": {},
@@ -2290,6 +2249,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13045"
 },
 {
+"cid": "13179",
+"name": "最強市民飆5K－新北市5000公尺挑戰賽 十一月場",
+"start": "2026-11-18",
+"end": "2026-11-19",
+"place": "新北市",
+"distances": [
+"5K"
+],
+"signup_start": "2026-11-09",
+"deadline": "2026-11-15",
+"status": "11-15截止",
+"organizer": "捷迅股份有限公司",
+"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13179"
+},
+{
 "cid": "13003",
 "name": "2026 宜蘭冬山河超級馬拉松",
 "start": "2026-11-20",
@@ -2931,6 +2907,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13174"
 },
 {
+"cid": "13180",
+"name": "最強市民飆5K－新北市5000公尺挑戰賽 十二月場",
+"start": "2026-12-16",
+"end": "2026-12-17",
+"place": "新北市",
+"distances": [
+"5K"
+],
+"signup_start": "2026-12-07",
+"deadline": "2026-12-13",
+"status": "12-13截止",
+"organizer": "捷迅股份有限公司",
+"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13180"
+},
+{
 "cid": "12995",
 "name": "2026 北宜公路超級馬拉松",
 "start": "2026-12-19",
@@ -3197,7 +3190,7 @@
 },
 {
 "cid": "13053",
-"name": "2027風域曙光路跑活動 - 國境之南迎第一道曙光",
+"name": "2027 屏東風域曙光路跑",
 "start": "2027-01-01",
 "end": "2027-01-02",
 "place": "屏東縣",
@@ -3207,8 +3200,8 @@
 "4K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-11-21",
+"status": "11-21截止",
 "organizer": "屏東縣政府",
 "venue": "佳樂水風景區(屏東縣滿州鄉茶山路18號)",
 "course": {},
@@ -3914,6 +3907,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13107"
 },
 {
+"cid": "13176",
+"name": "2027 IRONKIDS 澎湖國際小鐵人三項賽",
+"start": "2027-04-10",
+"end": "2027-04-11",
+"place": "澎湖縣",
+"distances": [
+"1.8K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "LAVA 鐵人公司",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13176"
+},
+{
 "cid": "13002",
 "name": "2027突破BMI動吃懂吃",
 "start": "2027-04-10",
@@ -3930,6 +3940,23 @@
 "venue": "西螺大橋廣場(雲林縣西螺鎮大橋路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13002"
+},
+{
+"cid": "13177",
+"name": "2027 IRONMAN Penghu 澎湖國際鐵人三項賽",
+"start": "2027-04-11",
+"end": "2027-04-12",
+"place": "澎湖縣",
+"distances": [
+"226K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13177"
 },
 {
 "cid": "13135",
