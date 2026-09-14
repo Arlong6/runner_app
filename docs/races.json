@@ -194,8 +194,9 @@
 "43K",
 "24K",
 "10K",
-"21K",
-"10K",
+"42.195K",
+"21.0975K",
+"12K",
 "3K"
 ],
 "signup_start": "2026-04-03",
@@ -364,9 +365,8 @@
 "21K",
 "11K",
 "6K",
-"42.195K",
-"21.0975K",
-"12K",
+"21K",
+"10K",
 "3K"
 ],
 "signup_start": "2026-05-21",
@@ -2340,7 +2340,7 @@
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-09-14",
-"status": "09-14截止",
+"status": "已截止報名",
 "organizer": "",
 "venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
 "course": {},
@@ -3655,6 +3655,25 @@
 "venue": "白河運動公園(臺南市白河區永安里新興路536號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13172"
+},
+{
+"cid": "13181",
+"name": "2027花蓮太平洋浪花半程馬拉松",
+"start": "2027-03-13",
+"end": "2027-03-14",
+"place": "花蓮縣",
+"distances": [
+"21K",
+"12K",
+"6K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "花蓮縣體育會",
+"venue": "花蓮縣海洋公園前(花蓮縣壽豐鄉)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13181"
 },
 {
 "cid": "13156",
