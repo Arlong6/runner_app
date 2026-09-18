@@ -1,46 +1,5 @@
 [
 {
-"cid": "13110",
-"name": "2026年馬祖莒光星光夜跑",
-"start": "2026-09-12",
-"end": "2026-09-13",
-"place": "連江縣",
-"distances": [
-"14.6K",
-"7.5K"
-],
-"signup_start": "2026-06-30",
-"deadline": "2026-07-30",
-"status": "已截止報名",
-"organizer": "連江縣交通旅遊局                            、                                連江縣莒光鄉公所",
-"venue": "馬祖東莒莒光遊客中心（連江縣莒光鄉福正村1號）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13110"
-},
-{
-"cid": "12990",
-"name": "2026府城超級馬拉松",
-"start": "2026-09-12",
-"end": "2026-09-13",
-"place": "臺南市",
-"distances": [
-"100.7K",
-"42.5K",
-"22.04K",
-"11.02K",
-"21K",
-"10K",
-"4K"
-],
-"signup_start": "2026-04-10",
-"deadline": "2026-08-14",
-"status": "已截止報名",
-"organizer": "百事樂運動行銷整合有限公司",
-"venue": "台南市億載金城外圍道路(臺南市安平區)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12990"
-},
-{
 "cid": "13000",
 "name": "2026 ZEPRO RUN全國半程馬拉松 - 屏東場",
 "start": "2026-09-13",
@@ -66,7 +25,10 @@
 "end": "2026-09-14",
 "place": "臺南市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-08-12",
 "deadline": "2026-08-23",
@@ -195,10 +157,6 @@
 "distances": [
 "21K",
 "9K",
-"3K",
-"42.195K",
-"21.0975K",
-"12K",
 "3K"
 ],
 "signup_start": null,
@@ -235,7 +193,10 @@
 "place": "臺北市",
 "distances": [
 "10.5K",
-"3K"
+"3K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -366,10 +327,7 @@
 "distances": [
 "58K",
 "56.5K",
-"28.25K",
-"21K",
-"10K",
-"3K"
+"28.25K"
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-08-15",
@@ -408,7 +366,11 @@
 "42K",
 "24K",
 "10K",
-"5K"
+"5K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-05-01",
 "deadline": "2026-06-30",
@@ -1486,7 +1448,7 @@
 ],
 "signup_start": "2026-08-21",
 "deadline": "2026-09-18",
-"status": "09-18截止",
+"status": "已截止報名",
 "organizer": "義大醫療財團法人義大醫院",
 "venue": "高雄岡山典寶溪劉厝滯洪池（清水路口）",
 "course": {},
