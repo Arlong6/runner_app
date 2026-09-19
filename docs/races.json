@@ -1,64 +1,5 @@
 [
 {
-"cid": "13000",
-"name": "2026 ZEPRO RUN全國半程馬拉松 - 屏東場",
-"start": "2026-09-13",
-"end": "2026-09-14",
-"place": "屏東縣",
-"distances": [
-"21K",
-"10.5K",
-"5.5K"
-],
-"signup_start": "2026-04-23",
-"deadline": "2026-06-04",
-"status": "已截止報名",
-"organizer": "全統運動用品股份有限公司",
-"venue": "農業部農業科技園區管理中心(屏東縣長治鄉神農路1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13000"
-},
-{
-"cid": "13140",
-"name": "2026三菱重工空調【一起跑上太空】太空任務路跑",
-"start": "2026-09-13",
-"end": "2026-09-14",
-"place": "臺南市",
-"distances": [
-"5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
-],
-"signup_start": "2026-08-12",
-"deadline": "2026-08-23",
-"status": "已截止報名",
-"organizer": "上洋產業股份有限公司                            、                                三菱重工空調",
-"venue": "南瀛天文館 (臺南市大內區曲溪里34-2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13140"
-},
-{
-"cid": "13125",
-"name": "2026花蓮富里六十石山金針花超半程馬拉松",
-"start": "2026-09-13",
-"end": "2026-09-14",
-"place": "花蓮縣",
-"distances": [
-"24K",
-"10K",
-"5K"
-],
-"signup_start": "2026-04-29",
-"deadline": "2026-07-10",
-"status": "已截止報名",
-"organizer": "富里鄉公所                            、                                富里鄉民代表會",
-"venue": "富里鄉農會羅山展售中心旁大草皮(花蓮縣富里鄉羅山村9鄰東湖6號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13125"
-},
-{
 "cid": "13051",
 "name": "2026星海共馳澎湖星光路跑賽",
 "start": "2026-09-19",
@@ -83,7 +24,10 @@
 "end": "2026-09-20",
 "place": "臺中市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-09-06",
@@ -194,10 +138,7 @@
 "place": "臺北市",
 "distances": [
 "10.5K",
-"3K",
-"21K",
-"10K",
-"4K"
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -251,7 +192,10 @@
 "distances": [
 "26K",
 "17K",
-"10K"
+"10K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-07-31",
@@ -367,10 +311,7 @@
 "42K",
 "24K",
 "10K",
-"5K",
-"21K",
-"10K",
-"3K"
+"5K"
 ],
 "signup_start": "2026-05-01",
 "deadline": "2026-06-30",
@@ -428,6 +369,10 @@
 "distances": [
 "13.5K",
 "5K",
+"3K",
+"42.195K",
+"21.0975K",
+"12K",
 "3K"
 ],
 "signup_start": "2026-06-04",
@@ -2227,7 +2172,7 @@
 ],
 "signup_start": "2026-04-23",
 "deadline": "2026-09-19",
-"status": "09-19截止",
+"status": "已截止報名",
 "organizer": "社團法人中華民國超級馬拉松運動協會",
 "venue": "宜蘭縣冬山河親水公園(宜蘭縣五結鄉親河路二段2號)",
 "course": {},
