@@ -25,9 +25,8 @@
 "place": "臺中市",
 "distances": [
 "5K",
-"42.195K",
-"21.0975K",
-"12K",
+"21K",
+"10K",
 "3K"
 ],
 "signup_start": "2026-05-05",
@@ -196,7 +195,7 @@
 "10K",
 "21K",
 "10K",
-"3K"
+"4K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-07-31",
@@ -371,9 +370,10 @@
 "13.5K",
 "5K",
 "3K",
-"21K",
-"10K",
-"4K"
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-06-04",
 "deadline": "2026-07-15",
@@ -747,6 +747,23 @@
 "venue": "臺北市立動物園(臺北市文山區新光路二段30號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13040"
+},
+{
+"cid": "13185",
+"name": "115年第一屆 荷苞嶼鐵人趣味賽",
+"start": "2026-10-18",
+"end": "2026-10-19",
+"place": "嘉義縣",
+"distances": [
+"10.125K"
+],
+"signup_start": "2026-09-22",
+"deadline": "2026-09-30",
+"status": "09-30截止",
+"organizer": "嘉義縣健康生活館",
+"venue": "嘉義縣荷苞嶼綠色永續園區(嘉義縣朴子市大葛里學府路二段)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13185"
 },
 {
 "cid": "13008",
@@ -1191,7 +1208,7 @@
 ],
 "signup_start": "2026-05-04",
 "deadline": "2026-09-20",
-"status": "已截止報名",
+"status": "10-31截止",
 "organizer": "議長張清照服務處                            、                                清水紫雲巖管理委員會                            、                                清水區賞鳥協會",
 "venue": "清水紫雲巖廣場(臺中市清水區大街路206號)",
 "course": {},
@@ -3453,12 +3470,12 @@
 "distances": [
 "42.195K",
 "21K",
-"12.5K",
+"12.2K",
 "5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-10-31",
+"status": "10-31截止",
 "organizer": "大雅中央獅子會                            、                                大雅永興宮                            、                                大雅區體育會",
 "venue": "臺中市大雅區大雅國小操場(臺中市大雅區大雅里學府路230號)",
 "course": {},
@@ -3497,8 +3514,8 @@
 "3K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2027-01-31",
+"status": "01-31截止",
 "organizer": "",
 "venue": "員林家商(彰化縣員林市大饒里中正路56號)",
 "course": {},
@@ -3574,11 +3591,11 @@
 "distances": [
 "21K",
 "11K",
-"4K"
+"5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2027-01-10",
+"status": "01-10截止",
 "organizer": "雲林縣三鐵運動協會",
 "venue": "白河運動公園(臺南市白河區永安里新興路536號)",
 "course": {},
@@ -3702,24 +3719,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13158"
 },
 {
-"cid": "13024",
-"name": "2027匠愛家園公益路跑",
-"start": "2027-03-21",
-"end": "2027-03-22",
-"place": "高雄市",
-"distances": [
-"21K",
-"10.5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "匠愛家園(高雄市岡山區大莊路350號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13024"
-},
-{
 "cid": "13121",
 "name": "2027大亞旺萊馬拉松",
 "start": "2027-03-21",
@@ -3834,6 +3833,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13168"
 },
 {
+"cid": "13024",
+"name": "2027匠愛家園公益路跑",
+"start": "2027-03-28",
+"end": "2027-03-29",
+"place": "高雄市",
+"distances": [
+"21K",
+"10.5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "原2027/03/21因故延期至2027/03/28",
+"organizer": "",
+"venue": "匠愛家園(高雄市岡山區大莊路350號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13024"
+},
+{
 "cid": "13107",
 "name": "2027神岡馬-神豐國際同濟會全國公益馬拉松",
 "start": "2027-03-28",
@@ -3869,6 +3886,26 @@
 "venue": "",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13176"
+},
+{
+"cid": "13184",
+"name": "2027 第八屆BC台灣柏釧公益路跑",
+"start": "2027-04-10",
+"end": "2027-04-11",
+"place": "彰化縣",
+"distances": [
+"21K",
+"10K",
+"5K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "彰化縣體育會                            、                                台灣柏釧企業股份有限公司",
+"venue": "BC台灣柏釧企業股份有限公司(彰化縣彰化市彰南路六段131號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13184"
 },
 {
 "cid": "13002",
