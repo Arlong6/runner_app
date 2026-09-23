@@ -25,10 +25,9 @@
 "place": "臺中市",
 "distances": [
 "5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-05",
 "deadline": "2026-09-06",
@@ -194,8 +193,9 @@
 "26K",
 "17K",
 "10K",
-"21K",
-"10K",
+"42.195K",
+"21.0975K",
+"12K",
 "3K"
 ],
 "signup_start": "2026-04-01",
@@ -373,7 +373,7 @@
 "3K",
 "21K",
 "10K",
-"4K"
+"3K"
 ],
 "signup_start": "2026-06-04",
 "deadline": "2026-07-15",
@@ -3638,6 +3638,23 @@
 "venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13156"
+},
+{
+"cid": "13186",
+"name": "2027 靜岡馬拉松",
+"start": "2027-03-14",
+"end": "2027-03-15",
+"place": "靜岡縣",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "靜岡",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13186"
 },
 {
 "cid": "13143",
