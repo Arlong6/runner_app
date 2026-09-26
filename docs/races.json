@@ -1,103 +1,5 @@
 [
 {
-"cid": "13005",
-"name": "2026 台北國際半程馬拉松",
-"start": "2026-09-20",
-"end": "2026-09-21",
-"place": "臺北市",
-"distances": [
-"21K",
-"10K",
-"4K"
-],
-"signup_start": "2026-04-24",
-"deadline": "2026-06-11",
-"status": "已截止報名",
-"organizer": "全統運動用品股份有限公司",
-"venue": "大佳河濱公園(台北市中山區濱江街5號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13005"
-},
-{
-"cid": "12889",
-"name": "2026 第五屆泰安烏嘎彥原鄉秘境森林馬拉松",
-"start": "2026-09-20",
-"end": "2026-09-21",
-"place": "苗栗縣",
-"distances": [
-"50K",
-"43K",
-"24K",
-"10K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
-],
-"signup_start": "2026-04-03",
-"deadline": "2026-07-03",
-"status": "已截止報名",
-"organizer": "苗栗縣泰安鄉公所                            、                                苗栗縣泰安溫泉區觀光發展協會",
-"venue": "泰雅原住民文化產業園區(苗栗縣泰安鄉錦水村圓墩46之3號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12889"
-},
-{
-"cid": "12998",
-"name": "2026基隆半程馬拉松",
-"start": "2026-09-20",
-"end": "2026-09-21",
-"place": "基隆市",
-"distances": [
-"21K",
-"9K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "基隆市政府",
-"venue": "基隆市國門廣場（火車站前）(基隆市仁愛區港西街6-2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12998"
-},
-{
-"cid": "13041",
-"name": "仁愛長庚合作聯盟醫院2026永慶盃路跑",
-"start": "2026-09-20",
-"end": "2026-09-21",
-"place": "臺中市",
-"distances": [
-"10K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "臺中市西屯區中央公園",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13041"
-},
-{
-"cid": "13017",
-"name": "長庚紀念醫院2026永慶盃路跑",
-"start": "2026-09-20",
-"end": "2026-09-21",
-"place": "臺北市",
-"distances": [
-"10.5K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13017"
-},
-{
 "cid": "13023",
 "name": "SKY HUNTER 鳳梨山繞圈賽",
 "start": "2026-09-25",
@@ -122,7 +24,11 @@
 "place": "花蓮縣",
 "distances": [
 "8.2K",
-"5.3K"
+"5.3K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-08-15",
@@ -199,10 +105,7 @@
 "distances": [
 "21K",
 "11K",
-"6K",
-"21K",
-"10K",
-"4K"
+"6K"
 ],
 "signup_start": "2026-05-21",
 "deadline": "2026-08-30",
@@ -299,7 +202,10 @@
 "21K",
 "10K",
 "5K",
-"3K"
+"3K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-02-10",
 "deadline": "2026-08-04",
@@ -372,10 +278,7 @@
 "end": "2026-10-05",
 "place": "臺中市",
 "distances": [
-"10K",
-"21K",
-"10K",
-"3K"
+"10K"
 ],
 "signup_start": null,
 "deadline": "2026-08-14",
@@ -477,7 +380,10 @@
 "40K",
 "15K",
 "9K",
-"6K"
+"6K",
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
