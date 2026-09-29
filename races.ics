@@ -226,10 +226,21 @@ BEGIN:VEVENT
 UID:race-13035@runner_app
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270111
-SUMMARY:🏃 2027 高雄富邦馬拉松 DAY 1
+SUMMARY:🏃 2027 富邦人壽高雄馬拉松 DAY 1
 DESCRIPTION:距離: 5K / 0.15K\n地點: 高雄市\n報名: 報名時間
  未定\nhttps://running.biji.co/index.php?q=competition&act=info&cid=130
  35
+LOCATION:高雄市
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:race-13036@runner_app
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270112
+SUMMARY:🏃 2027 富邦人壽高雄馬拉松 DAY 2
+DESCRIPTION:距離: 42.195K / 21.0975K\n地點: 高雄市\n報名: 報名
+ 時間未定\nhttps://running.biji.co/index.php?q=competition&act=info&c
+ id=13036
 LOCATION:高雄市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -258,17 +269,6 @@ ACTION:DISPLAY
 DESCRIPTION:報名即將截止: 2027 渣打公益臺北馬拉松
 TRIGGER:-P7D
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:race-13036@runner_app
-DTSTART;VALUE=DATE:20270110
-DTEND;VALUE=DATE:20270112
-SUMMARY:🏃 2027 高雄富邦馬拉松 DAY 2
-DESCRIPTION:距離: 42.195K / 21.0975K\n地點: 高雄市\n報名: 報名
- 時間未定\nhttps://running.biji.co/index.php?q=competition&act=info&c
- id=13036
-LOCATION:高雄市
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:race-13072@runner_app

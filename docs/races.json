@@ -2198,7 +2198,7 @@
 ],
 "signup_start": "2026-04-24",
 "deadline": "2026-10-18",
-"status": "10-18截止",
+"status": "10-15截止",
 "organizer": "光圈整合行銷有限公司",
 "venue": "北汕尾鹿耳門天后宮(臺南市安南區媽祖宮一街136號)",
 "course": {},
@@ -3008,6 +3008,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13182"
 },
 {
+"cid": "13035",
+"name": "2027 富邦人壽高雄馬拉松 DAY 1",
+"start": "2027-01-09",
+"end": "2027-01-10",
+"place": "高雄市",
+"distances": [
+"5K",
+"0.15K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "高雄市政府運動發展局",
+"venue": "世運主場館",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13035"
+},
+{
 "cid": "13033",
 "name": "2027 第九屆龍虎鳳越野",
 "start": "2027-01-09",
@@ -3030,28 +3048,22 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13033"
 },
 {
-"cid": "13035",
-"name": "2027 高雄富邦馬拉松 DAY 1",
-"start": "2027-01-09",
-"end": "2027-01-10",
+"cid": "13036",
+"name": "2027 富邦人壽高雄馬拉松 DAY 2",
+"start": "2027-01-10",
+"end": "2027-01-11",
 "place": "高雄市",
 "distances": [
-"5K",
-"0.15K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": null,
 "deadline": null,
 "status": "報名時間未定",
 "organizer": "高雄市政府運動發展局",
 "venue": "世運主場館",
-"course": {
-"terrain": "高雄市區道路",
-"elevation": "市區平路、AIMS 國際認證",
-"difficulty": "★☆☆☆☆ 平坦好破 PB,南台灣最大馬",
-"highlight": "高雄市區封街,經城市地標,平坦快速,南部規模最大。",
-"route_url": "https://www.khm.com.tw/cp.aspx?n=1057"
-},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13035"
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13036"
 },
 {
 "cid": "13155",
@@ -3080,30 +3092,6 @@
 "route_note": "半程參考(來源:健行筆記 GPX)"
 },
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13155"
-},
-{
-"cid": "13036",
-"name": "2027 高雄富邦馬拉松 DAY 2",
-"start": "2027-01-10",
-"end": "2027-01-11",
-"place": "高雄市",
-"distances": [
-"42.195K",
-"21.0975K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "高雄市政府運動發展局",
-"venue": "世運主場館",
-"course": {
-"terrain": "高雄市區道路",
-"elevation": "市區平路、AIMS 國際認證",
-"difficulty": "★☆☆☆☆ 平坦好破 PB,南台灣最大馬",
-"highlight": "高雄市區封街,經城市地標,平坦快速,南部規模最大。",
-"route_url": "https://www.khm.com.tw/cp.aspx?n=1057"
-},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13036"
 },
 {
 "cid": "13069",
@@ -3261,8 +3249,8 @@
 {
 "cid": "13095",
 "name": "2027木架山馬拉松暨尾牙馬",
-"start": "2027-01-30",
-"end": "2027-01-31",
+"start": "2027-01-31",
+"end": "2027-02-01",
 "place": "臺南市",
 "distances": [
 "42.195K",
@@ -3354,6 +3342,23 @@
 "venue": "苗栗縣大湖酒莊對面廣場(苗栗縣大湖鄉富興村2-4號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13173"
+},
+{
+"cid": "13187",
+"name": "2027大阪馬拉松",
+"start": "2027-02-28",
+"end": "2027-03-01",
+"place": "大阪",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "一般財団法人大阪マラソン財団",
+"venue": "大阪府廳前",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13187"
 },
 {
 "cid": "13123",
@@ -3483,11 +3488,11 @@
 "distances": [
 "21K",
 "10K",
-"4K"
+"5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2027-01-07",
+"status": "01-07截止",
 "organizer": "台灣華特迪士尼股份有限公司",
 "venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
 "course": {},
