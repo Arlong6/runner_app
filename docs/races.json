@@ -26,9 +26,7 @@
 "8.2K",
 "5.3K",
 "42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21.0975K"
 ],
 "signup_start": "2026-06-30",
 "deadline": "2026-08-15",
@@ -381,8 +379,8 @@
 "15K",
 "9K",
 "6K",
-"42.195K",
-"21.0975K"
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
@@ -3848,12 +3846,33 @@
 "5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-12-31",
+"status": "12-31截止",
 "organizer": "港都科技三三會/順發公益運動協會/順發電腦",
 "venue": "高雄港灣文化廊帶（駁二x高流）(高雄市苓雅區苓洲里)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13137"
+},
+{
+"cid": "13188",
+"name": "2027 The North Face 100 谷關越野挑戰賽",
+"start": "2027-04-24",
+"end": "2027-04-25",
+"place": "臺中市",
+"distances": [
+"58.9K",
+"37.4K",
+"24.7K",
+"13.2K",
+"12.3K"
+],
+"signup_start": "2026-09-30",
+"deadline": "2027-01-31",
+"status": "01-31截止",
+"organizer": "The North Face",
+"venue": "和平運動公園(臺中市和平區東關路一段松鶴二巷)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13188"
 },
 {
 "cid": "13122",
