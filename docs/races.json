@@ -27,8 +27,9 @@
 "26K",
 "17K",
 "10K",
-"42.195K",
-"21.0975K"
+"21K",
+"10K",
+"3K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-07-31",
@@ -203,10 +204,9 @@
 "13.5K",
 "5K",
 "3K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-04",
 "deadline": "2026-07-15",
@@ -382,9 +382,8 @@
 "50K",
 "42.195K",
 "6H",
-"21K",
-"10K",
-"4K"
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-05-29",
 "deadline": "2026-09-09",
@@ -2198,7 +2197,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-04",
-"status": "10-04截止",
+"status": "已截止報名",
 "organizer": "交通部觀光署大鵬灣國家風景區管理處                            、                                台灣耐力運動協會",
 "venue": "大鵬灣濱灣碼頭(屏東縣東港鎮大鵬灣環灣道路)",
 "course": {},
@@ -2281,7 +2280,7 @@
 ],
 "signup_start": "2026-07-23",
 "deadline": "2026-10-04",
-"status": "10-04截止",
+"status": "已截止報名",
 "organizer": "交通部觀光署大鵬灣國家風景區管理處                            、                                台灣耐力運動協會",
 "venue": "大鵬灣濱灣碼頭(屏東縣東港鎮大鵬灣環灣道路)",
 "course": {},
@@ -2699,7 +2698,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-04",
-"status": "10-04截止",
+"status": "已截止報名",
 "organizer": "埔鹽順澤宮管理委員會",
 "venue": "埔鹽順澤宮(彰化縣鹽埔鄉中正路55號)",
 "course": {},
@@ -2847,8 +2846,8 @@
 "10K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-11-22",
+"status": "11-22截止",
 "organizer": "",
 "venue": "臺北市中山區大佳河濱公園(臺北市中山區新庄里濱江街5號)",
 "course": {},
@@ -2875,6 +2874,25 @@
 "venue": "后里車站東站(臺中市后里區圳寮路99巷)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13153"
+},
+{
+"cid": "13190",
+"name": "2026高雄捷運蜜柑站長耶誕公益主題路跑",
+"start": "2026-12-26",
+"end": "2026-12-27",
+"place": "高雄市",
+"distances": [
+"10K",
+"4K",
+"2K"
+],
+"signup_start": "2026-10-02",
+"deadline": "2026-10-31",
+"status": "10-31截止",
+"organizer": "高雄捷運股份有限公司",
+"venue": "棧貳庫廣場(高雄市鼓山區麗興里蓬萊路)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13190"
 },
 {
 "cid": "13113",
@@ -3381,6 +3399,25 @@
 "venue": "嘉義蘭潭音樂噴泉(嘉義市東區紅毛埤187號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12943"
+},
+{
+"cid": "13189",
+"name": "2027扶輪公益路跑｜快樂奔跑・健康加倍",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "臺北市",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-10-01",
+"deadline": "2027-01-15",
+"status": "01-15截止",
+"organizer": "國際扶輪3502地區                            、                                國際扶輪3521地區                            、                                國際扶輪3522地區                            、                                國際扶輪3490地區                            、                                國際扶輪3481地區                            、                                國際扶輪3482地區",
+"venue": "台北市美堤河濱公園(臺北市中山區樂群一路基隆河基16號水門)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13189"
 },
 {
 "cid": "13138",
