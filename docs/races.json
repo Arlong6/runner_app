@@ -29,7 +29,7 @@
 "10K",
 "21K",
 "10K",
-"3K"
+"5K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-07-31",
@@ -204,9 +204,8 @@
 "13.5K",
 "5K",
 "3K",
-"21K",
-"10K",
-"4K"
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-06-04",
 "deadline": "2026-07-15",
@@ -382,8 +381,9 @@
 "50K",
 "42.195K",
 "6H",
-"5K",
-"0.15K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-29",
 "deadline": "2026-09-09",
@@ -3836,6 +3836,25 @@
 "venue": "",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13177"
+},
+{
+"cid": "13192",
+"name": "2027 ELLE RUN With Style",
+"start": "2027-04-17",
+"end": "2027-04-18",
+"place": "臺北市",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-11-17",
+"deadline": "2027-02-19",
+"status": "02-19截止",
+"organizer": "ELLE Taiwan                            、                                台灣赫斯特媒體(股)公司",
+"venue": "大佳河濱公園8號水門圓形廣場(臺北市中山區濱江街5號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13192"
 },
 {
 "cid": "13135",
