@@ -27,8 +27,9 @@
 "26K",
 "17K",
 "10K",
-"42.195K",
-"21.0975K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-07-31",
@@ -349,6 +350,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12876"
 },
 {
+"cid": "13193",
+"name": "台北市 5000 公尺挑戰賽(10/7場)",
+"start": "2026-10-07",
+"end": "2026-10-08",
+"place": "臺北市",
+"distances": [
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "臺北市政府體育局",
+"venue": "臺北田徑場",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13193"
+},
+{
 "cid": "12966",
 "name": "2026 Maokong 貓空 Night Trail",
 "start": "2026-10-09",
@@ -360,7 +378,9 @@
 "40K",
 "15K",
 "9K",
-"6K"
+"6K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
@@ -379,10 +399,7 @@
 "distances": [
 "50K",
 "42.195K",
-"6H",
-"21K",
-"10K",
-"5K"
+"6H"
 ],
 "signup_start": "2026-05-29",
 "deadline": "2026-09-09",
@@ -3593,24 +3610,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13111"
 },
 {
-"cid": "13158",
-"name": "2027 中山香香生活節",
-"start": "2027-03-20",
-"end": "2027-03-21",
-"place": "宜蘭縣",
+"cid": "13194",
+"name": "2027 第八屆Taipei Morning Summer半程馬拉松",
+"start": "2027-03-21",
+"end": "2027-03-22",
+"place": "臺北市",
 "distances": [
 "21K",
-"12K",
-"6K",
-"2.5K"
+"9.5K",
+"4K"
 ],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "順安國小中山分校(宜蘭縣冬山鄉中山村舊寮路55號)",
+"signup_start": "2026-10-08",
+"deadline": "2027-02-27",
+"status": "02-27截止",
+"organizer": "臺北市大同區體育會                            、                                臺北市政府體育局",
+"venue": "承德橋下越堤舊兒童樂園自行車道",
 "course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13158"
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13194"
 },
 {
 "cid": "13121",
@@ -3763,6 +3779,26 @@
 "venue": "神岡國小(臺中市神岡區神岡里神圳路1號 )",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13107"
+},
+{
+"cid": "13158",
+"name": "2027宜蘭中山香香節",
+"start": "2027-04-03",
+"end": "2027-04-04",
+"place": "宜蘭縣",
+"distances": [
+"21K",
+"12K",
+"6K",
+"2.5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "原2027/03/20因故改期至2026/04/03",
+"organizer": "",
+"venue": "順安國小中山分校(宜蘭縣冬山鄉中山村舊寮路55號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13158"
 },
 {
 "cid": "13176",
