@@ -27,9 +27,8 @@
 "26K",
 "17K",
 "10K",
-"21K",
-"10K",
-"4K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-07-31",
@@ -380,8 +379,8 @@
 "15K",
 "9K",
 "6K",
-"42.195K",
-"21.0975K"
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
@@ -3018,7 +3017,7 @@
 ],
 "signup_start": "2026-09-22",
 "deadline": "2026-11-05",
-"status": "11-05截止",
+"status": "10-15截止",
 "organizer": "",
 "venue": "新北市三重區新北大都會公園(近熊猴森樂園草坪)",
 "course": {},
@@ -3185,7 +3184,7 @@
 },
 {
 "cid": "13183",
-"name": "2027 台中 MIZUNO 都會國際半程馬拉松",
+"name": "2027 台中都會國際半程馬拉松",
 "start": "2027-01-17",
 "end": "2027-01-18",
 "place": "臺中市",
@@ -3195,8 +3194,8 @@
 "3.5K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-10-15",
+"status": "10-15截止",
 "organizer": "",
 "venue": "台中市西屯區中央球場(台中市西屯區凱旋路)",
 "course": {},
@@ -3435,6 +3434,24 @@
 "venue": "台北市美堤河濱公園(臺北市中山區樂群一路基隆河基16號水門)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13189"
+},
+{
+"cid": "13196",
+"name": "2027第三屆追飛機路跑",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "桃園市",
+"distances": [
+"12K",
+"4K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "桃園市體育總會馬拉松委員會                             、                                 桃園市政府體育局",
+"venue": "竹圍漁港漁會大樓前廣場(桃園市大園區沙崙里漁港路353巷176號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13196"
 },
 {
 "cid": "13138",
@@ -3706,6 +3723,23 @@
 "venue": "福隆青少年活動中心（新北市貢寮區福隆里福隆街60號）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13169"
+},
+{
+"cid": "13195",
+"name": "2027 Global 6K for Water",
+"start": "2027-03-27",
+"end": "2027-03-28",
+"place": "臺北市",
+"distances": [
+"6K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "台北市大佳河濱公園(巨蛋廣場)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13195"
 },
 {
 "cid": "13104",
