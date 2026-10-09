@@ -1,102 +1,5 @@
 [
 {
-"cid": "13080",
-"name": "2026 LAVAKIDS 花蓮太平洋小鐵人賽",
-"start": "2026-10-03",
-"end": "2026-10-04",
-"place": "花蓮縣",
-"distances": [
-"8.2K",
-"5.3K"
-],
-"signup_start": "2026-06-30",
-"deadline": "2026-08-15",
-"status": "已截止報名",
-"organizer": "花蓮縣體育會                            、                                台灣耐力運動協會",
-"venue": "花蓮縣壽豐鄉鯉魚潭",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13080"
-},
-{
-"cid": "12980",
-"name": "2026 吧哩嘓越野",
-"start": "2026-10-03",
-"end": "2026-10-04",
-"place": "新竹縣",
-"distances": [
-"26K",
-"17K",
-"10K",
-"5K",
-"0.15K"
-],
-"signup_start": "2026-04-01",
-"deadline": "2026-07-31",
-"status": "已截止報名",
-"organizer": "台灣龍虎鳳越野協會",
-"venue": "文山國小(新竹縣新埔鎮國校街160號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12980"
-},
-{
-"cid": "12954",
-"name": "2026 山城星光馬拉松",
-"start": "2026-10-03",
-"end": "2026-10-04",
-"place": "苗栗縣",
-"distances": [
-"42K",
-"21K",
-"9K",
-"3K"
-],
-"signup_start": "2026-03-16",
-"deadline": "2026-07-26",
-"status": "已截止報名",
-"organizer": "苗栗縣政府                            、                                苗栗縣農會",
-"venue": "苗栗縣立體育場(苗栗市經國路四段79號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12954"
-},
-{
-"cid": "13022",
-"name": "2026 跑若飛天公盃路跑X健走大賽",
-"start": "2026-10-03",
-"end": "2026-10-04",
-"place": "嘉義縣",
-"distances": [
-"15K",
-"10K",
-"5K"
-],
-"signup_start": "2026-05-01",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "嘉義縣政府",
-"venue": "嘉義縣朴子市公所(嘉義縣朴子市四維路一段551號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13022"
-},
-{
-"cid": "12986",
-"name": "2026池上星夜慢城路跑",
-"start": "2026-10-03",
-"end": "2026-10-04",
-"place": "臺東縣",
-"distances": [
-"21K",
-"11K",
-"6K"
-],
-"signup_start": "2026-05-21",
-"deadline": "2026-08-30",
-"status": "已截止報名",
-"organizer": "池上鄉公所",
-"venue": "大坡池圓形廣場(台東縣池上鄉中山路通水巷)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12986"
-},
-{
 "cid": "13081",
 "name": "2026 LAVA花蓮太平洋鐵人賽",
 "start": "2026-10-04",
@@ -124,7 +27,10 @@
 "distances": [
 "21K",
 "10K",
-"6K"
+"6K",
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-04-08",
 "deadline": "2026-06-30",
@@ -202,10 +108,7 @@
 "distances": [
 "13.5K",
 "5K",
-"3K",
-"21K",
-"10K",
-"5K"
+"3K"
 ],
 "signup_start": "2026-06-04",
 "deadline": "2026-07-15",
@@ -300,7 +203,9 @@
 "42.195K",
 "21K",
 "11K",
-"6K"
+"6K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-04-20",
 "deadline": "2026-08-09",
@@ -378,10 +283,7 @@
 "40K",
 "15K",
 "9K",
-"6K",
-"21K",
-"10K",
-"4K"
+"6K"
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
@@ -475,7 +377,9 @@
 "42K",
 "21K",
 "10K",
-"4K"
+"4K",
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-02-26",
 "deadline": "2026-07-31",
