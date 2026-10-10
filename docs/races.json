@@ -1,260 +1,5 @@
 [
 {
-"cid": "13081",
-"name": "2026 LAVA花蓮太平洋鐵人賽",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "花蓮縣",
-"distances": [
-"58K",
-"56.5K",
-"28.25K"
-],
-"signup_start": "2026-06-30",
-"deadline": "2026-08-15",
-"status": "已截止報名",
-"organizer": "花蓮縣體育會                            、                                台灣耐力運動協會",
-"venue": "花蓮縣壽豐鄉鯉魚潭",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13081"
-},
-{
-"cid": "12993",
-"name": "2026 OKRUN【愛在潮州】",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "屏東縣",
-"distances": [
-"21K",
-"10K",
-"6K",
-"5K",
-"0.15K"
-],
-"signup_start": "2026-04-08",
-"deadline": "2026-06-30",
-"status": "已截止報名",
-"organizer": "屏東縣潮州鎮公所                            、                                OK忠訓國際股份有限公司",
-"venue": "屏東縣潮州鎮潮州國民小學（屏東縣潮州鎮育英路31號）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12993"
-},
-{
-"cid": "13026",
-"name": "2026 Puli Power 埔里山城派對馬拉松",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "南投縣",
-"distances": [
-"42K",
-"24K",
-"10K",
-"5K"
-],
-"signup_start": "2026-05-01",
-"deadline": "2026-06-30",
-"status": "已截止報名",
-"organizer": "南投縣觀光產業聯盟協會                            、                                日月潭觀光圈聯盟",
-"venue": "埔里高級工業職業學校第二校區(壘球場旁)(南投縣埔里鎮中山路一段435號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13026"
-},
-{
-"cid": "12955",
-"name": "2026 新竹市「戀戀海岸線」快樂路跑",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "新竹市",
-"distances": [
-"18K",
-"9K",
-"4.5K"
-],
-"signup_start": "2026-04-08",
-"deadline": "2026-06-30",
-"status": "已截止報名",
-"organizer": "中華民國陸上運動競技協會",
-"venue": "南寮新港南路P3停車場(新竹市北區新港南路10號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12955"
-},
-{
-"cid": "12905",
-"name": "2026 第五屆壽司半程馬拉松-跑得開心 吃得sushi半程馬拉松",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "雲林縣",
-"distances": [
-"21K",
-"10K",
-"5K",
-"3K"
-],
-"signup_start": "2026-02-10",
-"deadline": "2026-08-04",
-"status": "已截止報名",
-"organizer": "東遠碾米廠",
-"venue": "東遠碾米廠(雲林縣二崙鄉民生路126巷35號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12905"
-},
-{
-"cid": "13043",
-"name": "2026 第四屆番路鄉嘉有喜柿-珍惜水資源路跑",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "嘉義縣",
-"distances": [
-"13.5K",
-"5K",
-"3K"
-],
-"signup_start": "2026-06-04",
-"deadline": "2026-07-15",
-"status": "已截止報名",
-"organizer": "嘉義縣番路鄉公所",
-"venue": "阿里山國家風景區管理處觸口遊客中心(嘉義縣番路鄉觸口村51號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13043"
-},
-{
-"cid": "12043",
-"name": "2026 華山論劍湖超級馬拉松",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "雲林縣",
-"distances": [
-"100K",
-"70K",
-"50K"
-],
-"signup_start": "2026-04-16",
-"deadline": "2026-08-31",
-"status": "原2026/09/19 因故二次延期至2026/10/04",
-"organizer": "中華民國全能運動協會",
-"venue": "雲林縣湖光山舍 (雲林縣古坑鄉永光村大湖口1-12號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12043"
-},
-{
-"cid": "12732",
-"name": "2026八百壯士系列--制霸極北超馬賽",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "新北市",
-"distances": [
-"105.3K",
-"57.4K"
-],
-"signup_start": "2025-10-01",
-"deadline": "2026-09-04",
-"status": "已截止報名",
-"organizer": "TUR",
-"venue": "台灣珊瑚貝殼廟(新廟)(新北市石門區崁子腳路99號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12732"
-},
-{
-"cid": "13042",
-"name": "2026公勝盃公益路跑",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "臺中市",
-"distances": [
-"10K"
-],
-"signup_start": null,
-"deadline": "2026-08-14",
-"status": "已截止報名",
-"organizer": "",
-"venue": "台中市西屯區中央球場(台中市西屯區凱旋路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13042"
-},
-{
-"cid": "13114",
-"name": "2026國際極限超級鐵人國內選拔賽 (臺灣台南場)",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "臺南市",
-"distances": [
-"226K",
-"100K",
-"72H",
-"48H",
-"24H"
-],
-"signup_start": "2026-06-30",
-"deadline": "2026-09-15",
-"status": "已截止報名",
-"organizer": "中華民國全能運動協會\n                            、                                台南市早起鳥路跑協會",
-"venue": "臺南市立游泳池(臺南市南區竹溪里健康路一段269號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13114"
-},
-{
-"cid": "12939",
-"name": "2026宜蘭縣冬山河水岸馬拉松",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "宜蘭縣",
-"distances": [
-"42.195K",
-"21K",
-"11K",
-"6K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-04-20",
-"deadline": "2026-08-09",
-"status": "已截止報名",
-"organizer": "宜蘭縣政府                            、                                宜蘭縣羅東鎮體育會",
-"venue": "宜蘭縣冬山河親水公園(宜蘭縣五結鄉親河路二段2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12939"
-},
-{
-"cid": "13083",
-"name": "2026年火燒島馬拉松",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "臺東縣",
-"distances": [
-"42.195K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": null,
-"deadline": "2026-08-20",
-"status": "已截止報名",
-"organizer": "綠島鄉公所",
-"venue": "綠島免稅新天地前廣場",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13083"
-},
-{
-"cid": "12876",
-"name": "2026新屋魚米之鄉馬拉松",
-"start": "2026-10-04",
-"end": "2026-10-05",
-"place": "桃園市",
-"distances": [
-"21K",
-"10K",
-"3K"
-],
-"signup_start": "2026-05-15",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "桃園市政府",
-"venue": "桃園市新屋區農業博覽會基地(桃園市新屋區東興路二段888號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12876"
-},
-{
 "cid": "13193",
 "name": "台北市 5000 公尺挑戰賽(10/7場)",
 "start": "2026-10-07",
@@ -283,7 +28,10 @@
 "40K",
 "15K",
 "9K",
-"6K"
+"6K",
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
@@ -377,9 +125,7 @@
 "42K",
 "21K",
 "10K",
-"4K",
-"42.195K",
-"21.0975K"
+"4K"
 ],
 "signup_start": "2026-02-26",
 "deadline": "2026-07-31",
@@ -458,7 +204,9 @@
 "distances": [
 "226K",
 "113K",
-"51.5K"
+"51.5K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -625,7 +373,10 @@
 "distances": [
 "21K",
 "12K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-08",
 "deadline": "2026-09-01",
@@ -1752,7 +1503,7 @@
 ],
 "signup_start": "2026-01-30",
 "deadline": "2026-10-10",
-"status": "10-10截止",
+"status": "已截止報名",
 "organizer": "華聯創生",
 "venue": "冬山火車站前廣場(宜蘭縣冬山鄉中正路1號冬山火車站)",
 "course": {},
