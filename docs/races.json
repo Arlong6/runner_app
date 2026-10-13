@@ -1,22 +1,5 @@
 [
 {
-"cid": "13193",
-"name": "台北市 5000 公尺挑戰賽(10/7場)",
-"start": "2026-10-07",
-"end": "2026-10-08",
-"place": "臺北市",
-"distances": [
-"5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "臺北市政府體育局",
-"venue": "臺北田徑場",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13193"
-},
-{
 "cid": "12966",
 "name": "2026 Maokong 貓空 Night Trail",
 "start": "2026-10-09",
@@ -28,10 +11,7 @@
 "40K",
 "15K",
 "9K",
-"6K",
-"21K",
-"10K",
-"5K"
+"6K"
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
@@ -50,7 +30,9 @@
 "distances": [
 "50K",
 "42.195K",
-"6H"
+"6H",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-05-29",
 "deadline": "2026-09-09",
@@ -204,9 +186,7 @@
 "distances": [
 "226K",
 "113K",
-"51.5K",
-"5K",
-"0.15K"
+"51.5K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -223,7 +203,9 @@
 "end": "2026-10-18",
 "place": "臺中市",
 "distances": [
-"3K"
+"3K",
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": "2026-07-31",
@@ -373,9 +355,7 @@
 "distances": [
 "21K",
 "12K",
-"5K",
-"42.195K",
-"21.0975K"
+"5K"
 ],
 "signup_start": "2026-06-08",
 "deadline": "2026-09-01",
@@ -392,7 +372,10 @@
 "end": "2026-10-22",
 "place": "新北市",
 "distances": [
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-10-12",
 "deadline": "2026-10-18",
