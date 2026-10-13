@@ -29,8 +29,9 @@
 "15K",
 "9K",
 "6K",
-"5K",
-"0.15K"
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-03-01",
 "deadline": "2026-09-01",
@@ -204,9 +205,8 @@
 "226K",
 "113K",
 "51.5K",
-"21K",
-"10K",
-"5K"
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -2236,7 +2236,7 @@
 ],
 "signup_start": "2026-06-05",
 "deadline": "2026-10-11",
-"status": "已截止報名",
+"status": "10-18截止",
 "organizer": "德成鞋業集團",
 "venue": "花舞館對面廣場(台中市后里區馬場路18號)",
 "course": {},
@@ -2936,6 +2936,25 @@
 "venue": "台南市新化區東成會館(臺南市新化區知義里中興路293號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13095"
+},
+{
+"cid": "13197",
+"name": "2027耀動高樹六堆騰飛馬拉松路跑",
+"start": "2027-02-02",
+"end": "2027-02-03",
+"place": "高雄市",
+"distances": [
+"42.195K",
+"21K",
+"10K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "高樹鄉公所",
+"venue": "高樹鄉新豐親水公園(屏東縣高樹鄉新豐村舊寮一號護道)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13197"
 },
 {
 "cid": "13147",
