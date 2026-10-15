@@ -31,9 +31,8 @@
 "50K",
 "42.195K",
 "6H",
-"21K",
-"10K",
-"4K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-05-29",
 "deadline": "2026-09-09",
@@ -205,9 +204,8 @@
 "place": "臺中市",
 "distances": [
 "3K",
-"21K",
-"10K",
-"5K"
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": "2026-07-31",
@@ -235,6 +233,26 @@
 "venue": "臺北市立動物園(臺北市文山區新光路二段30號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13040"
+},
+{
+"cid": "13199",
+"name": "第十一屆新北市八個浪pakelang城市狩獵路跑",
+"start": "2026-10-17",
+"end": "2026-10-18",
+"place": "新北市",
+"distances": [
+"21K",
+"10K",
+"3K",
+"1H"
+],
+"signup_start": "2026-07-08",
+"deadline": "2026-08-15",
+"status": "已截止報名",
+"organizer": "新北市體育總會",
+"venue": "二重疏洪運動公園 (新北市三重區二重疏洪道)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13199"
 },
 {
 "cid": "13185",
@@ -357,7 +375,10 @@
 "distances": [
 "21K",
 "12K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-08",
 "deadline": "2026-09-01",
@@ -374,9 +395,7 @@
 "end": "2026-10-22",
 "place": "新北市",
 "distances": [
-"5K",
-"42.195K",
-"21.0975K"
+"5K"
 ],
 "signup_start": "2026-10-12",
 "deadline": "2026-10-18",
@@ -2353,7 +2372,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-04",
-"status": "已截止報名",
+"status": "10-18截止",
 "organizer": "埔鹽順澤宮管理委員會",
 "venue": "埔鹽順澤宮(彰化縣鹽埔鄉中正路55號)",
 "course": {},
@@ -3344,6 +3363,30 @@
 "venue": "台南觀夕平台(台南市安平區漁濱路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13162"
+},
+{
+"cid": "13198",
+"name": "2027新北市萬金石馬拉松",
+"start": "2027-03-21",
+"end": "2027-03-22",
+"place": "新北市",
+"distances": [
+"42.195K",
+"10K"
+],
+"signup_start": "2026-10-15",
+"deadline": "2026-10-30",
+"status": "10-30截止",
+"organizer": "新北市政府                            、                                中華民國田徑協會",
+"venue": "太平洋建設第二停車場(新北市萬里區石角路33號對面停車場)",
+"course": {
+"terrain": "北海岸 台2線",
+"elevation": "官方未公布;海岸平路、起伏小",
+"difficulty": "★★☆☆☆ 平快海景,台灣唯一 World Athletics 標籤賽",
+"highlight": "沿北海岸台2線,經龜吼漁港、野柳地質公園、萬里隧道,海景開闊。",
+"route_url": "https://wanjinshi-marathon.com.tw/en/course-map/"
+},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13198"
 },
 {
 "cid": "13164",
