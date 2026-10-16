@@ -27,9 +27,7 @@
 "distances": [
 "17K",
 "42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21.0975K"
 ],
 "signup_start": "2026-07-15",
 "deadline": "2026-09-30",
@@ -139,24 +137,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13150"
 },
 {
-"cid": "13141",
-"name": "2026 ONWF 北歐式健走聯賽X好好生活節",
-"start": "2026-10-17",
-"end": "2026-10-18",
-"place": "臺北市",
-"distances": [
-"5K",
-"3K"
-],
-"signup_start": "2026-08-13",
-"deadline": "2026-08-24",
-"status": "已截止報名",
-"organizer": "台灣旺齡協會",
-"venue": "臺北市客家文化主題公園(臺北市中正區林興里汀州路三段2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13141"
-},
-{
 "cid": "12981",
 "name": "2026 南庄山水悠遊行 — 山水路跑賽 × 慢城爬坡(觀賞)賽",
 "start": "2026-10-17",
@@ -201,9 +181,7 @@
 "end": "2026-10-18",
 "place": "臺中市",
 "distances": [
-"3K",
-"42.195K",
-"21.0975K"
+"3K"
 ],
 "signup_start": null,
 "deadline": "2026-07-31",
@@ -222,7 +200,9 @@
 "distances": [
 "10K",
 "5K",
-"3.5K"
+"3.5K",
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-05-13",
 "deadline": "2026-08-02",
@@ -373,10 +353,7 @@
 "distances": [
 "21K",
 "12K",
-"5K",
-"21K",
-"10K",
-"4K"
+"5K"
 ],
 "signup_start": "2026-06-08",
 "deadline": "2026-09-01",
@@ -393,6 +370,9 @@
 "end": "2026-10-22",
 "place": "新北市",
 "distances": [
+"5K",
+"21K",
+"10K",
 "5K"
 ],
 "signup_start": "2026-10-12",
@@ -940,23 +920,6 @@
 "venue": "正統鹿耳門聖母廟(台南市安南區城安路160號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12733"
-},
-{
-"cid": "13142",
-"name": "2026台灣首廟天壇府城歷史健行",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "臺南市",
-"distances": [
-"4.2K"
-],
-"signup_start": "2026-08-13",
-"deadline": "2026-09-15",
-"status": "已截止報名",
-"organizer": "臺南市政府民政局                            、                                財團法人台灣首廟天壇共同主辦",
-"venue": "台灣首廟天壇(台南市中西區忠義路二段84巷16號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13142"
 },
 {
 "cid": "12897",
@@ -1873,23 +1836,6 @@
 "venue": "北汕尾鹿耳門天后宮(臺南市安南區媽祖宮一街136號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12923"
-},
-{
-"cid": "13127",
-"name": "2026高雄百K自行車挑戰賽",
-"start": "2026-11-29",
-"end": "2026-11-30",
-"place": "高雄市",
-"distances": [
-"116.2K"
-],
-"signup_start": "2026-07-17",
-"deadline": "2026-10-30",
-"status": "10-30截止",
-"organizer": "聯網國際資訊股份有限公司",
-"venue": "統嶺社區南側公有停車場 ( 高雄市大樹區統嶺里統嶺路1號 )",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13127"
 },
 {
 "cid": "12845",
@@ -3202,24 +3148,6 @@
 "venue": "活水湖(臺東縣臺東市馬亨亨大道)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13054"
-},
-{
-"cid": "13055",
-"name": "2027 LAVA 玩賽樂園350自行車挑戰",
-"start": "2027-03-13",
-"end": "2027-03-14",
-"place": "花蓮縣",
-"distances": [
-"350K",
-"170K"
-],
-"signup_start": "2026-04-01",
-"deadline": "2027-01-10",
-"status": "01-10截止",
-"organizer": "台灣耐力運動協會",
-"venue": "花蓮美侖飯店(花蓮縣花蓮市林園1之1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13055"
 },
 {
 "cid": "13172",
