@@ -1,43 +1,5 @@
 [
 {
-"cid": "13071",
-"name": "2026 CTAU超馬系列賽 - 第二站 開廣飛跑盃超級馬拉松",
-"start": "2026-10-10",
-"end": "2026-10-11",
-"place": "新北市",
-"distances": [
-"50K",
-"42.195K",
-"6H"
-],
-"signup_start": "2026-05-29",
-"deadline": "2026-09-09",
-"status": "已截止報名",
-"organizer": "社團法人中華民國超級馬拉松運動協會",
-"venue": "新莊田徑場(新北市新莊區中華路一段)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13071"
-},
-{
-"cid": "13117",
-"name": "2026年盲人環台公益路跑熱身賽",
-"start": "2026-10-10",
-"end": "2026-10-11",
-"place": "臺北市",
-"distances": [
-"17K",
-"42.195K",
-"21.0975K"
-],
-"signup_start": "2026-07-15",
-"deadline": "2026-09-30",
-"status": "已截止報名",
-"organizer": "台灣盲人環台為公益而跑協會",
-"venue": "台北溪山國小廣場(臺北市士林區溪山里至善路三段199號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13117"
-},
-{
 "cid": "13149",
 "name": "2026國際女孩日水水運動節",
 "start": "2026-10-11",
@@ -65,6 +27,9 @@
 "distances": [
 "42.195K",
 "21K",
+"5K",
+"21K",
+"10K",
 "5K"
 ],
 "signup_start": "2026-04-03",
@@ -200,9 +165,7 @@
 "distances": [
 "10K",
 "5K",
-"3.5K",
-"5K",
-"0.15K"
+"3.5K"
 ],
 "signup_start": "2026-05-13",
 "deadline": "2026-08-02",
@@ -239,7 +202,9 @@
 "end": "2026-10-19",
 "place": "嘉義縣",
 "distances": [
-"10.125K"
+"10.125K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-09-22",
 "deadline": "2026-09-30",
@@ -370,9 +335,6 @@
 "end": "2026-10-22",
 "place": "新北市",
 "distances": [
-"5K",
-"21K",
-"10K",
 "5K"
 ],
 "signup_start": "2026-10-12",
@@ -411,7 +373,10 @@
 "distances": [
 "21K",
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -2995,6 +2960,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13170"
 },
 {
+"cid": "13162",
+"name": "2027府城英雄馬拉松",
+"start": "2027-02-21",
+"end": "2027-02-22",
+"place": "臺南市",
+"distances": [
+"42.195K",
+"21.0975K",
+"10K",
+"5K"
+],
+"signup_start": "2026-08-28",
+"deadline": "2027-01-21",
+"status": "01-21截止",
+"organizer": "府城國際超級馬拉松協會",
+"venue": "台南觀夕平台(台南市安平區漁濱路)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13162"
+},
+{
 "cid": "13173",
 "name": "2027浪漫台三~戀戀大湖草莓文化嘉年華馬拉松",
 "start": "2027-02-27",
@@ -3013,6 +2998,23 @@
 "venue": "苗栗縣大湖酒莊對面廣場(苗栗縣大湖鄉富興村2-4號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13173"
+},
+{
+"cid": "13201",
+"name": "2027台北長跑扶輪社長明賞超馬盃50公里挑戰賽",
+"start": "2027-02-28",
+"end": "2027-03-01",
+"place": "臺北市",
+"distances": [
+"50K"
+],
+"signup_start": "2026-10-15",
+"deadline": "2026-12-31",
+"status": "12-31截止",
+"organizer": "台北長跑扶輪社                            、                                長明賞",
+"venue": "台北田徑場(台北市松山區敦化北路3號，請從松山運動中心右側入口進入會場)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13201"
 },
 {
 "cid": "13187",
@@ -3323,26 +3325,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13121"
 },
 {
-"cid": "13162",
-"name": "2027府城英雄馬拉松",
-"start": "2027-03-21",
-"end": "2027-03-22",
-"place": "臺南市",
-"distances": [
-"42.195K",
-"21.0975K",
-"10K",
-"5K"
-],
-"signup_start": "2026-08-28",
-"deadline": "2027-01-21",
-"status": "01-21截止",
-"organizer": "府城國際超級馬拉松協會",
-"venue": "台南觀夕平台(台南市安平區漁濱路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13162"
-},
-{
 "cid": "13198",
 "name": "2027新北市萬金石馬拉松",
 "start": "2027-03-21",
@@ -3378,8 +3360,8 @@
 "5.2K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2026-12-31",
+"status": "12-31截止",
 "organizer": "集集鎮公所                            、                                台灣國際馬拉松交流協會                            、                                亞洲馬拉松大聯盟",
 "venue": "集集火車站(南投縣集集鎮民權路)",
 "course": {},
@@ -3404,23 +3386,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13169"
 },
 {
-"cid": "13195",
-"name": "2027 Global 6K for Water",
-"start": "2027-03-27",
-"end": "2027-03-28",
-"place": "臺北市",
-"distances": [
-"6K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "台北市大佳河濱公園(巨蛋廣場)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13195"
-},
-{
 "cid": "13104",
 "name": "2027 柚花追香半程馬拉松-瑞穗星光夜跑",
 "start": "2027-03-27",
@@ -3438,6 +3403,23 @@
 "venue": "瑞穗國小(花蓮縣瑞穗鄉瑞穗村溫泉路一段19號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13104"
+},
+{
+"cid": "13195",
+"name": "2027台灣世界展望會Global 6K for Water",
+"start": "2027-03-27",
+"end": "2027-03-28",
+"place": "臺北市",
+"distances": [
+"6K"
+],
+"signup_start": null,
+"deadline": "2026-12-31",
+"status": "12-31截止",
+"organizer": "",
+"venue": "台北市大佳河濱公園(巨蛋廣場)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13195"
 },
 {
 "cid": "13168",
