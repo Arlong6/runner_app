@@ -31,8 +31,9 @@
 "21K",
 "10K",
 "4K",
-"42.195K",
-"21.0975K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-08-31",
@@ -200,9 +201,8 @@
 "25K",
 "8K",
 "5K",
-"21K",
-"10K",
-"5K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-05-21",
 "deadline": "2026-08-31",
@@ -371,10 +371,9 @@
 "distances": [
 "18K",
 "8K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-31",
@@ -2884,6 +2883,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13170"
 },
 {
+"cid": "13204",
+"name": "2027京都馬拉松",
+"start": "2027-02-21",
+"end": "2027-02-22",
+"place": "京都市",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "京都市                            、                                京都體育協會",
+"venue": "京都市",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13204"
+},
+{
 "cid": "13162",
 "name": "2027府城英雄馬拉松",
 "start": "2027-02-21",
@@ -3240,8 +3256,8 @@
 "7K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2027-01-08",
+"status": "01-08截止",
 "organizer": "大亞電線電纜股份有限公司",
 "venue": "大亞電線電纜股份有限公司-臺南總公司(台南市關廟區中山路二段249號)",
 "course": {},
