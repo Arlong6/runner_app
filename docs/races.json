@@ -31,9 +31,8 @@
 "21K",
 "10K",
 "4K",
-"21K",
-"10K",
-"5K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-04-01",
 "deadline": "2026-08-31",
@@ -201,10 +200,8 @@
 "25K",
 "8K",
 "5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-05-21",
 "deadline": "2026-08-31",
@@ -373,8 +370,9 @@
 "distances": [
 "18K",
 "8K",
-"42.195K",
-"21.0975K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-31",
@@ -2325,7 +2323,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-20",
-"status": "已截止報名",
+"status": "10-27截止",
 "organizer": "南華大學",
 "venue": "南華大學 (嘉義縣大林鎮南華路一段55號)",
 "course": {},
@@ -3091,6 +3089,24 @@
 "venue": "活水湖(臺東縣臺東市馬亨亨大道)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13054"
+},
+{
+"cid": "13205",
+"name": "2027大甲媽Bobi Run",
+"start": "2027-03-13",
+"end": "2027-03-14",
+"place": "臺中市",
+"distances": [
+"12K",
+"3K"
+],
+"signup_start": "2026-10-15",
+"deadline": "2027-02-14",
+"status": "02-14截止",
+"organizer": "鎮瀾宮財團法人大甲媽社會福利基金會",
+"venue": "大甲鎮瀾宮(台中市大甲區順天路158號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13205"
 },
 {
 "cid": "13172",
