@@ -1,140 +1,5 @@
 [
 {
-"cid": "13185",
-"name": "115年第一屆 荷苞嶼鐵人趣味賽",
-"start": "2026-10-18",
-"end": "2026-10-19",
-"place": "嘉義縣",
-"distances": [
-"10.125K"
-],
-"signup_start": "2026-09-22",
-"deadline": "2026-09-30",
-"status": "已截止報名",
-"organizer": "嘉義縣健康生活館",
-"venue": "嘉義縣荷苞嶼綠色永續園區(嘉義縣朴子市大葛里學府路二段)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13185"
-},
-{
-"cid": "13008",
-"name": "2026 POCARI SWEAT RUN寶礦力路跑",
-"start": "2026-10-18",
-"end": "2026-10-19",
-"place": "臺北市",
-"distances": [
-"21K",
-"10K",
-"4K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
-],
-"signup_start": "2026-06-01",
-"deadline": "2026-08-14",
-"status": "原2026/10/17因故延期至2026/10/18",
-"organizer": "金車大塚股份有限公司                             、                                 寶康行銷股份有限公司",
-"venue": "大佳河濱公園(台北市中山區濱江街5號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13008"
-},
-{
-"cid": "13060",
-"name": "2026 五峰越野",
-"start": "2026-10-18",
-"end": "2026-10-19",
-"place": "新竹縣",
-"distances": [
-"30K",
-"28K",
-"19.3K"
-],
-"signup_start": "2026-05-27",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "台灣龍虎鳳越野協會",
-"venue": "夢幻溪谷露營區(新竹縣竹東鎮上坪里)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13060"
-},
-{
-"cid": "12899",
-"name": "2026 高雄舒跑杯",
-"start": "2026-10-18",
-"end": "2026-10-19",
-"place": "高雄市",
-"distances": [
-"9.7K",
-"3K"
-],
-"signup_start": null,
-"deadline": "2026-09-11",
-"status": "已截止報名",
-"organizer": "",
-"venue": "高雄夢時代(高雄市前鎮區中華五路789號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12899"
-},
-{
-"cid": "13056",
-"name": "2026桃園市第六屆大觀盃 珍珠海岸超半程馬拉松",
-"start": "2026-10-18",
-"end": "2026-10-19",
-"place": "桃園市",
-"distances": [
-"25K",
-"8K",
-"5K"
-],
-"signup_start": "2026-05-21",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "桃園市大園區公所                            、                                桃園市觀音區公所",
-"venue": "竹圍漁港漁會大樓前廣場(桃園市大園區沙崙里漁港路353巷176號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13056"
-},
-{
-"cid": "13034",
-"name": "2026臺中國際馬拉松-酷城市．酷運動 水岸花都",
-"start": "2026-10-18",
-"end": "2026-10-19",
-"place": "臺中市",
-"distances": [
-"42.195K",
-"21K",
-"11K",
-"4K"
-],
-"signup_start": "2026-05-17",
-"deadline": "2026-08-16",
-"status": "已截止報名",
-"organizer": "臺中市政府運動局                            、                                立法委員陳清龍                            、                                社團法人臺中市繁榮葫蘆墩促進會                            、                                臺中市神岡區體育會                            、                                臺中市豐原區體育會",
-"venue": "大明高中(臺中市潭子區聚興里潭興路一段168號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13034"
-},
-{
-"cid": "13078",
-"name": "臺東縣達仁鄉115年度縫迴山海祭路跑活動",
-"start": "2026-10-18",
-"end": "2026-10-19",
-"place": "臺東縣",
-"distances": [
-"21K",
-"12K",
-"5K"
-],
-"signup_start": "2026-06-08",
-"deadline": "2026-09-01",
-"status": "已截止報名",
-"organizer": "臺東縣達仁鄉公所",
-"venue": "臺東縣達仁鄉-南田海岸親水公園",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13078"
-},
-{
 "cid": "13178",
 "name": "最強市民飆5K－新北市5000公尺挑戰賽 十月場",
 "start": "2026-10-21",
@@ -160,7 +25,11 @@
 "distances": [
 "21K",
 "11K",
-"6K"
+"6K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-08-06",
 "deadline": "2026-09-15",
@@ -198,10 +67,7 @@
 "distances": [
 "21K",
 "11K",
-"3K",
-"21K",
-"10K",
-"5K"
+"3K"
 ],
 "signup_start": null,
 "deadline": "2026-08-27",
@@ -328,6 +194,9 @@
 "end": "2026-10-26",
 "place": "彰化縣",
 "distances": [
+"5K",
+"21K",
+"10K",
 "5K"
 ],
 "signup_start": "2026-06-15",
@@ -367,9 +236,7 @@
 "21K",
 "11K",
 "6K",
-"4K",
-"5K",
-"0.15K"
+"4K"
 ],
 "signup_start": "2026-04-13",
 "deadline": "2026-09-06",
@@ -500,6 +367,9 @@
 "end": "2026-11-01",
 "place": "新北市",
 "distances": [
+"21K",
+"10K",
+"4K",
 "21K",
 "10K",
 "4K"
@@ -1217,7 +1087,7 @@
 ],
 "signup_start": "2026-08-19",
 "deadline": "2026-10-24",
-"status": "10-24截止",
+"status": "已截止報名",
 "organizer": "臺中市政府運動局                            、                                臺中市體育總會",
 "venue": "臺中市廍子公園(臺中市北屯區廍子路418號)",
 "course": {},
