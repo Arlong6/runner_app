@@ -28,7 +28,7 @@
 "6K",
 "21K",
 "10K",
-"5K"
+"4K"
 ],
 "signup_start": "2026-08-06",
 "deadline": "2026-09-15",
@@ -194,8 +194,9 @@
 "place": "彰化縣",
 "distances": [
 "5K",
-"42.195K",
-"21.0975K"
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-06-15",
 "deadline": "2026-09-20",
@@ -303,6 +304,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12836"
 },
 {
+"cid": "13207",
+"name": "2026 Let's Run空英1919路跑",
+"start": "2026-10-31",
+"end": "2026-11-01",
+"place": "新北市",
+"distances": [
+"11K",
+"6K"
+],
+"signup_start": "2026-06-01",
+"deadline": "2026-08-31",
+"status": "已截止報名",
+"organizer": "社團法人中華基督教救助協會. 空中英語教室. Traveler",
+"venue": "碧潭東岸廣場(新北市新店區環河路)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13207"
+},
+{
 "cid": "13128",
 "name": "2026 壯圍秘境星光饗宴健走趣",
 "start": "2026-10-31",
@@ -348,7 +367,11 @@
 "distances": [
 "21K",
 "10K",
-"6K"
+"6K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-04-21",
 "deadline": "2026-05-21",
@@ -365,9 +388,6 @@
 "end": "2026-11-01",
 "place": "新北市",
 "distances": [
-"21K",
-"10K",
-"4K",
 "21K",
 "10K",
 "4K"
@@ -1991,7 +2011,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-04",
-"status": "已截止報名",
+"status": "10-29截止",
 "organizer": "埔鹽順澤宮管理委員會",
 "venue": "埔鹽順澤宮(彰化縣鹽埔鄉中正路55號)",
 "course": {},
@@ -2077,7 +2097,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-20",
-"status": "10-27截止",
+"status": "11-15截止",
 "organizer": "南華大學",
 "venue": "南華大學 (嘉義縣大林鎮南華路一段55號)",
 "course": {},
@@ -2651,6 +2671,25 @@
 "venue": "京都市",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13204"
+},
+{
+"cid": "13209",
+"name": "2027年嘉義半程馬拉松",
+"start": "2027-02-21",
+"end": "2027-02-22",
+"place": "嘉義縣",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-07-01",
+"deadline": "2027-01-21",
+"status": "01-21截止",
+"organizer": "Rise創意活動企劃",
+"venue": "中埔多功能運動公園(嘉義縣中埔鄉忠和街16號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13209"
 },
 {
 "cid": "13162",
@@ -3356,6 +3395,26 @@
 "venue": "和平運動公園(臺中市和平區東關路一段松鶴二巷)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13188"
+},
+{
+"cid": "13208",
+"name": "2027中興新村半程馬拉松",
+"start": "2027-05-23",
+"end": "2027-05-24",
+"place": "南投縣",
+"distances": [
+"21K",
+"10K",
+"5K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "雲林縣三鐵運動協會",
+"venue": "中興會堂(南投縣南投市光榮里光榮北路1號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13208"
 },
 {
 "cid": "13122",

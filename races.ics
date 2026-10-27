@@ -21,9 +21,9 @@ UID:race-12999@runner_app
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261102
 SUMMARY:🏃 2026 華航馬拉松-星光夜跑
-DESCRIPTION:距離: 21K / 10K / 6K\n地點: 臺北市\n報名開始: 2026
- /04/21\n報名截止: 2026/05/21\nhttps://running.biji.co/index.php?q=co
- mpetition&act=info&cid=12999
+DESCRIPTION:距離: 21K / 10K / 6K / 42.195K / 21.0975K / 12K / 3K\n地
+ 點: 臺北市\n報名開始: 2026/04/21\n報名截止: 2026/05/21\nhttp
+ s://running.biji.co/index.php?q=competition&act=info&cid=12999
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -32,9 +32,9 @@ UID:signup-12999@runner_app
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
 SUMMARY:⏰ 報名截止: 2026 華航馬拉松-星光夜跑
-DESCRIPTION:距離: 21K / 10K / 6K\n地點: 臺北市\n報名開始: 2026
- /04/21\n報名截止: 2026/05/21\nhttps://running.biji.co/index.php?q=co
- mpetition&act=info&cid=12999
+DESCRIPTION:距離: 21K / 10K / 6K / 42.195K / 21.0975K / 12K / 3K\n地
+ 點: 臺北市\n報名開始: 2026/04/21\n報名截止: 2026/05/21\nhttp
+ s://running.biji.co/index.php?q=competition&act=info&cid=12999
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
