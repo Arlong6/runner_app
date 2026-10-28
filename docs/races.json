@@ -3398,6 +3398,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13208"
 },
 {
+"cid": "13210",
+"name": "2027雲林半程馬拉松",
+"start": "2027-06-06",
+"end": "2027-06-07",
+"place": "雲林縣",
+"distances": [
+"21K",
+"10K",
+"5K",
+"2.5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "雲林縣三鐵運動協會",
+"venue": "斗六梅林公園(雲林縣斗六市梅南路)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13210"
+},
+{
 "cid": "13122",
 "name": "玩野樂園",
 "start": "2027-11-27",
