@@ -7,3 +7,8 @@ __pycache__/
 
 # Vercel
 .vercel
+
+# 密鑰/憑證
+.env
+*.pem
+*.p8

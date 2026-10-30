@@ -13,9 +13,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -37,6 +37,6 @@ jobs:
       - name: 失敗時通知 Telegram(成功不推,避免洗版)
         if: failure()
         run: |
-          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+          curl -s -o /dev/null -w '%{http_code}\n' -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
             -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
             -d text="⚠️ runner_app 更新失敗 — 運動筆記可能改版或被擋,races.json 未更新(已自動保留舊資料)。請查看:${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
