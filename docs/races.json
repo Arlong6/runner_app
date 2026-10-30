@@ -1,81 +1,5 @@
 [
 {
-"cid": "13136",
-"name": "2026 濁水溪紫金馬拉松-高手名間站",
-"start": "2026-10-24",
-"end": "2026-10-25",
-"place": "南投縣",
-"distances": [
-"21K",
-"11K",
-"6K"
-],
-"signup_start": "2026-08-06",
-"deadline": "2026-09-15",
-"status": "已截止報名",
-"organizer": "名間鄉公所",
-"venue": "受天宮第二停車場(南投縣名間鄉松嶺街)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13136"
-},
-{
-"cid": "13037",
-"name": "2026北埔膨風路跑嘉年華",
-"start": "2026-10-24",
-"end": "2026-10-25",
-"place": "新竹縣",
-"distances": [
-"21K",
-"10K",
-"5K",
-"42.195K",
-"21.0975K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "北埔鄉公所",
-"venue": "新竹縣北埔鄉俥亭停車場(新竹縣北埔鄉南興街146號對面)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13037"
-},
-{
-"cid": "13044",
-"name": "2026台糖公益路跑",
-"start": "2026-10-24",
-"end": "2026-10-25",
-"place": "臺南市",
-"distances": [
-"21K",
-"11K",
-"3K"
-],
-"signup_start": null,
-"deadline": "2026-08-27",
-"status": "已截止報名",
-"organizer": "",
-"venue": "台糖柳營尖山埤渡假村(台南市柳營區旭山里60號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13044"
-},
-{
-"cid": "13112",
-"name": "2026新世紀福音戰士",
-"start": "2026-10-24",
-"end": "2026-10-25",
-"place": "臺北市",
-"distances": [
-"2K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "展通虹策略整合行銷股份有限公司",
-"venue": "馬場町紀念公園(台北市萬華區青年路188巷1弄7號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13112"
-},
-{
 "cid": "12926",
 "name": "2026 南投馬11th 草鞋墩馬拉松 前進鳥嘴潭、奔向九九峰",
 "start": "2026-10-25",
@@ -103,7 +27,9 @@
 "place": "香港",
 "distances": [
 "18K",
-"8K"
+"8K",
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-06-25",
 "deadline": "2026-08-31",
@@ -194,10 +120,7 @@
 "distances": [
 "21K",
 "10.5K",
-"6K",
-"21K",
-"10K",
-"5K"
+"6K"
 ],
 "signup_start": "2026-07-30",
 "deadline": "2026-08-31",
@@ -275,7 +198,9 @@
 "place": "屏東縣",
 "distances": [
 "3.3K",
-"2.1K"
+"2.1K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -368,9 +293,7 @@
 "distances": [
 "21K",
 "10K",
-"4K",
-"5K",
-"0.15K"
+"4K"
 ],
 "signup_start": "2026-06-26",
 "deadline": "2026-09-20",
@@ -446,7 +369,10 @@
 "place": "臺北市",
 "distances": [
 "5K",
-"3K"
+"3K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-08",
 "deadline": "2026-08-09",
@@ -2216,7 +2142,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-30",
-"status": "10-30截止",
+"status": "已截止報名",
 "organizer": "LAVA 鐵人公司",
 "venue": "至善國中(台北市士林區至善路二段360號)",
 "course": {},
