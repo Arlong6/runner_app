@@ -1,176 +1,5 @@
 [
 {
-"cid": "12926",
-"name": "2026 南投馬11th 草鞋墩馬拉松 前進鳥嘴潭、奔向九九峰",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "南投縣",
-"distances": [
-"42.195K",
-"22K",
-"10K",
-"5K"
-],
-"signup_start": "2026-04-27",
-"deadline": "2026-07-31",
-"status": "已截止報名",
-"organizer": "南投縣馬拉松協會\n                            、                                草屯鎮公所",
-"venue": "九九峰氦氣球園區停車場(南投縣草屯鎮健行路152號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12926"
-},
-{
-"cid": "13097",
-"name": "2026 外展「舟」山跑",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "香港",
-"distances": [
-"18K",
-"8K",
-"5K",
-"0.15K"
-],
-"signup_start": "2026-06-25",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "",
-"venue": "西貢區",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13097"
-},
-{
-"cid": "13145",
-"name": "2026 成都馬拉松",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "成都市",
-"distances": [
-"42.195K",
-"21.0975K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "成都市人民政府",
-"venue": "金沙遗址博物馆(中國四川省成都市青羊区金沙遗址路2号)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13145"
-},
-{
-"cid": "13066",
-"name": "2026 海綿寶寶人生馬拉松-人生市場謎-臺中場",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "臺中市",
-"distances": [
-"3.5K"
-],
-"signup_start": "2026-06-08",
-"deadline": "2026-07-31",
-"status": "已截止報名",
-"organizer": "",
-"venue": "中央球場(台中市西屯區凱旋路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13066"
-},
-{
-"cid": "13016",
-"name": "2026 長榮航空馬拉松",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "臺北市",
-"distances": [
-"42.195K",
-"21K",
-"10K",
-"3K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13016"
-},
-{
-"cid": "13075",
-"name": "2026第17屆員林獅子盃親子公益路跑",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "彰化縣",
-"distances": [
-"5K"
-],
-"signup_start": "2026-06-15",
-"deadline": "2026-09-20",
-"status": "已截止報名",
-"organizer": "彰化縣員林獅子會",
-"venue": "員林市圓林園(彰化縣員林市員林大道四段369號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13075"
-},
-{
-"cid": "13132",
-"name": "2026第1屆港灣郵輪半程馬拉松",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "高雄市",
-"distances": [
-"21K",
-"10.5K",
-"6K"
-],
-"signup_start": "2026-07-30",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "臺灣港務股份有限公司",
-"venue": "高雄港16-18號碼頭廣場(高雄市苓雅區海邊路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13132"
-},
-{
-"cid": "12859",
-"name": "2026虎馬第八屆全國烤雞馬拉松",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "雲林縣",
-"distances": [
-"21K",
-"11K",
-"6K",
-"4K"
-],
-"signup_start": "2026-04-13",
-"deadline": "2026-09-06",
-"status": "原2026/11/22因故改期至2026/10/25",
-"organizer": "雲林縣虎馬路跑協會",
-"venue": "高鐵雲林站旁(建成路與站前東路交叉路口)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12859"
-},
-{
-"cid": "12942",
-"name": "2026龍崎文衡殿第三屆赤兔馬全國馬拉松",
-"start": "2026-10-25",
-"end": "2026-10-26",
-"place": "臺南市",
-"distances": [
-"42K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-06-01",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "台南市龍崎區文衡殿",
-"venue": "台南龍崎區文衡殿(台南市龍崎區中坑里中坑3-2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12942"
-},
-{
 "cid": "12890",
 "name": "2026 華陀為高雄公益路跑",
 "start": "2026-10-26",
@@ -199,8 +28,8 @@
 "distances": [
 "3.3K",
 "2.1K",
-"42.195K",
-"21.0975K"
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -259,7 +88,7 @@
 ],
 "signup_start": "2026-05-04",
 "deadline": "2026-09-20",
-"status": "10-31截止",
+"status": "已截止報名",
 "organizer": "議長張清照服務處                            、                                清水紫雲巖管理委員會                            、                                清水區賞鳥協會",
 "venue": "清水紫雲巖廣場(臺中市清水區大街路206號)",
 "course": {},
@@ -370,9 +199,8 @@
 "distances": [
 "5K",
 "3K",
-"21K",
-"10K",
-"5K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-05-08",
 "deadline": "2026-08-09",
@@ -541,7 +369,10 @@
 "42K",
 "21K",
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-07-15",
 "deadline": "2026-09-16",
@@ -989,7 +820,7 @@
 ],
 "signup_start": "2026-07-21",
 "deadline": "2026-10-31",
-"status": "10-31截止",
+"status": "已截止報名",
 "organizer": "財政部                            、                                第一金融控股股份有限公司",
 "venue": "大佳河濱公園(台北市中山區濱江街5號)",
 "course": {},
@@ -1879,7 +1710,7 @@
 ],
 "signup_start": "2026-09-04",
 "deadline": "2026-10-31",
-"status": "10-31截止",
+"status": "已截止報名",
 "organizer": "南投縣觀光產業聯盟協會",
 "venue": "國姓鄉楞嚴宮 (南投縣國姓鄉大長路592-1號)",
 "course": {},
@@ -2125,7 +1956,7 @@
 ],
 "signup_start": "2026-10-02",
 "deadline": "2026-10-31",
-"status": "10-31截止",
+"status": "已截止報名",
 "organizer": "高雄捷運股份有限公司",
 "venue": "棧貳庫廣場(高雄市鼓山區麗興里蓬萊路)",
 "course": {},
@@ -2278,7 +2109,7 @@
 ],
 "signup_start": "2026-05-01",
 "deadline": "2026-10-31",
-"status": "10-31截止",
+"status": "已截止報名",
 "organizer": "台灣龍虎鳳越野協會",
 "venue": "裕見生活 ( 苗栗縣南庄鄉東江38之12號)",
 "course": {},
