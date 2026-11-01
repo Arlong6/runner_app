@@ -89,9 +89,9 @@ UID:race-13018@runner_app
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261103
 SUMMARY:🏃 2026臺灣國家公園馬拉松-陽明山
-DESCRIPTION:距離: 42K / 21K / 5K\n地點: 臺北市\n報名開始: 2026
- /06/02\n報名截止: 2026/08/31\nhttps://running.biji.co/index.php?q=co
- mpetition&act=info&cid=13018
+DESCRIPTION:距離: 42K / 21K / 5K / 42.195K / 21.0975K\n地點: 臺北
+ 市\n報名開始: 2026/06/02\n報名截止: 2026/08/31\nhttps://running
+ .biji.co/index.php?q=competition&act=info&cid=13018
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -100,9 +100,9 @@ UID:signup-13018@runner_app
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:⏰ 報名截止: 2026臺灣國家公園馬拉松-陽明山
-DESCRIPTION:距離: 42K / 21K / 5K\n地點: 臺北市\n報名開始: 2026
- /06/02\n報名截止: 2026/08/31\nhttps://running.biji.co/index.php?q=co
- mpetition&act=info&cid=13018
+DESCRIPTION:距離: 42K / 21K / 5K / 42.195K / 21.0975K\n地點: 臺北
+ 市\n報名開始: 2026/06/02\n報名截止: 2026/08/31\nhttps://running
+ .biji.co/index.php?q=competition&act=info&cid=13018
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY

@@ -1,25 +1,5 @@
 [
 {
-"cid": "12890",
-"name": "2026 華陀為高雄公益路跑",
-"start": "2026-10-26",
-"end": "2026-10-27",
-"place": "高雄市",
-"distances": [
-"21K",
-"11K",
-"6K",
-"2K"
-],
-"signup_start": "2026-03-27",
-"deadline": "2026-09-11",
-"status": "已截止報名",
-"organizer": "華陀扶元堂生藥科技股份有限公司",
-"venue": "國立高雄科技大學第一校區(高雄市燕巢區大學路1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12890"
-},
-{
 "cid": "12836",
 "name": "2026 IRONKIDS Taiwan 墾丁國際小鐵人三項賽",
 "start": "2026-10-31",
@@ -27,9 +7,7 @@
 "place": "屏東縣",
 "distances": [
 "3.3K",
-"2.1K",
-"5K",
-"0.15K"
+"2.1K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -47,7 +25,10 @@
 "place": "新北市",
 "distances": [
 "11K",
-"6K"
+"6K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-01",
 "deadline": "2026-08-31",
@@ -198,9 +179,7 @@
 "place": "臺北市",
 "distances": [
 "5K",
-"3K",
-"42.195K",
-"21.0975K"
+"3K"
 ],
 "signup_start": "2026-05-08",
 "deadline": "2026-08-09",
@@ -220,7 +199,11 @@
 "21K",
 "10K",
 "5.5K",
-"5K"
+"5K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": null,
 "deadline": "2026-08-16",
@@ -369,9 +352,6 @@
 "42K",
 "21K",
 "10K",
-"5K",
-"21K",
-"10K",
 "5K"
 ],
 "signup_start": "2026-07-15",
@@ -391,7 +371,9 @@
 "distances": [
 "42K",
 "21K",
-"5K"
+"5K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-06-02",
 "deadline": "2026-08-31",
