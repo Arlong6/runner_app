@@ -26,9 +26,8 @@
 "distances": [
 "11K",
 "6K",
-"21K",
-"10K",
-"4K"
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-06-01",
 "deadline": "2026-08-31",
@@ -372,8 +371,9 @@
 "42K",
 "21K",
 "5K",
-"42.195K",
-"21.0975K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-06-02",
 "deadline": "2026-08-31",
@@ -2923,6 +2923,25 @@
 "venue": "新北市新店區新店國小 （新北市新店區國校里新店路2號）",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13168"
+},
+{
+"cid": "13211",
+"name": "2027 台北科技盃愛地球公益路跑",
+"start": "2027-03-28",
+"end": "2027-03-29",
+"place": "臺北市",
+"distances": [
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "社團法人台北內湖科技園區發展協會",
+"venue": "台北市中山區大直美堤河濱公園(16號水門進入)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13211"
 },
 {
 "cid": "13024",
