@@ -26,8 +26,9 @@
 "distances": [
 "11K",
 "6K",
-"42.195K",
-"21.0975K"
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-06-01",
 "deadline": "2026-08-31",
@@ -171,6 +172,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13148"
 },
 {
+"cid": "13215",
+"name": "24小時不斷電公益路跑接力賽",
+"start": "2026-10-31",
+"end": "2026-11-01",
+"place": "臺中市",
+"distances": [
+"30K",
+"24H",
+"12H",
+"6H"
+],
+"signup_start": "2026-03-12",
+"deadline": "2026-08-31",
+"status": "已截止報名",
+"organizer": "社團法人台灣視多障協會",
+"venue": "南興公園(臺中市北屯區軍福十九路)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13215"
+},
+{
 "cid": "13090",
 "name": "TOYOTA RUN 台北 寵物專場",
 "start": "2026-10-31",
@@ -178,6 +199,10 @@
 "place": "臺北市",
 "distances": [
 "5K",
+"3K",
+"42.195K",
+"21.0975K",
+"12K",
 "3K"
 ],
 "signup_start": "2026-05-08",
@@ -198,9 +223,7 @@
 "21K",
 "10K",
 "5.5K",
-"5K",
-"5K",
-"0.15K"
+"5K"
 ],
 "signup_start": null,
 "deadline": "2026-08-16",
@@ -349,7 +372,9 @@
 "42K",
 "21K",
 "10K",
-"5K"
+"5K",
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-07-15",
 "deadline": "2026-09-16",
@@ -368,9 +393,6 @@
 "distances": [
 "42K",
 "21K",
-"5K",
-"21K",
-"10K",
 "5K"
 ],
 "signup_start": "2026-06-02",
@@ -2981,6 +3003,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13107"
 },
 {
+"cid": "13212",
+"name": "2027第三屆花旗木半程馬拉松",
+"start": "2027-03-28",
+"end": "2027-03-29",
+"place": "嘉義縣",
+"distances": [
+"21K",
+"11K",
+"6K",
+"3K"
+],
+"signup_start": "2026-10-30",
+"deadline": "2027-01-24",
+"status": "01-24截止",
+"organizer": "台灣路跑賽會服務協會",
+"venue": "竹崎公園風雨球場停車場(嘉義縣竹崎鄉竹崎村中山路5號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13212"
+},
+{
 "cid": "13158",
 "name": "2027宜蘭中山香香節",
 "start": "2027-04-03",
@@ -3038,6 +3080,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13184"
 },
 {
+"cid": "13214",
+"name": "2027杏輝宜蘭馬拉松",
+"start": "2027-04-10",
+"end": "2027-04-11",
+"place": "宜蘭縣",
+"distances": [
+"42K",
+"21K",
+"11K",
+"5K"
+],
+"signup_start": "2026-11-02",
+"deadline": "2026-12-15",
+"status": "12-15截止",
+"organizer": "宜蘭縣政府                            、                                杏輝醫藥集團",
+"venue": "宜蘭縣宜蘭運動公園（宜蘭縣宜蘭市中山路一段755號）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13214"
+},
+{
 "cid": "13002",
 "name": "2027突破BMI動吃懂吃",
 "start": "2027-04-10",
@@ -3071,6 +3133,26 @@
 "venue": "",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13177"
+},
+{
+"cid": "13213",
+"name": "2027七股生態馬拉松",
+"start": "2027-04-11",
+"end": "2027-04-12",
+"place": "臺南市",
+"distances": [
+"42K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-10-30",
+"deadline": "2027-03-12",
+"status": "03-12截止",
+"organizer": "府城國際超級馬拉松協會",
+"venue": "正王府雷安宮(臺南市七股區十份里53之2號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13213"
 },
 {
 "cid": "13192",
