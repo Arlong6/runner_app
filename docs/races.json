@@ -2338,25 +2338,6 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13095"
 },
 {
-"cid": "13197",
-"name": "2027耀動高樹六堆騰飛馬拉松路跑",
-"start": "2027-02-02",
-"end": "2027-02-03",
-"place": "高雄市",
-"distances": [
-"42.195K",
-"21K",
-"10K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "高樹鄉公所",
-"venue": "高樹鄉新豐親水公園(屏東縣高樹鄉新豐村舊寮一號護道)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13197"
-},
-{
 "cid": "13147",
 "name": "2027 第64屆愛媛馬拉松",
 "start": "2027-02-07",
@@ -2488,6 +2469,26 @@
 "venue": "苗栗縣大湖酒莊對面廣場(苗栗縣大湖鄉富興村2-4號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13173"
+},
+{
+"cid": "13197",
+"name": "2027耀動高樹六堆騰飛馬拉松路跑",
+"start": "2027-02-27",
+"end": "2027-02-28",
+"place": "高雄市",
+"distances": [
+"42.195K",
+"22K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": "2026-12-31",
+"status": "12-31截止",
+"organizer": "高樹鄉公所",
+"venue": "高樹鄉新豐親水公園(屏東縣高樹鄉新豐村舊寮一號護道)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13197"
 },
 {
 "cid": "13201",
