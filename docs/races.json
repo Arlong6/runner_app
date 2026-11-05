@@ -26,9 +26,10 @@
 "distances": [
 "11K",
 "6K",
-"21K",
-"10K",
-"5K"
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-06-01",
 "deadline": "2026-08-31",
@@ -200,8 +201,9 @@
 "distances": [
 "5K",
 "3K",
-"5K",
-"0.15K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-08",
 "deadline": "2026-08-09",
@@ -371,10 +373,9 @@
 "21K",
 "10K",
 "5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-07-15",
 "deadline": "2026-09-16",
@@ -463,6 +464,23 @@
 "venue": "雲林縣立田徑場(雲林縣虎尾鎮永興路130號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12901"
+},
+{
+"cid": "13216",
+"name": "台北市 5000 公尺挑戰賽(11/5場）",
+"start": "2026-11-04",
+"end": "2026-11-05",
+"place": "臺北市",
+"distances": [
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "臺北市政府體育局",
+"venue": "臺北田徑場",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13216"
 },
 {
 "cid": "13015",
@@ -1309,7 +1327,7 @@
 ],
 "signup_start": "2025-10-01",
 "deadline": "2026-11-05",
-"status": "11-05截止",
+"status": "已截止報名",
 "organizer": "TUR",
 "venue": "枋寮火車站",
 "course": {},
@@ -1788,7 +1806,7 @@
 ],
 "signup_start": null,
 "deadline": null,
-"status": "報名時間未定",
+"status": "已截止報名",
 "organizer": "社團法人中華食品安全管制系統發展協會/台灣大腳丫長跑協會",
 "venue": "台中中央公園–中央球場(臺中市西屯區凱旋路)",
 "course": {},
@@ -2583,6 +2601,27 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13189"
 },
 {
+"cid": "13217",
+"name": "2027晚崙西亞東河馬拉松",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "臺東縣",
+"distances": [
+"42K",
+"21K",
+"12K",
+"6K",
+"2K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "台東縣東河鄉公所",
+"venue": "東河國小(臺東縣東河鄉東河村35號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13217"
+},
+{
 "cid": "13196",
 "name": "2027第三屆追飛機路跑",
 "start": "2027-03-07",
@@ -3272,6 +3311,26 @@
 "venue": "斗六梅林公園(雲林縣斗六市梅南路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13210"
+},
+{
+"cid": "13218",
+"name": "2027綠動海風馬",
+"start": "2027-09-26",
+"end": "2027-09-27",
+"place": "雲林縣",
+"distances": [
+"42K",
+"21K",
+"10K",
+"2K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "碩力光能股份有限公司",
+"venue": "雲林縣台西鄉公所旁共融公園(雲林縣臺西鄉五港村中央路276號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13218"
 },
 {
 "cid": "13122",
