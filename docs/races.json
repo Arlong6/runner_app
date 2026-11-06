@@ -1,239 +1,5 @@
 [
 {
-"cid": "12836",
-"name": "2026 IRONKIDS Taiwan 墾丁國際小鐵人三項賽",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "屏東縣",
-"distances": [
-"3.3K",
-"2.1K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "LAVA 鐵人公司",
-"venue": "墾丁福華飯店(屏東縣恆春鎮墾丁路2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12836"
-},
-{
-"cid": "13207",
-"name": "2026 Let's Run空英1919路跑",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "新北市",
-"distances": [
-"11K",
-"6K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
-],
-"signup_start": "2026-06-01",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "社團法人中華基督教救助協會. 空中英語教室. Traveler",
-"venue": "碧潭東岸廣場(新北市新店區環河路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13207"
-},
-{
-"cid": "13128",
-"name": "2026 壯圍秘境星光饗宴健走趣",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "宜蘭縣",
-"distances": [
-"4K"
-],
-"signup_start": "2026-06-24",
-"deadline": "2026-10-01",
-"status": "已截止報名",
-"organizer": "聯網國際資訊股份有限公司",
-"venue": "宜蘭縣壯圍鄉過嶺保安宮(宜蘭縣壯圍鄉壯濱路三段302號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13128"
-},
-{
-"cid": "13028",
-"name": "2026 清水馬拉松嘉年華",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "臺中市",
-"distances": [
-"42.195K",
-"23K",
-"12K",
-"5K"
-],
-"signup_start": "2026-05-04",
-"deadline": "2026-09-20",
-"status": "已截止報名",
-"organizer": "議長張清照服務處                            、                                清水紫雲巖管理委員會                            、                                清水區賞鳥協會",
-"venue": "清水紫雲巖廣場(臺中市清水區大街路206號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13028"
-},
-{
-"cid": "12999",
-"name": "2026 華航馬拉松-星光夜跑",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "臺北市",
-"distances": [
-"21K",
-"10K",
-"6K"
-],
-"signup_start": "2026-04-21",
-"deadline": "2026-05-21",
-"status": "已截止報名",
-"organizer": "中華航空股份有限公司",
-"venue": "大佳河濱公園圓頂天幕廣場(十號水門)(台北市中山區濱江街5號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12999"
-},
-{
-"cid": "13108",
-"name": "2026年第十二屆美麗佳人裙襬澎澎Run",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "新北市",
-"distances": [
-"21K",
-"10K",
-"4K"
-],
-"signup_start": "2026-06-26",
-"deadline": "2026-09-20",
-"status": "已截止報名",
-"organizer": "美麗佳人",
-"venue": "新北大都會公園水漾啵啵廣場(新北市三重區谷王里疏洪五路二段2761號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13108"
-},
-{
-"cid": "13102",
-"name": "2026新北市第12屆工安盃路跑",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "新北市",
-"distances": [
-"10K",
-"3K"
-],
-"signup_start": "2026-06-26",
-"deadline": "2026-08-11",
-"status": "已截止報名",
-"organizer": "新北市政府勞工局",
-"venue": "華江橋自行車租借站(新北市板橋區華江橋)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13102"
-},
-{
-"cid": "13087",
-"name": "2026聯大八甲馬拉松",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "苗栗市",
-"distances": [
-"42K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": null,
-"deadline": "2026-09-22",
-"status": "已截止報名",
-"organizer": "國立聯合大學",
-"venue": "苗栗市國立聯合大學八甲校區(苗栗縣苗栗市南勢里聯大2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13087"
-},
-{
-"cid": "13148",
-"name": "2026風起台76 海野山共行馬拉松",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "彰化縣",
-"distances": [
-"21K",
-"10K",
-"5K",
-"3K"
-],
-"signup_start": "2026-08-15",
-"deadline": "2026-09-07",
-"status": "已截止報名",
-"organizer": "交通部公路局北區公路新建工程分局",
-"venue": "埔鹽新水四聖宮前廣場(彰化縣埔鹽鄉新水村四鄰5-18號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13148"
-},
-{
-"cid": "13215",
-"name": "24小時不斷電公益路跑接力賽",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "臺中市",
-"distances": [
-"30K",
-"24H",
-"12H",
-"6H"
-],
-"signup_start": "2026-03-12",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "社團法人台灣視多障協會",
-"venue": "南興公園(臺中市北屯區軍福十九路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13215"
-},
-{
-"cid": "13090",
-"name": "TOYOTA RUN 台北 寵物專場",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "臺北市",
-"distances": [
-"5K",
-"3K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-05-08",
-"deadline": "2026-08-09",
-"status": "已截止報名",
-"organizer": "和泰汽車股份有限公司",
-"venue": "大佳河濱公園 八號水門（臺北市中山區濱江街）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13090"
-},
-{
-"cid": "12924",
-"name": "第四屆水上UP半程馬拉松-一起看飛機趣",
-"start": "2026-10-31",
-"end": "2026-11-01",
-"place": "嘉義縣",
-"distances": [
-"21K",
-"10K",
-"5.5K",
-"5K"
-],
-"signup_start": null,
-"deadline": "2026-08-16",
-"status": "已截止報名",
-"organizer": "嘉義縣水上鄉公所",
-"venue": "北回歸線標誌公園(嘉義縣水上鄉中山路三段)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12924"
-},
-{
 "cid": "12837",
 "name": "2026 IRONMAN 70.3 Kenting 墾丁國際鐵人三項賽",
 "start": "2026-11-01",
@@ -257,7 +23,9 @@
 "end": "2026-11-02",
 "place": "臺北市",
 "distances": [
-"10K"
+"10K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-06-10",
 "deadline": "2026-06-17",
@@ -372,9 +140,7 @@
 "42K",
 "21K",
 "10K",
-"5K",
-"42.195K",
-"21.0975K"
+"5K"
 ],
 "signup_start": "2026-07-15",
 "deadline": "2026-09-16",
@@ -434,7 +200,10 @@
 "25K",
 "21K",
 "10K",
-"6K"
+"6K",
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-04-29",
 "deadline": "2026-09-11",
@@ -599,7 +368,10 @@
 "50K",
 "24K",
 "8K",
-"3K"
+"3K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-25",
 "deadline": "2026-10-01",

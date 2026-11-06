@@ -6,39 +6,13 @@ METHOD:PUBLISH
 X-WR-CALNAME:跑步賽事提醒
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
-UID:race-12999@runner_app
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261102
-SUMMARY:🏃 2026 華航馬拉松-星光夜跑
-DESCRIPTION:距離: 21K / 10K / 6K\n地點: 臺北市\n報名開始: 2026
- /04/21\n報名截止: 2026/05/21\nhttps://running.biji.co/index.php?q=co
- mpetition&act=info&cid=12999
-LOCATION:臺北市
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:signup-12999@runner_app
-DTSTART;VALUE=DATE:20260521
-DTEND;VALUE=DATE:20260522
-SUMMARY:⏰ 報名截止: 2026 華航馬拉松-星光夜跑
-DESCRIPTION:距離: 21K / 10K / 6K\n地點: 臺北市\n報名開始: 2026
- /04/21\n報名截止: 2026/05/21\nhttps://running.biji.co/index.php?q=co
- mpetition&act=info&cid=12999
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:報名即將截止: 2026 華航馬拉松-星光夜跑
-TRIGGER:-P7D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:race-13010@runner_app
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261103
 SUMMARY:🏃 2026 NB10K 城市路跑系列賽-台北站
-DESCRIPTION:距離: 10K\n地點: 臺北市\n報名開始: 2026/06/10\n報
- 名截止: 2026/06/17\nhttps://running.biji.co/index.php?q=competition&a
- ct=info&cid=13010
+DESCRIPTION:距離: 10K / 42.195K / 21.0975K\n地點: 臺北市\n報名
+ 開始: 2026/06/10\n報名截止: 2026/06/17\nhttps://running.biji.co/in
+ dex.php?q=competition&act=info&cid=13010
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -47,9 +21,9 @@ UID:signup-13010@runner_app
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
 SUMMARY:⏰ 報名截止: 2026 NB10K 城市路跑系列賽-台北站
-DESCRIPTION:距離: 10K\n地點: 臺北市\n報名開始: 2026/06/10\n報
- 名截止: 2026/06/17\nhttps://running.biji.co/index.php?q=competition&a
- ct=info&cid=13010
+DESCRIPTION:距離: 10K / 42.195K / 21.0975K\n地點: 臺北市\n報名
+ 開始: 2026/06/10\n報名截止: 2026/06/17\nhttps://running.biji.co/in
+ dex.php?q=competition&act=info&cid=13010
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
