@@ -10,9 +10,9 @@ UID:race-13010@runner_app
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261103
 SUMMARY:🏃 2026 NB10K 城市路跑系列賽-台北站
-DESCRIPTION:距離: 10K / 42.195K / 21.0975K\n地點: 臺北市\n報名
- 開始: 2026/06/10\n報名截止: 2026/06/17\nhttps://running.biji.co/in
- dex.php?q=competition&act=info&cid=13010
+DESCRIPTION:距離: 10K / 42.195K / 21.0975K / 12K / 3K\n地點: 臺北
+ 市\n報名開始: 2026/06/10\n報名截止: 2026/06/17\nhttps://running
+ .biji.co/index.php?q=competition&act=info&cid=13010
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -21,9 +21,9 @@ UID:signup-13010@runner_app
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
 SUMMARY:⏰ 報名截止: 2026 NB10K 城市路跑系列賽-台北站
-DESCRIPTION:距離: 10K / 42.195K / 21.0975K\n地點: 臺北市\n報名
- 開始: 2026/06/10\n報名截止: 2026/06/17\nhttps://running.biji.co/in
- dex.php?q=competition&act=info&cid=13010
+DESCRIPTION:距離: 10K / 42.195K / 21.0975K / 12K / 3K\n地點: 臺北
+ 市\n報名開始: 2026/06/10\n報名截止: 2026/06/17\nhttps://running
+ .biji.co/index.php?q=competition&act=info&cid=13010
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
