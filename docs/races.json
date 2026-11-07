@@ -1,241 +1,5 @@
 [
 {
-"cid": "12837",
-"name": "2026 IRONMAN 70.3 Kenting 墾丁國際鐵人三項賽",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "屏東縣",
-"distances": [
-"113K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "LAVA 鐵人公司",
-"venue": "墾丁福華飯店(屏東縣恆春鎮墾丁路2號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12837"
-},
-{
-"cid": "13010",
-"name": "2026 NB10K 城市路跑系列賽-台北站",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "臺北市",
-"distances": [
-"10K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
-],
-"signup_start": "2026-06-10",
-"deadline": "2026-06-17",
-"status": "已截止報名",
-"organizer": "台灣紐巴倫股份有限公司                            、                                中華民國文化休閒運動協會",
-"venue": "大佳河濱公園",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13010"
-},
-{
-"cid": "12875",
-"name": "2026 嘉義雙潭馬拉松菁英賽",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "嘉義市",
-"distances": [
-"42.195K",
-"21.0975K"
-],
-"signup_start": null,
-"deadline": "2026-06-27",
-"status": "已截止報名",
-"organizer": "",
-"venue": "嘉義市KANO棒球場(嘉義市東區東川里山仔頂249-1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12875"
-},
-{
-"cid": "13067",
-"name": "2026 海綿寶寶人生馬拉松-人生市場謎-新北場",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "新北市",
-"distances": [
-"4K"
-],
-"signup_start": "2026-06-08",
-"deadline": "2026-07-31",
-"status": "已截止報名",
-"organizer": "",
-"venue": "新北市二重疏洪運動公園(新北市二重疏洪道)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13067"
-},
-{
-"cid": "13159",
-"name": "2026 義大醫療健康永續路跑暨第 4 屆全國醫學中心接力賽",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "高雄市",
-"distances": [
-"10K"
-],
-"signup_start": "2026-08-21",
-"deadline": "2026-09-18",
-"status": "已截止報名",
-"organizer": "義大醫療財團法人義大醫院",
-"venue": "高雄岡山典寶溪劉厝滯洪池（清水路口）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13159"
-},
-{
-"cid": "12733",
-"name": "2026八百壯士系列--制霸極西超馬賽",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "新北市",
-"distances": [
-"102.5K",
-"51.7K"
-],
-"signup_start": "2025-10-01",
-"deadline": "2026-10-01",
-"status": "已截止報名",
-"organizer": "TUR",
-"venue": "正統鹿耳門聖母廟(台南市安南區城安路160號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12733"
-},
-{
-"cid": "12897",
-"name": "2026日月潭環湖馬拉松",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "南投縣",
-"distances": [
-"42K",
-"29K",
-"6K"
-],
-"signup_start": "2026-01-23",
-"deadline": "2026-05-31",
-"status": "已截止報名",
-"organizer": "中華運動生活協會",
-"venue": "南投日月潭向山遊客中心(南投縣魚池鄉中山路599號)",
-"course": {
-"terrain": "南投日月潭 環湖公路",
-"elevation": "全馬總爬升約 948m;最高玄奘寺海拔860m,末段「好漢坡」平均5%、最大9%",
-"difficulty": "★★★★☆ 風景極美但上下坡硬,挑戰性高",
-"highlight": "繞行日月潭,經文武廟、伊達邵、玄奘寺;末段好漢坡考驗腿力。",
-"route_url": "https://irunner.biji.co/sunmoonlakemarathon2026"
-},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12897"
-},
-{
-"cid": "13120",
-"name": "2026濁水溪紫金馬拉松-虎康林內站",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "雲林縣",
-"distances": [
-"42K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-07-15",
-"deadline": "2026-09-16",
-"status": "已截止報名",
-"organizer": "林內鄉公所",
-"venue": "雲林縣林內鄉公所  (雲林縣林內鄉林中村中正路340號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13120"
-},
-{
-"cid": "13018",
-"name": "2026臺灣國家公園馬拉松-陽明山",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "臺北市",
-"distances": [
-"42K",
-"21K",
-"5K"
-],
-"signup_start": "2026-06-02",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "內政部國家公園署",
-"venue": "陽明山中山樓(臺北市北投區陽明路二段15號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13018"
-},
-{
-"cid": "12844",
-"name": "2026菊島澎湖跨海馬拉松",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "澎湖縣",
-"distances": [
-"42.195K",
-"21K",
-"11K",
-"5K"
-],
-"signup_start": "2026-04-24",
-"deadline": "2026-08-11",
-"status": "已截止報名",
-"organizer": "交通部觀光署澎湖國家風景區管理處",
-"venue": "澎湖西嶼西臺遊客中心(澎湖縣西嶼鄉8811鄰1之15號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12844"
-},
-{
-"cid": "12894",
-"name": "跑吧!孩子!2026知本溫泉公益馬拉松",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "臺東縣",
-"distances": [
-"42K",
-"25K",
-"21K",
-"10K",
-"6K",
-"21K",
-"10K",
-"4K"
-],
-"signup_start": "2026-04-29",
-"deadline": "2026-09-11",
-"status": "已截止報名",
-"organizer": "臺東縣卑南鄉公所                            、                                台東縣知本溫泉觀光發展促進協會                            、                                 知本老爺酒店",
-"venue": "知本忠義堂前方廣場(臺東縣卑南鄉龍泉路32號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12894"
-},
-{
-"cid": "12901",
-"name": "飛虎30週年友愛公益馬拉松",
-"start": "2026-11-01",
-"end": "2026-11-02",
-"place": "雲林縣",
-"distances": [
-"42K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-04-22",
-"deadline": "2026-08-31",
-"status": "已截止報名",
-"organizer": "雲林縣飛虎常跑協會",
-"venue": "雲林縣立田徑場(雲林縣虎尾鎮永興路130號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12901"
-},
-{
 "cid": "13216",
 "name": "台北市 5000 公尺挑戰賽(11/5場）",
 "start": "2026-11-04",
@@ -259,7 +23,10 @@
 "end": "2026-11-08",
 "place": "臺中市",
 "distances": [
-"2K"
+"2K",
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -370,9 +137,7 @@
 "50K",
 "24K",
 "8K",
-"3K",
-"5K",
-"0.15K"
+"3K"
 ],
 "signup_start": "2026-05-25",
 "deadline": "2026-10-01",
@@ -434,7 +199,9 @@
 "42.195K",
 "21K",
 "11K",
-"5K"
+"5K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -608,7 +375,10 @@
 "8.3K",
 "6.3K",
 "3.5K",
-"2K"
+"2K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-08-30",
 "deadline": "2026-10-01",
@@ -1097,7 +867,7 @@
 ],
 "signup_start": "2026-06-01",
 "deadline": "2026-11-07",
-"status": "11-07截止",
+"status": "已截止報名",
 "organizer": "核立子身心技法創研社",
 "venue": "清水頂湳玉聖寺(臺中市清水區頂湳里頂湳路73號)",
 "course": {},
