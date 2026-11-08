@@ -24,9 +24,8 @@
 "place": "臺中市",
 "distances": [
 "2K",
-"21K",
-"10K",
-"5K"
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -201,7 +200,9 @@
 "11K",
 "5K",
 "42.195K",
-"21.0975K"
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -378,7 +379,7 @@
 "2K",
 "21K",
 "10K",
-"4K"
+"5K"
 ],
 "signup_start": "2026-08-30",
 "deadline": "2026-10-01",
