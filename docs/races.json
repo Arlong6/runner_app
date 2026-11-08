@@ -24,8 +24,9 @@
 "place": "臺中市",
 "distances": [
 "2K",
-"5K",
-"0.15K"
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -377,9 +378,8 @@
 "6.3K",
 "3.5K",
 "2K",
-"21K",
-"10K",
-"5K"
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-08-30",
 "deadline": "2026-10-01",
@@ -1452,7 +1452,7 @@
 ],
 "signup_start": "2026-05-06",
 "deadline": "2026-11-08",
-"status": "11-08截止",
+"status": "已截止報名",
 "organizer": "府城國際超級馬拉松協會",
 "venue": "台南北門區南鯤鯓代天府 (台南市北門區鯤江村976 號)",
 "course": {},
@@ -1536,7 +1536,7 @@
 ],
 "signup_start": "2026-10-02",
 "deadline": "2026-10-31",
-"status": "11-08截止",
+"status": "已截止報名",
 "organizer": "高雄捷運股份有限公司",
 "venue": "棧貳庫廣場(高雄市鼓山區麗興里蓬萊路)",
 "course": {},
@@ -1572,7 +1572,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-11-08",
-"status": "11-08截止",
+"status": "已截止報名",
 "organizer": "高雄鐵人扶輪社",
 "venue": "丸鐵運動（高雄市三民區美都路9號）",
 "course": {},
