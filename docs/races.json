@@ -24,9 +24,8 @@
 "place": "臺中市",
 "distances": [
 "2K",
-"21K",
-"10K",
-"5K"
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -53,6 +52,26 @@
 "venue": "賢孝公園 (新北市淡水區淡金公路五段20之22號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13015"
+},
+{
+"cid": "13224",
+"name": "2026 第十一屆馬祖馬拉松",
+"start": "2026-11-07",
+"end": "2026-11-08",
+"place": "連江縣",
+"distances": [
+"42.195K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-07-15",
+"deadline": "2026-09-15",
+"status": "已截止報名",
+"organizer": "連江縣政府                            、                                交通部觀光署馬祖國家風景區管理處",
+"venue": "連江縣南竿福澳運動場(連江縣南竿鄉福沃村134號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13224"
 },
 {
 "cid": "13086",
@@ -179,7 +198,10 @@
 "distances": [
 "21K",
 "10K",
-"5.5K"
+"5.5K",
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-04-29",
 "deadline": "2026-06-18",
@@ -199,11 +221,7 @@
 "42.195K",
 "21K",
 "11K",
-"5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"5K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -357,7 +375,9 @@
 "42.195K",
 "21K",
 "10K",
-"5K"
+"5K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-04-10",
 "deadline": "2026-09-01",
@@ -377,9 +397,7 @@
 "8.3K",
 "6.3K",
 "3.5K",
-"2K",
-"5K",
-"0.15K"
+"2K"
 ],
 "signup_start": "2026-08-30",
 "deadline": "2026-10-01",
@@ -1104,6 +1122,25 @@
 "venue": "臺北市大佳河濱公園行動巨蛋廣場(臺北市中山區新庄里濱江街5號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13063"
+},
+{
+"cid": "13044",
+"name": "2026台糖公益路跑",
+"start": "2026-12-12",
+"end": "2026-12-13",
+"place": "臺南市",
+"distances": [
+"21K",
+"11K",
+"3K"
+],
+"signup_start": "2026-06-17",
+"deadline": "2026-08-27",
+"status": "原2026/10/24因颱風延期至2026/12/12",
+"organizer": "台灣糖業股份有限公司",
+"venue": "台糖柳營尖山埤渡假村(台南市柳營區旭山里60號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13044"
 },
 {
 "cid": "13077",
@@ -2590,7 +2627,7 @@
 "place": "臺中市",
 "distances": [
 "42.195K",
-"23K",
+"21K",
 "10.5K",
 "4.5K"
 ],
@@ -2810,6 +2847,23 @@
 "venue": "高雄港灣文化廊帶（駁二x高流）(高雄市苓雅區苓洲里)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13137"
+},
+{
+"cid": "13225",
+"name": "2027新北市鐵道馬拉松接力賽",
+"start": "2027-04-18",
+"end": "2027-04-19",
+"place": "新北市",
+"distances": [
+"51K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "新北市政府觀光旅遊局",
+"venue": "福容大飯店福隆（彩虹橋前廣場）(新北市貢寮區福隆里福隆街41號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13225"
 },
 {
 "cid": "13188",
