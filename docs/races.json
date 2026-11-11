@@ -1,32 +1,12 @@
 [
 {
-"cid": "13216",
-"name": "台北市 5000 公尺挑戰賽(11/5場）",
-"start": "2026-11-04",
-"end": "2026-11-05",
-"place": "臺北市",
-"distances": [
-"5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "臺北市政府體育局",
-"venue": "臺北田徑場",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13216"
-},
-{
 "cid": "13219",
 "name": "11/7《城市定向・太空探索｜中部場》",
 "start": "2026-11-07",
 "end": "2026-11-08",
 "place": "臺中市",
 "distances": [
-"2K",
-"21K",
-"10K",
-"4K"
+"2K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -44,7 +24,9 @@
 "place": "新北市",
 "distances": [
 "100K",
-"50K"
+"50K",
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-05-01",
 "deadline": "2026-05-31",
@@ -199,11 +181,7 @@
 "distances": [
 "21K",
 "10K",
-"5.5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"5.5K"
 ],
 "signup_start": "2026-04-29",
 "deadline": "2026-06-18",
@@ -223,7 +201,11 @@
 "42.195K",
 "21K",
 "11K",
-"5K"
+"5K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -377,9 +359,6 @@
 "42.195K",
 "21K",
 "10K",
-"5K",
-"21K",
-"10K",
 "5K"
 ],
 "signup_start": "2026-04-10",
@@ -400,7 +379,10 @@
 "8.3K",
 "6.3K",
 "3.5K",
-"2K"
+"2K",
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-08-30",
 "deadline": "2026-10-01",
