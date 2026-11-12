@@ -25,8 +25,9 @@
 "distances": [
 "100K",
 "50K",
-"5K",
-"0.15K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-01",
 "deadline": "2026-05-31",
@@ -202,9 +203,10 @@
 "21K",
 "11K",
 "5K",
-"21K",
-"10K",
-"5K"
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -379,9 +381,8 @@
 "6.3K",
 "3.5K",
 "2K",
-"21K",
-"10K",
-"4K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-08-30",
 "deadline": "2026-10-01",
@@ -2906,6 +2907,26 @@
 "venue": "和平運動公園(臺中市和平區東關路一段松鶴二巷)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13188"
+},
+{
+"cid": "13228",
+"name": "2027 台北星光馬拉松 (Taipei starlight marathon)",
+"start": "2027-05-22",
+"end": "2027-05-23",
+"place": "臺北市",
+"distances": [
+"43K",
+"21K",
+"11K",
+"5K"
+],
+"signup_start": "2026-11-12",
+"deadline": "2027-04-15",
+"status": "04-15截止",
+"organizer": "台灣鐵人運動協會",
+"venue": "大佳河濱公園(臺北市中山區新庄里濱江街5號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13228"
 },
 {
 "cid": "13208",
