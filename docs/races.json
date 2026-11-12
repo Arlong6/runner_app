@@ -25,9 +25,8 @@
 "distances": [
 "100K",
 "50K",
-"21K",
-"10K",
-"5K"
+"5K",
+"0.15K"
 ],
 "signup_start": "2026-05-01",
 "deadline": "2026-05-31",
@@ -203,8 +202,9 @@
 "21K",
 "11K",
 "5K",
-"42.195K",
-"21.0975K"
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -379,10 +379,9 @@
 "6.3K",
 "3.5K",
 "2K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-08-30",
 "deadline": "2026-10-01",
@@ -1160,7 +1159,7 @@
 ],
 "signup_start": "2026-09-11",
 "deadline": "2026-10-11",
-"status": "已截止報名",
+"status": "11-15截止",
 "organizer": "嘉義縣義竹修緣禪寺",
 "venue": "義竹修緣禪寺(嘉義縣義竹鄉六桂村245之10號)",
 "course": {},
@@ -1917,6 +1916,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12976"
 },
 {
+"cid": "13227",
+"name": "2027芎林路跑嘉年華",
+"start": "2027-01-30",
+"end": "2027-01-31",
+"place": "新竹縣",
+"distances": [
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "芎林鄉公所                            、                                芎林鄉民代表會",
+"venue": "芎林公三運動公園(新竹縣芎林鄉上山村光明一街15號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13227"
+},
+{
 "cid": "13095",
 "name": "2027木架山馬拉松暨尾牙馬",
 "start": "2027-01-31",
@@ -1992,6 +2009,25 @@
 "venue": "臺中市大雅區大雅國小操場(臺中市大雅區大雅里學府路230號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13170"
+},
+{
+"cid": "13226",
+"name": "2027五結走尪路跑嘉年華",
+"start": "2027-02-21",
+"end": "2027-02-22",
+"place": "宜蘭縣",
+"distances": [
+"21K",
+"12K",
+"3.5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "利澤簡永安宮管理委員會",
+"venue": "利澤簡永安宮(宜蘭縣五結鄉利澤村利澤路26號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13226"
 },
 {
 "cid": "13204",
@@ -2840,11 +2876,11 @@
 "end": "2027-04-19",
 "place": "新北市",
 "distances": [
-"51K"
+"51.2K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2027-01-22",
+"status": "01-22截止",
 "organizer": "新北市政府觀光旅遊局",
 "venue": "福容大飯店福隆（彩虹橋前廣場）(新北市貢寮區福隆里福隆街41號)",
 "course": {},
