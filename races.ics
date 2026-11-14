@@ -6,63 +6,13 @@ METHOD:PUBLISH
 X-WR-CALNAME:跑步賽事提醒
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
-UID:race-12900@runner_app
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261110
-SUMMARY:🏃 2026 臺中舒跑杯
-DESCRIPTION:距離: 9K / 5K / 3K\n地點: 臺中市\n報名截止: 2026/1
- 0/06\nhttps://running.biji.co/index.php?q=competition&act=info&cid=12900
-LOCATION:臺中市
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:signup-12900@runner_app
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:⏰ 報名截止: 2026 臺中舒跑杯
-DESCRIPTION:距離: 9K / 5K / 3K\n地點: 臺中市\n報名截止: 2026/1
- 0/06\nhttps://running.biji.co/index.php?q=competition&act=info&cid=12900
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:報名即將截止: 2026 臺中舒跑杯
-TRIGGER:-P7D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:race-12929@runner_app
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261110
-SUMMARY:🏃 2026台灣米倉田中馬拉松
-DESCRIPTION:距離: 42.195K / 21.2K / 9.7K / 4.6K / 21K / 10K / 5K\n地
- 點: 彰化縣\n報名開始: 2026/06/03\n報名截止: 2026/06/15\nhttp
- s://running.biji.co/index.php?q=competition&act=info&cid=12929
-LOCATION:彰化縣
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:signup-12929@runner_app
-DTSTART;VALUE=DATE:20260615
-DTEND;VALUE=DATE:20260616
-SUMMARY:⏰ 報名截止: 2026台灣米倉田中馬拉松
-DESCRIPTION:距離: 42.195K / 21.2K / 9.7K / 4.6K / 21K / 10K / 5K\n地
- 點: 彰化縣\n報名開始: 2026/06/03\n報名截止: 2026/06/15\nhttp
- s://running.biji.co/index.php?q=competition&act=info&cid=12929
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:報名即將截止: 2026台灣米倉田中馬拉松
-TRIGGER:-P7D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:race-13073@runner_app
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261201
 SUMMARY:🏃 2026 Garmin Run 馬拉松系列賽 - 臺北站
-DESCRIPTION:距離: 21K / 10K / 5K\n地點: 臺北市\n報名開始: 2026
- /05/27\n報名截止: 2026/06/23\nhttps://running.biji.co/index.php?q=co
- mpetition&act=info&cid=13073
+DESCRIPTION:距離: 21K / 10K / 5K / 21K / 10K / 4K\n地點: 臺北市\n
+ 報名開始: 2026/05/27\n報名截止: 2026/06/23\nhttps://running.biji
+ .co/index.php?q=competition&act=info&cid=13073
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -71,9 +21,9 @@ UID:signup-13073@runner_app
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 SUMMARY:⏰ 報名截止: 2026 Garmin Run 馬拉松系列賽 - 臺北站
-DESCRIPTION:距離: 21K / 10K / 5K\n地點: 臺北市\n報名開始: 2026
- /05/27\n報名截止: 2026/06/23\nhttps://running.biji.co/index.php?q=co
- mpetition&act=info&cid=13073
+DESCRIPTION:距離: 21K / 10K / 5K / 21K / 10K / 4K\n地點: 臺北市\n
+ 報名開始: 2026/05/27\n報名截止: 2026/06/23\nhttps://running.biji
+ .co/index.php?q=competition&act=info&cid=13073
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY

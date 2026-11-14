@@ -1,301 +1,5 @@
 [
 {
-"cid": "13062",
-"name": "2026 SKYHUNTER 士林越野",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "臺北市",
-"distances": [
-"50K",
-"24K",
-"8K",
-"3K"
-],
-"signup_start": "2026-05-25",
-"deadline": "2026-10-01",
-"status": "已截止報名",
-"organizer": "中華民國越野跑協會",
-"venue": "東吳大學（台北市士林區臨溪路70號）",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13062"
-},
-{
-"cid": "13115",
-"name": "2026 Taiwan Extreme Super Triathlon",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "臺南市",
-"distances": [
-"240H",
-"120H",
-"100K",
-"72H",
-"48H",
-"24H",
-"17H",
-"42.195K",
-"21.0975K"
-],
-"signup_start": "2026-06-29",
-"deadline": "2026-10-15",
-"status": "已截止報名",
-"organizer": "中華民國全能運動協會\n                            、                                台南市早起鳥路跑協會",
-"venue": "臺南市立游泳池(臺南市南區竹溪里健康路一段269號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13115"
-},
-{
-"cid": "13021",
-"name": "2026 ZEPRO RUN全國半程馬拉松 - 新竹場",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "新竹縣",
-"distances": [
-"21K",
-"10K",
-"5.5K"
-],
-"signup_start": "2026-04-29",
-"deadline": "2026-06-18",
-"status": "已截止報名",
-"organizer": "全統運動用品股份有限公司",
-"venue": "新竹縣體育場(新竹縣竹北市福興東路一段1號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13021"
-},
-{
-"cid": "12812",
-"name": "2026 屏東馬拉松",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "屏東縣",
-"distances": [
-"42.195K",
-"21K",
-"11K",
-"5K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "屏東縣政府",
-"venue": "屏東縣屏東市縣立田徑場",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12812"
-},
-{
-"cid": "13146",
-"name": "2026 日本岡山馬拉松",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "岡山縣",
-"distances": [
-"42.195K",
-"5.6K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13146"
-},
-{
-"cid": "13068",
-"name": "2026 海綿寶寶人生馬拉松-人生市場謎-高雄場",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "高雄市",
-"distances": [
-"1.9K"
-],
-"signup_start": "2026-06-08",
-"deadline": "2026-07-31",
-"status": "已截止報名",
-"organizer": "",
-"venue": "世運主場館(高雄市楠梓區世運大道)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13068"
-},
-{
-"cid": "12996",
-"name": "2026 福岡馬拉松",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "福岡市",
-"distances": [
-"42.195K",
-"5.2K"
-],
-"signup_start": "2026-04-20",
-"deadline": "2026-05-20",
-"status": "已截止報名",
-"organizer": "福岡市                            、                                糸島市                            、                                福岡業餘體育協會",
-"venue": "福岡市中央區天神地區",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12996"
-},
-{
-"cid": "12900",
-"name": "2026 臺中舒跑杯",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "臺中市",
-"distances": [
-"9K",
-"5K",
-"3K"
-],
-"signup_start": null,
-"deadline": "2026-10-06",
-"status": "已截止報名",
-"organizer": "",
-"venue": "臺中市政府市政前廣場(臺中市西屯區臺灣大道三段99號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12900"
-},
-{
-"cid": "12821",
-"name": "2026千葉東京灣跨海大橋馬拉松",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "千葉縣",
-"distances": [
-"42.195K",
-"21K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
-"organizer": "",
-"venue": "千葉",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12821"
-},
-{
-"cid": "13096",
-"name": "2026台灣極限超級鐵人推廣路跑",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "臺南市",
-"distances": [
-"12K",
-"5K"
-],
-"signup_start": "2026-06-15",
-"deadline": "2026-09-10",
-"status": "已截止報名",
-"organizer": "臺南市早起鳥路跑協會                            、                                中華民國全能運動協會",
-"venue": "臺南土城正統鹿耳門聖母廟(臺南市安南區城東里城安路160號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13096"
-},
-{
-"cid": "12929",
-"name": "2026台灣米倉田中馬拉松",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "彰化縣",
-"distances": [
-"42.195K",
-"21.2K",
-"9.7K",
-"4.6K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-06-03",
-"deadline": "2026-06-15",
-"status": "已截止報名",
-"organizer": "中華民國舒康樂活運動協會",
-"venue": "彰化縣田中鎮景崧文化教育園區(彰化縣田中鎮中州路一段416號)",
-"course": {
-"terrain": "彰化田中 田園鄉間道路",
-"elevation": "平緩鄉間、起伏小",
-"difficulty": "★☆☆☆☆ 平緩好跑,以「地表最強補給」聞名",
-"highlight": "稻浪田園路線;補給有現烤乳豬、牛排、滷味、西瓜啤酒,人情味滿滿。",
-"route_url": "https://www.tianzhongmarathon.com/"
-},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12929"
-},
-{
-"cid": "12882",
-"name": "2026第十屆板橋馬拉松路跑賽(秋季普查)",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "新北市",
-"distances": [
-"42.195K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-04-10",
-"deadline": "2026-09-01",
-"status": "已截止報名",
-"organizer": "新北市越野長跑協會",
-"venue": "浮洲橋下堤外自行車道(新北市板橋區環河路)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12882"
-},
-{
-"cid": "13163",
-"name": "泳渡虎頭埤x 168路跑",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "臺南市",
-"distances": [
-"8.3K",
-"6.3K",
-"3.5K",
-"2K"
-],
-"signup_start": "2026-08-30",
-"deadline": "2026-10-01",
-"status": "已截止報名",
-"organizer": "臺南市政府觀光旅遊局",
-"venue": "虎頭埤風景區(臺南市新化區中興路42巷36號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13163"
-},
-{
-"cid": "13160",
-"name": "財政部115年統一發票盃路跑臺北場活動-休閒組(3km)",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "臺北市",
-"distances": [
-"3K"
-],
-"signup_start": "2026-07-21",
-"deadline": "2026-10-31",
-"status": "已截止報名",
-"organizer": "財政部                            、                                第一金融控股股份有限公司",
-"venue": "大佳河濱公園(台北市中山區濱江街5號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13160"
-},
-{
-"cid": "13084",
-"name": "財政部115年統一發票盃路跑臺北場活動競賽組-半馬組(21km)、挑戰組(10km)",
-"start": "2026-11-08",
-"end": "2026-11-09",
-"place": "臺北市",
-"distances": [
-"21K",
-"10K"
-],
-"signup_start": null,
-"deadline": null,
-"status": "已截止報名",
-"organizer": "財政部                            、                                第一金融控股股份有限公司",
-"venue": "總統府前凱達格蘭大道(台北市中正區重慶南路一段122號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13084"
-},
-{
 "cid": "13151",
 "name": "115年臺中市體育總會理事長盃北區路跑嘉年華",
 "start": "2026-11-14",
@@ -326,7 +30,9 @@
 "distances": [
 "21K",
 "10K",
-"4K"
+"4K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-04-27",
 "deadline": "2026-09-30",
@@ -385,11 +91,7 @@
 "distances": [
 "21K",
 "10K",
-"3.5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"3.5K"
 ],
 "signup_start": "2026-04-23",
 "deadline": "2026-06-04",
@@ -503,7 +205,9 @@
 "place": "臺中市",
 "distances": [
 "10K",
-"5K"
+"5K",
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": "2026-09-10",
@@ -678,7 +382,10 @@
 "distances": [
 "21K",
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-27",
 "deadline": "2026-06-23",
