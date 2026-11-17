@@ -31,10 +31,9 @@
 "21K",
 "10K",
 "4K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-04-27",
 "deadline": "2026-09-30",
@@ -208,9 +207,8 @@
 "distances": [
 "10K",
 "5K",
-"21K",
-"10K",
-"5K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": null,
 "deadline": "2026-09-10",
@@ -1573,6 +1571,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13070"
 },
 {
+"cid": "13231",
+"name": "2027年台南全國鐵人三項錦標賽",
+"start": "2027-02-20",
+"end": "2027-02-21",
+"place": "臺南市",
+"distances": [
+"51.9K",
+"26.15K",
+"7.5K",
+"5.8K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "中華民國鐵人三項運動協會",
+"venue": "臺南市安平觀夕平台海域、週邊道路及台江國家公園（台南市安平區漁濱路）",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13231"
+},
+{
 "cid": "13170",
 "name": "2027 晨曦麥香馬拉松",
 "start": "2027-02-21",
@@ -1586,7 +1604,7 @@
 ],
 "signup_start": null,
 "deadline": "2026-10-31",
-"status": "已截止報名",
+"status": "11-30截止",
 "organizer": "大雅中央獅子會                            、                                大雅永興宮                            、                                大雅區體育會",
 "venue": "臺中市大雅區大雅國小操場(臺中市大雅區大雅里學府路230號)",
 "course": {},
@@ -1780,6 +1798,25 @@
 "venue": "嘉義蘭潭音樂噴泉(嘉義市東區紅毛埤187號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12943"
+},
+{
+"cid": "13230",
+"name": "2027 ZEPRO RUN全國半程馬拉松 新北場",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "新北市",
+"distances": [
+"21K",
+"10K",
+"4.5K"
+],
+"signup_start": "2026-11-17",
+"deadline": "2026-12-23",
+"status": "12-23截止",
+"organizer": "全統運動用品股份有限公司",
+"venue": "新北市板橋區浮洲橋下廣場(新北市板橋區環河道路)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13230"
 },
 {
 "cid": "13189",
@@ -2568,6 +2605,24 @@
 "venue": "斗六梅林公園(雲林縣斗六市梅南路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13210"
+},
+{
+"cid": "13232",
+"name": "2027年新北亞洲盃鐵人三項分齡賽",
+"start": "2027-09-26",
+"end": "2027-09-27",
+"place": "新北市",
+"distances": [
+"27.15K",
+"9.77K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "中華民國鐵人三項運動協會",
+"venue": "新北市蘆洲區二重疏洪道微風運河及周邊道路",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13232"
 },
 {
 "cid": "13218",
