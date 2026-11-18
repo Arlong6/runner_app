@@ -928,7 +928,7 @@
 ],
 "signup_start": "2026-04-17",
 "deadline": "2026-11-18",
-"status": "11-18截止",
+"status": "已截止報名",
 "organizer": "社團法人中華民國超級馬拉松運動協會",
 "venue": "新店國小(新北市新店區新店路2號)",
 "course": {},
@@ -2644,6 +2644,26 @@
 "venue": "雲林縣台西鄉公所旁共融公園(雲林縣臺西鄉五港村中央路276號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13218"
+},
+{
+"cid": "13233",
+"name": "2027 屏東墾丁日本航空國際馬拉松",
+"start": "2027-11-21",
+"end": "2027-11-22",
+"place": "屏東縣",
+"distances": [
+"42K",
+"21K",
+"12K",
+"4K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "屏東縣政府",
+"venue": "大灣遊憩區(屏東縣恆春鎮墾丁里)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13233"
 },
 {
 "cid": "13122",
