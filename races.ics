@@ -10,9 +10,9 @@ UID:race-13073@runner_app
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261201
 SUMMARY:🏃 2026 Garmin Run 馬拉松系列賽 - 臺北站
-DESCRIPTION:距離: 21K / 10K / 5K / 42.195K / 21.0975K / 12K / 3K\n地
- 點: 臺北市\n報名開始: 2026/05/27\n報名截止: 2026/06/23\nhttp
- s://running.biji.co/index.php?q=competition&act=info&cid=13073
+DESCRIPTION:距離: 21K / 10K / 5K / 21K / 10K / 4K\n地點: 臺北市\n
+ 報名開始: 2026/05/27\n報名截止: 2026/06/23\nhttps://running.biji
+ .co/index.php?q=competition&act=info&cid=13073
 LOCATION:臺北市
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -21,9 +21,9 @@ UID:signup-13073@runner_app
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 SUMMARY:⏰ 報名截止: 2026 Garmin Run 馬拉松系列賽 - 臺北站
-DESCRIPTION:距離: 21K / 10K / 5K / 42.195K / 21.0975K / 12K / 3K\n地
- 點: 臺北市\n報名開始: 2026/05/27\n報名截止: 2026/06/23\nhttp
- s://running.biji.co/index.php?q=competition&act=info&cid=13073
+DESCRIPTION:距離: 21K / 10K / 5K / 21K / 10K / 4K\n地點: 臺北市\n
+ 報名開始: 2026/05/27\n報名截止: 2026/06/23\nhttps://running.biji
+ .co/index.php?q=competition&act=info&cid=13073
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -79,6 +79,17 @@ ACTION:DISPLAY
 DESCRIPTION:報名即將截止: 2027 渣打公益臺北馬拉松
 TRIGGER:-P7D
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:race-13239@runner_app
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270119
+SUMMARY:🏃 2027 渣打香港馬拉松
+DESCRIPTION:距離: 42.195K / 21K / 10K / 5K\n地點: 香港\n報名: 報
+ 名時間未定\nhttps://running.biji.co/index.php?q=competition&act=inf
+ o&cid=13239
+LOCATION:香港
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:race-13072@runner_app

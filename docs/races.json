@@ -31,9 +31,10 @@
 "21K",
 "10K",
 "4K",
-"21K",
-"10K",
-"5K"
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2026-04-27",
 "deadline": "2026-09-30",
@@ -207,8 +208,8 @@
 "distances": [
 "10K",
 "5K",
-"5K",
-"0.15K"
+"42.195K",
+"21.0975K"
 ],
 "signup_start": null,
 "deadline": "2026-09-10",
@@ -384,10 +385,9 @@
 "21K",
 "10K",
 "5K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-27",
 "deadline": "2026-06-23",
@@ -1317,6 +1317,23 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13036"
 },
 {
+"cid": "13235",
+"name": "2027 廈門馬拉松",
+"start": "2027-01-10",
+"end": "2027-01-11",
+"place": "廈門",
+"distances": [
+"42.195K"
+],
+"signup_start": "2026-09-23",
+"deadline": "2026-10-14",
+"status": "已截止報名",
+"organizer": "廈門市人民政府",
+"venue": "廈門國際會展中心",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13235"
+},
+{
 "cid": "13155",
 "name": "2027 渣打公益臺北馬拉松",
 "start": "2027-01-10",
@@ -1401,6 +1418,25 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13157"
 },
 {
+"cid": "13237",
+"name": "2027 休士頓馬拉松",
+"start": "2027-01-16",
+"end": "2027-01-17",
+"place": "美國",
+"distances": [
+"42.195K",
+"21K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "休士頓",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13237"
+},
+{
 "cid": "12891",
 "name": "2027 MIZUNO 美津濃馬拉松接力賽",
 "start": "2027-01-17",
@@ -1435,6 +1471,89 @@
 "venue": "台中市西屯區中央球場(台中市西屯區凱旋路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13183"
+},
+{
+"cid": "13238",
+"name": "2027 孟買馬拉松",
+"start": "2027-01-17",
+"end": "2027-01-18",
+"place": "孟買",
+"distances": [
+"42.195K",
+"21K",
+"10K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "賈特拉帕蒂·希瓦吉·馬哈拉傑",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13238"
+},
+{
+"cid": "13236",
+"name": "2027 杜拜馬拉松",
+"start": "2027-01-17",
+"end": "2027-01-18",
+"place": "杜拜",
+"distances": [
+"42.195K",
+"10K",
+"4K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13236"
+},
+{
+"cid": "13239",
+"name": "2027 渣打香港馬拉松",
+"start": "2027-01-17",
+"end": "2027-01-18",
+"place": "香港",
+"distances": [
+"42.195K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "九龍尖沙咀彌敦道",
+"course": {
+"terrain": "台北市區道路",
+"elevation": "市區平路(部分高架)",
+"difficulty": "★★☆☆☆ 年初經典市區公益馬",
+"highlight": "台北市區公益馬拉松,經總統府等地標,規模大、公益性質。",
+"route_url": "https://scbmarathon.com/"
+},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13239"
+},
+{
+"cid": "13234",
+"name": "2027 第24屆石垣島馬拉松",
+"start": "2027-01-17",
+"end": "2027-01-18",
+"place": "日本",
+"distances": [
+"42.195K",
+"21K",
+"10K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "石垣島馬拉松執行委員會                            、                                八重山郡田徑協會",
+"venue": "石垣市中央運動公園",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13234"
 },
 {
 "cid": "13072",
@@ -1536,6 +1655,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13095"
 },
 {
+"cid": "13241",
+"name": "2027 第79屆香川丸龜國際半程馬拉松賽",
+"start": "2027-02-06",
+"end": "2027-02-07",
+"place": "香川縣",
+"distances": [
+"21K",
+"3K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "香川縣丸龜體育場",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13241"
+},
+{
 "cid": "13147",
 "name": "2027 第64屆愛媛馬拉松",
 "start": "2027-02-07",
@@ -1551,6 +1688,40 @@
 "venue": "城山公園",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13147"
+},
+{
+"cid": "13240",
+"name": "2027 第75屆別府大分每日馬拉松",
+"start": "2027-02-07",
+"end": "2027-02-08",
+"place": "日本",
+"distances": [
+"42K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "九州體育協會                            、                                大分縣                            、                                大分縣教育委員會                            、                                大分市                            、                                大分市教育委員會                            、                                別府市                            、                                別府市教育委員會                            、                                每日新聞                            、                                RKB每日放送                            、                                OBS大分放送",
+"venue": "別府市",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13240"
+},
+{
+"cid": "13243",
+"name": "2027 巴塞隆納半程馬拉松",
+"start": "2027-02-14",
+"end": "2027-02-15",
+"place": "西班牙",
+"distances": [
+"21K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "巴塞隆納 畢卡索大道",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13243"
 },
 {
 "cid": "13070",
@@ -1611,6 +1782,41 @@
 "venue": "臺中市大雅區大雅國小操場(臺中市大雅區大雅里學府路230號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13170"
+},
+{
+"cid": "13242",
+"name": "2027 沖繩馬拉松",
+"start": "2027-02-21",
+"end": "2027-02-22",
+"place": "沖繩",
+"distances": [
+"42.195K",
+"10K"
+],
+"signup_start": "2026-08-01",
+"deadline": "2026-12-13",
+"status": "12-13截止",
+"organizer": "",
+"venue": "沖繩縣立綜合運動公園",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13242"
+},
+{
+"cid": "13244",
+"name": "2027 蘇黎世-塞維利亞馬拉松",
+"start": "2027-02-21",
+"end": "2027-02-22",
+"place": "西班牙",
+"distances": [
+"42K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "塞維利亞",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13244"
 },
 {
 "cid": "13226",
@@ -1821,6 +2027,40 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13230"
 },
 {
+"cid": "13245",
+"name": "2027 東京馬拉松",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "東京",
+"distances": [
+"42K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "東京馬拉松基金會",
+"venue": "東京國際展覽中心南展館：日本東京都江東區有明3-11-1",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13245"
+},
+{
+"cid": "13248",
+"name": "2027 洛杉磯馬拉松",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "洛杉磯",
+"distances": [
+"42K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "道奇體育場",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13248"
+},
+{
 "cid": "13189",
 "name": "2027扶輪公益路跑｜快樂奔跑・健康加倍",
 "start": "2027-03-07",
@@ -1974,6 +2214,23 @@
 "venue": "花蓮縣海洋公園前(花蓮縣壽豐鄉)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13181"
+},
+{
+"cid": "13246",
+"name": "2027 名古屋女子馬拉松",
+"start": "2027-03-14",
+"end": "2027-03-15",
+"place": "名古屋",
+"distances": [
+"42K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "日本田徑聯合會，《中日新聞》",
+"venue": "名古屋范特林巨蛋",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13246"
 },
 {
 "cid": "13156",
@@ -2241,6 +2498,23 @@
 "venue": "台北市中山區大直美堤河濱公園(16號水門進入)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13211"
+},
+{
+"cid": "13247",
+"name": "2027 福井櫻花馬拉松",
+"start": "2027-03-28",
+"end": "2027-03-29",
+"place": "福井縣",
+"distances": [
+"42K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "福井櫻花馬拉松執行委員會                            、                                福井縣                            、                                福井市                            、                                堺市                            、                                福井田徑協會                            、                                《福井新聞》",
+"venue": "福井站前",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13247"
 },
 {
 "cid": "13024",
