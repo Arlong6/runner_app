@@ -1,90 +1,5 @@
 [
 {
-"cid": "13151",
-"name": "115年臺中市體育總會理事長盃北區路跑嘉年華",
-"start": "2026-11-14",
-"end": "2026-11-15",
-"place": "臺中市",
-"distances": [
-"52.8K",
-"42.4K",
-"31.6K",
-"21.2K",
-"10.4K",
-"6.4K"
-],
-"signup_start": "2026-08-19",
-"deadline": "2026-10-24",
-"status": "已截止報名",
-"organizer": "臺中市政府運動局                            、                                臺中市體育總會",
-"venue": "臺中市廍子公園(臺中市北屯區廍子路418號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13151"
-},
-{
-"cid": "13166",
-"name": "2026 SUPERACE 黑馬半程馬拉松",
-"start": "2026-11-14",
-"end": "2026-11-15",
-"place": "臺北市",
-"distances": [
-"21K",
-"10K",
-"4K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
-],
-"signup_start": "2026-04-27",
-"deadline": "2026-09-30",
-"status": "已截止報名",
-"organizer": "SUPERACE                            、                                TESA SPORT CLUB",
-"venue": "大佳河濱公園(台北市中山區濱江街5號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13166"
-},
-{
-"cid": "12988",
-"name": "2026 冬山河馬拉松",
-"start": "2026-11-14",
-"end": "2026-11-15",
-"place": "宜蘭縣",
-"distances": [
-"42K",
-"21K",
-"10K",
-"5K"
-],
-"signup_start": "2026-01-30",
-"deadline": "2026-10-10",
-"status": "已截止報名",
-"organizer": "華聯創生",
-"venue": "冬山火車站前廣場(宜蘭縣冬山鄉中正路1號冬山火車站)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=12988"
-},
-{
-"cid": "13130",
-"name": "2026 竹北半城路跑",
-"start": "2026-11-14",
-"end": "2026-11-15",
-"place": "新竹縣",
-"distances": [
-"21K",
-"12K",
-"4K",
-"1K"
-],
-"signup_start": "2026-07-28",
-"deadline": "2026-09-11",
-"status": "已截止報名",
-"organizer": "新竹縣竹北市公所",
-"venue": "竹北夜市廣場(新竹縣竹北市環北路五段)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13130"
-},
-{
 "cid": "13001",
 "name": "2026 ZEPRO RUN全國半程馬拉松 - 台南場",
 "start": "2026-11-15",
@@ -110,7 +25,9 @@
 "end": "2026-11-16",
 "place": "神戶市",
 "distances": [
-"42.195K"
+"42.195K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": null,
 "deadline": null,
@@ -207,9 +124,7 @@
 "place": "臺中市",
 "distances": [
 "10K",
-"5K",
-"5K",
-"0.15K"
+"5K"
 ],
 "signup_start": null,
 "deadline": "2026-09-10",
@@ -288,7 +203,9 @@
 "42.195K",
 "21K",
 "10K",
-"5K"
+"5K",
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": "2026-10-20",
@@ -384,10 +301,7 @@
 "distances": [
 "21K",
 "10K",
-"5K",
-"21K",
-"10K",
-"4K"
+"5K"
 ],
 "signup_start": "2026-05-27",
 "deadline": "2026-06-23",
@@ -467,7 +381,11 @@
 "distances": [
 "115.1K",
 "62K",
-"53.1K"
+"53.1K",
+"42.195K",
+"21.0975K",
+"12K",
+"3K"
 ],
 "signup_start": "2025-10-01",
 "deadline": "2026-11-05",
@@ -1437,6 +1355,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13237"
 },
 {
+"cid": "13252",
+"name": "2027 金門馬拉松",
+"start": "2027-01-16",
+"end": "2027-01-17",
+"place": "金門縣",
+"distances": [
+"42.195K",
+"21.0975K",
+"10K",
+"4K"
+],
+"signup_start": "2026-07-06",
+"deadline": "2026-10-30",
+"status": "已截止報名",
+"organizer": "金門縣政府",
+"venue": "金城田徑場(金門縣金城鎮南門里民族路261號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13252"
+},
+{
 "cid": "12891",
 "name": "2027 MIZUNO 美津濃馬拉松接力賽",
 "start": "2027-01-17",
@@ -1934,6 +1872,24 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13197"
 },
 {
+"cid": "13253",
+"name": "ASICS RUN 2027 亞瑟士路跑賽",
+"start": "2027-02-27",
+"end": "2027-02-28",
+"place": "宜蘭縣",
+"distances": [
+"21.0975K",
+"10K"
+],
+"signup_start": "2026-09-10",
+"deadline": "2026-09-30",
+"status": "已截止報名",
+"organizer": "台灣亞瑟士股份有限公司",
+"venue": "宜蘭運動公園(宜蘭縣宜蘭市建業里中山路一段755號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13253"
+},
+{
 "cid": "13201",
 "name": "2027台北長跑扶輪社長明賞超馬盃50公里挑戰賽",
 "start": "2027-02-28",
@@ -2059,6 +2015,24 @@
 "venue": "道奇體育場",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13248"
+},
+{
+"cid": "13254",
+"name": "2027南山人壽臺北國道馬拉松",
+"start": "2027-03-07",
+"end": "2027-03-08",
+"place": "臺北市",
+"distances": [
+"42.195K",
+"21K"
+],
+"signup_start": "2026-11-10",
+"deadline": "2027-01-07",
+"status": "01-07截止",
+"organizer": "中華民國路跑協會",
+"venue": "淡水河六號-敦煌水門(台北市環河北路與敦煌路口)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13254"
 },
 {
 "cid": "13189",
@@ -2758,6 +2732,25 @@
 "venue": "",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13177"
+},
+{
+"cid": "13255",
+"name": "2027 TS WOMEN RUN 台新女子馬拉松",
+"start": "2027-04-11",
+"end": "2027-04-12",
+"place": "臺北市",
+"distances": [
+"21.0975K",
+"10K",
+"3K"
+],
+"signup_start": "2026-11-10",
+"deadline": "2027-02-25",
+"status": "02-25截止",
+"organizer": "中華民國路跑協會",
+"venue": "總統府(台北市中正區凱達格蘭大道)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13255"
 },
 {
 "cid": "13213",
