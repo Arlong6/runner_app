@@ -208,8 +208,8 @@
 "distances": [
 "10K",
 "5K",
-"42.195K",
-"21.0975K"
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": "2026-09-10",
@@ -2252,6 +2252,40 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13156"
 },
 {
+"cid": "13249",
+"name": "2027 巴塞隆納馬拉松",
+"start": "2027-03-14",
+"end": "2027-03-15",
+"place": "西班牙",
+"distances": [
+"42K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "巴塞隆納",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13249"
+},
+{
+"cid": "13250",
+"name": "2027 羅馬馬拉松",
+"start": "2027-03-14",
+"end": "2027-03-15",
+"place": "義大利",
+"distances": [
+"42K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "羅馬",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13250"
+},
+{
 "cid": "13186",
 "name": "2027 靜岡馬拉松",
 "start": "2027-03-14",
@@ -2344,6 +2378,24 @@
 "venue": "承德橋下越堤舊兒童樂園自行車道",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13194"
+},
+{
+"cid": "13251",
+"name": "2027 首爾馬拉松",
+"start": "2027-03-21",
+"end": "2027-03-22",
+"place": "首爾",
+"distances": [
+"42K",
+"10K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "光化門廣場",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13251"
 },
 {
 "cid": "13121",
