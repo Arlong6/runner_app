@@ -43,6 +43,26 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13003"
 },
 {
+"cid": "13256",
+"name": "2026 Mother Marathon 北港媽祖盃全國馬拉松",
+"start": "2026-11-21",
+"end": "2026-11-22",
+"place": "雲林縣",
+"distances": [
+"42K",
+"21K",
+"10K",
+"5K"
+],
+"signup_start": "2026-05-20",
+"deadline": "2026-09-20",
+"status": "已截止報名",
+"organizer": "財團法人北港朝天宮",
+"venue": "雲林縣北港鎮北港大橋下-北港牛墟(雲林縣北港鎮南安里中山南路21巷35號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13256"
+},
+{
 "cid": "13144",
 "name": "2026六堆客庄巡禮走相逐",
 "start": "2026-11-21",
@@ -187,7 +207,10 @@
 "42.195K",
 "21K",
 "13K",
-"6K"
+"6K",
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": "2026-04-24",
 "deadline": "2026-10-18",
@@ -205,11 +228,7 @@
 "place": "屏東縣",
 "distances": [
 "7.2K",
-"6.3K",
-"42.195K",
-"21.0975K",
-"12K",
-"3K"
+"6.3K"
 ],
 "signup_start": null,
 "deadline": "2026-10-04",
@@ -218,6 +237,25 @@
 "venue": "大鵬灣濱灣碼頭(屏東縣東港鎮大鵬灣環灣道路)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=12845"
+},
+{
+"cid": "13136",
+"name": "2026 濁水溪紫金馬拉松-高手名間站",
+"start": "2026-12-05",
+"end": "2026-12-06",
+"place": "南投縣",
+"distances": [
+"21K",
+"11K",
+"6K"
+],
+"signup_start": "2026-08-06",
+"deadline": "2026-09-15",
+"status": "原2026/10/24因颱風延至2026/12/05",
+"organizer": "名間鄉公所",
+"venue": "受天宮第二停車場(南投縣名間鄉松嶺街)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13136"
 },
 {
 "cid": "13152",
@@ -345,7 +383,9 @@
 "end": "2026-12-07",
 "place": "新北市",
 "distances": [
-"24.7K"
+"24.7K",
+"5K",
+"0.15K"
 ],
 "signup_start": null,
 "deadline": "2026-09-22",
@@ -383,9 +423,6 @@
 "place": "宜蘭縣",
 "distances": [
 "42K",
-"21K",
-"10K",
-"5K",
 "21K",
 "10K",
 "5K"
@@ -1563,8 +1600,8 @@
 "5.8K"
 ],
 "signup_start": null,
-"deadline": null,
-"status": "報名時間未定",
+"deadline": "2027-01-08",
+"status": "01-08截止",
 "organizer": "中華民國鐵人三項運動協會",
 "venue": "臺南市安平觀夕平台海域、週邊道路及台江國家公園（台南市安平區漁濱路）",
 "course": {},
@@ -2202,6 +2239,27 @@
 "venue": "高雄市陸軍軍官學校(高雄市鳳山區維武路1號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13111"
+},
+{
+"cid": "13257",
+"name": "2027 第十一屆馬祖北竿硬地超級馬拉松",
+"start": "2027-03-19",
+"end": "2027-03-20",
+"place": "連江縣",
+"distances": [
+"50K",
+"25K",
+"12.5K",
+"5K",
+"4K"
+],
+"signup_start": "2026-11-24",
+"deadline": "2027-02-07",
+"status": "02-07截止",
+"organizer": "連江縣交通旅遊局",
+"venue": "北竿綜合運動場(連江縣北竿鄉)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13257"
 },
 {
 "cid": "13194",
