@@ -1,22 +1,5 @@
 [
 {
-"cid": "13179",
-"name": "最強市民飆5K－新北市5000公尺挑戰賽 十一月場",
-"start": "2026-11-18",
-"end": "2026-11-19",
-"place": "新北市",
-"distances": [
-"5K"
-],
-"signup_start": "2026-11-09",
-"deadline": "2026-11-15",
-"status": "已截止報名",
-"organizer": "捷迅股份有限公司",
-"venue": "新北市板橋第一運動場(新北市板橋區漢生東路278號)",
-"course": {},
-"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13179"
-},
-{
 "cid": "13003",
 "name": "2026 宜蘭冬山河超級馬拉松",
 "start": "2026-11-20",
@@ -29,9 +12,7 @@
 "50K",
 "44K",
 "22K",
-"11K",
-"5K",
-"0.15K"
+"11K"
 ],
 "signup_start": "2026-04-23",
 "deadline": "2026-09-19",
@@ -51,7 +32,9 @@
 "42K",
 "21K",
 "10K",
-"5K"
+"5K",
+"42.195K",
+"21.0975K"
 ],
 "signup_start": "2026-05-20",
 "deadline": "2026-09-20",
@@ -206,10 +189,7 @@
 "42.195K",
 "21K",
 "13K",
-"6K",
-"21K",
-"10K",
-"4K"
+"6K"
 ],
 "signup_start": "2026-04-24",
 "deadline": "2026-10-18",
@@ -227,7 +207,10 @@
 "place": "屏東縣",
 "distances": [
 "7.2K",
-"6.3K"
+"6.3K",
+"21K",
+"10K",
+"5K"
 ],
 "signup_start": null,
 "deadline": "2026-10-04",
@@ -382,10 +365,7 @@
 "end": "2026-12-07",
 "place": "新北市",
 "distances": [
-"24.7K",
-"21K",
-"10K",
-"5K"
+"24.7K"
 ],
 "signup_start": null,
 "deadline": "2026-09-22",
@@ -405,7 +385,10 @@
 "42.195K",
 "21.0975K",
 "10K",
-"5K"
+"5K",
+"21K",
+"10K",
+"4K"
 ],
 "signup_start": "2026-05-15",
 "deadline": "2026-07-15",
@@ -1588,6 +1571,30 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13070"
 },
 {
+"cid": "13258",
+"name": "2027 CTAU超馬系列賽 - 最終站 臺北超級馬拉松",
+"start": "2027-02-19",
+"end": "2027-02-20",
+"place": "臺北市",
+"distances": [
+"160K",
+"100K",
+"80K",
+"50K",
+"48H",
+"24H",
+"12H",
+"6H"
+],
+"signup_start": "2026-11-04",
+"deadline": "2027-01-18",
+"status": "01-18截止",
+"organizer": "臺北市政府體育局\n                            、                                社團法人中華民國超級馬拉松運動協會",
+"venue": "臺北市花博公園新生園區(台北市中山區新生北路三段105號)",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13258"
+},
+{
 "cid": "13231",
 "name": "2027年台南全國鐵人三項錦標賽",
 "start": "2027-02-20",
@@ -2255,7 +2262,7 @@
 ],
 "signup_start": "2026-11-24",
 "deadline": "2027-02-07",
-"status": "02-07截止",
+"status": "12-24截止",
 "organizer": "連江縣交通旅遊局",
 "venue": "北竿綜合運動場(連江縣北竿鄉)",
 "course": {},
@@ -2569,6 +2576,40 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13158"
 },
 {
+"cid": "13260",
+"name": "2027 威茲航空米蘭馬拉松",
+"start": "2027-04-04",
+"end": "2027-04-05",
+"place": "義大利",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "米蘭",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13260"
+},
+{
+"cid": "13259",
+"name": "2027 巴黎馬拉松",
+"start": "2027-04-04",
+"end": "2027-04-05",
+"place": "巴黎",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13259"
+},
+{
 "cid": "13176",
 "name": "2027 IRONKIDS 澎湖國際小鐵人三項賽",
 "start": "2027-04-10",
@@ -2604,6 +2645,23 @@
 "venue": "BC台灣柏釧企業股份有限公司(彰化縣彰化市彰南路六段131號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13184"
+},
+{
+"cid": "13261",
+"name": "2027 鹿特丹馬拉松",
+"start": "2027-04-10",
+"end": "2027-04-11",
+"place": "鹿特丹",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13261"
 },
 {
 "cid": "13214",
@@ -2757,6 +2815,58 @@
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13137"
 },
 {
+"cid": "13264",
+"name": "2027 曼徹斯特馬拉松",
+"start": "2027-04-18",
+"end": "2027-04-19",
+"place": "英國",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "曼徹斯特",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13264"
+},
+{
+"cid": "13262",
+"name": "2027 第37屆富士五湖超級馬拉松",
+"start": "2027-04-18",
+"end": "2027-04-19",
+"place": "日本",
+"distances": [
+"120K",
+"100K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "富士北六公園",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13262"
+},
+{
+"cid": "13263",
+"name": "2027 維也納城市馬拉松",
+"start": "2027-04-18",
+"end": "2027-04-19",
+"place": "維也納",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13263"
+},
+{
 "cid": "13225",
 "name": "2027新北市鐵道馬拉松接力賽",
 "start": "2027-04-18",
@@ -2772,6 +2882,40 @@
 "venue": "福容大飯店福隆（彩虹橋前廣場）(新北市貢寮區福隆里福隆街41號)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13225"
+},
+{
+"cid": "13265",
+"name": "2027 波士頓馬拉松",
+"start": "2027-04-19",
+"end": "2027-04-20",
+"place": "波士頓",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13265"
+},
+{
+"cid": "13266",
+"name": "2027 TCS 倫敦馬拉松 TCS London Marathon",
+"start": "2027-04-24",
+"end": "2027-04-25",
+"place": "倫敦",
+"distances": [
+"42.195K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13266"
 },
 {
 "cid": "13188",
@@ -2793,6 +2937,43 @@
 "venue": "和平運動公園(臺中市和平區東關路一段松鶴二巷)",
 "course": {},
 "url": "https://running.biji.co/index.php?q=competition&act=info&cid=13188"
+},
+{
+"cid": "13267",
+"name": "2027 漢堡馬拉松 Haspa Marathon Hamburg",
+"start": "2027-04-25",
+"end": "2027-04-26",
+"place": "漢堡",
+"distances": [
+"42.195K",
+"42K",
+"21K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "漢堡，德國",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13267"
+},
+{
+"cid": "13268",
+"name": "2027 馬德里馬拉松",
+"start": "2027-04-25",
+"end": "2027-04-26",
+"place": "西班牙",
+"distances": [
+"42.195K",
+"21K"
+],
+"signup_start": null,
+"deadline": null,
+"status": "報名時間未定",
+"organizer": "",
+"venue": "馬德里",
+"course": {},
+"url": "https://running.biji.co/index.php?q=competition&act=info&cid=13268"
 },
 {
 "cid": "13228",
